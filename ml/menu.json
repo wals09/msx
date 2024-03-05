@@ -1,0 +1,49 @@
+{
+   "type": "list",
+
+   "dictionary": "https://maxaon09.github.io/kf/dictionary.json",
+   "preload": "next",
+   "pages": [
+      {
+         "offset": "0,0,0,0.25",
+         "items": [
+            {
+               "type": "space",
+               "layout": "0,0,12,1",
+               "color": "transparent",
+               "title": "{col:msx-yellow}портал movielab на базе Media Station X",
+               "titleFooter": "{col:white}___________________________________________________________"
+            },
+            {
+               "type": "space",
+               "layout": "0,4,12,1",
+               "offset": "-1.25,1,2,0",
+               "color": "msx-gray-soft"
+            },
+            {
+               "type": "space",
+               "layout": "2,0,5,2",
+               "offset": "0.55,2,2,0",
+               "image": "https://github.com/maxaon09/msx/blob/main/ml/001.png?raw=true"
+            },
+            {
+               "type": "button",
+               "layout": "0,5,6,1",
+               "focus": true,
+               "color": "transparent",
+               "icon": "apps",
+               "title": "{col:msx-yellow}Подборки",
+               "action": "content: https://movielab.fun/msx/catalog"
+            },
+            {
+               "type": "button",
+               "layout": "6,5,6,1",
+               "color": "transparent",
+               "icon": "pageview",
+               "title": "{col:msx-yellow}Поиск",
+               "action": "content:request:interaction:init@https://movielab.fun/search.html"
+            }
+         ]
+      }
+   ]
+}
