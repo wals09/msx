@@ -1,6 +1,0 @@
-{    
-    "name": "WALS_MSX v2",
-    "version": "1.0.0",
-    "parameter": "content: https://wals09.github.io/msx/menu.json"
-   
-}
