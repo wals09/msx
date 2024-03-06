@@ -215,7 +215,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату.",
+               "text": "{col:msx-white}КИНОПОИСК{col}{br}{col:black}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату.",
                "image": "https://wals09.github.io/msx//kinopoisk/screen.png"
             }
          },
@@ -232,7 +232,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Pоссийский онлайн-сервис для хостинга и просмотра видео",
+               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:black}Pоссийский онлайн-сервис для хостинга и просмотра видео",
                "image": "https://wals09.github.io/msx//rutube/capture.jpg"
             }
          },
@@ -249,7 +249,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Oнлайн-сервис для хостинга и просмотра видео",
+               "text": "{col:msx-white}YouTUBE{col}{br}{col:black}Oнлайн-сервис для хостинга и просмотра видео",
                "image": "https://wals09.github.io/msx//youtube/capture.jpg"
             }
          },
@@ -266,7 +266,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей.",
+               "text": "{col:msx-white}YOUTUBE KIDS{col}{br}{col:black}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей.",
                "image": "https://wals09.github.io/msx//youtube_kids/capture.gif"
             }
          },
@@ -300,7 +300,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.",
+               "text": "{col:msx-white}DEEPLEX{col}{br}{col:black}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.",
                "image": "https://wals09.github.io/msx//deeplex/Deeplex.jpg"
             }
          },
@@ -334,7 +334,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}Цифровая медиа платформа XSMART — это интернет каталог в виде приложения, где собрана информация о фильмах и сериалах, актерах и режиссерах. Вся информация в каталоге взята из открытых источников и предоставляются исключительно в ознакомительных целях.",
+               "text": "{col:msx-white}X-SMART TV{col}{br}{col:black}Цифровая медиа платформа XSMART — это интернет каталог в виде приложения, где собрана информация о фильмах и сериалах, актерах и режиссерах. Вся информация в каталоге взята из открытых источников и предоставляются исключительно в ознакомительных целях.",
                "image": "https://wals09.github.io/msx//xsmart/capture.gif"
             }
          },
@@ -351,7 +351,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Forkplayer{col}{br}{col:black}ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п.",
+               "text": "{col:msx-white}IMPIRE BOOM{col}{br}{col:black}ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п.",
                "image": "https://wals09.github.io/msx//imboom/capture.png"
             }
          },
