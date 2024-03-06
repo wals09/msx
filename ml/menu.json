@@ -1,6 +1,5 @@
 {
    "type": "list",
-
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
    "pages": [
@@ -13,12 +12,6 @@
                "color": "transparent",
                "title": "{col:msx-yellow}портал movielab на базе Media Station X",
                "titleFooter": "{col:white}___________________________________________________________"
-            },
-            {
-               "type": "space",
-               "layout": "0,4,12,1",
-               "offset": "-1.25,1,2,0",
-               "color": "msx-gray-soft"
             },
             {
                "type": "space",
