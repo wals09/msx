@@ -1,7 +1,7 @@
 {
    "type": "list",
 
-   "dictionary": "https://maxaon09.github.io/kf/dictionary.json",
+   "dictionary": "https://wals09.github.io/kf/dictionary.json",
    "preload": "next",
    "pages": [
       {
