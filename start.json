@@ -1,8 +1,5 @@
 {    
     "name": "WALS_MSX v2",
     "version": "1.0.0",
-    "logo": "https://github.com/wals09/msx/blob/main/img/wals.png?raw=true",   
-    "logoSize": "large",  
     "parameter": "content: https://wals09.github.io/msx/menu.json"
-
 }
