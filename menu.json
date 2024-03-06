@@ -175,6 +175,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}MOVIELAB",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}MOVIELAB{col}{br}{col:black}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line",
+               "image": "https://github.com/wals09/repo/blob/main/movielab/ml.gif?raw=true"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/movielab/logo2.png?raw=true",
+         "action": "content:https://wals09.github.io/msx/ml/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}Forkplayer",
          "titleFooter": "",
          "selection": {
