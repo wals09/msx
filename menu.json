@@ -377,6 +377,40 @@
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
+      },
+      {
+         "titleHeader": "{col:msx-white}Akter Black",
+         "titleFooter": "{col:yellow}demo",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Akter Black{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!",
+               "image": "https://github.com/wals09/msx/blob/main/akter_black/welcome.jpg?raw=true"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/akter_black/logo.png?raw=true",
+         "action": "link:http://abvidaa.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Prisma TV",
+         "titleFooter": "{col:yellow}demo",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Prisma TV{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!",
+               "image": "https://github.com/wals09/msx/blob/main/prisma/001.png?raw=true"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/prisma/logo.png?raw=true",
+         "action": "link:http://abvidaa.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
