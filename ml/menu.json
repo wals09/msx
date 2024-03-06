@@ -1,7 +1,7 @@
 {
    "type": "list",
 
-   "dictionary": "https://wals09.github.io/kf/dictionary.json",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
    "pages": [
       {
@@ -24,7 +24,7 @@
                "type": "space",
                "layout": "2,0,5,2",
                "offset": "0.55,2,2,0",
-               "image": "https://github.com/maxaon09/msx/blob/main/ml/001.png?raw=true"
+               "image": "https://github.com/maxaon09/msx/ml/001.png"
             },
             {
                "type": "button",
