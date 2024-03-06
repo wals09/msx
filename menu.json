@@ -260,6 +260,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}МУЛЬТИКИ",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}МУЛЬТИКИ{col}{br}{col:black}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!",
+               "image": "https://github.com/wals09/repo/blob/main/multiki/multiki.gif?raw=true"
+            }
+         },
+         "image": "https://wals09.github.io/msx/multiki/logo.png",
+         "action": "content:https://wals09.github.io/msx/welcome.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}DEEPLEX",
          "titleFooter": "",
          "selection": {
