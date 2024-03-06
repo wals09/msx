@@ -2,7 +2,7 @@
    "type": "list",
    "headline": "WALS_MSX v2",
    "background": "https://img.goodfon.ru/original/1920x1080/2/ef/tekstura-abstrakciya-liniy-5389.jpg",
-   "logo": "https://github.com/wals09/msx/blob/main/img/wals.png?raw=true",   
+   "logo": "https://wals09.github.io/img/wals.png",   
     "logoSize": "large",   
    "preload": "next",
    "overlay": {
