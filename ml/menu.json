@@ -24,7 +24,7 @@
                "type": "space",
                "layout": "2,0,5,2",
                "offset": "0.55,2,2,0",
-               "image": "https://wals09.github.io/msx/ml/001.png"
+               "image": "https://github.com/wals09/msx/blob/main/ml/001.png?raw=true"
             },
             {
                "type": "button",
