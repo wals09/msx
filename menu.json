@@ -187,7 +187,7 @@
                "image": "https://github.com/wals09/repo/blob/main/movielab/ml.gif?raw=true"
             }
          },
-         "image": "https://github.com/wals09/repo/blob/main/movielab/logo2.png?raw=true",
+         "image": "https://github.com/wals09/msx/blob/main/ml/logo2.png?raw=true",
          "action": "content:https://wals09.github.io/msx/ml/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
