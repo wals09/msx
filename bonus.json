@@ -7,6 +7,11 @@
                 {
          "type": "separator"
       },
+                {
+         "label": "Так себе TV",
+         "icon": "tv",
+          "data": "user:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
+       },
        {
          "label": "WORLD.TV",
          "icon": "tv",
