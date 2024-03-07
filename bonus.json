@@ -8,7 +8,7 @@
          "type": "separator"
       },
                          {
-         "label": "Lecvw TV ttest",
+         "label": "Lecvw test",
          "icon": "tv",
           "data": "user:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://www.dropbox.com/s/tup7hrew3ez2m4d/TVsantixDEMO.m3u?dl=1"
        },
