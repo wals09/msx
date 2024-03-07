@@ -4,6 +4,9 @@
    "headline": "WALS бонус",
    
       "menu": [
+                {
+         "type": "separator"
+      },
        {
          "label": "WORLD.TV",
          "icon": "tv",
