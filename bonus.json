@@ -6,7 +6,7 @@
       "menu": [
       
       {
-         "label": "F.B.TV",
+         "label": "KINO.TV",
          "icon": "tv",
           "data": "user:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://m3url.ru/LIBERTY.m3u8"
        },
