@@ -137,7 +137,7 @@
             }
          },
          "image": "https://wals09.github.io/msx//vokino/logo.png",
-         "action": "link:http://web.vokino.tv/",
+         "action": "link: https://web.vokino.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
