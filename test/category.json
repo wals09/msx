@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "Сервер",
+   "headline": "",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "preload": "next",
    "flag": "tabs",
@@ -9,18 +9,10 @@
       "items": [
          {
             "type": "default",
-            "layout": "0,0,6,1",
+            "layout": "0,0,12,1",
             "focus": true,
             "color": "#FF4F00",
-            "label": "Cервер Pоссия",
-            "action": "replace:content:tabs:http://api.kulik.uz/msxtv/ru"
-         },
-         {
-            "type": "default",
-            "layout": "6,0,6,1",
-            "color": "#FF4F00",
-            "label": "сервер Канада",
-            "action": "replace:content:tabs:http://api.kulik.uz/msxtv/ru"
+            "label": "Категории"
          }
       ]
    },
@@ -40,37 +32,37 @@
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj"
       },
       {
-         "label": "Детские",
+         "titleHeader": "{col:msx-white}Детские",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/kids"
       },
       {
-         "label": "Фильмовые",
+         "titleHeader": "{col:msx-white}Фильмовые",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/flms"
       },
       {
-         "label": "КиноЗалы",
+         "titleHeader": "{col:msx-white}КиноЗалы",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/zal"
       },
       {
-         "label": "Спорт",
+         "titleHeader": "{col:msx-white}Спорт",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/spor"
       },
       {
-         "label": "Развлекательные",
+         "titleHeader": "{col:msx-white}Развлекательные",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/infget"
       },
       {
-         "label": "Музыкальные",
+         "titleHeader": "{col:msx-white}Музыкальные",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/musi"
       },
       {
-         "label": "Региональные",
+         "titleHeader": "{col:msx-white}Региональные",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
          "action": "content:http://api.kulik.uz/msxtv/ru/regi"
       }
