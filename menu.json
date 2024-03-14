@@ -430,6 +430,23 @@
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
+      },
+       {
+         "titleHeader": "{col:msx-white}test",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}test{col}{br}{col:black}ведутся работы!!!",
+               "image": ""
+            }
+         },
+         "image": "",
+         "action": "menu: https://wals09.github.io/msx/test/tv_test.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
