@@ -9,7 +9,7 @@
       "items": [
          {
             "type": "default",
-            "layout": "0,0,12,1",
+            "layout": "3,0,6,1",
             "focus": true,
             "color": "#FF4F00",
             "label": "Категории"
