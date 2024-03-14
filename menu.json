@@ -443,7 +443,7 @@
             }
          },
          "image": "",
-         "action": "menu: https://wals09.github.io/msx/test/tv_test.json",
+         "action": "menu: https://wals09.github.io/msx/test/category.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
