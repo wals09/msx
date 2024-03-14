@@ -27,7 +27,7 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}Основные",
+         "titleHeader": "{col:msx-white}Общие",
          "action": "content:http://api.kulik.uz/msxtv/ru/snos",
          "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj"
       },
