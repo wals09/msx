@@ -10,8 +10,9 @@
             "type": "default",
             "layout": "0,0,8,1",
             "color": "#FF4F00",
-            "label": "К выбору категории",
-            "action": "content:tabs:http://wals09.github.io/msx/test/category.json"
+            "headline": "Общие каналы",
+            "titleFooter": "{ico:#ced6e0:arrow-right}Вернутся к выбору категории",
+            "action": "content:http://wals09.github.io/msx/test/category.json"
          }
       ]
    },
