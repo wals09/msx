@@ -1,6 +1,6 @@
 {
     "headline": "Онлайн ТВ",
-    "background": "http://msx.nnmtv.fun/msx/img/bg.png",
+    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
     "menu": [{
             "icon": "tv",
             "label": "Информация",
@@ -35,34 +35,6 @@
             "data": "http://msx.nnmtv.fun/msx/iptv/kids.json"
         }, {
             "type": "separator"
-        }, {
-            "icon": "tv",
-            "label": "RU",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/parser/ntv.php"
-        }, {
-            "icon": "tv",
-            "label": "RU2",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/parser/peers_noxxx.php"
-        }, {
-            "icon": "tv",
-            "label": "RU3",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/parser/lime2.php"
-        }, {
-            "icon": "tv",
-            "label": "RU4",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/parser/bigtv.php"
-        }, {
-            "icon": "tv",
-            "label": "Яндекс ТВ",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=https://pastebin.com/raw/QQ47BDft"
-        }, {
-            "icon": "tv",
-            "label": "BY",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/parser/voka.php"
-        }, {
-            "icon": "tv",
-            "label": "BY2 (Только РБ)",
-            "data":"user:http://msx.benzac.de/services/m3u.php?background=http://msx.nnmtv.fun/msx/img/bg.png&type=video&mode=extended&url=http://nnmtv.fun/fork/iptvhjfkijdjmjfjjjudiidjjjkciidjjkdjjhhhduidksssghhjfjuyyushhjjcnjjufjkfkfjjfkfifijfjfjjfjfjfnsjkakassjxjcvuuvjjdvdddddhvkdjjff/zala_sorted.m3u"
         }
     ]
-}    
+} 
