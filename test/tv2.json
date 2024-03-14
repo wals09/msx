@@ -28,7 +28,7 @@
          {
             "id": "preview",
             "type": "space",
-            "layout": "8,0,6,6",
+            "layout": "8,1,4,5",
             "offset": "0.125,0,-0.125,0",
             "headline": "",
             "text": ""
