@@ -3,7 +3,7 @@
     "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
     "menu": [ {
             "icon": "tv",
-            "label": "Россия",
+            "label": "Общие",
             "data": "http://wals09.github.io/msx/test/tv.json"
         }, {
             "icon": "tv",
