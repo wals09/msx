@@ -1,8 +1,20 @@
 {
    "type": "list",
-   "headline": "Общие",
+   "headline": "",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "preload": "next",
+   "header": {
+      "offset": "0,0,0,0.5",
+      "items": [
+         {
+            "type": "default",
+            "layout": "0,0,8,1",
+            "color": "#FF4F00",
+            "label": "К выбору категории",
+            "action": "content:tabs:http://wals09.github.io/msx/test/category.json"
+         }
+      ]
+   },
    "overlay": {
       "items": [
          {
@@ -52,7 +64,7 @@
             }
          },
          "image": "https://picon.pp.ua/pervy.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://b5ba802d.ottrast.com/iptv/3BGCNXBZYS7548/127/index.m3u8",
+         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/1c7ccb2e/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
          "properties": {
             "progress": "-1",
             "control:type": "default",
