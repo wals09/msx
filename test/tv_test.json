@@ -1,14 +1,10 @@
 {
     "headline": "Онлайн ТВ",
     "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
-    "menu": [{
-            "icon": "tv",
-            "label": "Информация",
-            "data":"http://msx.nnmtv.fun/msx/iptv/inf.json"
-        }, {
+    "menu": [ {
             "icon": "tv",
             "label": "Россия",
-            "data": "http://msx.nnmtv.fun/msx/iptv/federal.json"
+            "data": "http://wals09.github.io/msx/test/tv.json"
         }, {
             "icon": "tv",
             "label": "Беларусь",
