@@ -1,7 +1,7 @@
 {
    "type": "list",
    "headline": "",
-   "extension": "{col:msx-black}{ico:msx-black:event} {now:date:D, M d, yyyy}{tb}{ico:msx-black:access-time} {now:time:hh:mm}",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "none",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "header": {
@@ -28,7 +28,7 @@
          {
             "id": "image",
             "type": "space",
-            "layout": "9,0,2,2",
+            "layout": "8,0,1,1",
             "offset": "0,-0.9,0.01,0.05",
             "color": "glass",
             "image": "none",
