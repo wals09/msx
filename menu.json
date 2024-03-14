@@ -438,7 +438,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}test{col}{br}{col:black}",
+               "text": "{col:msx-white}{col}{br}{col:black}",
                "image": ""
             }
          },
