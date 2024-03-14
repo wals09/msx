@@ -29,7 +29,6 @@
             "id": "preview",
             "type": "space",
             "layout": "8,1,4,5",
-
             "headline": "",
             "text": ""
          }
@@ -108,7 +107,7 @@
          "channel": "395",
          "titleHeader": "{col:msx-white}Россия К",
          "playerLabel": "Россия К",
-         "image": "http://epg.it999.ru/img/187.png",
+         "image": "https://picon.pp.ua/rossia-k.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -116,7 +115,7 @@
          "channel": "319",
          "titleHeader": "{col:msx-white}НТВ",
          "playerLabel": "НТВ",
-         "image": "http://epg.it999.ru/img/162.png",
+         "image": "https://picon.pp.ua/ntv.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -124,7 +123,7 @@
          "channel": "439",
          "titleHeader": "{col:msx-white}ТНТ",
          "playerLabel": "ТНТ",
-         "image": "http://epg.it999.ru/img/353.png",
+         "image": "https://picon.pp.ua/tnt.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -132,7 +131,7 @@
          "channel": "336",
          "titleHeader": "{col:msx-white}ТНТ4",
          "playerLabel": "ТНТ4",
-         "image": "http://epg.it999.ru/img/1649.png",
+         "image": "https://picon.pp.ua/tnt4.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -140,7 +139,7 @@
          "channel": "382",
          "titleHeader": "{col:msx-white}РЕН ТВ",
          "playerLabel": "РЕН ТВ",
-         "image": "http://epg.it999.ru/img/18.png",
+         "image": "https://picon.pp.ua/rentv.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -148,7 +147,7 @@
          "channel": "407",
          "titleHeader": "{col:msx-white}СТС",
          "playerLabel": "СТС",
-         "image": "http://epg.it999.ru/img/79.png",
+         "image": "https://picon.pp.ua/sts.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -156,7 +155,7 @@
          "channel": "369",
          "titleHeader": "{col:msx-white}Че",
          "playerLabel": "Че",
-         "image": "http://epg.it999.ru/img/1598.png",
+         "image": "https://picon.pp.ua/che.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -164,7 +163,7 @@
          "channel": "378",
          "titleHeader": "{col:msx-white}Пятый канал",
          "playerLabel": "Пятый канал",
-         "image": "http://epg.it999.ru/img/427.png",
+         "image": "https://picon.pp.ua/5kanal-ru.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -172,15 +171,15 @@
          "channel": "377",
          "titleHeader": "{col:msx-white}Пятница",
          "playerLabel": "Пятница",
-         "image": "http://epg.it999.ru/img/1003.png",
+         "image": "https://picon.pp.ua/pyatnica.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_12",
          "channel": "246",
-         "title": "{col:msx-white}Домашний",
+         "titleHeader": "{col:msx-white}Домашний",
          "playerLabel": "Домашний",
-         "image": "http://epg.it999.ru/img/304.png",
+         "image": "https://picon.pp.ua/domashny.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -188,7 +187,7 @@
          "channel": "259",
          "titleHeader": "{col:msx-white}Звезда",
          "playerLabel": "Звезда",
-         "image": "http://epg.it999.ru/img/405.png",
+         "image": "https://picon.pp.ua/zvezda.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -196,7 +195,7 @@
          "channel": "299",
          "titleHeader": "{col:msx-white}Мир ТВ",
          "playerLabel": "Мир ТВ",
-         "image": "http://epg.it999.ru/img/726.png",
+         "image": "https://picon.pp.ua/mir.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -204,7 +203,7 @@
          "channel": "325",
          "title": "{col:msx-white}ОТР",
          "playerLabel": "ОТР",
-         "image": "http://epg.it999.ru/img/1000.png",
+         "image": "https://picon.pp.ua/otr.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -212,7 +211,7 @@
          "channel": "431",
          "titleHeader": "{col:msx-white}Суббота",
          "playerLabel": "Суббота",
-         "image": "http://epg.it999.ru/img/2288.png",
+         "image": "https://picon.pp.ua/subbota.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -220,7 +219,7 @@
          "channel": "434",
          "title": "{col:msx-white}ТВ центр",
          "playerLabel": "ТВ центр",
-         "image": "http://epg.it999.ru/img/649.png",
+         "image": "https://picon.pp.ua/tvcentr.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -228,7 +227,7 @@
          "channel": "409",
          "titleHeader": "{col:msx-white}СТС Love",
          "playerLabel": "СТС Love",
-         "image": "http://epg.it999.ru/img/1322.png",
+         "image": "https://picon.pp.ua/sts-love.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -236,7 +235,7 @@
          "channel": "276",
          "titleHeader": "{col:msx-white}2x2",
          "playerLabel": "2x2",
-         "image": "http://epg.it999.ru/img/323.png",
+         "image": "https://picon.pp.ua/2x2.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
@@ -244,7 +243,7 @@
          "channel": "474",
          "titleHeader": "{col:msx-white}Ю",
          "playerLabel": "Ю",
-         "image": "http://epg.it999.ru/img/898.png",
+         "image": "https://picon.pp.ua/yu.png",
          "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_U/video_800x450_avc1/variant.m3u8?version=2"
       }
    ]
