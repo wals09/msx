@@ -432,7 +432,7 @@
          }
       },
        {
-         "titleHeader": "{col:msx-white}test",
+         "titleHeader": "{col:msx-white}",
          "titleFooter": "",
          "selection": {
             "important": true,
