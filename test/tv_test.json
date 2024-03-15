@@ -2,7 +2,7 @@
    "type": "list",
    "headline": "",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "preload": "none",
+   "preload": "next",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "overlay": {
       "items": [
