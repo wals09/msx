@@ -47,7 +47,7 @@
                "focus": true,
                "color": "transparent",
                "label": "Общие",
-               "action": "content:https://wals09.github.io/msx/test/tv22.json"
+               "action": "content:https://wals09.github.io/msx/test/tv2.json"
             },
             {
                "type": "default",
