@@ -43,11 +43,11 @@
       "properties": {
          "button:speed:display": "true",
          "button:speed:icon": "",
-         "button:speed:action": "execute:https://wals09/msx/test/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
+         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
          "button:content:icon": "fullscreen",
          "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
          "button:restart:icon": "info-outline",
-         "button:restart:action": "panel:request:interaction:program@https://wals09.github.io/msx/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "button:rewind:display": "false",
          "button:forward:display": "false",
          "button:restart:display": "true",
@@ -56,14 +56,14 @@
          "label:position": "...",
          "label:duration": "...",
          "control:type": "extended",
-         "trigger:load": "interaction:load:https://github.com/wals09/msx/raw/main/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "live:channel": "{context:channel}",
          "live:program": "-1"
       },
       
       "live": {
          "type": "setup",
-         "action": "execute:service:https://wals09.github.io/msx/test/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
+         "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
       }
    },
    "items": [
