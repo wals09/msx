@@ -1,36 +1,393 @@
 {
-    "headline": "Онлайн ТВ",
-    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
-    "menu": [ {
-            "icon": "tv",
-            "label": "Общие",
-            "data": "http://wals09.github.io/msx/test/tv.json"
-        }, {
-            "icon": "tv",
-            "label": "Беларусь",
-            "data": "http://msx.nnmtv.fun/msx/iptv/bt_tv.json"
-        }, {
-            "icon": "tv",
-            "label": "Кино",
-            "data": "http://msx.nnmtv.fun/msx/iptv/film.json"
-        }, {
-            "icon": "tv",
-            "label": "Спорт",
-            "data": "http://msx.nnmtv.fun/msx/iptv/sport.json"
-        }, {
-            "icon": "tv",
-            "label": "Музыка",
-            "data": "http://msx.nnmtv.fun/msx/iptv/music.json"
-        }, {
-            "icon": "tv",
-            "label": "Познавательные",
-            "data": "http://msx.nnmtv.fun/msx/iptv/edu.json"
-        }, {
-            "icon": "tv",
-            "label": "Детские",
-            "data": "http://msx.nnmtv.fun/msx/iptv/kids.json"
-        }, {
-            "type": "separator"
-        }
-    ]
-} 
+   "type": "list",
+   "headline": "",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "preload": "none",
+   "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
+   "overlay": {
+      "items": [
+         {
+            "type": "space",
+            "layout": "7,0,4,6",
+            "offset": "0.9,-1,0.2,1.67",
+            "color": "#FF4F00"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "8,0,1,1",
+            "offset": "0,-0.9,0.01,0.05",
+            "color": "glass",
+            "image": "none",
+            "imageFiller": "cover"
+         },
+         {
+            "id": "preview",
+            "type": "space",
+            "layout": "8,1,4,5",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,4,1",
+      "area": "0,0,8,6",
+      "imageWidth": 0.83,
+      "wrapperColor": "msx-glass",
+      "color": "msx-glass",
+      "progress": -1,
+      "titleFooter": "Загрузка..",
+      "properties": {
+         "button:speed:display": "true",
+         "button:speed:icon": "",
+         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
+         "button:content:icon": "fullscreen",
+         "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
+         "button:restart:icon": "info-outline",
+         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "button:rewind:display": "false",
+         "button:forward:display": "false",
+         "button:restart:display": "true",
+         "button:play_pause:display": "false",
+         "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
+         "label:position": "...",
+         "label:duration": "...",
+         "control:type": "extended",
+         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "live:channel": "{context:channel}",
+         "live:program": "-1"
+      },
+      "selection": {
+         "important": true,
+         "action": "update:content:overlay:preview",
+         "data": {
+            "headline": "",
+            "text": "",
+            "live": []
+         }
+      },
+      "live": {
+         "type": "setup",
+         "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
+      }
+   },
+   "items": [
+      {
+         "id": "channel_0",
+         "channel": "362",
+         "titleHeader": "{col:msx-white}Первый канал",
+         "playerLabel": "Первый канал",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/pervy.png"
+            }
+         },
+         "image": "https://picon.pp.ua/pervy.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_1",
+         "channel": "391",
+         "titleHeader": "{col:msx-white}Россия 1",
+         "playerLabel": "Россия 1",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/rossia1.png"
+            }
+         },
+         "image": "https://picon.pp.ua/rossia1.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_2",
+         "channel": "393",
+         "titleHeader": "{col:msx-white}Россия 24",
+         "playerLabel": "Россия 24",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/rossia24.png"
+            }
+         },
+         "image": "https://picon.pp.ua/rossia24.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_3",
+         "channel": "395",
+         "titleHeader": "{col:msx-white}Россия К",
+         "playerLabel": "Россия К",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/rossia-k.png"
+            }
+         },
+         "image": "https://picon.pp.ua/rossia-k.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_4",
+         "channel": "319",
+         "titleHeader": "{col:msx-white}НТВ",
+         "playerLabel": "НТВ",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/ntv.png"
+            }
+         },
+         "image": "https://picon.pp.ua/ntv.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_5",
+         "channel": "439",
+         "titleHeader": "{col:msx-white}ТНТ",
+         "playerLabel": "ТНТ",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/tnt.png"
+            }
+         },
+         "image": "https://picon.pp.ua/tnt.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_6",
+         "channel": "336",
+         "titleHeader": "{col:msx-white}ТНТ4",
+         "playerLabel": "ТНТ4",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/tnt4.png"
+            }
+         },
+         "image": "https://picon.pp.ua/tnt4.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_7",
+         "channel": "382",
+         "titleHeader": "{col:msx-white}РЕН ТВ",
+         "playerLabel": "РЕН ТВ",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/rentv.png"
+            }
+         },
+         "image": "https://picon.pp.ua/rentv.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_8",
+         "channel": "407",
+         "titleHeader": "{col:msx-white}СТС",
+         "playerLabel": "СТС",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/sts.png"
+            }
+         },
+         "image": "https://picon.pp.ua/sts.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_9",
+         "channel": "369",
+         "titleHeader": "{col:msx-white}Че",
+         "playerLabel": "Че",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/che.png"
+            }
+         },
+         "image": "https://picon.pp.ua/che.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_10",
+         "channel": "378",
+         "titleHeader": "{col:msx-white}Пятый канал",
+         "playerLabel": "Пятый канал",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/5kanal-ru.png"
+            }
+         },
+         "image": "https://picon.pp.ua/5kanal-ru.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_11",
+         "channel": "377",
+         "titleHeader": "{col:msx-white}Пятница",
+         "playerLabel": "Пятница",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/pyatnica.png"
+            }
+         },
+         "image": "https://picon.pp.ua/pyatnica.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_12",
+         "channel": "246",
+         "titleHeader": "{col:msx-white}Домашний",
+         "playerLabel": "Домашний",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/domashny.png"
+            }
+         },
+         "image": "https://picon.pp.ua/domashny.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_13",
+         "channel": "259",
+         "titleHeader": "{col:msx-white}Звезда",
+         "playerLabel": "Звезда",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/zvezda.png"
+            }
+         },
+         "image": "https://picon.pp.ua/zvezda.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_14",
+         "channel": "299",
+         "titleHeader": "{col:msx-white}Мир ТВ",
+         "playerLabel": "Мир ТВ",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/mir.png"
+            }
+         },
+         "image": "https://picon.pp.ua/mir.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_15",
+         "channel": "325",
+         "title": "{col:msx-white}ОТР",
+         "playerLabel": "ОТР",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/otr.png"
+            }
+         },
+         "image": "https://picon.pp.ua/otr.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_16",
+         "channel": "431",
+         "titleHeader": "{col:msx-white}Суббота",
+         "playerLabel": "Суббота",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/subbota.png"
+            }
+         },
+         "image": "https://picon.pp.ua/subbota.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_17",
+         "channel": "434",
+         "title": "{col:msx-white}ТВ центр",
+         "playerLabel": "ТВ центр",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/tvcentr.png"
+            }
+         },
+         "image": "https://picon.pp.ua/tvcentr.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_18",
+         "channel": "409",
+         "titleHeader": "{col:msx-white}СТС Love",
+         "playerLabel": "СТС Love",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/sts-love.png"
+            }
+         },
+         "image": "https://picon.pp.ua/sts-love.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_19",
+         "channel": "276",
+         "titleHeader": "{col:msx-white}2x2",
+         "playerLabel": "2x2",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/2x2.png"
+            }
+         },
+         "image": "https://picon.pp.ua/2x2.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/video_800x450_avc1/variant.m3u8?version=2"
+      },
+      {
+         "id": "channel_20",
+         "channel": "474",
+         "titleHeader": "{col:msx-white}Ю",
+         "playerLabel": "Ю",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "image": "https://picon.pp.ua/yu.png"
+            }
+         },
+         "image": "https://picon.pp.ua/yu.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_U/video_800x450_avc1/variant.m3u8?version=2"
+      }
+   ]
+}
