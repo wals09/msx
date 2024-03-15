@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
 <meta name="author" content="Benjamin Zachey" />
 <meta name="contact" content="admin@benzac.de" />
 <meta name="copyright" content="Benjamin Zachey" />
-<script type="text/javascript" src="https://msx.benzac.de/js/tvx-plugin.min.js?v=0.0.17"></script>
+<script type="text/javascript" src="http://msx.benzac.de/js/tvx-plugin.min.js?v=0.0.17"></script>
 <script type="text/javascript">
           /******************************************************************************/
           //Live Interaction Plugin v0.0.2
@@ -59,7 +60,7 @@
           //LiveBackend
           /******************************************************************************/
                     function LiveBackend() {
-              var URL = TVXTools.getHostUrl("msx/iptv/iptvk.php?channel={CHANNEL}&program={PROGRAM}&shift={context:shift}&type=play");
+              var URL = TVXTools.getHostUrl("msx/iptv/.php?channel={CHANNEL}&program={PROGRAM}&shift=&type=play");
               var service = new TVXDataService();
 
               var callCallback = function(callback, data) {
@@ -391,6 +392,6 @@
         </script>
 </head>
 <body>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"864c29bdfc3706be","r":1,"version":"2024.2.4","token":"1b80f8adaf1643b4a33c96b02bd23434"}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"864c5fbdece70e18","r":1,"version":"2024.2.4","token":"1b80f8adaf1643b4a33c96b02bd23434"}' crossorigin="anonymous"></script>
 </body>
 </html>
