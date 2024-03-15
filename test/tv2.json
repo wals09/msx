@@ -56,7 +56,7 @@
          "label:position": "...",
          "label:duration": "...",
          "control:type": "extended",
-         "trigger:load": "interaction:load:https://wals09.github.io/msx/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "trigger:load": "interaction:load:https://github.com/wals09/msx/raw/main/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "live:channel": "{context:channel}",
          "live:program": "-1"
       },
