@@ -118,10 +118,7 @@
             }
          },
          "image": "https://picon.pp.ua/rossia24.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_3",
@@ -151,10 +148,7 @@
             }
          },
          "image": "https://picon.pp.ua/ntv.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_5",
@@ -169,10 +163,7 @@
             }
          },
          "image": "https://picon.pp.ua/tnt.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_6",
@@ -187,10 +178,7 @@
             }
          },
          "image": "https://picon.pp.ua/tnt4.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_7",
@@ -205,10 +193,7 @@
             }
          },
          "image": "https://picon.pp.ua/rentv.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_8",
@@ -223,10 +208,7 @@
             }
          },
          "image": "https://picon.pp.ua/sts.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_9",
@@ -241,10 +223,7 @@
             }
          },
          "image": "https://picon.pp.ua/che.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_10",
@@ -259,10 +238,7 @@
             }
          },
          "image": "https://picon.pp.ua/5kanal-ru.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_11",
@@ -277,10 +253,7 @@
             }
          },
          "image": "https://picon.pp.ua/pyatnica.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_12",
@@ -295,10 +268,7 @@
             }
          },
          "image": "https://picon.pp.ua/domashny.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_13",
@@ -313,10 +283,7 @@
             }
          },
          "image": "https://picon.pp.ua/zvezda.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_14",
@@ -331,10 +298,7 @@
             }
          },
          "image": "https://picon.pp.ua/mir.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_15",
@@ -349,10 +313,7 @@
             }
          },
          "image": "https://picon.pp.ua/otr.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_16",
@@ -367,10 +328,7 @@
             }
          },
          "image": "https://picon.pp.ua/subbota.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_17",
@@ -385,10 +343,7 @@
             }
          },
          "image": "https://picon.pp.ua/tvcentr.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_18",
@@ -418,10 +373,7 @@
             }
          },
          "image": "https://picon.pp.ua/2x2.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_20",
@@ -436,10 +388,7 @@
             }
          },
          "image": "https://picon.pp.ua/yu.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_U/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_U/video_800x450_avc1/variant.m3u8?version=2"
       }
    ]
 }
