@@ -1,70 +1,91 @@
 {
    "type": "list",
-   "headline": "",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
-   "flag": "tabs",
-   "header": {
-      "offset": "0,0,0,1",
-      "items": [
-         {
-            "type": "default",
-            "layout": "3,0,6,1",
-            "focus": true,
-            "color": "#FF4F00",
-            "label": "Категории"
-         }
-      ]
-   },
-   "template": {
-      "type": "default",
-      "layout": "0,0,4,1",
-      "area": "0,0,12,6",
-      "wrapperColor": "msx-glass",
-      "color": "msx-glass",
-      "imageWidth": 1,
-      "imageFiller": "cover"
-   },
-   "items": [
+   "pages": [
       {
-         "titleHeader": "{col:msx-white}Основные",
-         "action": "content:https://wals09.github.io/msx/test/tv22.json",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj"
-      },
-      {
-         "titleHeader": "{col:msx-white}Детские",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/kids"
-      },
-      {
-         "titleHeader": "{col:msx-white}Фильмовые",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/flms"
-      },
-      {
-         "titleHeader": "{col:msx-white}КиноЗалы",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/zal"
-      },
-      {
-         "titleHeader": "{col:msx-white}Спорт",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/spor"
-      },
-      {
-         "titleHeader": "{col:msx-white}Развлекательные",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/infget"
-      },
-      {
-         "titleHeader": "{col:msx-white}Музыкальные",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/musi"
-      },
-      {
-         "titleHeader": "{col:msx-white}Региональные",
-         "image": "https://yt3.ggpht.com/ytc/AKedOLS42OJeo8lQIlNP5TPVx2bjm0o0vN1VysPfcXwf=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content:http://api.kulik.uz/msxtv/ru/regi"
+         "offset": "0,0,0,0.25",
+         "items": [
+            {
+               "type": "space",
+               "layout": "1,0,10,1",
+               "color": "transparent",
+               "title": "{col:#FF4F00}ТАК СЕБЕ TV",
+               "titleFooter": "________________"
+            },
+            {
+               "type": "space",
+               "layout": "0,1,12,1",
+               "color": "transparent",
+               "title": "{col:#FF4F00}___________________________________________________________________________________________________________"
+            },
+            {
+               "type": "space",
+               "layout": "0,0,1,1",
+               "image": "https://wals09.github.io/msx/test/logo.png",
+               "imageFiller": "cover",
+               "imageOverlay": 5
+            },
+            {
+               "type": "default",
+               "layout": "9,4,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "menu: https://maxaon09.github.io/kf/katalog.json"
+            },
+            {
+               "type": "default",
+               "layout": "9,5,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "menu: https://maxaon09.github.io/kf/katalog.json"
+            },
+            {
+               "type": "default",
+               "layout": "0,4,3,1",
+               "focus": true,
+               "color": "transparent",
+               "label": "Общие",
+               "action": "content:https://wals09.github.io/msx/test/tv22.json"
+            },
+            {
+               "type": "default",
+               "layout": "0,5,3,1",
+               "focus": true,
+               "color": "transparent",
+               "label": "Категория",
+               "action": "content: https://maxaon09.github.io/kf/welcome.json"
+            },
+            {
+               "type": "default",
+               "layout": "3,4,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+            },
+            {
+               "type": "default",
+               "layout": "3,5,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+            },
+            {
+               "type": "default",
+               "layout": "6,4,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+            },
+            {
+               "type": "default",
+               "layout": "6,5,3,1",
+               "color": "transparent",
+               "label": "Категория",
+               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+            }
+         ]
       }
    ]
 }
