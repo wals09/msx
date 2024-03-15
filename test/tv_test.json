@@ -82,7 +82,7 @@
          "playerLabel": "Первый канал",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/pervy.png"
             }
@@ -97,7 +97,7 @@
          "playerLabel": "Россия 1",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/rossia1.png"
             }
@@ -112,7 +112,7 @@
          "playerLabel": "Россия 24",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/rossia24.png"
             }
@@ -127,7 +127,7 @@
          "playerLabel": "Россия К",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/rossia-k.png"
             }
@@ -142,7 +142,7 @@
          "playerLabel": "НТВ",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/ntv.png"
             }
@@ -157,7 +157,7 @@
          "playerLabel": "ТНТ",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/tnt.png"
             }
@@ -172,7 +172,7 @@
          "playerLabel": "ТНТ4",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/tnt4.png"
             }
@@ -187,7 +187,7 @@
          "playerLabel": "РЕН ТВ",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/rentv.png"
             }
@@ -202,7 +202,7 @@
          "playerLabel": "СТС",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/sts.png"
             }
@@ -217,7 +217,7 @@
          "playerLabel": "Че",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/che.png"
             }
@@ -232,7 +232,7 @@
          "playerLabel": "Пятый канал",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/5kanal-ru.png"
             }
@@ -247,7 +247,7 @@
          "playerLabel": "Пятница",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/pyatnica.png"
             }
@@ -262,7 +262,7 @@
          "playerLabel": "Домашний",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/domashny.png"
             }
@@ -277,7 +277,7 @@
          "playerLabel": "Звезда",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/zvezda.png"
             }
@@ -292,7 +292,7 @@
          "playerLabel": "Мир ТВ",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/mir.png"
             }
@@ -307,7 +307,7 @@
          "playerLabel": "ОТР",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/otr.png"
             }
@@ -322,7 +322,7 @@
          "playerLabel": "Суббота",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/subbota.png"
             }
@@ -337,7 +337,7 @@
          "playerLabel": "ТВ центр",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/tvcentr.png"
             }
@@ -352,7 +352,7 @@
          "playerLabel": "СТС Love",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/sts-love.png"
             }
@@ -367,7 +367,7 @@
          "playerLabel": "2x2",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/2x2.png"
             }
@@ -382,7 +382,7 @@
          "playerLabel": "Ю",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image|update:content:overlay:preview]",
             "data": {
                "image": "https://picon.pp.ua/yu.png"
             }
