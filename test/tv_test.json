@@ -68,7 +68,6 @@
             "live": []
          }
       },
-
       "live": {
          "type": "setup",
          "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
@@ -88,10 +87,7 @@
             }
          },
          "image": "https://picon.pp.ua/pervy.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/video_800x450_avc1/variant.m3u8?version=2",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
-         }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_1",
