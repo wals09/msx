@@ -4,7 +4,6 @@
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "none",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
-
    "overlay": {
       "items": [
          {
@@ -47,7 +46,7 @@
          "button:content:icon": "fullscreen",
          "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
          "button:restart:icon": "info-outline",
-         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "button:restart:action": "panel:request:interaction:program@https://github.com/wals09/msx/raw/main/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "button:rewind:display": "false",
          "button:forward:display": "false",
          "button:restart:display": "true",
@@ -56,7 +55,7 @@
          "label:position": "...",
          "label:duration": "...",
          "control:type": "extended",
-         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "trigger:load": "interaction:load:https://github.com/wals09/msx/raw/main/test/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "live:channel": "{context:channel}",
          "live:program": "-1"
       }
