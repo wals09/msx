@@ -51,6 +51,7 @@
          "button:forward:display": "false",
          "button:restart:display": "true",
          "button:play_pause:display": "false",
+         "trigger:back": "player:stop",
          "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
          "label:position": "...",
          "label:duration": "...",
