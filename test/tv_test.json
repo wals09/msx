@@ -39,7 +39,7 @@
       "color": "msx-glass",
       "progress": -1,
       "titleFooter": "Загрузка..",
-       "properties": {
+      "properties": {
          "button:speed:display": "true",
          "button:speed:icon": "",
          "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
