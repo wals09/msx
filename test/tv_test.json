@@ -58,7 +58,7 @@
          "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "live:channel": "{context:channel}",
          "live:program": "-1"
-      }
+      },
       "live": {
          "type": "setup",
          "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
