@@ -38,7 +38,27 @@
       "wrapperColor": "msx-glass",
       "color": "msx-glass",
       "progress": -1,
-      "titleFooter": "Загрузка.."
+      "titleFooter": "Загрузка..",
+       "properties": {
+         "button:speed:display": "true",
+         "button:speed:icon": "",
+         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
+         "button:content:icon": "fullscreen",
+         "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
+         "button:restart:icon": "info-outline",
+         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "button:rewind:display": "false",
+         "button:forward:display": "false",
+         "button:restart:display": "true",
+         "button:play_pause:display": "false",
+         "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
+         "label:position": "...",
+         "label:duration": "...",
+         "control:type": "extended",
+         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "live:channel": "{context:channel}",
+         "live:program": "-1"
+      }
    },
    "items": [
       {
@@ -99,27 +119,7 @@
             }
          },
          "image": "https://picon.pp.ua/rossia-k.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/video_800x450_avc1/variant.m3u8?version=2",
-          "properties": {
-         "button:speed:display": "true",
-         "button:speed:icon": "",
-         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
-         "button:content:icon": "fullscreen",
-         "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
-         "button:restart:icon": "info-outline",
-         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
-         "button:rewind:display": "false",
-         "button:forward:display": "false",
-         "button:restart:display": "true",
-         "button:play_pause:display": "false",
-         "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
-         "label:position": "...",
-         "label:duration": "...",
-         "control:type": "extended",
-         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
-         "live:channel": "{context:channel}",
-         "live:program": "-1"
-      }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_4",
@@ -134,27 +134,7 @@
             }
          },
          "image": "https://picon.pp.ua/ntv.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2",
-          "properties": {
-         "button:speed:display": "true",
-         "button:speed:icon": "",
-         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
-         "button:content:icon": "fullscreen",
-         "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
-         "button:restart:icon": "info-outline",
-         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
-         "button:rewind:display": "false",
-         "button:forward:display": "false",
-         "button:restart:display": "true",
-         "button:play_pause:display": "false",
-         "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
-         "label:position": "...",
-         "label:duration": "...",
-         "control:type": "extended",
-         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
-         "live:channel": "{context:channel}",
-         "live:program": "-1"
-      }
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2"
       },
       {
          "id": "channel_5",
