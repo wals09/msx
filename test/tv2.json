@@ -60,15 +60,7 @@
          "live:channel": "{context:channel}",
          "live:program": "-1"
       },
-      "selection": {
-         "important": true,
-         "action": "update:content:overlay:preview",
-         "data": {
-            "headline": "",
-            "text": "",
-            "live": []
-         }
-      },
+      
       "live": {
          "type": "setup",
          "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
