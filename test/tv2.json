@@ -4,19 +4,7 @@
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "none",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
-   "header": {
-      "offset": "0,0,0,0.5",
-      "items": [
-         {
-            "type": "default",
-            "layout": "0,0,8,1",
-            "color": "transparent",
-            "headline": "Общие каналы",
-            "titleFooter": "{ico:#ced6e0:arrow-right}Вернутся к выбору категории",
-            "action": "content:http://wals09.github.io/msx/test/category.json"
-         }
-      ]
-   },
+
    "overlay": {
       "items": [
          {
