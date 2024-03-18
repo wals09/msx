@@ -46,8 +46,8 @@
                "layout": "0,4,3,1",
                "focus": true,
                "color": "transparent",
-               "label": "Общие",
-               "action": "content:https://wals09.github.io/msx/test/tv22.json"
+               "label": "Киноканалы",
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
             },
             {
                "type": "default",
@@ -61,8 +61,8 @@
                "type": "default",
                "layout": "3,4,3,1",
                "color": "transparent",
-               "label": "Категория",
-               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+               "label": "WORLD.TV",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://i.mjh.nz/PlutoTV/all.m3u8"
             },
             {
                "type": "default",
@@ -75,8 +75,8 @@
                "type": "default",
                "layout": "6,4,3,1",
                "color": "transparent",
-               "label": "Категория",
-               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+               "label": "Золотая коллекция",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/vip/Golden_Collection.m3u"
             },
             {
                "type": "default",
