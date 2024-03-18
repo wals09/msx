@@ -66,6 +66,17 @@
       }
    },
    "items": [
+
+{
+         "id": "channel_0",
+         "channel": "362",
+         "title": "Первый канал",
+         "playerLabel": "Первый канал",
+         "image": "http://epg.it999.ru/img/146.png",
+         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/video_800x450_avc1/variant.m3u8?version=2"
+      },
+
+      
       {
          "id": "channel_0",
          "channel": "362",
