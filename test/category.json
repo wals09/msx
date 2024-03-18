@@ -11,7 +11,7 @@
                "type": "space",
                "layout": "1,0,10,1",
                "color": "transparent",
-               "title": "{col:#FF4F00}ТАК СЕБЕ TV",
+               "title": "{col:#FF4F00}Бонус контент",
                "titleFooter": "________________"
             },
             {
@@ -46,7 +46,7 @@
                "layout": "0,4,3,1",
                "focus": true,
                "color": "transparent",
-               "label": "Киноканалы",
+               "label": "Так себе TV",
                "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
             },
             {
