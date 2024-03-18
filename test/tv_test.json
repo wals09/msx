@@ -72,7 +72,7 @@
          "titleHeader": "{col:msx-white}Первый канал",
          "playerLabel": "Первый канал",
          "image": "https://picon.pp.ua/pervy.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://nl01.spr24.net/128/mpegts?token=RtQWYmTYPyBNzp"
       },
       {
          "id": "channel_1",
