@@ -1,118 +1,167 @@
 #EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz"
 
-
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 1
+#EXTINF:-1 group-title="Usba TV",Военный
+https://ipv4.bozztv.com/dvrfl07/ushba16/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Ералаш
+https://ipv4.bozztv.com/dvrfl07/ushba8/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Приколы 1
+https://ipv4.bozztv.com/dvrfl07/ushba11/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Приколы 2
+https://ipv4.bozztv.com/dvrfl07/ushba20/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Приколы 3
+https://ipv4.bozztv.com/dvrfl07/ushba45/index.m3u8
+#EXTINF:-1 group-title="Usba TV",Документалка 1 
+https://ipv4.bozztv.com/dvrfl07/ushba28/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Документалка 2
+https://ipv4.bozztv.com/dvrfl07/ushba29/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Документалка 3
+https://ipv4.bozztv.com/dvrfl07/ushba38/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Танцы 1
+https://ipv4.bozztv.com/dvrfl07/ushba17/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Танцы 2
+https://ipv4.bozztv.com/dvrfl07/ushba15/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Танцы 3
+https://ipv4.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Gameplay
+https://ipv4.bozztv.com/dvrfl07/ushba31/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Gameplay трейлеры
+https://ipv4.bozztv.com/dvrfl07/ushba44/index.m3u8
+#EXTINF:-1 group-title="Usba TV",Спорт
+https://ipv4.bozztv.com/dvrfl07/ushba46/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Овертайм
+https://ipv4.bozztv.com/dvrfl07/ushba55/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Залипательное
+https://ipv4.bozztv.com/dvrfl07/ushba58/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Кинозалы 1
 https://ipv4.bozztv.com/dvrfl07/ushba13/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 2
+#EXTINF:-1 group-title="Usba TV",Кинозалы 2
 https://ipv4.bozztv.com/dvrfl07/ushba14/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 3
+#EXTINF:-1 group-title="Usba TV",Кинозалы 3
 https://ipv4.bozztv.com/dvrfl07/ushba24/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 4
+#EXTINF:-1 group-title="Usba TV",Кинозалы 4
 https://ipv4.bozztv.com/dvrfl07/ushba26/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 5
+#EXTINF:-1 group-title="Usba TV",Кинозалы 5
 https://ipv4.bozztv.com/dvrfl07/ushba-films-b/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 6
+#EXTINF:-1 group-title="Usba TV",Кинозалы 6
 https://ipv4.bozztv.com/dvrfl07/ushba-films-c/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 7
+#EXTINF:-1 group-title="Usba TV",Кинозалы 7
 https://ipv4.bozztv.com/dvrfl07/ushba-films-d/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 8
+#EXTINF:-1 group-title="Usba TV",Кинозалы 8
 https://ipv4.bozztv.com/dvrfl07/ushba-films-e/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 9
+#EXTINF:-1 group-title="Usba TV",Кинозалы 9
 https://ipv4.bozztv.com/dvrfl07/ushba-films-f/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 10
+#EXTINF:-1 group-title="Usba TV",Кинозалы 10
 https://ipv4.bozztv.com/dvrfl07/ushba-films-g/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 11
+#EXTINF:-1 group-title="Usba TV",Кинозалы 11
 https://ipv4.bozztv.com/dvrfl07/ushba-films-h/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 12
+#EXTINF:-1 group-title="Usba TV",Кинозалы 12
 https://ipv4.bozztv.com/dvrfl07/ushba-films-i/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 13
+#EXTINF:-1 group-title="Usba TV",Кинозалы 13
 https://ipv4.bozztv.com/dvrfl07/ushba-films-j/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 14
+#EXTINF:-1 group-title="Usba TV",Кинозалы 14
 https://ipv4.bozztv.com/dvrfl07/ushba-films-m/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 15
+#EXTINF:-1 group-title="Usba TV",Кинозалы 15
 https://ipv4.bozztv.com/dvrfl07/ushba-films-p/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 16
+#EXTINF:-1 group-title="Usba TV",Кинозалы 16
 https://ipv4.bozztv.com/dvrfl07/ushba-films-t/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 17
+#EXTINF:-1 group-title="Usba TV",Кинозалы 17
 https://ipv4.bozztv.com/dvrfl07/ushba-films-yz/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 18
+#EXTINF:-1 group-title="Usba TV",Кинозалы 18
 https://ipv4.bozztv.com/dvrfl07/ushba-films-n/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 19
+#EXTINF:-1 group-title="Usba TV",Кинозалы 19
 https://ipv4.bozztv.com/dvrfl07/ushba-films-qr/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 20
+#EXTINF:-1 group-title="Usba TV",Кинозалы 20
 https://ipv4.bozztv.com/dvrfl07/ushba-films-uv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 21
+#EXTINF:-1 group-title="Usba TV",Кинозалы 21
 https://ipv4.bozztv.com/dvrfl07/ushba-films-o/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 22
+#EXTINF:-1 group-title="Usba TV",Кинозалы 22
 https://ipv4.bozztv.com/dvrfl07/ushba-films-s/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 23
+#EXTINF:-1 group-title="Usba TV",Кинозалы 23
 https://ipv4.bozztv.com/dvrfl07/ushba-films-w/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 24
+#EXTINF:-1 group-title="Usba TV",Кинозалы 24
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 25
+#EXTINF:-1 group-title="Usba TV",Кинозалы 25
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 26
+#EXTINF:-1 group-title="Usba TV",Кинозалы 26
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-b/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 27
+#EXTINF:-1 group-title="Usba TV",Кинозалы 27
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 28
+#EXTINF:-1 group-title="Usba TV",Кинозалы 28
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 29
+#EXTINF:-1 group-title="Usba TV",Кинозалы 29
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 30
+#EXTINF:-1 group-title="Usba TV",Кинозалы 30
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 31
+#EXTINF:-1 group-title="Usba TV",Кинозалы 31
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 32
+#EXTINF:-1 group-title="Usba TV",Кинозалы 32
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-k/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 33
+#EXTINF:-1 group-title="Usba TV",Кинозалы 33
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 34
+#EXTINF:-1 group-title="Usba TV",Кинозалы 34
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 35
+#EXTINF:-1 group-title="Usba TV",Кинозалы 35
 https://ipv4.bozztv.com/dvrfl07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Retrovision
+#EXTINF:-1 group-title="Usba TV",Кинозалы 36
+https://ipv4.bozztv.com/dvrfl07/ushba32/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",КИНО 
+https://ipv4.bozztv.com/dvrfl07/ushba9/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Retrovision
 https://ipv4.bozztv.com/dvrfl07/ushba-rvision/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Retrovision Motor
+#EXTINF:-1 group-title="Usba TV",Retrovision Motor
 https://ipv4.bozztv.com/dvrfl07/ushba-rvisionmotor/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Retrovision Кинопанорама
+#EXTINF:-1 group-title="Usba TV",Retrovision Кинопанорама
 https://ipv4.bozztv.com/dvrfl07/ushba-rvisionkinopanorama/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Retrovision Movies
+#EXTINF:-1 group-title="Usba TV",Retrovision Movies
 https://ipv4.bozztv.com/dvrfl07/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Retrovision Classic
+#EXTINF:-1 group-title="Usba TV",Retrovision Classic
 https://ipv4.bozztv.com/dvrfl07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" ,Star Media
+#EXTINF:-1 group-title="Usba TV" ,Star Media
 https://ipv4.bozztv.com/dvrfl07/ushba4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 1
+#EXTINF:-1 group-title="Usba TV",Музыка 1
 https://ipv4.bozztv.com/dvrfl07/ushba-t1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 2
+#EXTINF:-1 group-title="Usba TV",Музыка 2
 https://ipv4.bozztv.com/dvrfl07/ushba-t2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 3
+#EXTINF:-1 group-title="Usba TV",Музыка 3
 https://ipv4.bozztv.com/dvrfl07/ushba-t3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 4
+#EXTINF:-1 group-title="Usba TV",Музыка 4
 https://ipv4.bozztv.com/dvrfl07/ushba-t4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка РОК
-https://ipv4.bozztv.com/dvrfl07/ushba-rw/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 5
+#EXTINF:-1 group-title="Usba TV",МУЗ
+https://ipv4.bozztv.com/dvrfl07/ushba6/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Музыка 5
 https://ipv4.bozztv.com/dvrfl07/ushba-monj/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Музыка 6
+#EXTINF:-1 group-title="Usba TV",Музыка 6
 https://ipv4.bozztv.com/dvrfl07/ushba-mafia/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Kpop Play TV
+#EXTINF:-1 group-title="Usba TV",Kpop Play TV
 https://ipv4.bozztv.com/dvrfl07/ushba-m4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 1
+#EXTINF:-1 group-title="Usba TV",Мода 1
 https://ipv4.bozztv.com/dvrfl07/ushba-t8/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 2
+#EXTINF:-1 group-title="Usba TV",Мода 2
 https://ipv4.bozztv.com/dvrfl07/ushba-m6/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 3
+#EXTINF:-1 group-title="Usba TV",Мода 3
 https://ipv4.bozztv.com/dvrfl07/ushba-m7/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 4
+#EXTINF:-1 group-title="Usba TV",Мода 4
 https://ipv4.bozztv.com/dvrfl07/ushba-m8/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 5
+#EXTINF:-1 group-title="Usba TV",Мода 5
 https://ipv4.bozztv.com/dvrfl07/ushba-m9/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 6
+#EXTINF:-1 group-title="Usba TV",Мода 6
 https://ipv4.bozztv.com/dvrfl07/ushba-m1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Fashion Channel
+#EXTINF:-1 group-title="Usba TV",Fashion Channel
 https://ipv4.bozztv.com/dvrfl07/ushba19/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",канал
+https://ipv4.bozztv.com/dvrfl07/ushba59/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",Муз
+https://ipv4.bozztv.com/dvrfl07/ushba57/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",канал 2
+https://ipv4.bozztv.com/dvrfl07/ushba47/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",AFREECA TV
+https://ipv4.bozztv.com/dvrfl07/ushba23/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",КАНАЛ?
+https://ipv4.bozztv.com/dvrfl07/ushba61/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",ЮМОР
+https://ipv4.bozztv.com/dvrfl07/ushba62/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Usba TV",СПОРТ
+https://ipv4.bozztv.com/dvrfl07/ushba63/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1  group-title="Кинозалы",Все мульты
 https://tv.2222.one/ch1.m3u8
@@ -154,7 +203,6 @@ https://tv.2222.one/ch18.m3u8
 https://tv.2222.one/ch19.m3u8
 #EXTINF:-1  group-title="Кинозалы",Детективы
 https://tv.2222.one/ch20.m3u8
-
 #EXTINF:-1 group-title="KINO+",КП HD
 http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",К=премьера HD
@@ -165,8 +213,6 @@ http://otv.wotom.net:4433/udp/238.1.1.19:1234
 http://109.248.236.21:4433/udp/238.1.1.53:1234
 #EXTINF:-1 group-title="KINO+",КИНОХИТ
 http://otv.wotom.net:4433/udp/238.1.1.53:1234
-#EXTINF:-1 group-title="KINO+",КИНОХИТ SD
-http://185.37.150.40:8092/kinohit/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Kinoxit
 http://91.205.199.3/kinoxithd/index.m3u8
 #EXTINF:-1 group-title="KINO+",Киносемья sd
@@ -175,16 +221,12 @@ http://109.248.236.21:4433/udp/238.1.1.52:1234
 http://otv.wotom.net:4433/udp/238.1.1.52:1234
 #EXTINF:-1 group-title="KINO+",Киносерия SD
 http://otv.wotom.net:4433/udp/238.1.1.57:1234
-#EXTINF:-1 group-title="KINO+",Киносерия
-http://185.37.150.40:8092/Mnogo_tv/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Киносвидание SD
 http://109.248.236.21:4433/udp/238.1.1.105:1234
 #EXTINF:-1 group-title="KINO+",КИНОСВИДАНИЕ SD
 http://otv.wotom.net:4433/udp/238.1.1.105:1234
 #EXTINF:-1 group-title="KINO+",Kinosvidanie
 http://91.205.199.3/kinosvidanie/index.m3u8
-#EXTINF:-1 group-title="KINO+",Кинокомедия
-http://185.37.150.40:8092/Komediya/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Кинокомедия SD
 http://109.248.236.21:4433/udp/238.1.1.133:1234
 #EXTINF:-1 group-title="KINO+",КИНОКОМЕДИЯ SD
@@ -197,12 +239,14 @@ http://otv.wotom.net:4433/udp/238.1.1.42:1234
 http://109.248.236.21:4433/udp/238.1.1.42:1234
 #EXTINF:-1 group-title="KINO+",Киносерия
 http://109.248.236.21:4433/udp/238.1.1.57:1234
+#EXTINF:-1 group-title="KINO+",Мужское Кино
+http://109.248.236.21:4433/udp/238.1.1.74:1234
 #EXTINF:-1 group-title="KINO+",Мужское кино sd
 http://otv.wotom.net:4433/udp/238.1.1.74:1234
 #EXTINF:-1 group-title="KINO+",Мужское кино SD
 http://stream01.vnet.am/MujskoeKino/index.m3u8
-#EXTINF:-1 group-title="KINO+",Мужское кино
-http://185.37.150.40:8092/Muj_kino/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",МУЖСКОЕ КИНО
+http://91.205.199.7:8000/play/mujkoekino
 #EXTINF:-1 group-title="KINO+",VIP PREMIERE
 https://bkm.beetv.kz/btv/live/hls/000000868.m3u8
 #EXTINF:-1 group-title="KINO+",VIP COMEDY
@@ -211,6 +255,16 @@ https://bkm.beetv.kz/btv/live/hls/000000870.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000869.m3u8
 #EXTINF:-1 group-title="KINO+",VIP Serial HD
 https://bkm.beetv.kz/btv/live/hls/000004375.m3u8
+#EXTINF:-1 group-title="KINO+",Viju Premiere
+http://91.205.199.7:8000/play/a0qy
+#EXTINF:-1 group-title="KINO+",Viju Megahit
+http://91.205.199.7:8000/play/a0qz
+#EXTINF:-1 group-title="KINO+",Viju Comedy
+http://91.205.199.7:8000/play/a0r0
+#EXTINF:-1 group-title="KINO+",Viju SERIAL HD
+http://91.205.199.7:8000/play/a0r9
+#EXTINF:-1 group-title="KINO+",Viasat Kino Comedy HD
+http://88.135.128.20:7272/5RqMvVnGzdoBQbf
 #EXTINF:-1 group-title="KINO+",Viju TV1000 Ру Кино
 https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
 #EXTINF:-1 group-title="KINO+",TV1000 World Kino
@@ -243,6 +297,8 @@ https://bkm.beetv.kz/btv/live/hls/000003871.m3u8
 http://45.159.74.13:80/Kinoman/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",Kinoman
 http://stream02.vnet.am/Kinoman/mono.m3u8
+#EXTINF:-1 group-title="KINO+",SERIES movify.tv
+https://void.greenhosting.ru/MovifySerial_Mpeg4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",НТК
 https://bkm.beetv.kz/btv/live/hls/000000673.m3u8
 #EXTINF:-1 group-title="KINO+",START Air HD
@@ -265,20 +321,18 @@ https://bkm.beetv.kz/btv/live/hls/000005621.m3u8
 https://bkm.beetv.kz/btv/live/hls/000003028.m3u8
 #EXTINF:-1 group-title="KINO+",Еврокино SD
 http://109.248.236.21:4433/udp/238.1.1.49:1234
-#EXTINF:-1 group-title="KINO+",ЕВРОКИНО
-http://185.37.150.40:8092/Evrokino/index.m3u8
-#EXTINF:-1 group-title="KINO+",TV XXI sd
-http://185.37.150.40:8092/tv21/index.m3u8
+#EXTINF:-1 group-title="KINO+",Еврокино
+http://otv.wotom.net:4433/udp/238.1.1.49:1234
 #EXTINF:-1 group-title="KINO+",TV XXI SD
 http://109.248.236.21:4433/udp/238.1.1.65:1234
+#EXTINF:-1 group-title="KINO+",TV 21М
+http://otv.wotom.net:4433/udp/238.1.1.65:1234
 #EXTINF:-1 group-title="KINO+",Иллюзион+ HD
 https://bkm.beetv.kz/btv/live/hls/000004582.m3u8
-#EXTINF:-1 group-title="KINO+",ИЛЛЮЗИОН+
-http://185.37.150.40:8092/Illyuzion/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Иллюзион+ SD
 http://109.248.236.21:4433/udp/238.1.1.104:1234
-#EXTINF:-1 group-title="KINO+",КИНОПОКАЗ
-http://185.37.150.40:8092/Kinopokaz/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",Иллюзион+
+http://otv.wotom.net:4433/udp/238.1.1.104:1234
 #EXTINF:-1 group-title="KINO+",Наше улюблене кіно
 http://78.26.128.59:9876/play/6/index.m3u8
 #EXTINF:-1 group-title="KINO+",Кино 1
@@ -291,6 +345,16 @@ http://78.26.128.59:9876/play/250/index.m3u8
 http://78.26.128.59:9876/play/190/index.m3u8
 #EXTINF:-1 group-title="KINO+",KinoSweet UA HD
 http://95.67.12.180:11111
+#EXTINF:-1 group-title="KINO+",КЛЮЧ
+http://91.205.199.7:8000/play/a0sj
+#EXTINF:-1 group-title="KINO+",Кино ТВ HD
+http://91.205.199.7:8000/play/a0r7
+#EXTINF:-1 group-title="KINO+",Кино ТВ +4
+http://91.205.199.7:8000/play/a0qr
+#EXTINF:-1 group-title="KINO+",5
+http://91.205.199.7:8000/play/a0mn
+#EXTINF:-1 group-title="KINO+",SHOT TV
+http://91.205.199.7:8000/play/a0sa
 #EXTINF:-1 group-title="KINO+",Hollywood sd
 http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 group-title="KINO+",HOLLYWOOD
@@ -327,8 +391,6 @@ https://autopilot.catcast.tv/content/41327/index.m3u8
 https://playlist.nuum.ru/live/28423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",ВИДЕОКАССЕТА
 https://playlist.nuum.ru/live/4968/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",STR TV HD
-https://playlist.nuum.ru/live/21710/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 group-title="KINO+",Кино 1 International HD
@@ -337,6 +399,10 @@ http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
 http://194.33.181.28:9010/udp/238.255.51.36:1234
 #EXTINF:-1 group-title="KINO+",Star CINEMA UA
 http://194.33.181.28:9010/udp/238.255.51.32:1234
+#EXTINF:-1 group-title="KINO+",Star Cinema
+http://88.135.128.20:7272/szWljUvHlTAKXVa
+#EXTINF:-1 group-title="KINO+",Star Family
+http://88.135.128.20:7272/MTsnTXg1kReNwSf
 #EXTINF:-1 group-title="KINO+", Movify История VPN
 https://void.greenhosting.ru/MovifyVesture_Mpeg4/index.m3u8
 #EXTINF:-1 group-title="KINO+", Movify Кино VPN
@@ -394,16 +460,12 @@ http://otv.wotom.net:4433/udp/238.1.1.71:1234
 https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
 #EXTINF:-1 group-title="KINO+",Amedia 2
 https://bkm.beetv.kz/btv/live/hls/000000351.m3u8
-#EXTINF:-1 group-title="KINO+",Amedia 2 HD
-http://185.37.150.40:8092/Amedia2/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Amedia 2 SD
 http://91.205.199.3/amedia2/index.m3u8
 #EXTINF:-1 group-title="KINO+",Amedia premium
 https://bkm.beetv.kz/btv/live/hls/000000709.m3u8
 #EXTINF:-1 group-title="KINO+",Amedia Hit
 https://bkm.beetv.kz/btv/live/hls/000001662.m3u8
-#EXTINF:-1 group-title="KINO+",Amedia 1 HD
-http://185.37.150.40:8092/Amedia1/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Amedia 1 SD
 http://109.248.236.21:4433/udp/238.1.1.97:1234
 #EXTINF:-1 group-title="KINO+",Amedia hit
@@ -418,26 +480,28 @@ http://91.205.199.3/red/index.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000213.m3u8
 #EXTINF:-1 group-title="KINO+",RED SD
 http://109.248.236.21:4433/udp/238.1.1.141:1234
+#EXTINF:-1 group-title="KINO+",Red SD
+http://otv.wotom.net:4433/udp/238.1.1.141:1234
+#EXTINF:-1 group-title="KINO+",.SCI-FI sd
+http://otv.wotom.net:4433/udp/238.1.1.138:1234
 #EXTINF:-1 group-title="KINO+",SCI-FI SD
 http://109.248.236.21:4433/udp/238.1.1.138:1234
 #EXTINF:-1 group-title="KINO+",.SCI-FI
 https://bkm.beetv.kz/btv/live/hls/000000134.m3u8
-#EXTINF:-1 group-title="KINO+",Sci-Fi HD
-http://185.37.150.40:8092/Axn_skyfi/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",black SD
 http://109.248.236.21:4433/udp/238.1.1.139:1234
 #EXTINF:-1 group-title="KINO+",.BLACK
 https://bkm.beetv.kz/btv/live/hls/000000520.m3u8
+#EXTINF:-1 group-title="KINO+",.BLACK SD
+http://otv.wotom.net:4433/udp/238.1.1.139:1234
 #EXTINF:-1 group-title="KINO+",ТСВ iptv-org-ua
 https://iptv-hls.idc.md/hls/2/live2.m3u8
 #EXTINF:-1 group-title="KINO+",FilmZone
 http://45.159.74.13:80/Filmzone/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",FilmZone EE Baltic
-http://89.254.128.5:22280/film_zone/index.m3u8
 #EXTINF:-1 group-title="KINO+",Абаза ТВ
 https://watcher-node4.apsny.camera/tv_abaza_tv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",1+2 iptv*org*ua
-http://89.254.128.5:22280/1_2/mono.m3u8
+http://88.135.128.20:7272/KfbeysdY6Fva3sW
 #EXTINF:-1 group-title="KINO+",Kino 1 HD
 http://88.135.128.20:7272/i0yRlKi4YlfGtF6
 #EXTINF:-1 group-title="KINO+",Kino 7
@@ -450,10 +514,10 @@ http://88.135.128.20:7272/JkfGhb36Cvs7Fgz
 http://88.135.128.20:7272/qx4hiIaBoQlLK7f
 #EXTINF:-1 group-title="KINO+",Любимое кино
 http://88.135.128.20:7272/JS7lUbMstASMl0r
-#EXTINF:-1 group-title="KINO+",Duo7 HD EE Baltic
-http://89.254.128.5:22280/duo7_hd/index.m3u8
 #EXTINF:-1 group-title="KINO+",8 канал HD 
-http://89.254.128.5:22280/8tv_hd/index.m3u8
+http://88.135.128.20:7272/kJd8eBVsywE41mz
+#EXTINF:-1 group-title="KINO+",Flix Snip
+http://78.26.128.59:9876/play/460/index.m3u8
 #EXTINF:-1 group-title="KINO+",FLIX Snip
 http://95.67.12.82:9061
 #EXTINF:-1 group-title="KINO+",Dorama
@@ -490,6 +554,8 @@ https://bkm.beetv.kz/btv/live/hls/000000125.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000206.m3u8
 #EXTINF:-1 group-title="KINO+",Телекафе SD
 http://stream01.vnet.am/Telekafe/mono.m3u8
+#EXTINF:-1 group-title="KINO+",Домашний HD
+http://88.135.128.20:7272/CGGe9lr8Dx9PZy1
 #EXTINF:-1 group-title="KINO+",ДОМАШНИЙInternational
 https://bkm.beetv.kz/btv/live/hls/000002348.m3u8
 #EXTINF:-1 group-title="KINO+",СТС sd
@@ -500,29 +566,29 @@ https://bkm.beetv.kz/btv/live/hls/000000428.m3u8
 http://stream02.vnet.am/CTC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="KINO+",Рен ТВ
 http://stream01.vnet.am/RenTv/mono.m3u8
-#EXTINF:-1 group-title="KINO+",ЧЕ SD
-http://185.37.150.40:8092/Che/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",Че
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://edge02.odtv.az/o5/chetv/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",ТВ 3 International
 https://bkm.beetv.kz/btv/live/hls/000004712.m3u8
-#EXTINF:-1 group-title="KINO+",ТВ3 SD
-http://185.37.150.40:8092/tv_3/playlist.m3u8
+#EXTINF:-1 group-title="KINO+",Пятница
+http://91.205.199.7:8000/play/a0q5
 #EXTINF:-1 group-title="KINO+",Пятница! International (Казахстан)
 http://109.248.236.21:4433/udp/238.1.1.192:1234
 #EXTINF:-1 group-title="KINO+",Любимое кино
 https://bkm.beetv.kz/btv/live/hls/000000283.m3u8
 #EXTINF:-1 group-title="KINO+",Наше Новое Кино
 http://otv.wotom.net:4433/udp/238.1.1.54:1234
-#EXTINF:-1 group-title="KINO+",Русский Бестселлер
-http://185.37.150.40:8092/russkiy_b/playlist.m3u8
 #EXTINF:-1 group-title="KINO+",РУССКИЙ ИЛЛЮЗИОН
 http://109.248.236.21:4433/udp/238.1.1.129:1234
 #EXTINF:-1 group-title="KINO+",Мир сериала sd
 http://109.248.236.21:4433/udp/238.1.1.136:1234
+#EXTINF:-1 group-title="KINO+",Мир сериала
+http://otv.wotom.net:4433/udp/238.1.1.136:1234
 #EXTINF:-1 group-title="KINO+",Русский роман
 http://stream01.vnet.am/RusskiyRoman/mono.m3u8
+#EXTINF:-1 group-title="KINO+",РОДНОЕ КИНО SD
+http://otv.wotom.net:4433/udp/238.1.1.77:1234
 #EXTINF:-1 group-title="KINO+",РОДНОЕ КИНО
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://edge02.odtv.az/o2/rodnoekino/playlist.m3u8
@@ -532,18 +598,20 @@ http://otv.wotom.net:4433/udp/238.1.1.100:1234
 http://109.248.236.21:4433/udp/238.1.1.100:1234
 #EXTINF:-1 group-title="KINO+",Золотая коллекция
 https://bkm.beetv.kz/btv/live/hls/000006365.m3u8
+#EXTINF:-1 group-title="KINO+",НОСТАЛЬГИЯ SD
+http://otv.wotom.net:4433/udp/238.1.1.83:1234
 #EXTINF:-1 group-title="KINO+",НОСТАЛЬГИЯ
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://edge02.odtv.az/o3/nostalgiya/playlist.m3u8
 
-#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",MEGA HD
-http://149.5.17.34:20041/play/a05k
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Дача HD
 https://bkm.beetv.kz/btv/live/hls/000006646.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Наука
 http://78.26.128.59:9876/play/425/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Фауна
 http://78.26.128.59:9876/play/424/index.m3u8
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Масон ТВ
+http://78.26.128.59:9876/play/403/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Travel+Adventure
 http://78.26.128.59:9876/play/405/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Continent E
@@ -576,6 +644,10 @@ http://78.26.128.59:9876/play/26/index.m3u8
 http://78.26.128.59:9876/play/213/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",TLC
 http://78.26.128.59:9876/play/62/index.m3u8
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",6 Соток
+http://78.26.128.59:9876/play/242/index.m3u8
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Перший автомобільний
+http://78.26.128.59:9876/play/300/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Рыбалка
 http://iptv.prosto.tv:7000/ch344/video.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Sweet UA
@@ -629,6 +701,8 @@ http://109.248.236.21:4433/udp/238.1.1.127:1234
 http://109.248.236.21:4433/udp/238.1.1.192:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Пятница International SD
 https://stream01.vnet.am/Pyatnica/mono.m3u8
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Investigation Discovery
+http://stream01.vnet.am/InvestigationDiscovery/mono.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic SD
 http://stream02.vnet.am/NationalGeographic/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic 
@@ -711,14 +785,22 @@ http://otv.wotom.net:4433/udp/238.1.1.18:1234
 http://otv.wotom.net:4433/udp/238.1.1.1:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Viju Nature
 http://otv.wotom.net:4433/udp/238.1.1.51:1234
-#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ZooПарк
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ЗooПарк
 http://otv.wotom.net:4433/udp/238.1.1.47:1234
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Охота и Рыбалка
+http://otv.wotom.net:4433/udp/238.1.1.22:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",В мире животных
 http://otv.wotom.net:4433/udp/238.1.1.48:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя Планета
 http://otv.wotom.net:4433/udp/238.1.1.95:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Travel XP HD
 http://otv.wotom.net:4433/udp/238.1.1.124:1234
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Curiosity Stream
+http://otv.wotom.net:4433/udp/238.1.1.112:1234
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",HDL HD
+http://otv.wotom.net:4433/udp/238.1.1.59:1234
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",RTG TV
+http://otv.wotom.net:4433/udp/238.1.1.9:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Turbo Discovery LA 480p
 http://181.78.8.90:16123/play/ch24
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ONE PLANET
@@ -727,12 +809,56 @@ http://95.67.12.82:9088
 http://109.248.236.21:4433/udp/238.1.1.47:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ" ,ТСВ
 https://iptv-hls.idc.md/hls/2/live2.m3u8
-#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",TRAVEL&adventure
-http://185.37.150.40:8092/Travel_Adventure_HD/playlist.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",TravelXP
 http://109.248.236.21:4433/udp/238.1.1.124:1234
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",В мире животных HD 
 http://109.248.236.21:4433/udp/238.1.1.48:1234
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Тайны Галактики
+http://91.205.199.7:8000/play/a0qq
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя Планета
+http://91.205.199.7:8000/play/a0pd
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Загородная жизнь
+http://91.205.199.7:8000/play/a0sl
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Живая Природа HD
+http://91.205.199.7:8000/play/a0r4
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Живая Планета
+http://91.205.199.7:8000/play/a0oj
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Большая Азия
+http://91.205.199.7:8000/play/a0sc
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Дикий
+http://91.205.199.7:8000/play/a0pa
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Дикая рыбалка HD
+http://91.205.199.7:8000/play/a0rf
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Дикая охота HD
+http://91.205.199.7:8000/play/a0rg
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Диалоги о Рыбалке
+http://91.205.199.7:8000/play/a0rr
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Глазами Туриста HD
+http://91.205.199.7:8000/play/a0r3
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Viju+ Planet
+http://91.205.199.7:8000/play/a0r8
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Viasat Nature
+http://91.205.199.7:8000/play/a0qh
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Viasat History
+http://91.205.199.7:8000/play/a0qg
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Viasat Explore
+http://91.205.199.7:8000/play/a0qf
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",RTG TV
+http://91.205.199.7:8000/play/a0qn
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",RTG HD
+http://91.205.199.7:8000/play/a0r5
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Наука
+http://91.205.199.7:8000/play/a0pc
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Охота и Рыбалка
+http://91.205.199.7:8000/play/a0pw
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Ocean TV
+http://91.205.199.7:8000/play/a0qu
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic
+http://91.205.199.7:8000/play/a0na
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Nat Geo Wild
+http://91.205.199.7:8000/play/a0t7
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Т24
+http://91.205.199.7:8000/play/a0pj
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Первый космический HD
 http://stream01.vnet.am/Evrika/mono.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Астролог ТВ
@@ -761,31 +887,29 @@ http://78.26.128.59:9876/play/4/index.m3u8
 http://78.26.128.59:9876/play/161/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Sport 4
 http://78.26.128.59:9876/play/518/index.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Sport 3
+http://78.26.128.59:9876/play/535/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Sport1
 http://78.26.128.59:9876/play/516/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Sport2 Baltic
-http://78.26.128.59:9876/play/519/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Sport2
 http://78.26.128.59:9876/play/517/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Trace Sport Stars HD
 http://78.26.128.59:9876/play/252/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Eurosport 2 HD (Германия)
-http://51.195.5.44:8080/eurosport2/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Матч -HD
 https://livetv.mylifeisgood.net.ru/channels/matchhd_nocensored.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Viasat Sport
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆", Беларусь 5 
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8 
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆", Беларусь 5 HD
+https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_w278966610_b1460000_sleng.m3u8 
 #EXTINF:-1 group-title="СПОРТ 🏆",tvainua*Q Sport
-http://89.254.128.5:22280/qsport/index.m3u8 
+http://88.135.128.20:7272/ipKJnd6cVw1Nu7a
 #EXTINF:-1 group-title="СПОРТ 🏆",Q Sport ARENA HD
 http://109.248.236.21:4433/udp/238.1.1.142:1234
 #EXTINF:-1 group-title="СПОРТ 🏆",Q Sport Arena
 http://109.248.236.21:4433/udp/238.1.1.143:1234
-#EXTINF:-1 group-title="СПОРТ 🏆",QazSport
-http://77.247.109.114/lb/KazSportKZ/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",UDAR
 http://109.248.236.21:4433/udp/238.1.1.144:1234
 #EXTINF:-1 group-title="СПОРТ 🏆",Qazsport HD
@@ -862,32 +986,40 @@ http://109.248.236.21:4433/udp/238.1.1.116:1234
 http://109.248.236.21:4433/udp/238.1.1.114:1234
 #EXTINF:-1 group-title="СПОРТ 🏆",Eurosport 2 HD  
 http://109.248.236.21:4433/udp/238.1.1.115:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",KHL Prime
+http://otv.wotom.net:4433/udp/238.1.1.36:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",Setanta Sports 2
+http://otv.wotom.net:4433/udp/238.1.1.163:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",Setanta Sports kz
+http://otv.wotom.net:4433/udp/238.1.1.161:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",Премьер
+http://otv.wotom.net:4433/udp/238.1.1.14:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",PLANETA
+http://otv.wotom.net:4433/udp/238.1.1.39:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",START
+http://otv.wotom.net:4433/udp/238.1.1.78:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",UDAR
+http://otv.wotom.net:4433/udp/238.1.1.144:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",Точка Отрыва
+http://otv.wotom.net:4433/udp/238.1.1.127:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",viju+ Sport
+http://otv.wotom.net:4433/udp/238.1.1.50:1234
+#EXTINF:-1 group-title="СПОРТ 🏆",Бокс ТВ
+http://otv.wotom.net:4433/udp/238.1.1.13:1234
 #EXTINF:-1 group-title="СПОРТ 🏆",Бокс ТВ HD
 http://stream01.vnet.am/BoksTv/mono.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Sport 4
 http://88.135.128.20:7272/Wetd63YgcVe23Jk
 #EXTINF:-1 group-title="СПОРТ 🏆",Idman TV HD (Азербайджан)
 http://146.59.85.40:89/idman_az/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Go3 Sport Open HD (Прибалитика)
-http://89.254.128.5:22280/tv3_sport_open_hd/video.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Trace Sport Stars
 http://95.67.12.82:9067
-#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport
-http://cdn-main.lolokoko.tv/polsatsport.stream/chunks.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Premium 1
-http://cdn-main.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Premium 2
-http://cdn-main.lolokoko.tv/polsatsportp2.stream/chunks.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Extra
-http://cdn-main.lolokoko.tv/polsatsportextra.stream/chunks.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Golf Channel (Чехия)
 http://78.130.250.2:8023/play/a02q/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Premier Sports 5 HD
 http://202.21.104.6:88/sps-plus/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Premier Sports 3 HD
 http://202.21.104.6:88/sps-world/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",ESPN
-http://181.78.8.90:16123/play/ch16
 #EXTINF:-1 group-title="СПОРТ 🏆",Tennis Channel HD (США)
 http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Turkmen Sport
@@ -950,38 +1082,34 @@ http://146.59.54.163/Fightbox-HD/index.m3u8
 http://178.219.128.68:64889/POLSSPORHD
 #EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport NEWS
 http://178.219.128.68:64889/POLSSPORNEWSHD
-#EXTINF:-1 group-title="СПОРТ 🏆",SPORTVᴴᴰ
-http://209.222.97.92:16525
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport
+https://cdn-nvm-chicago.lolokoko.tv/polsatsport.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Premium 1
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Premium 2
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportp2.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Sport Extra
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportextra.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Canal+ Sport 2
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport2.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Canal+ Sport 3
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport3.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat Canal+ Sport 4
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport4.stream/chunks.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆",Polsat TVP Sport
+https://cdn-nvm-chicago.lolokoko.tv/TVPSport.stream/playlist.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Band Sportsᴴᴰ
 http://209.222.97.92:16484
 #EXTINF:-1 group-title="СПОРТ 🏆",Band Sportsᴴᴰ
 http://209.222.97.92:16484
-#EXTINF:-1 group-title="Дети",Plus Plus
-http://149.5.17.34:20041/play/a06q
-#EXTINF:-1 group-title="Дети",PIXEL HD
-http://149.5.17.34:20041/play/a05s
-#EXTINF:-1 group-title="Дети",PIXEL
-http://185.37.150.40:8092/Piksel/playlist.m3u8
-#EXTINF:-1 group-title="Дети",2X2
-http://185.37.150.40:8092/2_2/playlist.m3u8
-#EXTINF:-1 group-title="Дети",МАМА
-http://185.37.150.40:8092/Mama/playlist.m3u8
-#EXTINF:-1 group-title="Дети",БОБЕР
-http://185.37.150.40:8092/Bober/playlist.m3u8
-#EXTINF:-1 group-title="Дети",УНИКУМ
-http://185.37.150.40:8092/Detskiy/playlist.m3u8
-#EXTINF:-1 group-title="Дети",КАРУСЕЛЬ
-http://185.37.150.40:8092/Karusel/playlist.m3u8
-#EXTINF:-1 group-title="Дети",МУЛЬТИЛАНДИЯ
-http://185.37.150.40:8092/Multimaniya/playlist.m3u8
-#EXTINF:-1 group-title="Дети",МУЛЬТ HD
-http://185.37.150.40:8092/TLUMHD/playlist.m3u8
-#EXTINF:-1 group-title="Дети",Капитан Фантастика
-http://185.37.150.40:8092/Ginger_HD/playlist.m3u8
+#EXTINF:-1 group-title="Дети",Чип и Дейл
+http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 #EXTINF:-1 group-title="Дети",СТС Kids
 http://45.159.74.13/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Дети",Кнопка ТВ
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
+#EXTINF:-1 group-title="Дети",Союз Мультфильм
+http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="Дети",Мама
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://edge02.odtv.az/o2/mamatv/playlist.m3u8
@@ -1005,10 +1133,10 @@ https://tv.2222.one/ch1.m3u8
 https://tv.2222.one/ch9.m3u8
 #EXTINF:-1 group-title="Дети",МУЛЬТИМАНИЯ
 https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
-#EXTINF:-1 group-title="Дети",Cartoon Network 
-http://89.254.128.5:22280/cartoon_network/video.m3u8
-#EXTINF:-1 group-title="Дети",Nicktoons
-http://89.254.128.5:22280/nicktoons/index.m3u8
+#EXTINF:-1 group-title="Дети",Детский мир
+http://88.135.128.20:7272/QprBifEqIqS3hjD
+#EXTINF:-1 group-title="Дети",Nick Jr
+http://88.135.128.20:7272/Jke5tdvCxp2Yhs6
 #EXTINF:-1 group-title="Дети",Nicktoons HD
 https://stream01.vnet.am/Boomerang/mono.m3u8
 #EXTINF:-1 group-title="Дети",Детское кино International
@@ -1071,6 +1199,18 @@ http://109.248.236.21:4433/udp/238.1.1.121:1234
 http://stream01.vnet.am/Mult/mono.m3u8
 #EXTINF:-1 group-title="Дети",Детский мир SD
 http://stream01.vnet.am/CartoonNetwork/mono.m3u8
+#EXTINF:-1 group-title="Дети",Карусель International
+http://stream02.vnet.am/Karusel/mono.m3u8
+#EXTINF:-1 group-title="Дети",Nicktoons HD
+http://stream01.vnet.am/Boomerang/mono.m3u8
+#EXTINF:-1 group-title="Дети",СТС Kids
+http://stream02.vnet.am/DisneyChannel/mono.m3u8
+#EXTINF:-1 group-title="Дети",TiJi SD
+http://stream01.vnet.am/Tiji/mono.m3u8
+#EXTINF:-1 group-title="Дети",Мама SD
+http://stream01.vnet.am/Mama/mono.m3u8
+#EXTINF:-1 group-title="Дети",Cartoonito 
+http://stream.flynetwifi.com:1935/live/mobile-055/playlist.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",Depeche Mode
 http://music.myradio.ua:8000/depechemode192.mp3
 #EXTINF:-1 group-title="МУЗЫКА",Евровидение
@@ -1156,10 +1296,6 @@ http://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
 http://wms.shared.streamshow.it/visualradio/mp4:visualradio/chunklist.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",Radio 51
 https://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MTV 00S
-http://89.254.128.5:22280/mtv_00/video.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MTV 00s R
-http://89.254.128.5:22280/mtv_00/video.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",MTV 90s
 https://tr003.androidtvbox.co.hu/tr3_MTVRocks_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="МУЗЫКА",Сварожичі HD
@@ -1176,8 +1312,8 @@ http://tatooine.odessa.tv:9876/play/421/index.m3u8
 http://tatooine.odessa.tv:9876/play/496/index.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",Classic Music
 http://tatooine.odessa.tv:9876/play/38/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MTV 00s R
-http://89.254.128.5:22280/mtv_00/video.m3u8
+#EXTINF:-1 group-title="МУЗЫКА",ROCK
+http://78.26.128.59:9876/play/493/index.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",Black
 http://tatooine.odessa.tv:9876/play/404/index.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",ROCK
@@ -1332,13 +1468,31 @@ http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
 http://highvolume04.streampartner.nl/radiopros/livestream/playlist.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",V2BEAT
 https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 group-title="Кухня",КУХНЯ
+http://otv.wotom.net:4433/udp/238.1.1.134:1234
 #EXTINF:-1 group-title="Кухня",ЕДА
 https://bkm.beetv.kz/btv/live/hls/000000588.m3u8
 #EXTINF:-1 group-title="Кухня",Кулинар ТВ
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
+#EXTINF:-1 group-title="РЕЛАКС- расслабление",Better Life Nature Channel
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
+#EXTINF:-1 group-title="РЕЛАКС- расслабление",Swim Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream_de.m3u8
+#EXTINF:-1 group-title="РЕЛАКС- расслабление",earthTV
+https://ythls.armelin.one/channel/UCRuyAVeVd7oUwh0LWmxxBBQ.m3u8
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",Loupe TV
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",World HD
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",Deluxe Lounge HD
 https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",Новый Мир
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",OstWest 24
+http://95.67.12.82:9077
+#EXTINF:-1 group-title="ОБЩИЕ",Mar TV 
+http://iptv.services.everywan.net:8080/martv-web/video.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",Russischer Jahrmarkt
+https://api.alpaca.t62a.com/hls/9104/stream0.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",Каббала
+http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
