@@ -1,23 +1,23 @@
 {
    "type": "list",
-   "headline": "WALS_MSX v2",
-   "background": "https://img.goodfon.ru/original/1920x1080/2/ef/tekstura-abstrakciya-liniy-5389.jpg",
-   "logo": "https://wals09.github.io/img/wals.png",   
-    "logoSize": "large",   
+   "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "headline": "WALS_MSX v2.1",
    "preload": "next",
    "overlay": {
       "items": [
          {
             "type": "space",
-            "layout": "8,0,3,6",
-            "offset": "0.9,-1,0.2,1.67",
-            "color": "#CC5500"
+            "layout": "8,0,4,6",
+            "offset": "0.5,-1,0.1,1.67",
+            "color": "#FF4F00"
          },
          {
             "id": "image",
             "type": "space",
-            "layout": "9,0,3,2",
-            "color": "msx-glass",
+            "layout": "9,0,3,1",
+            "offset": "-0.4,0.4,0.9,1.2",
+            "color": "transparent",
             "image": "none",
             "imageFiller": "cover"
          },
@@ -34,9 +34,9 @@
       "type": "default",
       "layout": "0,0,3,1",
       "area": "0,0,9,6",
-      "wrapperColor": "msx-glass",
+      "offset": "-0.5,0,0,0",
+      "color": "transparent",
       "imageWidth": 1,
-      "color": "msx-glass",
       "imageFiller": "cover"
    },
    "items": [
@@ -429,10 +429,10 @@
          "action": "content: https://wals09.github.io/msx/test/category.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item",
-              "trigger:back": "player:stop"
+            "trigger:back": "player:stop"
          }
       },
-       {
+      {
          "titleHeader": "{col:msx-white}",
          "titleFooter": "",
          "selection": {
@@ -443,7 +443,6 @@
                "image": ""
             }
          },
-         "image": "",
          "action": "content: https://wals09.github.io/msx/test/tv_test.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
