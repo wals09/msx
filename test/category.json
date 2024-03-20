@@ -54,8 +54,8 @@
                "layout": "0,5,3,1",
                "focus": true,
                "color": "transparent",
-               "label": "Категория",
-               "action": ""
+               "label": "SPORT",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://dl.dropbox.com/scl/fi/vfhlfx6ciw4bovbtann6z/telegram-gruppa-free-tv-sport.m3u8?rlkey=8j2c3jl5b9hbjbc8sbgh83t4h&dl=0"
             },
             {
                "type": "default",
@@ -68,8 +68,8 @@
                "type": "default",
                "layout": "3,5,3,1",
                "color": "transparent",
-               "label": "Категория",
-               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+               "label": "Медиатека",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://edemtv.my1.ru/mediateka.m3u"
             },
             {
                "type": "default",
