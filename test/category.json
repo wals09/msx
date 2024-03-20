@@ -54,8 +54,8 @@
                "layout": "0,5,3,1",
                "focus": true,
                "color": "transparent",
-               "label": "SPORT",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://dl.dropbox.com/scl/fi/vfhlfx6ciw4bovbtann6z/telegram-gruppa-free-tv-sport.m3u8?rlkey=8j2c3jl5b9hbjbc8sbgh83t4h&dl=0"
+               "label": "Категория",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://dl.dropbox.com/scl/fi/vfhlfx6ciw4bovbtann6z/telegram-gruppa-free-tv-sport.m3u8?rlkey=8j2c3jl5b9hbjbc8sbgh83t4h&dl=1"
             },
             {
                "type": "default",
