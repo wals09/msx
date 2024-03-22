@@ -104,7 +104,7 @@
          "titleHeader": "{col:msx-white}НТВ",
          "playerLabel": "НТВ",
          "image": "https://picon.pp.ua/ntv.png",
-         "action": "video: http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8"
+         "action": "video: http://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8"
       },
       {
          "id": "channel_5",
@@ -112,7 +112,7 @@
          "titleHeader": "{col:msx-white}ТНТ",
          "playerLabel": "ТНТ",
          "image": "https://picon.pp.ua/tnt.png",
-         "action": "video: http://serv7.iptv11.com/5Kanal/video.m3u8"
+         "action": "video: http://185.37.150.46:8092/THT_HD/tracks-v1a1/index.m3u8"
       },
       {
          "id": "channel_6",
@@ -120,7 +120,7 @@
          "titleHeader": "{col:msx-white}ТНТ4",
          "playerLabel": "ТНТ4",
          "image": "https://picon.pp.ua/tnt4.png",
-         "action": "video: http://83.234.207.29:8007/play/a01y/index.m3u8"
+         "action": "video: http://91.205.199.3/tnt4/index.m3u8"
       },
       {
          "id": "channel_7",
@@ -144,7 +144,7 @@
          "titleHeader": "{col:msx-white}Че",
          "playerLabel": "Че",
          "image": "https://picon.pp.ua/che.png",
-         "action": "video: http://83.234.207.29:8009/play/a026/index.m3u8"
+         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R02_PERETZ/playlist.m3u8"
       },
       {
          "id": "channel_10",
@@ -152,7 +152,7 @@
          "titleHeader": "{col:msx-white}Пятый канал",
          "playerLabel": "Пятый канал",
          "image": "https://picon.pp.ua/5kanal-ru.png",
-         "action": "video: http://serv7.iptv11.com/5Kanal/video.m3u8"
+         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8"
       },
       {
          "id": "channel_11",
@@ -160,7 +160,7 @@
          "titleHeader": "{col:msx-white}Пятница",
          "playerLabel": "Пятница",
          "image": "https://picon.pp.ua/pyatnica.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/playlist.m3u8"
+         "action": "video: http://str10.ottg.online/9657/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
       },
       {
          "id": "channel_12",
@@ -192,7 +192,7 @@
          "title": "{col:msx-white}ОТР",
          "playerLabel": "ОТР",
          "image": "https://picon.pp.ua/otr.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8"
+         "action": "video: http://str10.ottg.online/5081/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
       },
       {
          "id": "channel_16",
@@ -200,7 +200,7 @@
          "titleHeader": "{col:msx-white}Суббота",
          "playerLabel": "Суббота",
          "image": "https://picon.pp.ua/subbota.png",
-         "action": "video: http://83.234.207.29:8004/play/a01b/index.m3u8"
+         "action": "video: http://91.205.199.7:8000/play/a0si"
       },
       {
          "id": "channel_17",
@@ -224,7 +224,7 @@
          "titleHeader": "{col:msx-white}2x2",
          "playerLabel": "2x2",
          "image": "https://picon.pp.ua/2x2.png",
-         "action": "video: http://109.171.45.109:81/udp/239.54.5.20:1224"
+         "action": "video: http://158.101.222.193:88/vesti/play.php?channel_id=60"
       },
       {
          "id": "channel_20",
@@ -232,7 +232,7 @@
          "titleHeader": "{col:msx-white}Ю",
          "playerLabel": "Ю",
          "image": "https://picon.pp.ua/yu.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R03_U/playlist.m3u8"
+         "action": "video: http://otv.wotom.net:4433/udp/238.1.1.108:1234"
       }
    ]
 }
