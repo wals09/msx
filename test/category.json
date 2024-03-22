@@ -5,20 +5,20 @@
    "preload": "next",
    "pages": [
       {
-         "offset": "0,0,0,0.25",
          "items": [
             {
                "type": "space",
-               "layout": "1,0,10,1",
                "color": "transparent",
+               "layout": "1,0,10,1",
                "title": "{col:#FF4F00}Бонус контент",
                "titleFooter": "Медиа-контент из различных источников в интернете выложенный в свободный доступ "
             },
             {
                "type": "space",
                "layout": "0,1,12,1",
+               "offset": "-0.07,-1,0,0.25",
                "color": "transparent",
-               "title": "{col:#FF4F00}___________________________________________________________________________________________________________"
+               "titleHeader": "{col:#FF4F00}___________________________________________________________________________________________________________"
             },
             {
                "type": "space",
@@ -29,21 +29,21 @@
             },
             {
                "type": "default",
-               "layout": "9,4,3,1",
+               "layout": "9,3,3,1",
                "color": "transparent",
                "label": "osib serials",
                "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/Serial/OLSIB_serials.m3u"
             },
             {
                "type": "default",
-               "layout": "9,5,3,1",
+               "layout": "9,4,3,1",
                "color": "transparent",
-               "label": "Категория",
+               "label": " ",
                "action": "menu: https://maxaon09.github.io/kf/katalog.json"
             },
             {
                "type": "default",
-               "layout": "0,4,3,1",
+               "layout": "0,3,3,1",
                "focus": true,
                "color": "transparent",
                "label": "Так себе TV",
@@ -51,7 +51,7 @@
             },
             {
                "type": "default",
-               "layout": "0,5,3,1",
+               "layout": "6,4,3,1",
                "focus": true,
                "color": "transparent",
                "label": " Relax ",
@@ -59,30 +59,30 @@
             },
             {
                "type": "default",
-               "layout": "3,4,3,1",
+               "layout": "3,3,3,1",
                "color": "transparent",
                "label": "WORLD.TV",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://i.mjh.nz/PlutoTV/all.m3u8"
             },
             {
                "type": "default",
-               "layout": "3,5,3,1",
+               "layout": "3,4,3,1",
                "color": "transparent",
                "label": "Медиатека",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://edemtv.my1.ru/mediateka.m3u"
             },
             {
                "type": "default",
-               "layout": "6,4,3,1",
+               "layout": "6,3,3,1",
                "color": "transparent",
                "label": "Золотая коллекция",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/vip/Golden_Collection.m3u"
             },
             {
                "type": "default",
-               "layout": "6,5,3,1",
+               "layout": "0,4,3,1",
                "color": "transparent",
-               "label": "Категория",
+               "label": " ",
                "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
             }
          ]
