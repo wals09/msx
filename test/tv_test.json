@@ -66,14 +66,13 @@
       }
    },
    "items": [
-
       {
          "id": "channel_0",
          "channel": "362",
          "titleHeader": "{col:msx-white}Первый канал",
          "playerLabel": "Первый канал",
          "image": "https://picon.pp.ua/pervy.png",
-         "action": "video: http://nl01.spr24.net/128/mpegts?token=RtQWYmTYPyBNzp"
+         "action": "video: http://str10.ottg.online/5484/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
       },
       {
          "id": "channel_1",
@@ -81,7 +80,7 @@
          "titleHeader": "{col:msx-white}Россия 1",
          "playerLabel": "Россия 1",
          "image": "https://picon.pp.ua/rossia1.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://stream02.vnet.am/Rossia1/tracks-v1a1/mono.m3u8"
       },
       {
          "id": "channel_2",
@@ -89,7 +88,7 @@
          "titleHeader": "{col:msx-white}Россия 24",
          "playerLabel": "Россия 24",
          "image": "https://picon.pp.ua/rossia24.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://ott-cdn.ucom.am/s21/04.m3u8"
       },
       {
          "id": "channel_3",
@@ -97,7 +96,7 @@
          "titleHeader": "{col:msx-white}Россия К",
          "playerLabel": "Россия К",
          "image": "https://picon.pp.ua/rossia-k.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://ott-cdn.ucom.am/s16/04.m3u8"
       },
       {
          "id": "channel_4",
@@ -105,7 +104,7 @@
          "titleHeader": "{col:msx-white}НТВ",
          "playerLabel": "НТВ",
          "image": "https://picon.pp.ua/ntv.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8"
       },
       {
          "id": "channel_5",
@@ -113,7 +112,7 @@
          "titleHeader": "{col:msx-white}ТНТ",
          "playerLabel": "ТНТ",
          "image": "https://picon.pp.ua/tnt.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://serv7.iptv11.com/5Kanal/video.m3u8"
       },
       {
          "id": "channel_6",
@@ -121,7 +120,7 @@
          "titleHeader": "{col:msx-white}ТНТ4",
          "playerLabel": "ТНТ4",
          "image": "https://picon.pp.ua/tnt4.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://83.234.207.29:8007/play/a01y/index.m3u8"
       },
       {
          "id": "channel_7",
@@ -129,7 +128,7 @@
          "titleHeader": "{col:msx-white}РЕН ТВ",
          "playerLabel": "РЕН ТВ",
          "image": "https://picon.pp.ua/rentv.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8"
       },
       {
          "id": "channel_8",
@@ -137,7 +136,7 @@
          "titleHeader": "{col:msx-white}СТС",
          "playerLabel": "СТС",
          "image": "https://picon.pp.ua/sts.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://stream02.vnet.am/CTC/tracks-v1a1/mono.m3u8"
       },
       {
          "id": "channel_9",
@@ -145,7 +144,7 @@
          "titleHeader": "{col:msx-white}Че",
          "playerLabel": "Че",
          "image": "https://picon.pp.ua/che.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://83.234.207.29:8009/play/a026/index.m3u8"
       },
       {
          "id": "channel_10",
@@ -153,7 +152,7 @@
          "titleHeader": "{col:msx-white}Пятый канал",
          "playerLabel": "Пятый канал",
          "image": "https://picon.pp.ua/5kanal-ru.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://serv7.iptv11.com/5Kanal/video.m3u8"
       },
       {
          "id": "channel_11",
@@ -161,7 +160,7 @@
          "titleHeader": "{col:msx-white}Пятница",
          "playerLabel": "Пятница",
          "image": "https://picon.pp.ua/pyatnica.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/playlist.m3u8"
       },
       {
          "id": "channel_12",
@@ -169,7 +168,7 @@
          "titleHeader": "{col:msx-white}Домашний",
          "playerLabel": "Домашний",
          "image": "https://picon.pp.ua/domashny.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://ott-cdn.ucom.am/s88/04.m3u8"
       },
       {
          "id": "channel_13",
@@ -177,7 +176,7 @@
          "titleHeader": "{col:msx-white}Звезда",
          "playerLabel": "Звезда",
          "image": "https://picon.pp.ua/zvezda.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8"
       },
       {
          "id": "channel_14",
@@ -185,7 +184,7 @@
          "titleHeader": "{col:msx-white}Мир ТВ",
          "playerLabel": "Мир ТВ",
          "image": "https://picon.pp.ua/mir.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://158.101.222.193:88/vesti/play.php?channel_id=14"
       },
       {
          "id": "channel_15",
@@ -193,7 +192,7 @@
          "title": "{col:msx-white}ОТР",
          "playerLabel": "ОТР",
          "image": "https://picon.pp.ua/otr.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8"
       },
       {
          "id": "channel_16",
@@ -201,7 +200,7 @@
          "titleHeader": "{col:msx-white}Суббота",
          "playerLabel": "Суббота",
          "image": "https://picon.pp.ua/subbota.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://83.234.207.29:8004/play/a01b/index.m3u8"
       },
       {
          "id": "channel_17",
@@ -209,7 +208,7 @@
          "title": "{col:msx-white}ТВ центр",
          "playerLabel": "ТВ центр",
          "image": "https://picon.pp.ua/tvcentr.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://ott-cdn.ucom.am/s54/04.m3u8"
       },
       {
          "id": "channel_18",
@@ -217,7 +216,7 @@
          "titleHeader": "{col:msx-white}СТС Love",
          "playerLabel": "СТС Love",
          "image": "https://picon.pp.ua/sts-love.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://83.234.207.29:8001/play/a00p/index.m3u8"
       },
       {
          "id": "channel_19",
@@ -225,7 +224,7 @@
          "titleHeader": "{col:msx-white}2x2",
          "playerLabel": "2x2",
          "image": "https://picon.pp.ua/2x2.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://109.171.45.109:81/udp/239.54.5.20:1224"
       },
       {
          "id": "channel_20",
@@ -233,7 +232,7 @@
          "titleHeader": "{col:msx-white}Ю",
          "playerLabel": "Ю",
          "image": "https://picon.pp.ua/yu.png",
-         "action": "video: http://zabava-htlive.cdn.ngenix.net/hls/CH_U/video_800x450_avc1/variant.m3u8?version=2"
+         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R03_U/playlist.m3u8"
       }
    ]
 }
