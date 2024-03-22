@@ -55,7 +55,7 @@
                "focus": true,
                "color": "transparent",
                "label": " Relax ",
-               "action": "content: content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/"
+               "action": "content: content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/relax.m3u"
             },
             {
                "type": "default",
