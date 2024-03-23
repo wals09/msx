@@ -1,0 +1,227 @@
+#EXTM3U catchup="flussonic"  url-tvg="https://epgx.site/epg.xml.gz" refresh="3600"
+
+#EXTINF:0 tvg-id="m1global" tvg-logo="https://epgx.site/p/m1global.png" tvg-rec="14", M-1 Global
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/M-1Global/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="kxl" tvg-logo="https://epgx.site/p/khl.png" tvg-rec="14", KHL
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/KHL/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="kxl" tvg-logo="https://epgx.site/p/khl.png" tvg-rec="14", KHL HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/1477/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="kxl-hd" tvg-logo="https://epgx.site/p/kxl.png" tvg-rec="14", KHL Prime
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/1476/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="kxl-hd" tvg-logo="https://epgx.site/p/kxl-hd.png" tvg-rec="14", KHL Prime HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/KHLHD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-arena" tvg-logo="https://epgx.site/p/match-arena.png" tvg-rec="14", Матч! Арена
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchArena/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-arena" tvg-logo="https://epgx.site/p/match-arena.png" tvg-rec="14", Матч! Арена HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchArenaHD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-boets" tvg-logo="https://epgx.site/p/match-boec.png" tvg-rec="14", Матч! Боец
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchBoets/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-boets" tvg-logo="https://epgx.site/p/match-boec.png" tvg-rec="14", Матч! Боец HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/971/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-igra" tvg-logo="https://epgx.site/p/match-igra.png" tvg-rec="14", Матч! Игра
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchIgra/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-igra" tvg-logo="https://epgx.site/p/match-igra.png" tvg-rec="14", Матч! Игра HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchigraHD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-nash-sport" tvg-logo="https://epgx.site/p/match-nash-sport.png" tvg-rec="14", Матч! Страна
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MatchStrana/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="match-nash-sport" tvg-logo="https://epgx.site/p/match-nash-sport.png" tvg-rec="14", Матч! Страна HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/613/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="eurosport1" tvg-logo="https://epgx.site/p/eurosport1.png" tvg-rec="14", Eurosport 1
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Eurosport1/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="eurosport1" tvg-logo="https://epgx.site/p/eurosport1.png" tvg-rec="14", Eurosport 1 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/EUROSPORT1HD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="eurosport2" tvg-logo="https://epgx.site/p/eurosport2.png" tvg-rec="14", Eurosport 2
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/298/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="eurosport2" tvg-logo="https://epgx.site/p/eurosport2.png" tvg-rec="14", Eurosport 2 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/EUROSPORT2HD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="supertennis" tvg-logo="https://epgx.site/p/supertennis.png" tvg-rec="14", Super Tennis HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/452/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="mir-basketbola" tvg-logo="https://epgx.site/p/mir-basketbola.png" tvg-rec="14", Мир Баскетбола
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/MirBasket/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="viasat-sport" tvg-logo="https://epgx.site/p/viasat-sport.png" tvg-rec="14", Viju Sport
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/ViasatSport/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="viasat-sport" tvg-logo="https://epgx.site/p/viasat-sport.png" tvg-rec="14", Viju Sport HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/267/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="konny-mir" tvg-logo="https://epgx.site/p/konny-mir.png" tvg-rec="14", Конный мир
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/KonniyMirHD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="box-tv" tvg-logo="https://epgx.site/p/box-tv.png" tvg-rec="14", Бокс ТВ
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/BoksTV/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="extreme-sports" tvg-logo="https://epgx.site/p/extreme-sports.png" tvg-rec="14", Extreme Sports
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/ExtremeSports/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="football-ru" tvg-logo="https://epgx.site/p/futbol.png" tvg-rec="14", Футбол
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Football/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="football-ru" tvg-logo="https://epgx.site/p/futbol.png" tvg-rec="14", Футбол HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/263/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="footbolny" tvg-logo="https://epgx.site/p/footbolny.png" tvg-rec="14", Футбольный HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Futbol1-UA/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sportivny" tvg-logo="https://epgx.site/p/sportivny.png" tvg-rec="14", Спортивный HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Futbol2-UA/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="xokkejny" tvg-logo="https://epgx.site/p/xokkejny.png" tvg-rec="14", Хоккейный HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2448/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv7236" tvg-logo="http://epg.it999.ru/img/7236.png" tvg-rec="14", Q Sport League
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/3061/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sky-sports-maine" tvg-logo="https://epgx.site/p/sky-sports-maine.png" tvg-rec="14", Sky Sports Mainevent HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/3065/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv7529" tvg-logo="http://epg.it999.ru/img/7529.png" tvg-rec="14", Eleven Sports UHD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/3066/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="ufc" tvg-logo="https://i.imgur.com/mFSsuiu.jpg" tvg-rec="14", MMA-TV
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/m1global/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="ufc" tvg-logo="https://epgx.site/p/ufc.png" tvg-rec="14", Удар HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Udar/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="start" tvg-logo="https://epgx.site/p/start.png" tvg-rec="14", СТАРТ HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/265/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="start" tvg-logo="https://epgx.site/p/start.png" tvg-rec="14", СТАРТ
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/1336/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="golf-tv" tvg-logo="https://epgx.site/p/golf-tv.png" tvg-rec="14", Golf TV HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/300/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="motorsportv-tv" tvg-logo="https://epgx.site/p/motorsporttv.png" tvg-rec="14", Моторспорт ТВ
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/301/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="cars-n-stars" tvg-logo="https://epgx.site/p/cars-n-stars.png" tvg-rec="14", Cars & Stars TV HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/489/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="trace-sport-stars" tvg-logo="https://epgx.site/p/trace-sport-stars.png" tvg-rec="14", TRACE Sport Stars
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/490/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", M FORMULA 1
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/492/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", Nova Sport
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/493/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv4558" tvg-logo="http://epg.it999.ru/img/4558.png" tvg-rec="14", Fox Sport 1 US
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/494/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv4559" tvg-logo="http://epg.it999.ru/img/4559.png" tvg-rec="14", Fox Sport 2 US
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/495/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv6582" tvg-logo="http://epg.it999.ru/img/6582.png" tvg-rec="14", ESPN1 US
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/496/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="iptv6581" tvg-logo="http://epg.it999.ru/img/6581.png" tvg-rec="14", ESPN2 US
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/497/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="qsport-kg" tvg-rec="14", QSport HD KG
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/344/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sport-ua" tvg-rec="14", Xsport
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/XSPORT/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sport-ua" tvg-logo="https://epgx.site/p/xsport-ua.png" tvg-rec="14", Xsport HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/XSportHD/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="fightbox-hd" tvg-logo="https://epgx.site/p/fightbox-hd.png" tvg-rec="14", Fightbox
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/Fightbox/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="tochka-otryva" tvg-logo="https://epgx.site/p/tochka-otryva.png" tvg-rec="14", Точка Отрыва
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/TochkaOtriva/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", Prime Fight
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/11972/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="equalympic" tvg-logo="https://epgx.site/p/equalympic.png" tvg-rec="14", Equalympic HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/1224/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MAX Sport 1 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2922/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MAX Sport 2 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2923/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MAX Sport 3 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2924/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MAX Sport 4 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2925/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sport1-baltic" tvg-rec="14", Sport 1 Baltic
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2928/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="sport2-baltic" tvg-rec="14", Sport 2 Baltic
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2929/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="RTVS_Sport" tvg-rec="14", RTVS :Sport HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2931/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MiTV KXL
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2819/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MiTV UFC
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2820/video.m3u8?token=38C4430B98D1D
+#EXTINF:0  tvg-rec="14", MiTV UFC 2
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2821/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="prima-sport-1" tvg-logo="https://epgx.site/p/prima-sport-1.png" tvg-rec="14", PRIMA Sport 1 HD RO
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2945/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="prima-sport-2" tvg-logo="https://epgx.site/p/prima-sport-2.png" tvg-rec="14", PRIMA Sport 2 HD RO
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2946/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="prima-sport-3" tvg-logo="https://epgx.site/p/prima-sport-3.png" tvg-rec="14", PRIMA Sport 3 HD RO
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2947/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="prima-sport-4" tvg-logo="https://epgx.site/p/prima-sport-4.png" tvg-rec="14", PRIMA Sport 4 HD RO
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2948/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="telekom-sport-1" tvg-logo="https://epgx.site/p/telekom-sport-1.png" tvg-rec="14", Telekom Sport 1 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2949/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="telekom-sport-2" tvg-logo="https://epgx.site/p/telekom-sport-2.png" tvg-rec="14", Telekom Sport 2 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2950/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="telekom-sport-3" tvg-logo="https://epgx.site/p/telekom-sport-3.png" tvg-rec="14", Telekom Sport 3 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2951/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="telekom-sport-4" tvg-logo="https://epgx.site/p/telekom-sport-4.png" tvg-rec="14", Telekom Sport 4 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2952/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="digisport1" tvg-logo="http://epg.it999.ru/img/2907.png" tvg-rec="14", Digi Sport 1 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2953/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="digisport2" tvg-logo="http://epg.it999.ru/img/2906.png" tvg-rec="14", Digi Sport 2 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2954/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="digisport3" tvg-logo="http://epg.it999.ru/img/2908.png" tvg-rec="14", Digi Sport 3 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2955/video.m3u8?token=38C4430B98D1D
+#EXTINF:0 tvg-id="digisport4" tvg-logo="http://epg.it999.ru/img/2922.png" tvg-rec="14", Digi Sport 4 HD
+#EXTGRP:Спортивные
+http://serv7.iptv11.com/2956/video.m3u8?token=38C4430B98D1D
