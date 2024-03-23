@@ -1,5 +1,6 @@
 {
    "type": "list",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "WALS_MSX v2.1",
