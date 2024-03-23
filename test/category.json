@@ -11,11 +11,11 @@
                "color": "transparent",
                "layout": "1,0,10,1",
                "title": "{col:#FF4F00}Бонус контент",
-               "titleFooter": "Медиа-контент из различных источников в интернете выложенный в свободный доступ "
+               "titleFooter": "Медиа-контент из различных источников в интернете в свободном доступе "
             },
             {
                "type": "space",
-               "layout": "0,1,12,1",
+               "layout": "0,1,9,1",
                "offset": "-0.07,-1,0,0.25",
                "color": "transparent",
                "titleHeader": "{col:#FF4F00}___________________________________________________________________________________________________________"
@@ -29,17 +29,17 @@
             },
             {
                "type": "default",
-               "layout": "9,3,3,1",
+               "layout": "6,4,3,1",
                "color": "transparent",
-               "label": "osib serials",
+               "label": "OLSIB serials",
                "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/Serial/OLSIB_serials.m3u"
             },
             {
                "type": "default",
-               "layout": "9,4,3,1",
+               "layout": "9,5,3,1",
                "color": "transparent",
-               "label": " ",
-               "action": "menu: https://maxaon09.github.io/kf/katalog.json"
+               "label": "{col:#FF4F00} Главное меню",
+               "action": "content: https://wals09.github.io/msx/menu.json"
             },
             {
                "type": "default",
@@ -51,11 +51,11 @@
             },
             {
                "type": "default",
-               "layout": "6,4,3,1",
+               "layout": "3,4,3,1",
                "focus": true,
                "color": "transparent",
                "label": " Relax ",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/relax2.m3u"
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/relax.m3u"
             },
             {
                "type": "default",
@@ -66,7 +66,7 @@
             },
             {
                "type": "default",
-               "layout": "3,4,3,1",
+               "layout": "0,4,3,1",
                "color": "transparent",
                "label": "Медиатека",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://edemtv.my1.ru/mediateka.m3u"
@@ -79,11 +79,11 @@
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/vip/Golden_Collection.m3u"
             },
             {
-               "type": "default",
-               "layout": "0,4,3,1",
+               "type": "space",
+               "layout": "0,5,9,1",
+               "offset": "-0.07,-0.5,0,0.25",
                "color": "transparent",
-               "label": " ",
-               "action": "content: https://maxaon09.github.io/kf/anime/anime.json"
+               "titleHeader": "{col:#FF4F00}___________________________________________________________________________________________________________"
             }
          ]
       }
