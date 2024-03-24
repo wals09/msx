@@ -53,7 +53,7 @@
             }
          },
          "image": "https://wals09.github.io/msx//drm/logo.png",
-         "action": "link:http://drm-play.com",
+         "action": "link:http://ott.drm-play.com",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
          }
