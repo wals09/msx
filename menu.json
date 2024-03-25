@@ -440,7 +440,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}{col}{br}{col:black}",
+               "text": "{col:msx-white}{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
                "image": "https://wals09.github.io/kf/img/001.gif"
             }
          },
