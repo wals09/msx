@@ -434,6 +434,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Кинофраншизы",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}{col}{br}{col:black}",
+               "image": "https://wals09.github.io/kf/img/001.gif"
+            }
+         },
+         "image": "https://wals09.github.io/kf/img/logo.png",
+         "action": "content: https://wals09.github.io/kf/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}",
          "titleFooter": "",
          "selection": {
