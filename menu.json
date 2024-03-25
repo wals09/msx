@@ -459,10 +459,10 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Коллекция медиаподборок от {col:white}OLSIB TV{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
-               "image": "https://wals09.github.io/kf/img/001.gif"
+               "image": "https://avatars.mds.yandex.net/i?id=1c85ab175b867ce52bbf873412fc1986905febf0-8178541-images-thumbs&n=13"
             }
          },
-         "image": "https://wals09.github.io/kf/img/logo.png",
+         "image": "",
          "action": "content: https://wals09.github.io/kf/dorama.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
