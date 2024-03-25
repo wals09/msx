@@ -17,7 +17,7 @@
             "id": "image",
             "type": "space",
             "layout": "9,0,3,1",
-            "offset": "-0.4,0.4,0.9,1.2",
+            "offset": "-0.4,0.1,0.9,1.2",
             "color": "transparent",
             "image": "none",
             "imageFiller": "cover"
@@ -25,6 +25,7 @@
          {
             "id": "text",
             "type": "space",
+            "offset": "0,-0.7,0,1",
             "layout": "9,3,3,3",
             "headline": "",
             "text": ""
@@ -440,7 +441,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
+               "text": "{col:msx-white}Коллекция медиаподборок от {col:white}OLSIB TV{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
                "image": "https://wals09.github.io/kf/img/001.gif"
             }
          },
