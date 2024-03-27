@@ -1,0 +1,670 @@
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+
+#EXTINF:-1 tvg-id="Eurosport1.ru" tvg-logo="https://i.imgur.com/olQJgm7.png" tvg-name="Eurosport 1" group-title="Спорт",Eurosport 1 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://stream01.vnet.am/Eurosport/tracks-v1a2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport2.ru" tvg-logo="https://i.imgur.com/f56dHgR.png" tvg-name="Eurosport 2" group-title="Спорт",Eurosport 2 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=67
+
+#EXTINF:-1 tvg-id="FightBox.nl" tvg-logo="https://i.imgur.com/mRsnztA.png" tvg-name="FightBox" group-title="Спорт",FightBox [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://stream01.vnet.am/Fightbox/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport1.ru" tvg-logo="https://i.imgur.com/olQJgm7.png" tvg-name="IDC EuroSport 1" group-title="Спорт",IDC EuroSport 1 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://iptv-hls.idc.md:8200/hls/261/live1.m3u8
+
+#EXTINF:-1 tvg-id="KHL.ru" tvg-logo="https://i.imgur.com/RgdHdOV.png" tvg-name="Телеканал КХЛ" group-title="Спорт",KHL [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=220
+
+#EXTINF:-1 tvg-id="KHLPrime.ru" tvg-logo="https://i.imgur.com/pwxT0ON.png" tvg-name="KHL Prime" group-title="Спорт",KHL Prime [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://str10.ottg.online/5079/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7
+
+#EXTINF:-1 tvg-id="MMATVcom.ru" tvg-logo="https://i.imgur.com/QhdxNsB.png" tvg-name="M-1 Global" group-title="Спорт",MMA-TV [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=245
+
+#EXTINF:-1 tvg-id="QSport.kz" tvg-logo="https://i.imgur.com/xMhM7WI.png" tvg-name="Q Sport [kz]" group-title="Спорт",Q Sport [kz] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://88.135.128.20:7272/bFlmfsIl2ohurGj
+
+#EXTINF:-1 tvg-id="SetantaSports1.ru" tvg-logo="https://i.imgur.com/8ANUZAu.png" tvg-name="Setanta Sports 1" group-title="Спорт",Setanta Sports 1 [1024x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6f7dptnvuxs.a.trbcdn.net/livemaster/glmi9_live-jj1n4gjcyeq.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SetantaSports1.ru" tvg-logo="https://i.imgur.com/8ANUZAu.png" tvg-name="Setanta Sports 1" group-title="Спорт",Setanta Sports 1 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
+
+#EXTINF:-1 tvg-id="SetantaSports1.ru" tvg-logo="https://i.imgur.com/8ANUZAu.png" tvg-name="Setanta Sports 1" group-title="Спорт",Setanta Sports 1 [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
+
+#EXTINF:-1 tvg-id="SetantaSports2.ru" tvg-logo="https://i.imgur.com/NOBACb6.png" tvg-name="Setanta Sports 2" group-title="Спорт",Setanta Sports 2 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://otv.wotom.net:4433/udp/238.1.1.163:1234
+
+#EXTINF:-1 tvg-logo="" tvg-name="Setanta Sports kz" group-title="Спорт",Setanta Sports kz [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://3oadqw1shf2.a.trbcdn.net/livemaster/jtf2d_live-81uc5nxeyae.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TraceSportStars.fr" tvg-logo="https://i.imgur.com/FabFP5A.png" tvg-name="Trace Sport Stars" group-title="Спорт",Trace Sport Stars [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://95.67.12.82:9067
+
+#EXTINF:-1 tvg-logo="" tvg-name="UDAR" group-title="Спорт",UDAR [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://otv.wotom.net:4433/udp/238.1.1.144:1234
+
+#EXTINF:-1 tvg-id="vijuPlusSport.ru" tvg-logo="https://i.imgur.com/fXESG0l.png" tvg-name="Viasat Sport" group-title="Спорт",viju+ Sport [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bkm.beetv.kz/btv/live/hls/000000135.m3u8
+
+#EXTINF:-1 tvg-id="Belarus5.by" tvg-logo="https://i.imgur.com/NJsRFud.png" tvg-name="Беларусь 5" group-title="Спорт",Беларусь 5 [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=19
+
+#EXTINF:-1 tvg-id="Belarus5Internet.by" tvg-logo="https://i.imgur.com/rzPQ9Iz.png" tvg-name="Беларусь 5 Интернет" group-title="Спорт",Беларусь 5 Интернет [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge60.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int/chunklist_w601692199_b2660000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="BoksTV.ru" tvg-logo="https://i.imgur.com/R1UjyfX.png" tvg-name="Бокс ТВ" group-title="Спорт",Бокс ТВ [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://stream01.vnet.am/BoksTv/mono.m3u8
+
+#EXTINF:-1 tvg-id="MatchArena.ru" tvg-logo="https://i.imgur.com/udTzwzu.png" tvg-name="Матч! Арена" group-title="Спорт",Матч! Арена [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://87.120.142.11:18000/Match!Arena
+
+#EXTINF:-1 tvg-id="MatchArena.ru" tvg-logo="https://i.imgur.com/udTzwzu.png" tvg-name="Матч! Арена" group-title="Спорт",Матч! Арена [1280x720]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://streaming.tv-teleport.ru/Match_Arena_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="MatchIgra.ru" tvg-logo="https://i.imgur.com/5XWpF19.png" tvg-name="Матч! Игра" group-title="Спорт",Матч! Игра [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://str10.ottg.online/3570/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7
+
+#EXTINF:-1 tvg-id="MatchPlaneta.ru" tvg-logo="https://i.imgur.com/Jv7RwGq.png" tvg-name="Матч! Планета" group-title="Спорт",Матч! Планета [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=97
+
+#EXTINF:-1 tvg-id="MatchPremier.ru" tvg-logo="https://i.imgur.com/GQPyHYK.png" tvg-name="Матч! Премьер" group-title="Спорт",Матч! Премьер [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://str10.ottg.online/5442/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7
+
+#EXTINF:-1 tvg-id="MatchStrana.ru" tvg-logo="https://i.imgur.com/X02s2UE.png" tvg-name="Матч! Страна" group-title="Спорт",Матч! Страна [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://193.201.98.10:5000/c106
+
+#EXTINF:-1 tvg-id="MatchFutbol3.ru" tvg-logo="https://i.imgur.com/P2ReH1u.png" tvg-name="Матч! Футбол 3" group-title="Спорт",Матч! Футбол 3 [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://185.57.68.33/110/mpegts
+
+#EXTINF:-1 tvg-id="RussianExtreme.ru" tvg-logo="https://i.imgur.com/qjx6zZV.png" tvg-name="Русский Экстрим" group-title="Спорт",Русский Экстрим [704x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://158.101.222.193:88/vesti/play.php?channel_id=66
+
+#EXTINF:-1 tvg-id="Start.ru" tvg-logo="https://i.imgur.com/VBqVkno.png" tvg-name="Старт" group-title="Спорт",Старт [720x576]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://otv.wotom.net:4433/udp/238.1.1.78:1234
+
+#EXTINF:-1 tvg-id="Tochkaotryva.ru" tvg-logo="https://i.imgur.com/TZiBQDK.png" tvg-name="Точка отрыва" group-title="Спорт",Точка Отрыва [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://bkm.beetv.kz/btv/live/hls/000003208.m3u8
+
+#EXTINF:-1 tvg-id="ATG.se" tvg-logo="https://i.imgur.com/5CdW62M.png" tvg-name="ATG [se]" group-title="Спорт плюс",ATG [se] [768x432]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://httpcache0-00688-cacheliveedge0.dna.qbrick.com/00688-cacheliveedge0/out/u/atg_sdi_1_free.m3u8
+
+#EXTINF:-1 tvg-id="AbuDhabiSports1.ae" tvg-logo="https://i.imgur.com/6BVWk8z.png" tvg-name="AD Sports 1" group-title="Спорт плюс",Abu Dhabi Sports 1 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+
+
+#EXTINF:-1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" tvg-name="All Sports [br]" group-title="Спорт плюс",All Sports [br] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://5cf4a2c2512a2.streamlock.net:1935/dgrau/dgrau/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AntenaSport.ro" tvg-logo="https://i.imgur.com/PThJPu2.png" tvg-name="AntenaSport [ro]" group-title="Спорт плюс",AntenaSport [ro] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://stream1.antenaplay.ro/as/asrolive1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ArenaFight.rs" tvg-logo="https://i.imgur.com/5abTrJU.png" tvg-name="Arena Fight Srbija" group-title="Спорт плюс",Arena Fight [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/A2fQIX6OY1
+
+#EXTINF:-1 tvg-id="ArenaSport1Premium.rs" tvg-logo="https://i.imgur.com/csv6YsL.png" tvg-name="Arena Sport 1 Premium Srbija" group-title="Спорт плюс",Arena Sport 1 Premium [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/gtIDEfibBy
+
+#EXTINF:-1 tvg-id="ArenaSport1x2.rs" tvg-logo="https://i.imgur.com/cGIIyxR.png" tvg-name="Arena Sport 1x2 Srbija" group-title="Спорт плюс",Arena Sport 1x2 [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/z3ieUUSzrn
+
+#EXTINF:-1 tvg-id="ArenaSport2Premium.rs" tvg-logo="https://i.imgur.com/ztOmQ7P.png" tvg-name="Arena Sport 2 Premium Srbija" group-title="Спорт плюс",Arena Sport 2 Premium [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/LjzYChqCJD
+
+#EXTINF:-1 tvg-id="ArenaSport3Premium.rs" tvg-logo="https://i.imgur.com/gpqemLf.png" tvg-name="Arena Sport 3 Premium Srbija" group-title="Спорт плюс",Arena Sport 3 Premium [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/0QhXJ9nCVj
+
+#EXTINF:-1 tvg-id="ArenaSport3.rs" tvg-logo="https://i.imgur.com/3r3burN.png" tvg-name="Arena Sport 3 Srbija" group-title="Спорт плюс",Arena Sport 3 [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/Fj6334HwK3
+
+#EXTINF:-1 tvg-id="ArenaSport4.rs" tvg-logo="https://i.imgur.com/h1XhGkz.png" tvg-name="Arena Sport 4 Srbija" group-title="Спорт плюс",Arena Sport 4 [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/m4NCbyvPl9
+
+#EXTINF:-1 tvg-id="ArenaSport5.rs" tvg-logo="https://i.imgur.com/036qMgu.png" tvg-name="Arena Sport 5 Srbija" group-title="Спорт плюс",Arena Sport 5 [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/wCbmzRH3H1
+
+#EXTINF:-1 tvg-id="ArenaSport6.rs" tvg-logo="https://i.imgur.com/Z5PE4vx.png" tvg-name="Arena Sport 6 Srbija" group-title="Спорт плюс",Arena Sport 6 [rs] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://94.250.2.6:10600/play/Vj2ZxGEwct
+
+#EXTINF:-1 tvg-id="AwapaSportsTV.sv" tvg-logo="https://i.imgur.com/MNw5cJH.jpg" tvg-name="Awapa Sports TV [sv]" group-title="Спорт плюс",Awapa Sports TV [sv] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
+
+#EXTINF:-1 tvg-id="BEKSportsWest.us" tvg-logo="https://i.imgur.com/uJb4VOc.png" tvg-name="BEK Sports West [us]" group-title="Спорт плюс",BEK Sports West [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BahrainSports1.bh" tvg-logo="https://i.imgur.com/fBpLsbC.png" tvg-name="Bahrain Sports 1 [bh]" group-title="Спорт плюс",Bahrain Sports 1 [bh] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BahrainSports2.bh" tvg-logo="https://i.imgur.com/ZkuZmIo.png" tvg-name="Bahrain Sports 2 [bh]" group-title="Спорт плюс",Bahrain Sports 2 [bh] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BandSports.br" tvg-logo="https://i.imgur.com/EuPvzJe.png" tvg-name="Band Sports [br]" group-title="Спорт плюс",Band Sports [br] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://209.222.97.92:16484
+
+#EXTINF:-1 tvg-id="BandSports.br" tvg-logo="https://i.imgur.com/EuPvzJe.png" tvg-name="Band Sports [br]" group-title="Спорт плюс",Band Sports [br] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://187.95.95.247/Band-Sports/index.m3u8
+
+#EXTINF:-1 tvg-id="BellatorMMA.us" tvg-logo="https://i.imgur.com/VBKoLHk.png" tvg-name="Bellator MMA [us]" group-title="Спорт плюс",Bellator MMA [us] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebc8688f3697d00072f7cf8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ebc8688f3697d00072f7cf8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=730&terminate=false&userId=
+
+#EXTINF:-1 tvg-id="CDR.cl" tvg-logo="https://i.imgur.com/xevZNi6.png" tvg-name="CDR [cl]" group-title="Спорт плюс",CDR [cl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://live-hls-xgod.livepush.io/live_cdn/emaf6CHYV7M-RQcL2/index.m3u8
+
+https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport1.cz" tvg-logo="https://i.imgur.com/Q3WjH1Q.png" tvg-name="Canal+ Sport 1 [cz]" group-title="Спорт плюс",Canal+ Sport 1 [cz] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://78.130.250.2:8023/play/a02v/index.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport2.pl" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/oFAkr9sb2dvLW1pZ3JhdGVkL2NhbmFsLXNwb3J0LTIucG5nkpUCZADCw5UCACjCww" tvg-name="Canal+ Sport 2 [pl]" group-title="Спорт плюс",Canal+ Sport 2 [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport2.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-id="CanalPlusSport3.pl" tvg-logo="https://i.imgur.com/eOh5Zu2.png" tvg-name="Canal+ Sport 3 [pl]" group-title="Спорт плюс",Canal+ Sport 3 [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport3.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-id="CanalPlusSport4.pl" tvg-logo="https://i.imgur.com/IA7N2z0.png" tvg-name="Canal+ Sport 4 [pl]" group-title="Спорт плюс",Canal+ Sport 4 [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/canalplussport4.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-id="DiemaSport2.bg" tvg-logo="https://i.imgur.com/Rtoc3ZX.png" tvg-name="Diema Sport 2 [bg]" group-title="Спорт плюс",Diema Sport 2 [bg] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://87.246.60.6:11030
+
+#EXTINF:-1 tvg-id="DiemaSport3.bg" tvg-logo="https://i.imgur.com/EQAoVRi.png" tvg-name="Diema Sport 3 [bg]" group-title="Спорт плюс",Diema Sport 3 [bg] [720x576]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://87.246.60.6:11020
+
+#EXTINF:-1 tvg-id="DiemaSport.bg" tvg-logo="https://i.imgur.com/NFsWTVp.png" tvg-name="Diema Sport [bg]" group-title="Спорт плюс",Diema Sport [bg] [720x576]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://87.246.60.6:11007
+
+#EXTINF:-1 tvg-id="DubaiRacing2.ae" tvg-logo="https://i.imgur.com/H2TTn7t.png" tvg-name="دبي ريسينج 2" group-title="Спорт плюс",Dubai Racing 2 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-id="DubaiRacing2.ae" tvg-logo="https://i.imgur.com/H2TTn7t.png" tvg-name="دبي ريسينج 2" group-title="Спорт плюс",Dubai Racing 2 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DubaiRacing3.ae" tvg-logo="https://i.imgur.com/Vg4fxmc.png" tvg-name="دبي ريسينج 3" group-title="Спорт плюс",Dubai Racing 3 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmithrvll.cdn.mangomolo.com/dubaimubasher/smil:dubaimubasher.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DubaiRacing.ae" tvg-logo="https://i.imgur.com/BpcV8jS.png" tvg-name="دبي ريسينج 1" group-title="Спорт плюс",Dubai Racing [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmisvthvll.cdn.mgmlcdn.com/events/smil:events.stream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports1.ae" tvg-logo="https://i.imgur.com/Poxw8lG.png" tvg-name="دبي الرياضية 1" group-title="Спорт плюс",Dubai Sports 1 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmitnthfr.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports2.ae" tvg-logo="https://i.imgur.com/PMJ7Zmo.png" tvg-name="دبي الرياضية 2" group-title="Спорт плюс",Dubai Sports 2 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports2.ae" tvg-logo="https://i.imgur.com/PMJ7Zmo.png" tvg-name="دبي الرياضية 2" group-title="Спорт плюс",Dubai Sports 2 [ae] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1300000.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports2.ae" tvg-logo="https://i.imgur.com/PMJ7Zmo.png" tvg-name="دبي الرياضية 2" group-title="Спорт плюс",Dubai Sports 2 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports3.ae" tvg-logo="https://i.imgur.com/U0A8Gex.png" tvg-name="دبي الرياضية 3" group-title="Спорт плюс",Dubai Sports 3 [ae] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-id="DubaiSports3.ae" tvg-logo="https://i.imgur.com/U0A8Gex.png" tvg-name="دبي الرياضية 3" group-title="Спорт плюс",Dubai Sports 3 [ae] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u
+
+#EXTINF:-1 tvg-id="EDGEsport.uk" tvg-logo="https://i.imgur.com/bgQ6kz7.png" tvg-name="EDGEsport [uk]" group-title="Спорт плюс",EDGEsport [uk] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edgesport-samsunguk.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-logo="https://i.imgur.com/00tsvjE.png" tvg-name="ESPN 2 [us]" group-title="Спорт плюс",ESPN 2 [us] [544x480]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://181.78.105.146:2000/play/a063/index.m3u8
+#EXTINF:-1 tvg-id="ESPN3.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" tvg-name="ESPN 3 Brasil" group-title="Спорт плюс",ESPN 3 [br] [544x480]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://181.78.105.146:2000/play/a03n/index.m3u8
+
+#EXTINF:-1 tvg-id="FITE247.us" tvg-logo="https://i.imgur.com/ESV6qgH.png" tvg-name="FITE 24/7 [us]" group-title="Спорт плюс",FITE 24/7 [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/fite247_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FTV.bo" tvg-logo="https://i.imgur.com/YOr1Oac.png" tvg-name="FTV [bo]" group-title="Спорт плюс",FTV [bo] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://master.tucableip.com/ftv/index.m3u8
+
+#EXTINF:-1 tvg-id="FUELTV.at" tvg-logo="https://i.imgur.com/I8mviBy.png" tvg-name="FUEL TV [at]" group-title="Спорт плюс",FUEL TV [at] [640x360]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/606c2f67-acff-4152-975a-e5bfef54eb61/2.m3u8
+
+#EXTINF:-1 tvg-id="FightNetwork.ca" tvg-logo="https://i.imgur.com/vlKPZHR.png" tvg-name="Fight Network [ca]" group-title="Спорт плюс",Fight Network [ca] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FightNetwork.ca" tvg-logo="https://i.imgur.com/vlKPZHR.png" tvg-name="Fight Network [ca]" group-title="Спорт плюс",Fight Network [ca] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 tvg-id="Fite.us" tvg-logo="https://i.imgur.com/4w95NZQ.png" tvg-name="Fite [us]" group-title="Спорт плюс",Fite [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-cf.fite.tv/linear/fite247/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Futbol.tj" tvg-logo="https://i.imgur.com/RngmCDn.png" tvg-name="Futbol [tj]" group-title="Спорт плюс",Futbol [tj] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://live.teleradiocom.tj/8/3m.m3u8
+
+#EXTINF:-1 tvg-id="GAORASPORTS.jp" tvg-logo="https://i.imgur.com/UgKRfuw.png" tvg-name="GAORA SPORTS [jp]" group-title="Спорт плюс",GAORA SPORTS [jp] [960x544]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
+#EXTINF:-1 tvg-id="GolfChannel.cz" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" tvg-name="Golf Channel [cz]" group-title="Спорт плюс",Golf Channel [cz] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://78.130.250.2:8023/play/a02q/index.m3u8
+#EXTINF:-1 tvg-id="GolfNetwork.jp" tvg-logo="https://i.imgur.com/01Jsa2Z.png" tvg-name="ゴルフネットワーク" group-title="Спорт плюс",Golf Network [jp] [960x544]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+#EXTINF:-1 tvg-id="HardKnocks.ca" tvg-logo="https://i.imgur.com/nt9B6jx.png" tvg-name="Hard Knocks [ca]" group-title="Спорт плюс",Hard Knocks [ca] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/8d216b41-1,96b-49d2-afb2-46cb9916f903.m3u8
+#EXTINF:-1 tvg-id="IMPACTWrestling.us" tvg-logo="https://i.imgur.com/XO8u1V7.png" tvg-name="IMPACT Wrestling [us]" group-title="Спорт плюс",IMPACT Wrestling [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d2tuwvs0ja335j.cloudfront.net/hls/1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="IMPACTWrestling.us" tvg-logo="https://i.imgur.com/XO8u1V7.png" tvg-name="IMPACT Wrestling [us]" group-title="Спорт плюс",IMPACT Wrestling [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 tvg-id="ITVDeportes.mx" tvg-logo="https://iili.io/J1kV1Bn.png" tvg-name="InternetvDeportes" group-title="Спорт плюс",ITV Deportes [mx] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:-1 tvg-id="InterTV.it" tvg-logo="https://i.imgur.com/FUTqh2L.png" tvg-name="Inter Channel" group-title="Спорт плюс",Inter TV [it] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://open.http.mp.streamamg.com/p/3001560/sp/300156000/playManifest/entryId/0_xmkk2kjr/flavorIds/0_zlbr85f8,0_zlbr85f8,0_noewhew2/format/applehttp/protocol/https/a.m3u8
+#EXTINF:-1 tvg-id="JSPORTS1.jp" tvg-logo="https://i.imgur.com/vEpjLnj.png" tvg-name="J SPORTS 1 [jp]" group-title="Спорт плюс",J SPORTS 1 [jp] [960x544]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+#EXTINF:-1 tvg-id="JSPORTS2.jp" tvg-logo="https://i.imgur.com/g1GLVH2.png" tvg-name="J SPORTS 2 [jp]" group-title="Спорт плюс",J SPORTS 2 [jp] [960x544]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+#EXTINF:-1 tvg-id="JSPORTS3.jp" tvg-logo="https://i.imgur.com/xdI361E.png" tvg-name="J SPORTS 3 [jp]" group-title="Спорт плюс",J SPORTS 3 [jp] [960x544]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+#EXTINF:-1 tvg-id="JSPORTS4.jp" tvg-logo="https://i.imgur.com/fBcyZNL.png" tvg-name="J SPORTS 4 [jp]" group-title="Спорт плюс",J SPORTS 4 [jp] [960x544]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+#EXTINF:-1 tvg-id="K19.at" tvg-logo="https://i.imgur.com/l4atkvs.png" tvg-name="K19 [at]" group-title="Спорт плюс",K19 [at] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="KSASports1.sa" tvg-logo="https://i.imgur.com/ONKNOAp.png" tvg-name="KSA Sports 1 [sa]" group-title="Спорт плюс",KSA Sports 1 [sa] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge.taghtia.com/sa/9.m3u8
+#EXTINF:-1 tvg-id="KSASports2.sa" tvg-logo="https://i.imgur.com/v8ULLqg.png" tvg-name="KSA Sports 2 [sa]" group-title="Спорт плюс",KSA Sports 2 [sa] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge.taghtia.com/sa/10.m3u8
+#EXTINF:-1 tvg-id="KSASports3.sa" tvg-logo="https://i.imgur.com/BXfCvez.png" tvg-name="KSA Sports 3 [sa]" group-title="Спорт плюс",KSA Sports 3 [sa] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge.taghtia.com/sa/16.m3u8
+#EXTINF:-1 tvg-id="KTVSportPlus.kw" tvg-logo="https://i.imgur.com/l4oX0gf.png" tvg-name="KTV Sport 2" group-title="Спорт плюс",KTV Sport Plus [kw] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="KTVSport.kw" tvg-logo="https://i.imgur.com/R1hGX1d.png" tvg-name="KTV Sport [kw]" group-title="Спорт плюс",KTV Sport [kw] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="LacrosseTV.us" tvg-logo="https://i.imgur.com/zYH4IsV.png" tvg-name="Lax Sports Network TV" group-title="Спорт плюс",Lacrosse TV [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8
+#EXTINF:-1 tvg-id="MNetSport.mk" tvg-logo="https://i.imgur.com/7k8ar1Z.png" tvg-name="M-Net Sport [mk]" group-title="Спорт плюс",M-Net Sport [mk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://ares.mnet.mk/hls/mnet-sport.m3u8
+#EXTINF:-1 tvg-id="MAVTV.us" tvg-logo="https://i.imgur.com/4fqvwEk.png" tvg-name="MAVTV [us]" group-title="Спорт плюс",MAVTV [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://mavtv-mavtvglobal-1-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MLB.us" tvg-logo="https://i.imgur.com/ym3su2J.png" tvg-name="MLB [us]" group-title="Спорт плюс",MLB [us] [1216x684]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e66968a70f34c0007d050be/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="MUTV.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" tvg-name="MUTV [uk]" group-title="Спорт плюс",MUTV [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
+#EXTINF:-1 tvg-id="MadeinBOTV.it" tvg-logo="https://i.imgur.com/47X44DD.png" tvg-name="Canale 88" group-title="Спорт плюс",MadeinBO TV [it] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MarqueeSportsNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/512px-Marquee_Sports_Network_Logo.svg.png" tvg-name="Marquee Sports Network [us]" group-title="Спорт плюс",Marquee Sports Network [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://marqueelive.akamaized.net/live-pz/a/hls-itc/marquee1/index.m3u8
+#EXTINF:-1 tvg-id="MoreThanSportsTV.de" tvg-logo="https://i.imgur.com/SLrjImc.png" tvg-name="More Than Sports TV [de]" group-title="Спорт плюс",More Than Sports TV [de] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="NFLChannel.us" tvg-logo="https://i.imgur.com/mPGtwAP.png" tvg-name="NFL Channel [us]" group-title="Спорт плюс",NFL Channel [us] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ced7d5df64be98e07ed47b6/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ced7d5df64be98e07ed47b6&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=708&terminate=false&userId=
+#EXTINF:-1 tvg-id="NHLNetwork.us" tvg-logo="https://i.imgur.com/UNZ8bef.png" tvg-name="NHL Network [us]" group-title="Спорт плюс",NHL Network [us] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/15889
+#EXTINF:-1 tvg-id="NHRATV.us" tvg-logo="https://i.imgur.com/jZgcm4k.png" tvg-name="NHRA TV [us]" group-title="Спорт плюс",NHRA TV [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://lnc-nhra.tubi.video/nh.m3u8
+#EXTINF:-1 tvg-id="NovaSport1.cz" tvg-logo="https://i.imgur.com/w8k0Lbg.png" tvg-name="Nova Sport" group-title="Спорт плюс",Nova Sport 1 [cz] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://78.130.250.2:8023/play/a009/index.m3u8
+#EXTINF:-1 tvg-id="NovaSport1.cz" tvg-logo="https://i.imgur.com/w8k0Lbg.png" tvg-name="Nova Sport" group-title="Спорт плюс",Nova Sport 1 [cz] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://78.130.250.2:8023/play/a02k/index.m3u8
+#EXTINF:-1 tvg-id="NovaSport2.cz" tvg-logo="https://i.imgur.com/Xdc5JTE.png" tvg-name="Nova Sport 2 [cz]" group-title="Спорт плюс",Nova Sport 2 [cz] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://78.130.250.2:8023/play/a004/index.m3u8
+#EXTINF:-1 tvg-id="NovaSport.bg" tvg-logo="https://i.imgur.com/bQvS1E8.png" tvg-name="Нова Спорт" group-title="Спорт плюс",Nova Sport [bg] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://87.246.60.6:11031
+#EXTINF:-1 tvg-id="OmanSportsTV.om" tvg-logo="https://i.imgur.com/1omi7p8.png" tvg-name="قناة عمان الرياضية" group-title="Спорт плюс",Oman Sports TV [om] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="OneGolf.pk" tvg-logo="https://i.imgur.com/7JhaEW5.png" tvg-name="One Golf [pk]" group-title="Спорт плюс",One Golf [pk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+#EXTINF:-1 tvg-id="OrangeSport1.ro" tvg-logo="https://i.imgur.com/EDYUQ4k.png" tvg-name="Telekom Sport 1" group-title="Спорт плюс",Orange Sport 1 [ro] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://optimus-tv.org:8080/play/live.php?mac=00:1A:79:08:E9:52&stream=564976&extension=ts
+#EXTINF:-1 tvg-id="OrangeSport2.ro" tvg-logo="https://i.imgur.com/uh0op1Z.png" tvg-name="Telekom Sport 2" group-title="Спорт плюс",Orange Sport 2 [ro] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://optimus-tv.org:8080/play/live.php?mac=00:1A:79:08:E9:52&stream=564977&extension=ts
+#EXTINF:-1 tvg-id="OrangeSport3.ro" tvg-logo="https://i.imgur.com/b1yd7G7.png" tvg-name="Telekom Sport 3" group-title="Спорт плюс",Orange Sport 3 [ro] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://optimus-tv.org:8080/play/live.php?mac=00:1A:79:08:E9:52&stream=564978&extension=ts
+#EXTINF:-1 tvg-id="OrangeSport4.ro" tvg-logo="https://i.imgur.com/8JDyFYI.png" tvg-name="Telekom Sport 4" group-title="Спорт плюс",Orange Sport 4 [ro] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://optimus-tv.org:8080/play/live.php?mac=00:1A:79:08:E9:52&stream=564979&extension=ts2&stream=564979&extension=ts
+#EXTINF:-1 tvg-id="PBRRidePass.us" tvg-logo="https://i.imgur.com/gUxH97E.png" tvg-name="PBR RidePass [us]" group-title="Спорт плюс",PBR RidePass [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+https://stitcher-ipv4.pluto.tv/stitch/hls/channel/60d39387706fe50007fda8e8/master.m3u8?already_redirected=true&appVersion=0&deviceDNT=0&deviceId=0&deviceMake=0&deviceModel=0&deviceType=0&deviceVersion=0&sid=62f4
+#EXTINF:-1 tvg-id="PGATour.us" tvg-logo="https://i.imgur.com/J0TY9dG.png" tvg-name="PGA Tour [us]" group-title="Спорт плюс",PGA Tour [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de94dacb394a300099fa22a/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5de94dacb394a300099fa22a&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=713&terminate=false&userId=
+#EXTINF:-1 tvg-id="Pac12Insider.us" tvg-logo="https://i.imgur.com/736QREy.png" tvg-name="Pac-12 Insider [us]" group-title="Спорт плюс",Pac-12 Insider [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://pac12-roku-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PersianaSports.fr" tvg-logo="https://i.ibb.co/q1XfMN9/Persiana-Sports.png" tvg-name="Persiana Sports [fr]" group-title="Спорт плюс",Persiana Sports [fr] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://af.ayas.ir/hls2/persiana.m3u8
+#EXTINF:-1 tvg-id="PlutoTVActionSports.us" tvg-logo="https://i.imgur.com/fmyakPG.png" tvg-name="Pluto TV Action Sports [us]" group-title="Спорт плюс",Pluto TV Action Sports [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5db867744f229f0009266784/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVDeportes.us" tvg-logo="https://i.imgur.com/0pDy6f4.png" tvg-name="Pluto TV Deportes [us]" group-title="Спорт плюс",Pluto TV Deportes [us] [640x360]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde07af1c85b0009b18651/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="PlutoTVExtreme.fr" tvg-logo="https://i.imgur.com/b1xrzns.png" tvg-name="Pluto TV Extrême France" group-title="Спорт плюс",Pluto TV Extreme [fr] [1280x720]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed327f9e9b0000761141e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVGloryKickboxing.us" tvg-logo="https://i.imgur.com/tS7Ub7i.png" tvg-name="Pluto TV Glory Kickboxing [us]" group-title="Спорт плюс",Pluto TV Glory Kickboxing [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad9be1be738977e2c312134/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ad9be1be738977e2c312134&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=f6e88030-d7c8-47c8-8fed-7e24dd0a038a&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVSport.it" tvg-logo="https://i.imgur.com/y22ElOr.png" tvg-name="Pluto TV Sport [it]" group-title="Спорт плюс",Pluto TV Sport [it] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+#EXTINF:-1 tvg-id="PlutoTVSports.uk" tvg-logo="https://i.imgur.com/LW77x7g.png" tvg-name="Pluto TV Sports [uk]" group-title="Спорт плюс",Pluto TV Sports [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6081310e48d3200007afaf3b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8bf322-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0727f4fb-ea0b-4814-bb58-fdf3c4534220
+#EXTINF:-1 tvg-id="PokerTV.fr" tvg-logo="https://i.imgur.com/tArvcvj.png" tvg-name="Poker TV [fr]" group-title="Спорт плюс",Poker TV [fr] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://hls.pokertvfa.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PokerGo.us" tvg-logo="https://i.imgur.com/1603HED.png" tvg-name="PokerGo [us]" group-title="Спорт плюс",PokerGo [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://lnc-pokergo.tubi.video/playlist.m3u8
+#EXTINF:-1 tvg-id="PolsatSportExtra.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/512px-Polsat_Sport_Extra_2021_gradient.svg.png" tvg-name="Polsat Sport Extra [pl]" group-title="Спорт плюс",Polsat Sport Extra [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportextra.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="PolsatSportNews.pl" tvg-logo="https://i.imgur.com/InChYmt.png" tvg-name="Polsat Sport News [pl]" group-title="Спорт плюс",Polsat Sport News [pl] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://178.219.128.68:64889/POLSSPORNEWSHD
+#EXTINF:-1 tvg-id="PolsatSportPremium1.pl" tvg-logo="https://i.imgur.com/hy1SKE0.png" tvg-name="Polsat Sport Premium 1 [pl]" group-title="Спорт плюс",Polsat Sport Premium 1 [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportp1.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="PolsatSportPremium2.pl" tvg-logo="https://i.imgur.com/myyWeXY.png" tvg-name="Polsat Sport Premium 2 [pl]" group-title="Спорт плюс",Polsat Sport Premium 2 [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/polsatsportp2.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="PolsatSport.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_Sport_2021_gradient.svg/512px-Polsat_Sport_2021_gradient.svg.png" tvg-name="Polsat Sport [pl]" group-title="Спорт плюс",Polsat Sport [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/polsatsport.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="PolsatSport.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_Sport_2021_gradient.svg/512px-Polsat_Sport_2021_gradient.svg.png" tvg-name="Polsat Sport [pl]" group-title="Спорт плюс",Polsat Sport [pl] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://178.219.128.68:64889/POLSSPORHD
+#EXTINF:-1 tvg-id="RING.bg" tvg-logo="https://i.imgur.com/1SeAhD0.png" tvg-name="RING [bg]" group-title="Спорт плюс",RING [bg] [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+http://87.246.60.6:11024
+#EXTINF:-1 tvg-id="RING.bg" tvg-logo="https://i.imgur.com/1SeAhD0.png" tvg-name="RING [bg]" group-title="Спорт плюс",RING [bg] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://87.246.60.6:11029
+#EXTINF:-1 tvg-id="RTASport.af" tvg-logo="https://i.imgur.com/lEXrwos.jpg" tvg-name="RTA Sport [af]" group-title="Спорт плюс",RTA Sport [af] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://hls.rtasport.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RacingAmerica.us" tvg-logo="https://i.imgur.com/Eufk8rl.png" tvg-name="Racing America [us]" group-title="Спорт плюс",Racing America [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://lnc-racing-america.tubi.video/playlist.m3u8
+#EXTINF:-1 tvg-id="Racingcom.au" tvg-logo="https://i.imgur.com/Q55HX1O.png" tvg-name="Racing.com [au]" group-title="Спорт плюс",Racing.com [au] [1024x576]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-name="Red Bull TV [at]" group-title="Спорт плюс",Red Bull TV [at] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?denmstv.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-name="Red Bull TV [at]" group-title="Спорт плюс",Red Bull TV [at] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-name="Red Bull TV [at]" group-title="Спорт плюс",Red Bull TV [at] [960x540]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-name="Red Bull TV [at]" group-title="Спорт плюс",Red Bull TV [at] [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/S6qgwLG.png" tvg-name="SKI TV [ch]" group-title="Спорт плюс",SKI TV [ch] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
+#EXTINF:-1 tvg-id="SKITV.ch" tvg-logo="https://i.imgur.com/S6qgwLG.png" tvg-name="SKI TV [ch]" group-title="Спорт плюс",SKI TV [ch] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-Zee/193.m3u8
+#EXTINF:-1 tvg-id="SOSKanalPlus.rs" tvg-logo="https://i.imgur.com/9SD40uH.png" tvg-name="Сос канал плус" group-title="Спорт плюс",SOS Kanal Plus [rs] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="SSC1HD.sa" tvg-logo="https://i.imgur.com/dM7GQXG.png" tvg-name="SSC 1 HD [sa]" group-title="Спорт плюс",SSC 1 HD [sa] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://af.ayassport.ir/hls2/ssc1.m3u8
+#EXTINF:-1 tvg-id="SSCActionWaleed.sa" tvg-logo="https://i.imgur.com/agc0IZF.png" tvg-name="SSC Action Waleed [sa]" group-title="Спорт плюс",SSC Action Waleed [sa] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://shls-live-event2-prod-dub.shahid.net/out/v1/0456ede1a39145d98b3d8c8062ddc998/index.m3u8
+#EXTINF:-1 tvg-id="SanMarinoRTVSport.sm" tvg-logo="https://i.imgur.com/PGm944g.png" tvg-name="San Marino RTV Sport [sm]" group-title="Спорт плюс",San Marino RTV Sport [sm] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsUkraine.ua" tvg-logo="https://i.imgur.com/UR8dHNO.png" tvg-name="Setanta Sports Украина" group-title="Спорт плюс",Setanta Sports Ukraine [ua] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/161/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsUkraine.ua" tvg-logo="https://i.imgur.com/UR8dHNO.png" tvg-name="Setanta Sports Украина" group-title="Спорт плюс",Setanta Sports Ukraine [ua] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://serv7.iptv11.com/SetantaSportsHD-ua/video.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsUkraine.ua" tvg-logo="https://i.imgur.com/UR8dHNO.png" tvg-name="Setanta Sports Украина" group-title="Спорт плюс",Setanta Sports Ukraine [ua] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://194.33.181.28:9010/udp/238.255.51.33:1234
+#EXTINF:-1 tvg-id="SetantaSportsPlusUkraine.ua" tvg-logo="https://i.imgur.com/gHAP4p0.png" tvg-name="Setanta Sports+ Ukraine [ua]" group-title="Спорт плюс",Setanta Sports+ Ukraine [ua] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/4/index.m3u8
+#EXTINF:-1 tvg-id="SharjahSports.ae" tvg-logo="https://i.imgur.com/IaRaabJ.jpg" tvg-name="الشارقة الرياضية" group-title="Спорт плюс",Sharjah Sports [ae] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3839.png" tvg-name="Sky Sports Arena [uk]" group-title="Спорт плюс",Sky Sports Arena [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20827
+#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png" tvg-name="Sky Sports Cricket [uk]" group-title="Спорт плюс",Sky Sports Cricket [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20834
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" tvg-name="Sky Sports F1 [uk]" group-title="Спорт плюс",Sky Sports F1 [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20828
+#EXTINF:-1 tvg-id="SkySportsFootball.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png" tvg-name="Sky Sports Football [uk]" group-title="Спорт плюс",Sky Sports Football [uk] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20829
+#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png" tvg-name="Sky Sports Golf [uk]" group-title="Спорт плюс",Sky Sports Golf [uk] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20833
+#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" tvg-name="Sky Sports Main Event [uk]" group-title="Спорт плюс",Sky Sports Main Event [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20832
+#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png" tvg-name="Sky Sports Mix [uk]" group-title="Спорт плюс",Sky Sports Mix [uk] [1024x576]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20830
+#EXTINF:-1 tvg-id="SkySportsNFL.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png" tvg-name="Sky Sports Action" group-title="Спорт плюс",Sky Sports NFL [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20835
+#EXTINF:-1 tvg-id="SkySportsPremierLeagueHD.uk" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4010.png" tvg-name="Sky Sports Premier League HD [uk]" group-title="Спорт плюс",Sky Sports Premier League HD [uk] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/20831
+#EXTINF:-1 tvg-id="SporTV.br" tvg-logo="https://i.imgur.com/eHJ8Vm3.png" tvg-name="SporTV [br]" group-title="Спорт плюс",SporTV [br] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://209.222.97.92:16525
+#EXTINF:-1 tvg-id="Sport1.ua" tvg-logo="https://i.imgur.com/Zjb8awW.png" tvg-name="Спорт 1" group-title="Спорт плюс",Sport 1 [ua] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/516/index.m3u8
+#EXTINF:-1 tvg-id="Sport2.ua" tvg-logo="https://i.imgur.com/vk0j1mY.png" tvg-name="Спорт 2" group-title="Спорт плюс",Sport 2 [ua] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/517/index.m3u8
+#EXTINF:-1 tvg-id="Sport3.ua" tvg-logo="https://i.imgur.com/qkvavfH.png" tvg-name="Спорт 3" group-title="Спорт плюс",Sport 3 [ua] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/535/index.m3u8
+#EXTINF:-1 tvg-id="Sport4.ua" tvg-logo="https://i.imgur.com/xW6oGIx.png" tvg-name="Спорт 4" group-title="Спорт плюс",Sport 4 [ua] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tatooine.odessa.tv:9876/play/518/index.m3u8
+#EXTINF:-1 tvg-id="Sport4.ua" tvg-logo="https://i.imgur.com/xW6oGIx.png" tvg-name="Спорт 4" group-title="Спорт плюс",Sport 4 [ua] [720x576]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://88.135.128.20:7272/Wetd63YgcVe23Jk
+#EXTINF:-1 tvg-id="Sport.uz" tvg-logo="https://i.imgur.com/2WJE9CM.png" tvg-name="Sport [uz]" group-title="Спорт плюс",Sport [uz] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://vs1758.vcdn.biz/2a89fb5c1ea0e32fc03ff26e7c46fc8f_megogo/live/hls/b/4000/u_sid/0/o/140085841/rsid/73723949-6c32-43e3-aa6a-80c33e100322/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/84.54.73.172*asn/u_srvc/83576/u_did/web_U9ij9aVdY2r1FMHFZmJd2CoxXvGlCGgX/type.live/chunklist-sid230322689978648235-b4000000-a72531.m3u8
+#EXTINF:-1 tvg-id="SportenFrance.fr" tvg-logo="https://i.imgur.com/1IXQoWq.png" tvg-name="Sport en France [fr]" group-title="Спорт плюс",Sport en France [fr] [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+https://sp1564435593.mytvchain.info/live/sp1564435593/index.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.it" tvg-logo="https://i.imgur.com/0CJGGgd.png" tvg-name="Sportitalia [it]" group-title="Спорт плюс",Sportitalia [it] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://di-j16ei4yq.vo.lswcdn.net/sportitalia/smil:sihd.smil/chunklist_b3096000.m3u8
+#EXTINF:-1 tvg-id="SportsConnect.za" tvg-logo="https://i.imgur.com/0sNWg54.png" tvg-name="Sports Connect [za]" group-title="Спорт плюс",Sports Connect [za] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://origin3.afxp.telemedia.co.za/PremiumFree/sportsconnect/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsTV.tr" tvg-logo="https://i.imgur.com/tGTVcVe.jpg" tvg-name="Sports TV [tr]" group-title="Спорт плюс",Sports TV [tr] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+#EXTINF:-1 tvg-id="SportsGrid.us" tvg-logo="https://i.imgur.com/ulGKX30.png" tvg-name="SportsGrid [us]" group-title="Спорт плюс",SportsGrid [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 tvg-id="SportsGrid.us" tvg-logo="https://i.imgur.com/ulGKX30.png" tvg-name="SportsGrid [us]" group-title="Спорт плюс",SportsGrid [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://sportsgrid-tribal.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SportyStuffTV.uk" tvg-logo="https://i.imgur.com/6s1YGSV.png" tvg-name="SportyStuff TV [uk]" group-title="Спорт плюс",SportyStuff TV [uk] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn.rtmp1.vodhosting.com/hls/SportyStuffTV.m3u8
+#EXTINF:-1 tvg-id="Strongman.de" tvg-logo="https://i.imgur.com/4eAFuKI.png" tvg-name="Strongman [de]" group-title="Спорт плюс",Strongman [de] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SwerveSports.us" tvg-logo="https://i.imgur.com/GT0Yi2T.png" tvg-name="Swerve Sports [us]" group-title="Спорт плюс",Swerve Sports [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://linear-253.frequency.stream/dist/glewedtv/253/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="TSports7.th" tvg-logo="https://i.imgur.com/Xuo2fMZ.png" tvg-name="T Sports Channel" group-title="Спорт плюс",T Sports 7 [th] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport/index.m3u8
+#EXTINF:-1 tvg-id="TSN4K.ca" tvg-logo="https://i.imgur.com/yNiRfrU.png" tvg-name="TSN 4K [ca]" group-title="Спорт плюс",TSN 4K [ca] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://mlb.mrgamingstreams.com/tsn4.m3u8
+#EXTINF:-1 tvg-id="TVVarzish.tj" tvg-logo="https://i.imgur.com/4AJRkGb.png" tvg-name="TV Varzish [tj]" group-title="Спорт плюс",TV Varzish [tj] [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://live.teleradiocom.tj/5/3m.m3u8
+#EXTINF:-1 tvg-id="TVMax.pa" tvg-logo="https://i.imgur.com/XcrkfGh.png" tvg-name="TVMax [pa]" group-title="Спорт плюс",TVMax [pa] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="TVPSport.pl" tvg-logo="https://i.imgur.com/JUZDOCO.png" tvg-name="TVP Sport [pl]" group-title="Спорт плюс",TVP Sport [pl] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://cdn-nvm-chicago.lolokoko.tv/TVPSport.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVQSports.gt" tvg-logo="https://i.imgur.com/CQpuBeQ.png" tvg-name="TVQ Sports [gt]" group-title="Спорт плюс",TVQ Sports [gt] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/1b6bbade53634f5a847b953c9adfd102/index.m3u8
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" tvg-name="TVRI Sport [id]" group-title="Спорт плюс",TVRI Sport [id] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+#EXTINF:-1 tvg-id="TeletrakTV.cl" tvg-logo="https://i.imgur.com/NoJvlig.png" tvg-name="Teletrak TV [cl]" group-title="Спорт плюс",Teletrak TV [cl] [1280x720]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us" tvg-logo="https://i.imgur.com/tsljAnY.png" tvg-name="Tennis Channel [us]" group-title="Спорт плюс",Tennis Channel [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us" tvg-logo="https://i.imgur.com/tsljAnY.png" tvg-name="Tennis Channel [us]" group-title="Спорт плюс",Tennis Channel [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+http://tennischannel-intl-samsung-uk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us" tvg-logo="https://i.imgur.com/tsljAnY.png" tvg-name="Tennis Channel [us]" group-title="Спорт плюс",Tennis Channel [us] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr" tvg-logo="https://i.imgur.com/FabFP5A.png" tvg-name="Trace Sport Stars [fr]" group-title="Спорт плюс",Trace Sport Stars [fr] [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TurkmenistanSport.tm" tvg-logo="https://www.lyngsat.com/logo/tv/tt/turkmenistan-sport-tm.png" tvg-name="Türkmenistan Sport" group-title="Спорт плюс",Turkmenistan Sport [tm] [720x406]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://alpha.tv.online.tm/hls/ch004_720/index.m3u8
+#EXTINF:-1 tvg-id="TurkmenistanSport.tm" tvg-logo="https://www.lyngsat.com/logo/tv/tt/turkmenistan-sport-tm.png" tvg-name="Türkmenistan Sport" group-title="Спорт плюс",Turkmenistan Sport [tm] [720x406]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://alpha.tv.online.tm/hls/ch004.m3u8
+#EXTINF:-1 tvg-id="Unbeaten.us" tvg-logo="https://i.imgur.com/LmkNt3v.png" tvg-name="Unbeaten [us]" group-title="Спорт плюс",Unbeaten [us] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://unbeaten-tcl.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VinxTV.es" tvg-logo="https://i.imgur.com/6EGV2eo.png" tvg-name="Vinx TV [es]" group-title="Спорт плюс",Vinx TV [es] [1920x1080]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://tv.radiocast.es:5443/vinxtv/streams/vinxtvlive.m3u8
+#EXTINF:-1 tvg-id="WAPADT2.pr" tvg-logo="https://i.imgur.com/5WNBFmp.png" tvg-name="WAPA Deportes" group-title="Спорт плюс",WAPA-DT2 [pr] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://live.field59.com/wapa/wapa2/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.it" tvg-logo="https://i.imgur.com/e3yJ9QN.png" tvg-name="World Poker Tour [it]" group-title="Спорт плюс",World Poker Tour [it] [1280x720]
+#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608016e446d73500075ea7e0/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
