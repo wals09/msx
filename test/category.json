@@ -90,8 +90,8 @@
                "layout": "9,3,3,1",
                "focus": true,
                "color": "transparent",
-               "label": " ",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url="
+               "label": " Sport",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/sport.m3u"
             }
          ]
       }
