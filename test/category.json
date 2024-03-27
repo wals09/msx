@@ -46,12 +46,20 @@
                "layout": "0,3,3,1",
                "focus": true,
                "color": "transparent",
+               "label": "Федеральное ТВ",
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/federal.m3u"
+            },
+            {
+               "type": "default",
+               "layout": "3,3,3,1",
+               "focus": true,
+               "color": "transparent",
                "label": "Так себе TV",
                "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
             },
             {
                "type": "default",
-               "layout": "3,4,3,1",
+               "layout": "9,4,3,1",
                "focus": true,
                "color": "transparent",
                "label": " Relax ",
@@ -59,7 +67,7 @@
             },
             {
                "type": "default",
-               "layout": "3,3,3,1",
+               "layout": "6,3,3,1",
                "color": "transparent",
                "label": "WORLD.TV",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://i.mjh.nz/PlutoTV/all.m3u8"
@@ -73,7 +81,7 @@
             },
             {
                "type": "default",
-               "layout": "6,3,3,1",
+               "layout": "3,4,3,1",
                "color": "transparent",
                "label": "Золотая коллекция",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/vip/Golden_Collection.m3u"
@@ -90,7 +98,7 @@
                "layout": "9,3,3,1",
                "focus": true,
                "color": "transparent",
-               "label": " Sport",
+               "label": " Sport TV",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/sport.m3u"
             }
          ]
