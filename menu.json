@@ -451,24 +451,6 @@
             "trigger:back": "player:stop"
          }
       },
-
-       {
-         "titleHeader": "{col:msx-white}dorama",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "",
-               "image": "https://avatars.mds.yandex.net/i?id=1c85ab175b867ce52bbf873412fc1986905febf0-8178541-images-thumbs&n=13"
-            }
-         },
-         "image": "",
-         "action": "content: https://wals09.github.io/kf/dorama.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
       {
          "titleHeader": "{col:msx-white}",
          "titleFooter": "",
