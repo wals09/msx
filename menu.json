@@ -186,11 +186,11 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}MOVIELAB{col}{br}{col:black}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line",
-               "image": "https://github.com/wals09/repo/blob/main/movielab/ml.gif?raw=true"
+               "image": "https://github.com/wals09/msx/blob/main/ml/001.png?raw=true"
             }
          },
          "image": "https://github.com/wals09/msx/blob/main/ml/logo2.png?raw=true",
-         "action": "content:https://wals09.github.io/msx/ml/menu.json",
+         "action": "menu:https://movielab.fun/msx/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
@@ -416,7 +416,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-            {
+      {
          "titleHeader": "{col:msx-white}Кинофраншизы",
          "titleFooter": "",
          "selection": {
