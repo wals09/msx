@@ -47,6 +47,14 @@
          "titleFooter": "",
          "offset": "6.5,-0.55,-2.5,-0.5",
          "color": "gold",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:white}<< G O L D >>{col}{br}{col:msx-white}Тема оформления в золотых тонах",
+               "image": "https://wals09.github.io/msx/tema/gold.png"
+            }
+         },
          "action": "content:https://wals09.github.io/msx/menu-gold.json"
       },
       {
@@ -54,6 +62,14 @@
          "titleFooter": "",
          "offset": "4.5,-0.55,-2.5,-0.5",
          "color": "black",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:white}<< B L A C K >>{col}{br}{col:msx-white}Темная тема оформления",
+               "image": "https://wals09.github.io/msx/tema/black.png"
+            }
+         },
          "action": "content:https://wals09.github.io/msx/menu-black.json"
       },
       {
@@ -61,6 +77,14 @@
          "titleFooter": "",
          "offset": "1,-0.55,-2.5,-0.5",
          "color": "blue",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:white}<< B L U E >>{col}{br}{col:msx-white}Тема оформления в сине-голубых тонах",
+               "image": "https://wals09.github.io/msx/tema/blue.png"
+            }
+         },
          "action": "content:https://wals09.github.io/msx/menu-blue.json"
       },
       {
@@ -69,7 +93,6 @@
          "focus": true,
          "selection": {
             "important": true,
-            "focus": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}DRM-play{col}{br}{col:black}IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Тестовый плейлист для ознакомления с функциями плеера.",
