@@ -43,10 +43,33 @@
    },
    "items": [
       {
+         "titleHeader": "",
+         "titleFooter": "",
+         "offset": "6.5,-0.55,-2.5,-0.5",
+         "color": "gold",
+         "action": "content:https://wals09.github.io/msx/menu-gold.json"
+      },
+      {
+         "titleHeader": "",
+         "titleFooter": "",
+         "offset": "4.5,-0.55,-2.5,-0.5",
+         "color": "black",
+         "action": "content:https://wals09.github.io/msx/menu-black.json"
+      },
+      {
+         "titleHeader": "",
+         "titleFooter": "",
+         "offset": "1,-0.55,-2.5,-0.5",
+         "color": "blue",
+         "action": "content:https://wals09.github.io/msx/menu-blue.json"
+      },
+      {
          "titleHeader": "{col:msx-white}DRM-play",
          "titleFooter": "IPTV player",
+         "focus": true,
          "selection": {
             "important": true,
+            "focus": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}DRM-play{col}{br}{col:black}IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Тестовый плейлист для ознакомления с функциями плеера.",
@@ -383,6 +406,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Кинофраншизы",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Коллекция медиаподборок от {col:white}OLSIB TV{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
+               "image": "https://wals09.github.io/kf/img/001.gif"
+            }
+         },
+         "image": "https://wals09.github.io/kf/img/logo.png",
+         "action": "content: https://wals09.github.io/kf/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}Akter Black",
          "titleFooter": "{col:yellow}demo",
          "selection": {
@@ -412,23 +452,6 @@
          },
          "image": "https://github.com/wals09/msx/blob/main/prisma/logo.png?raw=true",
          "action": "link:https://prisma.ws/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Кинофраншизы",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Коллекция медиаподборок от {col:white}OLSIB TV{col}{br}{col:black}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
-               "image": "https://wals09.github.io/kf/img/001.gif"
-            }
-         },
-         "image": "https://wals09.github.io/kf/img/logo.png",
-         "action": "content: https://wals09.github.io/kf/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
