@@ -1,7 +1,7 @@
 {
    "type": "list",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
-   "background": "https://catherineasquithgallery.com/uploads/posts/2021-02/1614270723_53-p-chernii-pikselnii-fon-76.jpg",
+   "background": "https://github.com/wals09/msx/blob/main/bg/black_bg.jpg?raw=true",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "{col:msx-white}WALS_MSX v2.1",
    "transparent": 1,
