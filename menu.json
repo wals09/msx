@@ -293,6 +293,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}СМОТРИМ-WEB",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}СМОТРИМ-WEB{col}{br}{col:black}российская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК»",
+               "image": "https://github.com/wals09/msx/blob/main/smotrim/smotrim.gif?raw=true"
+            }
+         },
+         "image": "https://wals09.github.io/msx/smotrim/icon.png",
+         "action": "link:https://tv.smotrim.ru",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}YouTUBE",
          "titleFooter": "",
          "selection": {
