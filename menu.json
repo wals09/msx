@@ -202,7 +202,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/atodo/logo.png",
-         "action": "link:http://msx.atodo.fun",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
