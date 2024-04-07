@@ -49,51 +49,7 @@
       "imageFiller": "cover"
    },
    "items": [
-      {
-         "titleHeader": "",
-         "titleFooter": "",
-         "offset": "6.5,-0.55,-2.5,-0.5",
-         "color": "gold",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:white}<< G O L D >>{col}{br}{col:msx-white}Тема оформления в золотых тонах",
-               "image": "https://wals09.github.io/msx/tema/gold.png"
-            }
-         },
-         "action": "content:https://wals09.github.io/msx/menu-gold.json"
-      },
-      {
-         "titleHeader": "",
-         "titleFooter": "",
-         "offset": "4.5,-0.55,-2.5,-0.5",
-         "color": "black",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:white}<< B L A C K >>{col}{br}{col:msx-white}Темная тема оформления",
-               "image": "https://wals09.github.io/msx/tema/black.png"
-            }
-         },
-         "action": "content:https://wals09.github.io/msx/menu-black.json"
-      },
-      {
-         "titleHeader": "",
-         "titleFooter": "",
-         "offset": "1,-0.55,-2.5,-0.5",
-         "color": "blue",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:white}<< B L U E >>{col}{br}{col:msx-white}Тема оформления в сине-голубых тонах",
-               "image": "https://wals09.github.io/msx/tema/blue.png"
-            }
-         },
-         "action": "content:https://wals09.github.io/msx/menu-blue.json"
-      },
+  
       {
          "titleHeader": "{col:msx-white}DRM-play",
          "titleFooter": "IPTV player",
