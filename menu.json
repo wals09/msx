@@ -208,6 +208,23 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}ATODO",
+         "titleFooter": "{col:yellow}web",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:black}Web версия приложения ATODO. Просмотр различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "image": "https://wals09.github.io/msx/atodo/capture.gif"
+            }
+         },
+         "image": "https://wals09.github.io/msx/atodo/logo.png",
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}MOOVIES",
          "titleFooter": "",
          "selection": {
