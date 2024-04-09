@@ -25,9 +25,10 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,0,8,6",
+      "offset": "0,0.2,0,0",
       "imageWidth": 0.83,
       "wrapperColor": "msx-glass",
-      "color": "msx-glass",
+      "color": "transparent",
       "progress": -1,
       "titleFooter": "Загрузка..",
       "properties": {
