@@ -25,7 +25,7 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,0,8,6",
-      "offset": "0,0.4,0,0",
+      "offset": "0,0.6,0,0",
       "imageWidth": 0.83,
       "wrapperColor": "msx-glass",
       "color": "transparent",
