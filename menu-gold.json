@@ -1,7 +1,7 @@
 {
    "type": "list",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
-   "background": "https://wallpapers.com/images/hd/gold-texture-pictures-45w37gr55e184m6v.jpg",
+   "background": "https://github.com/wals09/msx/blob/main/imge_tems/gold.jpg?raw=true",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "{col:msx-white}WALS_MSX v2.1",
    "transparent": 1,
@@ -12,7 +12,7 @@
             "type": "space",
             "layout": "8,0,4,6",
             "offset": "0.5,-1,0.1,1.67",
-            "image": "https://img.lovepik.com/free-poster-background/400290823/master.jpg"
+            "image": "https://github.com/wals09/msx/blob/main/imge_tems/master.jpg?raw=true"
          },
          {
             "id": "image",
