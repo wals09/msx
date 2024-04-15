@@ -151,7 +151,7 @@
          "channel": "378",
          "titleHeader": "{col:msx-white}Пятый канал",
          "playerLabel": "Пятый канал",
-         "image": "https://picon.pp.ua/5kanal-ru.png",
+         "image": "https://gitlab.com/it999/picons/-/raw/master/transparent_220x132/5%20канал%20+3%20(Омск).png?ref_type=heads",
          "action": "video: http://81.177.197.13:8000/play/a004/index.m3u8"
       },
       {
