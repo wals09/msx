@@ -144,7 +144,7 @@
          "titleHeader": "{col:msx-white}Че",
          "playerLabel": "Че",
          "image": "https://picon.pp.ua/che.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R02_PERETZ/playlist.m3u8"
+         "action": "video: http://edge02.odtv.az/o5/chetv/playlist.m3u8"
       },
       {
          "id": "channel_10",
@@ -152,7 +152,7 @@
          "titleHeader": "{col:msx-white}Пятый канал",
          "playerLabel": "Пятый канал",
          "image": "https://picon.pp.ua/5kanal-ru.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8"
+         "action": "video: http://81.177.197.13:8000/play/a004/index.m3u8"
       },
       {
          "id": "channel_11",
@@ -176,7 +176,7 @@
          "titleHeader": "{col:msx-white}Звезда",
          "playerLabel": "Звезда",
          "image": "https://picon.pp.ua/zvezda.png",
-         "action": "video: http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8"
+         "action": "video: http://stream01.vnet.am/Zvezda/mono.m3u8"
       },
       {
          "id": "channel_14",
@@ -200,7 +200,7 @@
          "titleHeader": "{col:msx-white}Суббота",
          "playerLabel": "Суббота",
          "image": "https://picon.pp.ua/subbota.png",
-         "action": "video: http://91.205.199.7:8000/play/a0si"
+         "action": "video: http://193.201.98.10:5000/c52"
       },
       {
          "id": "channel_17",
@@ -216,7 +216,7 @@
          "titleHeader": "{col:msx-white}СТС Love",
          "playerLabel": "СТС Love",
          "image": "https://picon.pp.ua/sts-love.png",
-         "action": "video: http://83.234.207.29:8001/play/a00p/index.m3u8"
+         "action": "video: http://193.201.98.10:5000/c51"
       },
       {
          "id": "channel_19",
@@ -232,7 +232,7 @@
          "titleHeader": "{col:msx-white}Ю",
          "playerLabel": "Ю",
          "image": "https://picon.pp.ua/yu.png",
-         "action": "video: http://otv.wotom.net:4433/udp/238.1.1.108:1234"
+         "action": "video: http://edge02.odtv.az/o3/utv/playlist.m3u8"
       }
    ]
 }
