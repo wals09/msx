@@ -56,18 +56,7 @@
          "label:position": "...",
          "label:duration": "...",
          "control:type": "extended",
-         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
-         "live:channel": "{context:channel}",
-         "live:program": "-1"
-      },
-      "selection": {
-         "important": true,
-         "action": "update:content:overlay:preview",
-         "data": {
-            "headline": "",
-            "text": "",
-            "live": []
-         }
+         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}"
       },
       "live": {
          "type": "setup",
