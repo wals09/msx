@@ -34,11 +34,45 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,0,8,6",
-      "offset": "-0.3,0,0.1,0",
+      "imageWidth": 0.83,
       "wrapperColor": "msx-glass",
-      "imageWidth": 1,
       "color": "transparent",
-      "imageFiller": "cover"
+      "progress": -1,
+      "titleFooter": "Загрузка..",
+      "properties": {
+         "button:speed:display": "true",
+         "button:speed:icon": "",
+         "button:speed:action": "execute:http://kb-team.club/msx/iptv/favs.php?action=add&plug=iptvk&cid={context:favs_id}&device=d41d8cd98f00",
+         "button:content:icon": "fullscreen",
+         "button:content:action": "player:commit:message:tizen:display:area:0,0,1,1",
+         "button:restart:icon": "info-outline",
+         "button:restart:action": "panel:request:interaction:program@http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "button:rewind:display": "false",
+         "button:forward:display": "false",
+         "button:restart:display": "true",
+         "button:play_pause:display": "false",
+         "trigger:back": "player:stop",
+         "label:extension": "{ico:msx-white:access-time} {now:time:hh:mm:ss}",
+         "label:position": "...",
+         "label:duration": "...",
+         "control:type": "extended",
+         "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
+         "live:channel": "{context:channel}",
+         "live:program": "-1"
+      },
+      "selection": {
+         "important": true,
+         "action": "update:content:overlay:preview",
+         "data": {
+            "headline": "",
+            "text": "",
+            "live": []
+         }
+      },
+      "live": {
+         "type": "setup",
+         "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
+      }
    },
    "items": [
       {
