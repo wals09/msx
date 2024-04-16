@@ -1,42 +1,30 @@
 {
    "type": "list",
-   "headline": "",
-   "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
+   "headline": "АГЕНТ 007",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
-   "header": {
-      "offset": "0,0,0,0.5",
-      "items": [
-         {
-            "type": "default",
-            "layout": "0,0,8,1",
-            "color": "#FF4F00",
-            "headline": "Общие каналы",
-            "titleFooter": "{ico:#ced6e0:arrow-right}Вернутся к выбору категории",
-            "action": "content:http://wals09.github.io/msx/test/category.json"
-         }
-      ]
-   },
    "overlay": {
       "items": [
          {
             "type": "space",
-            "layout": "7,0,4,6",
-            "offset": "0.9,-1,0.2,1.67",
+            "layout": "7,0,5,6",
+            "offset": "1,-1,0,1.67",
             "color": "#FF4F00"
          },
          {
             "id": "image",
             "type": "space",
-            "layout": "9,0,2,2",
-            "offset": "0,-0.9,0.01,0.05",
-            "color": "glass",
+            "layout": "9,0,1,1",
+            "offset": "-0.5,-0.5,0,0",
+            "color": "msx-glass",
             "image": "none",
             "imageFiller": "cover"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "8,1,4,5",
+            "layout": "9,1,3,5",
+            "offset": "-0.5,0,1,0",
             "headline": "",
             "text": ""
          }
@@ -46,402 +34,163 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,0,8,6",
+      "offset": "-0.3,0,0.1,0",
       "wrapperColor": "msx-glass",
-      "color": "msx-glass",
       "imageWidth": 1,
+      "color": "transparent",
       "imageFiller": "cover"
    },
    "items": [
       {
+         "id": "channel_0",
+         "channel": "362",
          "titleHeader": "{col:msx-white}Первый канал",
-         "titleFooter": "Общие",
          "playerLabel": "Первый канал",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{br}{col:msx-white}Первый канал{col}{br}{br}{col:black}18:55 Куклы наследника Тутти{br}20:00 Время{br}21:00 Переведи её через Майдан{br}22:00 Большая игра{br}23:00 Подкаст.Лаб{br} 23:45 Подкаст.Лаб",
-               "image": "https://picon.pp.ua/pervy.png"
+               "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13"
             }
          },
-         "image": "https://picon.pp.ua/pervy.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/1c7ccb2e/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13",
+         "action": "video: http://str10.ottg.online/5484/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
+         "id": "channel_1",
+         "channel": "391",
          "titleHeader": "{col:msx-white}Россия 1",
-         "titleFooter": "Общие",
          "playerLabel": "Россия 1",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Россия 1{col}{br}{br}{col:black}20:20 Медиум Сезон 2 Серия 27-я{br}21:20 Медиум Сезон 2 Серия 28-я{br}22:30 Бесогон TV{br}23:30 Вечер с Владимиром Соловьёвым",
-               "image": "https://picon.pp.ua/rossia1.png"
+               "image": "https://hisense.clan.su/_nw/0/54291963.png"
             }
          },
-         "image": "https://picon.pp.ua/rossia1.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/n2cb648fa/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://hisense.clan.su/_nw/0/54291963.png",
+         "action": "video: http://stream02.vnet.am/Rossia1/tracks-v1a1/mono.m3u8",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}НТВ",
-         "titleFooter": "Общие",
-         "playerLabel": "НТВ",
+         "id": "channel_2",
+         "channel": "393",
+         "titleHeader": "{col:msx-white}Россия 24",
+         "playerLabel": "Россия 24",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}НТВ{col}{br}{br}{col:black}20:05 Десять дней до весны. Серия 4-я{br}21:10 Пять минут тишины. Симбирские морозы. Серия 5-я{br}21:52 Пять минут тишины. Симбирские морозы. Серия 6-я{br}22:35 Сегодня в Москве{br}23:00 Пять минут тишины. Симбирские морозы. Серия 6-я{br}23:55 Пять минут тишины. Симбирские морозы. Серия 7-я",
-               "image": "https://picon.pp.ua/ntv.png"
+               "image": "https://avatars.mds.yandex.net/i?id=41570d4ee58625620b0cd45a6acdc21aa1d5fb9e-11401855-images-thumbs&n=13"
             }
          },
-         "image": "https://picon.pp.ua/ntv.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/4e37fd78/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://avatars.mds.yandex.net/i?id=41570d4ee58625620b0cd45a6acdc21aa1d5fb9e-11401855-images-thumbs&n=13",
+         "action": "video: http://ott-cdn.ucom.am/s21/04.m3u8",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}РенТВ",
-         "titleFooter": "Общие",
-         "playerLabel": "РенТВ",
+         "id": "channel_3",
+         "channel": "395",
+         "titleHeader": "{col:msx-white}Россия К",
+         "playerLabel": "Россия К",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}РенТВ{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/rentv.png"
+               "image": "https://avatars.akamai.steamstatic.com/fddd320cb9329f9c742c3b429d1c02b7c9ea3b95_full.jpg"
             }
          },
-         "image": "https://picon.pp.ua/rentv.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/n5434c71/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://avatars.akamai.steamstatic.com/fddd320cb9329f9c742c3b429d1c02b7c9ea3b95_full.jpg",
+         "action": "video: http://ott-cdn.ucom.am/s16/04.m3u8",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}ТВ3",
-         "titleFooter": "Общие",
-         "playerLabel": "ТВ3",
+         "titleHeader": "{col:msx-white}Агент 007",
+         "titleFooter": "Доктор Ноу",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ТВ3{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/tv3-ru.png"
+               "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13"
             }
          },
-         "image": "https://picon.pp.ua/tv3-ru.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/4ca3413d/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13",
+         "action": "video:resolve:request:interaction:https://hye1eaipby4w.takedwn.ws/10_19_20/10/19/17/4NKW7474/NFM7FMRZ.mp4/master.m3u8@http://msx.benzac.de/interaction/play.html",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}ТНТ",
-         "titleFooter": "Общие",
-         "playerLabel": "ТНТ",
+         "titleHeader": "{col:msx-white}Агент 007",
+         "titleFooter": "Доктор Ноу",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ТНТ{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/tnt.png"
+               "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg"
             }
          },
-         "image": "https://picon.pp.ua/tnt.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/40b4c641/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg",
+         "action": "video:resolve:request:interaction:https://hye1eaipby4w.takedwn.ws/10_19_20/10/19/17/4NKW7474/NFM7FMRZ.mp4/master.m3u8@http://msx.benzac.de/interaction/play.html",
          "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}ТНТ4",
-         "titleFooter": "",
-         "playerLabel": "ТНТ4",
+         "titleHeader": "{col:msx-white}Агент 007",
+         "titleFooter": "Доктор Ноу",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ТНТ4{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/tnt4.png"
+               "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13"
             }
          },
-         "image": "https://picon.pp.ua/tnt4.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/27b092f/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13",
+         "action": "video:resolve:request:interaction:https://hye1eaipby4w.takedwn.ws/10_19_20/10/19/17/4NKW7474/NFM7FMRZ.mp4/master.m3u8@http://msx.benzac.de/interaction/play.html",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}СТС",
-         "titleFooter": "Общие",
-         "playerLabel": "СТС",
+         "titleHeader": "{col:msx-white}Агент 007",
+         "titleFooter": "Доктор Ноу",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}СТС{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/sts.png"
+               "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg"
             }
          },
-         "image": "https://picon.pp.ua/sts.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/n82d9782/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg",
+         "action": "video:resolve:request:interaction:https://hye1eaipby4w.takedwn.ws/10_19_20/10/19/17/4NKW7474/NFM7FMRZ.mp4/master.m3u8@http://msx.benzac.de/interaction/play.html",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}Пятница!",
-         "titleFooter": "Общие",
-         "playerLabel": "Пятница!",
+         "titleHeader": "{col:msx-white}Агент 007",
+         "titleFooter": "Доктор Ноу",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Пятница!{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/piatnica.png"
+               "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg"
             }
          },
-         "image": "https://picon.pp.ua/piatnica.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/661a3415/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
+         "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg",
+         "action": "video:resolve:request:interaction:https://hye1eaipby4w.takedwn.ws/10_19_20/10/19/17/4NKW7474/NFM7FMRZ.mp4/master.m3u8@http://msx.benzac.de/interaction/play.html",
          "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}2x2",
-         "titleFooter": "Общие",
-         "playerLabel": "2x2",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}2x2{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/2na2.png"
-            }
-         },
-         "image": "https://picon.pp.ua/2na2.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/56be1820/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
-         "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Пятый канал",
-         "titleFooter": "Общие",
-         "playerLabel": "Пятый канал",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Пятый канал{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/5kanal-ru.png"
-            }
-         },
-         "image": "https://picon.pp.ua/5kanal-ru.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/558808a6/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
-         "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Домашний",
-         "titleFooter": "Общие",
-         "playerLabel": "Домашний",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Домашний{col}{br}{br}{col:black}Программа передач",
-               "image": "https://picon.pp.ua/domashny.png"
-            }
-         },
-         "image": "https://picon.pp.ua/domashny.png",
-         "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=http://ru-link.kulik.uz/channel/1e7f57d6/index.m3u8?q=ee0773bf14c3c9221c4cdc0951958551",
-         "properties": {
-            "progress": "-1",
-            "control:type": "default",
-            "control:reuse": "retain",
-            "label:extension": "",
-            "label:duration": "{ico:msx-yellow:skip-previous} {ico:msx-red:exit-to-app} {ico:msx-green:skip-next}",
-            "button:eject:key": "red|1|Back|return|BACK",
-            "player:button:eject:key": "Back|return",
-            "button:prev:key": "yellow|2",
-            "button:next:key": "green|3",
-            "trigger:back": "player:stop",
-            "button:play_pause:enable": "true",
-            "button:speed:display": "false",
-            "button:forward:display": "false",
-            "button:rewind:display": "false",
-            "button:restart:enable": "true",
-            "button:content:focus": "true",
-            "progress:type": "fix:Live"
+            "image:extension": "| {col:msx-white}First Item"
          }
       }
    ]
