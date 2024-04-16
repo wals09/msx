@@ -59,19 +59,6 @@
          "trigger:load": "interaction:load:http://kb-team.club/msx/iptv/player.php?plugin=iptvk&channel={context:channel}&shift={context:shift}",
          "live:channel": "{context:channel}",
          "live:program": "-1"
-      },
-      "selection": {
-         "important": true,
-         "action": "update:content:overlay:preview",
-         "data": {
-            "headline": "",
-            "text": "",
-            "live": []
-         }
-      },
-      "live": {
-         "type": "setup",
-         "action": "execute:service:http://kb-team.club/msx/iptv/iptvk.php?channel={context:playerLabel}&id={context:channel}&sid={context:id}&shift={context:shift}&type=list"
       }
    },
    "items": [
@@ -80,13 +67,6 @@
          "channel": "362",
          "titleHeader": "{col:msx-white}Первый канал",
          "playerLabel": "Первый канал",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image]",
-            "data": {
-               "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13"
-            }
-         },
          "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13",
          "action": "video: http://str10.ottg.online/5484/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
       },
@@ -95,13 +75,6 @@
          "channel": "391",
          "titleHeader": "{col:msx-white}Россия 1",
          "playerLabel": "Россия 1",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image]",
-            "data": {
-               "image": "https://hisense.clan.su/_nw/0/54291963.png"
-            }
-         },
          "image": "https://hisense.clan.su/_nw/0/54291963.png",
          "action": "video: http://stream02.vnet.am/Rossia1/tracks-v1a1/mono.m3u8"
       },
