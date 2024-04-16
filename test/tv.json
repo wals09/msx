@@ -82,7 +82,7 @@
          "playerLabel": "Первый канал",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image]",
             "data": {
                "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13"
             }
@@ -97,7 +97,7 @@
          "playerLabel": "Россия 1",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "[update:content:overlay:image]",
             "data": {
                "image": "https://hisense.clan.su/_nw/0/54291963.png"
             }
