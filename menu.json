@@ -542,7 +542,7 @@
                "image": ""
             }
          },
-         "action": "content: https://wals09.github.io/msx/test/tv_test.json",
+         "action": "content: https://wals09.github.io/msx/test/demo.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
