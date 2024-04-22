@@ -58,13 +58,7 @@
                "label": "Так себе TV",
                "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
             },
-                 {
-         "title": "Анилибрия",
-         "logo_30x30": "http://fxmlparsers.in.net/icons/anilibria_m.png",
-         "playlist_url": "http://fxmlparsers.in.net/https://anilibria.tv/",
-         "template": "<div style=\"width:195px;overflow:hidden;margin:4px;text-align:center;\"><img src=\"$logo_30x30\" style=\"width:190px;height:150px;padding:2px 2px 0px 2px;\"><br>$title</div>",
-         "position": "html"
-      },
+      
       {
          "title": "VK поиск",
          "logo_30x30": "http://fxmlparsers.in.net/icons/vk.png",
@@ -72,7 +66,7 @@
          "template": "<div style=\"width:195px;overflow:hidden;margin:4px;text-align:center;\"><img src=\"$logo_30x30\" style=\"width:190px;height:150px;padding:2px 2px 0px 2px;\"><br>$title</div>",
          "position": "html",
          "after": "<div style='text-align:center;  margin:30px;'>(C) 2024 fxmlparsers. Based on github.com/ytdl-org/youtube-dl</div>"
-      }
+      },
             {
                "type": "default",
                "layout": "6,3,3,1",
