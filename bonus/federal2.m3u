@@ -18,7 +18,7 @@ http://202.21.104.6:88/ort-tv/mono.m3u8
 
 #EXTINF:-1 tvg-id="NTV.ru" tvg-logo="https://i.imgur.com/9r1BKzK.png" tvg-name="НТВ" group-title="Общий",НТВ [1920x1080]
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-https://7o8gab7zdd.a.trbcdn.net/hls-livec2/streams/vitrina-hls/ntv0h/tracks-v5a1/mono.m3u8
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" tvg-name="Пятый канал" group-title="Общий",5 канал [720x576]
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
