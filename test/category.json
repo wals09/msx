@@ -78,7 +78,7 @@
                "layout": "0,4,3,1",
                "color": "transparent",
                "label": "Медиатека",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://edemtv.my1.ru/mediateka.m3u"
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://m3u.ch/oCnWfdOv.m3u"
             },
             {
                "type": "default",
