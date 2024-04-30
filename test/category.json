@@ -56,7 +56,7 @@
                "focus": true,
                "color": "transparent",
                "label": "Так себе TV",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus.m3u"
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus1.m3u"
             },
             {
                "type": "default",
@@ -100,7 +100,7 @@
                "focus": true,
                "color": "transparent",
                "label": " Sport TV",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/sport.m3u"
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/sport1.m3u"
             }
          ]
       }
