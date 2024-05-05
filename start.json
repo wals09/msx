@@ -456,6 +456,26 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
+
+     {
+         "titleHeader": "{col:msx-white}TikTok",
+         "titleFooter": "{col:yellow}Только WebOS",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}TikTok{col}{br}{col:black}Hеофициальное приложение для webOS",
+               "image": "https://shopespot.shopespot.com/uploads/partner/144/paperbits_blobs/ea916776-f655-c87c-09ee-53c5b9bd625a.webp"
+            }
+         },
+         "image": "https://shopespot.shopespot.com/uploads/partner/144/paperbits_blobs/ea916776-f655-c87c-09ee-53c5b9bd625a.webp",
+         "action": "link:https://tv.tiktok.com/webos"
+      },
+
+
+
+
+      
       {
          "titleHeader": "{col:msx-white}Бонус контент",
          "titleFooter": "",
