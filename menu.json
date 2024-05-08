@@ -325,6 +325,20 @@
          "action": "link:https://tv.tiktok.com/webos"
       },
 
+            {
+         "titleHeader": "{col:msx-white}VK Video",
+         "titleFooter": "{col:yellow}Только WebOS",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}TikTok{col}{br}{col:black}Hеофициальное приложение для webOS",
+               "image": "https://webosappclub.github.io/apps/vkvideo/icon.png"
+            }
+         },
+         "image": "https://webosappclub.github.io/apps/vkvideo/icon.png",
+         "action": "link:https://vk.ru/tv-app/lib?version=1.3.13&platform=webos"
+      },
       
       {
          "titleHeader": "{col:msx-white}СМОТРИМ-WEB",
