@@ -1,8 +1,9 @@
 {
    "name": "WALS MSX",
    "type": "list",
+   "background": "https://static.tildacdn.com/tild6638-3930-4637-a638-663166303633/gdEA122J_N0.jpg",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "background": "https://github.com/wals09/msx/blob/main/bg/hvbg.png?raw=true",
+   "headline": "С Днем Победы",
    "version": "2.1.0",
    "parameter": "content:https://raw.githubusercontent.com/wals09/msx/main/start.json",
    "action": "[settings:validate_links:0|home]",
@@ -11,28 +12,21 @@
       "image": "https://raw.githubusercontent.com/wals09/msx/main/img/wals.png"
    },
    "preload": "next",
-   "transparent": 1,
+   "transparent": 0.5,
    "overlay": {
       "items": [
          {
             "type": "space",
             "layout": "0,0,9,1",
             "offset": "-0.5,-0.1,0,0",
-            "text": "{col:msx-white}Пасха — Светлое Христово Воскресение, праздник жизни, её победы над смертью. Своей жертвой Иисус искупил грехи всех живущих людей и тех, кто будет жить после него. Пасха — напоминание людям о милосердии Бога, его любви и прощении."
+            "color": "",
+            "text": "{col:msx-white}9 мая - День Победы.  Праздник победы Красной армии и советского народа над нацистской Германией в Великой Отечественной войне 1941—1945 годов."
          },
          {
             "type": "space",
             "layout": "8,0,4,6",
-            "offset": "0.5,-1.1,0.3,2",
-            "image": "https://oboi-telefon.ru/wallpapers/176333/38957.jpg"
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "offset": "0,-1,0,1",
-            "layout": "9,1,3,3",
-            "headline": "",
-            "text": ""
+            "offset": "0.5,0,0,0",
+            "image": "https://sun9-55.userapi.com/impg/7nnbh6UbtQwJH8BbQ8zCGLgLPmr93qKXg9pj-A/WikyaLJ-wCA.jpg?size=527x734&quality=95&sign=b6f50f8fcda44c71e0a90c4928e92f43&c_uniq_tag=awGDWTUfEokphiax21_By4mPGnQf-wcctp01nMTSuc0&type=album"
          }
       ]
    },
@@ -42,7 +36,6 @@
       "area": "0,1,9,5",
       "offset": "-0.5,0,0,0",
       "color": "transparent",
-      "transparent": 2,
       "imageWidth": 0.9,
       "imageFiller": ""
    },
@@ -456,26 +449,6 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-
-     {
-         "titleHeader": "{col:msx-white}TikTok",
-         "titleFooter": "{col:yellow}Только WebOS",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}TikTok{col}{br}{col:black}Hеофициальное приложение для webOS",
-               "image": "https://shopespot.shopespot.com/uploads/partner/144/paperbits_blobs/ea916776-f655-c87c-09ee-53c5b9bd625a.webp"
-            }
-         },
-         "image": "https://shopespot.shopespot.com/uploads/partner/144/paperbits_blobs/ea916776-f655-c87c-09ee-53c5b9bd625a.webp",
-         "action": "link:https://tv.tiktok.com/webos"
-      },
-
-
-
-
-      
       {
          "titleHeader": "{col:msx-white}Бонус контент",
          "titleFooter": "",
