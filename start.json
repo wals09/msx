@@ -2,6 +2,7 @@
     "name": "WALS_MSX",
     "version": "2.3",
     "parameter": "content: https://wals09.github.io/msx/menu.json",
+      "dictionary": "https://wals09.github.io/msx/dictionary.json",
     "launcher": {
       "image": "https://raw.githubusercontent.com/wals09/msx/main/img/wals.png"
    }   
