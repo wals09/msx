@@ -466,6 +466,22 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
+            {
+         "selection": {
+            "important": true,
+            "background": "https://w.forfun.com/fetch/98/98897f347900d683c361d3f7356bdd11.jpeg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa UnCensored",
+               "text": "{col:msx-white}Мод программы Лампа{br}c установленым магазином плагинов и другими «плюшками»"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/bylampa.png?raw=true",
+         "action": "link:http://bylampa.line.pm/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
       {
          "selection": {
             "important": true,
