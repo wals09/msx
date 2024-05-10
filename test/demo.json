@@ -2,9 +2,8 @@
    "type": "list",
    "headline": "Общие каналы",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "preload": "next",
-   "captionUnderlay": 1,
-   "underlay": {
+   "preload": "none",
+   "overlay": {
       "items": [
          {
             "type": "space",
@@ -16,15 +15,7 @@
          {
             "id": "preview",
             "type": "space",
-            "layout": "1,0,6,3",
-            "headline": "",
-            "text": ""
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "layout": "1,0,6,3",
-            "offset": "-1,0.5,1,0",
+            "layout": "1,0,11,3",
             "headline": "",
             "text": ""
          }
@@ -80,7 +71,8 @@
       {
          "id": "channel_1",
          "channel": "391",
-         "titleHeader": "{col:msx-white}Россия 1",
+         "titleHeader": "",
+         "headline": "Россия",
          "playerLabel": "Россия 1",
          "image": "https://hisense.clan.su/_nw/0/54291963.png",
          "action": "video: http://stream02.vnet.am/Rossia1/tracks-v1a1/mono.m3u8"
