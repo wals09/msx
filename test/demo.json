@@ -1,21 +1,30 @@
 {
    "type": "list",
-   "headline": "",
+   "headline": "Общие каналы",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "preload": "none",
-   "background": "msx-black",
-   "overlay": {
+   "preload": "next",
+   "captionUnderlay": 1,
+   "underlay": {
       "items": [
          {
             "type": "space",
-            "layout": "7,0,4,6",
-            "offset": "0.9,-1,0.9,1.67",
-            "color": "#000"
+            "round": false,
+            "layout": "0,3,12,3",
+            "offset": "-1.25,-0.33,2,1",
+            "color": "msx-black-soft"
          },
          {
             "id": "preview",
             "type": "space",
-            "layout": "8,1,4,4",
+            "layout": "1,0,6,3",
+            "headline": "",
+            "text": ""
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "1,0,6,3",
+            "offset": "-1,0.5,1,0",
             "headline": "",
             "text": ""
          }
@@ -24,12 +33,14 @@
    "template": {
       "type": "default",
       "layout": "0,0,4,1",
-      "area": "0,0,8,6",
+      "area": "0,0,12,3",
+      "offset": "0,3,0,0",
       "imageWidth": 0.83,
-      "wrapperColor": "msx-glass",
-      "color": "transparent",
+      "trigger:back": "player:stop",
       "progress": -1,
       "titleFooter": "Загрузка..",
+      "color": "msx-glass",
+      "imageFiller": "cover",
       "properties": {
          "button:speed:display": "true",
          "button:speed:icon": "",
@@ -67,14 +78,6 @@
    },
    "items": [
       {
-         "id": "channel_0",
-         "channel": "362",
-         "titleHeader": "{col:msx-white}Первый канал",
-         "playerLabel": "Первый канал",
-         "image": "https://avatars.mds.yandex.net/i?id=cf1642ba099a6527a618bde8b633bdaa0bcc7ce0-10851151-images-thumbs&n=13",
-         "action": "video: http://str10.ottg.online/5484/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
-      },
-      {
          "id": "channel_1",
          "channel": "391",
          "titleHeader": "{col:msx-white}Россия 1",
@@ -83,156 +86,147 @@
          "action": "video: http://stream02.vnet.am/Rossia1/tracks-v1a1/mono.m3u8"
       },
       {
-         "id": "channel_2",
-         "channel": "393",
-         "titleHeader": "{col:msx-white}Россия 24",
-         "playerLabel": "Россия 24",
-         "image": "https://avatars.mds.yandex.net/i?id=41570d4ee58625620b0cd45a6acdc21aa1d5fb9e-11401855-images-thumbs&n=13",
-         "action": "video: http://ott-cdn.ucom.am/s21/04.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-09/1695906065_gas-kvas-com-p-kartinki-les-48.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Лес {col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Лес ",
+         "image": "https://i1.sndcdn.com/artworks-C8hcDBSG4W2FDet1-5x1GVw-t500x500.jpg",
+         "action": "video: http://iptv.prosto.tv:7000/ch330/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_3",
-         "channel": "395",
-         "titleHeader": "{col:msx-white}Россия К",
-         "playerLabel": "Россия К",
-         "image": "https://avatars.akamai.steamstatic.com/fddd320cb9329f9c742c3b429d1c02b7c9ea3b95_full.jpg",
-         "action": "video: http://ott-cdn.ucom.am/s16/04.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://live.staticflickr.com/7296/13937018640_8e5d17b63f_b.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Зоо{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Зоо",
+         "image": "https://avatars.mds.yandex.net/i?id=2a00000179f220bc4407242c6d7b33b0da59-4532852-images-thumbs&n=13",
+         "action": "video: http://iptv.prosto.tv:7000/ch319/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_4",
-         "channel": "319",
-         "titleHeader": "{col:msx-white}НТВ",
-         "playerLabel": "НТВ",
-         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NTV_logo_2003.svg/120px-NTV_logo_2003.svg.png",
-         "action": "video: https://7o8gab7zdd.a.trbcdn.net/hls-livec2/streams/vitrina-hls/ntv0h/tracks-v5a1/mono.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://i.ytimg.com/vi/5ug44EbFImw/maxresdefault.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Водопад {col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Водопад ",
+         "image": "https://cm.author.today/content/2022/08/19/e59ffb63955e4eefa64e6e7ad0f397e6.jpeg?height=750&width=750&rmode=max",
+         "action": "video: http://iptv.prosto.tv:7000/ch329/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_5",
-         "channel": "439",
-         "titleHeader": "{col:msx-white}ТНТ",
-         "playerLabel": "ТНТ",
-         "image": "https://sun4-15.userapi.com/AQgekz1TRoMZBCA040vz9EFkTe5qen-ImlKzcQ/hEdbKiFRTxs.jpg",
-         "action": "video: http://185.37.150.46:8092/THT_HD/tracks-v1a1/index.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://kartin.papik.pro/uploads/posts/2023-07/1688802810_kartin-papik-pro-p-kartinki-zvuk-dozhdya-24.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Дожди{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Дожди",
+         "image": "https://masterpiecer-images.s3.yandex.net/737142c4618f11ee97791e2a02a7791f:upscaled",
+         "action": "video: http://iptv.prosto.tv:7000/ch304/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_6",
-         "channel": "336",
-         "titleHeader": "{col:msx-white}ТНТ4",
-         "playerLabel": "ТНТ4",
-         "image": "https://avatars.mds.yandex.net/i?id=1171fded13d4b72d7b0e769b6314b0c14440a7a4-5115981-images-thumbs&n=13",
-         "action": "video: http://91.205.199.3/tnt4/index.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://wallpapercave.com/wp/wp8496578.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Loupe 4K{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Loupe 4K",
+         "image": "https://i.pinimg.com/736x/22/c5/6d/22c56d0c04821d28fcecbefe7cedd131.jpg",
+         "action": "video: https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_7",
-         "channel": "382",
-         "titleHeader": "{col:msx-white}РЕН ТВ",
-         "playerLabel": "РЕН ТВ",
-         "image": "https://www.meme-arsenal.com/memes/661743252586edc54727ad6326204a33.jpg",
-         "action": "video: http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696440217_gas-kvas-com-p-kartinki-podvodnii-mir-40.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Подводный мир{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Подводный мир",
+         "image": "https://avatars.mds.yandex.net/i?id=2268dbd8aad0287652b779d9e3332956-5220772-images-thumbs&n=13",
+         "action": "video: http://iptv.prosto.tv:7000/ch305/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_8",
-         "channel": "407",
-         "titleHeader": "{col:msx-white}СТС",
-         "playerLabel": "СТС",
-         "image": "https://sun9-69.userapi.com/impg/X-tm1k1EktpAcylaQ1i54xOGY7Kqeo6jNlry2g/bFQmbvuYfqo.jpg?size=604x604&quality=96&sign=04252e7cb31b4ddb83265dc5bb34a33f&type=album",
-         "action": "video: http://stream02.vnet.am/CTC/tracks-v1a1/mono.m3u8"
+         "selection": {
+            "important": true,
+            "background": "https://s2.best-wallpaper.net/wallpaper/1600x1200/1910/Winter-thick-snow-trees-forest-white-world_1600x1200.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Relax",
+               "text": "{col:msx-white}Зима{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Зима",
+         "image": "https://ландшафт-пенза.рф/wp-content/uploads/2020/01/79789916_753231711753783_8973320594941288760_n.jpg",
+         "action": "video: https://iptv.prosto.tv/ch327/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       },
       {
-         "id": "channel_9",
-         "channel": "369",
-         "titleHeader": "{col:msx-white}Че",
-         "playerLabel": "Че",
-         "image": "https://globalmsk.ru/usr/catalog/big-catalog-16751697161.png",
-         "action": "video: http://edge02.odtv.az/o5/chetv/playlist.m3u8"
-      },
-      {
-         "id": "channel_10",
-         "channel": "378",
-         "titleHeader": "{col:msx-white}Пятый канал",
-         "playerLabel": "Пятый канал",
-         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/5-tv.svg/1200px-5-tv.svg.png",
-         "action": "video: http://81.177.197.13:8000/play/a004/index.m3u8"
-      },
-      {
-         "id": "channel_11",
-         "channel": "377",
-         "titleHeader": "{col:msx-white}Пятница",
-         "playerLabel": "Пятница",
-         "image": "https://москва.рекламанащитах.рф/wp-content/uploads/sites/2/2021/01/пятница-500x500.jpg",
-         "action": "video: http://str10.ottg.online/9657/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
-      },
-      {
-         "id": "channel_12",
-         "channel": "246",
-         "titleHeader": "{col:msx-white}Домашний",
-         "playerLabel": "Домашний",
-         "image": "https://dl-media.viber.com/5/share/2/long/vibes/icon/image/0x0/02e8/7fced2b35fca1c6ba9abdc54fd04b5bb8a80d143bbc34a9fecf865892a8802e8.jpg",
-         "action": "video: http://88.135.128.20:7272/CGGe9lr8Dx9PZy1"
-      },
-      {
-         "id": "channel_13",
-         "channel": "259",
-         "titleHeader": "{col:msx-white}Звезда",
-         "playerLabel": "Звезда",
-         "image": "https://webcamonline.ru/5.jpeg",
-         "action": "video: http://stream01.vnet.am/Zvezda/mono.m3u8"
-      },
-      {
-         "id": "channel_14",
-         "channel": "299",
-         "titleHeader": "{col:msx-white}Мир ТВ",
-         "playerLabel": "Мир ТВ",
-         "image": "https://sun1-54.userapi.com/s/v1/ig2/ZPIhSyd5lq6DcgrTqsZ0bNqvO7akplHdDm7npSC94J3EBV_mzb8ubrSLmWSlqpPs9rTMZ9-qlabTxQZW0LtmxJPE.jpg?size=200x200&quality=95&crop=0,0,750,750&ava=1",
-         "action": "video: http://158.101.222.193:88/vesti/play.php?channel_id=14"
-      },
-      {
-         "id": "channel_15",
-         "channel": "325",
-         "title": "{col:msx-white}ОТР",
-         "playerLabel": "ОТР",
-         "image": "https://papik.pro/grafic/uploads/posts/2023-04/1681608689_papik-pro-p-otr-logotip-vektor-1.jpg",
-         "action": "video: http://str10.ottg.online/5081/mpegts?token=48503f939b1efb3e61d29bffaa6e44e7"
-      },
-      {
-         "id": "channel_16",
-         "channel": "431",
-         "titleHeader": "{col:msx-white}Суббота",
-         "playerLabel": "Суббота",
-         "image": "https://sun9-87.userapi.com/impf/85j3kXmKoMcwXQjzCrbqVq0g9Q8XZAOAZGeB8g/uEPuo-nSd5U.jpg?size=201x201&quality=96&sign=75183a6929187af349e18883c9e9f899&c_uniq_tag=yX_x44FX-PXX0yhUjMYfuCC-VHdvenKUxkxoYWlgQTU&type=album",
-         "action": "video: http://193.201.98.10:5000/c52"
-      },
-      {
-         "id": "channel_17",
-         "channel": "434",
-         "title": "{col:msx-white}ТВ центр",
-         "playerLabel": "ТВ центр",
-         "image": "https://tglib.net/images/channel_logos/tvctvc.jpg",
-         "action": "video: http://ott-cdn.ucom.am/s54/04.m3u8"
-      },
-      {
-         "id": "channel_18",
-         "channel": "409",
-         "titleHeader": "{col:msx-white}СТС Love",
-         "playerLabel": "СТС Love",
-         "image": "https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-sts-love.jpg?itok=7Mv_c1Pv",
-         "action": "video: http://193.201.98.10:5000/c51"
-      },
-      {
-         "id": "channel_19",
-         "channel": "276",
-         "titleHeader": "{col:msx-white}2x2",
-         "playerLabel": "2x2",
-         "image": "https://sun9-58.userapi.com/impf/c846320/v846320325/9eb8e/5AROicYLd2M.jpg?size=500x500&quality=96&sign=f7c15e3db38e9d2ae418e426783a4154&type=album",
-         "action": "video: http://158.101.222.193:88/vesti/play.php?channel_id=60"
-      },
-      {
-         "id": "channel_20",
-         "channel": "474",
-         "titleHeader": "{col:msx-white}Ю",
-         "playerLabel": "Ю",
-         "image": "https://tricolor-38.ru/TRICOLOR_KANALY/U_nv.jpg",
-         "action": "video: http://edge02.odtv.az/o3/utv/playlist.m3u8"
+         "selection": {
+            "headline": "",
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item28/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "",
+               "text": "{col:msx-white}"
+            }
+         },
+         "image": "",
+         "action": "content: https://wals09.github.io/msx/test/demo.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}29th Item"
+         }
       }
    ]
 }
