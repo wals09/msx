@@ -177,6 +177,78 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://i1.wp.com/attuale.ru/wp-content/uploads/2018/02/b59444ec55e5fca462d768ed3d39e60a.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Камин 4К",
+               "text": "{col:msx-white}{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Камин",
+         "image": "https://i.pinimg.com/736x/fc/33/92/fc3392cfa74c1ec65a52545d97d9f08e.jpg",
+         "action": "video: https://i.mjh.nz/SamsungTVPlus/USBA3800004EL.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://images.hdqwalls.com/download/mountains-stars-space-planets-digital-art-artwork-4k-0i-2880x1800.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Космос",
+               "text": "{col:msx-white}{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Космос",
+         "image": "https://i1.sndcdn.com/artworks-WlaDkVWOvRgZYL2r-NdKIDA-t500x500.jpg",
+         "action": "video: http://iptv.prosto.tv:7000/ch314/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://img.goodfon.com/original/1920x1080/8/e5/peizazh-priroda-ozero-gory-les-voda-nebo-krasota.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Природа",
+               "text": "{col:msx-white}{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Природа",
+         "image": "https://i1.sndcdn.com/artworks-ZYK0e7oi7UewECoj-Xi9WAA-t500x500.jpg",
+         "action": "video: http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://fanfishka.ru/uploads/posts/2017-06/1498067219_fish-wallpapers-background.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Аквариум",
+               "text": "{col:msx-white}{col}{br}Невероятная красота природы и видео путешествия для расслабления, сна, медитации, йоги, массажа и спа."
+            }
+         },
+         "playerLabel": "Аквариум",
+         "image": "https://akvamir72.ru/wa-data/public/shop/products/97/18/1897/images/2371/2371.970.jpg",
+         "action": "video: http://iptv.prosto.tv:7000/ch325/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
