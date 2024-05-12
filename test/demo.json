@@ -16,7 +16,7 @@
             "id": "preview",
             "type": "space",
             "layout": "1,0,11,3",
-                        "offset": "0,0,0,-0.9",
+                        "offset": "0,0,0,-0.95",
             "headline": "",
             "text": ""
          }
