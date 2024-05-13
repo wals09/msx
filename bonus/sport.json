@@ -173,7 +173,7 @@
          },
          "playerLabel": "Бокс ТВ HD",
          "image": "http://epg.it999.ru/img/2285.png",
-         "action": "video: http://iptv.prosto.tv:7000/ch305/video.m3u8",
+         "action": "video: http://stream01.vnet.am/BoksTv/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -191,7 +191,7 @@
          },
          "playerLabel": "Удар HD",
          "image": "https://sun9-49.userapi.com/impg/n4BaXkEWF1m3SOInSBze2n49GobmiShAVYGS8w/pjmXSzdcbzA.jpg?size=807x807&quality=95&sign=72a434881f68ed84d3c39cad17efd1dc&c_uniq_tag=hLc5tdhL9_2U3KctymyUQbWM0Rf-P0CZuZBf_wWgR0A&type=album",
-         "action": "video: https://i.mjh.nz/SamsungTVPlus/USBA3800004EL.m3u8",
+         "action": "video: https://bkm.beetv.kz/btv/live/hls/000007802.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -227,7 +227,7 @@
          },
          "playerLabel": "WORLD POKER TOUR HD",
          "image": "https://upload.wikimedia.org/wikipedia/fi/thumb/9/96/World_Poker_Tourin_logo.svg/640px-World_Poker_Tourin_logo.svg.png",
-         "action": "video: http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8",
+         "action": "video: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1346",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
