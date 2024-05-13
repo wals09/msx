@@ -1,0 +1,255 @@
+{
+   "type": "list",
+   "headline": "SPORT",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "preload": "next",
+   "captionUnderlay": 1,
+   "underlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,3,12,3",
+            "offset": "-1.25,-0.33,2,1",
+            "color": "msx-black-soft"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "1,0,6,3",
+            "offset": "-1,0.5,1,0",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,1,1",
+      "area": "0,0,12,3",
+      "offset": "0,3,0,0",
+      "trigger:back": "player:stop",
+      "imageWidth": 0.83,
+      "color": "msx-glass",
+      "imageFiller": "cover"
+   },
+   "items": [
+      {
+         "selection": {
+            "important": true,
+            "background": "https://www.bhmpics.com/wallpapers/basketball_throw-2048x1152.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Eurosport 1",
+               "text": "{col:msx-white}{col}{br}Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+            }
+         },
+         "playerLabel": "Eurosport 1 ",
+         "image": "http://epg.it999.ru/img/3734.png",
+         "action": "video: http://stream01.vnet.am/Eurosport/tracks-v1a2/mono.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "http://images.interactives.dk/files/bonnier-atr/maratonloebere_maend.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Eurosport 2",
+               "text": "{col:msx-white}{col}{br} Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+            }
+         },
+         "playerLabel": "Eurosport 2",
+         "image": "http://epg.it999.ru/img/4313.png",
+         "action": "video: https://bkm.beetv.kz/btv/live/hls/000002479.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696418577_gas-kvas-com-p-kartinki-o-sporte-32.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Setanta Sports 1 HD RU",
+               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+            }
+         },
+         "playerLabel": "Setanta Sports 1 HD RU",
+         "image": "http://epg.it999.ru/img/2364.png",
+         "action": "video: https://bkm.beetv.kz/btv/live/hls/000004498.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://english-kanazawa.com/wp-content/uploads/2020/08/volleyball.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Setanta Sports 2 HD RU",
+               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+            }
+         },
+         "playerLabel": "Setanta Sports 2 HD RU",
+         "image": "http://epg.it999.ru/img/2363.png",
+         "action": "video: https://bkm.beetv.kz/btv/live/hls/000004499.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "VIASAT SPORT HD",
+               "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
+            }
+         },
+         "playerLabel": "VIASAT SPORT HD",
+         "image": "http://epg.it999.ru/img/2055.png",
+         "action": "video: https://bkm.beetv.kz/btv/live/hls/000000135.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Матч HD",
+               "text": "{col:msx-white}{col}{br} Матч ТВ предлагает к просмотру прямые трансляции спортивных событий, видео обзоры мероприятий, а также новости спорта со всего мира."
+            }
+         },
+         "playerLabel": "Матч HD",
+         "image": "http://epg.it999.ru/img/2051.png",
+         "action": "video: https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://cdn.livesport.ru/l/football/2022/08/12/fakel_ural/picture--original.jpg?1660329361",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Матч Премьер HD",
+               "text": "{col:msx-white}{col}{br} канал о российском и европейском футболе с эксклюзивным контентом, на котором доступны в прямом эфире "
+            }
+         },
+         "playerLabel": "Матч Премьер HD",
+         "image": "http://epg.it999.ru/img/2250.png",
+         "action": "video: http://185.37.150.46:8092/Nash_futbol_HD/tracks-v1a1/index.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-09/1695989630_gas-kvas-com-p-kartinki-boks-33.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Бокс ТВ HD",
+               "text": "{col:msx-white}{col}{br}«БОКС ТВ» — уникальное авторское наполнение. В прямом эфире и записи зрителям доступны журналистские проекты, посвященные звездам из мира бокса и единоборств. "
+            }
+         },
+         "playerLabel": "Бокс ТВ HD",
+         "image": "http://epg.it999.ru/img/2285.png",
+         "action": "video: http://iptv.prosto.tv:7000/ch305/video.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Удар HD",
+               "text": "{col:msx-white}{col}{br}Новый канал посвящен кулачным поединкам, кикбоксингу, боксу и MMA!"
+            }
+         },
+         "playerLabel": "Удар HD",
+         "image": "https://sun9-49.userapi.com/impg/n4BaXkEWF1m3SOInSBze2n49GobmiShAVYGS8w/pjmXSzdcbzA.jpg?size=807x807&quality=95&sign=72a434881f68ed84d3c39cad17efd1dc&c_uniq_tag=hLc5tdhL9_2U3KctymyUQbWM0Rf-P0CZuZBf_wWgR0A&type=album",
+         "action": "video: https://i.mjh.nz/SamsungTVPlus/USBA3800004EL.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://cdn.iz.ru/sites/default/files/article-2023-03/ZURR5319.JPG",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "KHL Prime",
+               "text": "{col:msx-white}{col}{br}топ-матчи между лучшими клубами Лиги, предматчевые и послематчевые студии, мнения экспертов, нарезки лучших голов, сэйвов, силовых приёмов и многое другое. "
+            }
+         },
+         "playerLabel": "KHL Prime",
+         "image": "http://epg.it999.ru/img/1038.png",
+         "action": "video: http://sc.id-tv.kz/FHD_KHL_34_35.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://sun9-59.userapi.com/impf/c625521/v625521139/38d99/-Ypo_iBB4Fs.jpg?size=1280x720&quality=96&sign=ef6e99aab993aa5b84c1e8e7571860b0&c_uniq_tag=C4RL5ljg_So5a4P2TNh0zpxZI19CjCO1UothDZAm3wY&type=album",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "WORLD POKER TOUR HD",
+               "text": "{col:msx-white}{col}{br}he World Poker Tour (WPT) is a series of international poker tournaments and associated television series broadcasting the final table of each tournament."
+            }
+         },
+         "playerLabel": "WORLD POKER TOUR HD",
+         "image": "https://upload.wikimedia.org/wikipedia/fi/thumb/9/96/World_Poker_Tourin_logo.svg/640px-World_Poker_Tourin_logo.svg.png",
+         "action": "video: http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://disk.mediaindonesia.com/thumbs/1800x1200/news/2020/10/8b3ba774f0d98771923dcd38ef36bb9f.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Беларусь 5 HD",
+               "text": "{col:msx-white}{col}{br}«Беларусь 5» — белорусский спортивный телеканал. "
+            }
+         },
+         "playerLabel": "Беларусь 5 HD",
+         "image": "http://epg.it999.ru/img/2541.png",
+         "action": "video: https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_w278966610_b1460000_sleng.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      }
+   ]
+}
