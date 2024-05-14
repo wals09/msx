@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "SPORT",
+   "headline": "ОБЩИЕ",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
@@ -38,11 +38,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://www.bhmpics.com/wallpapers/basketball_throw-2048x1152.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item0/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Первый канал",
-               "text": "{col:msx-white}{col}{br}Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+               "text": "{col:msx-white}{col}{br}Новости, познавательные передачи и развлекательные шоу, фильмы и сериалы."
             }
          },
          "playerLabel": "Первый канал ",
@@ -56,11 +56,11 @@
       {
          "selection": {
             "important": true,
-            "background": "http://images.interactives.dk/files/bonnier-atr/maratonloebere_maend.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item1/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Россия 1",
-               "text": "{col:msx-white}{col}{br} Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+               "text": "{col:msx-white}{col}{br}Лучшие сериалы, программы, документальные и художественные фильмы производства России."
             }
          },
          "playerLabel": "Россия 1",
@@ -74,11 +74,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696418577_gas-kvas-com-p-kartinki-o-sporte-32.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item2/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "НТВ",
-               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+               "text": "{col:msx-white}{col}{br}Онлайн-вещание, все главные новости, полные выпуски передач, лучшие сериалы и фильмы."
             }
          },
          "playerLabel": "НТВ",
@@ -92,11 +92,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://english-kanazawa.com/wp-content/uploads/2020/08/volleyball.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item3/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "5 канал",
-               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+               "text": "{col:msx-white}{col}{br}Пятый канал – один из лидеров информационного вещания и признанный поставщик качественного сериального контента."
             }
          },
          "playerLabel": "5 канал",
@@ -110,11 +110,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item4/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "СТС",
-               "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
+               "text": "{col:msx-white}{col}{br}Развлекательный телеканал, в эфире которого вас ждут фильмы и сериалы как отечественного, так и зарубежного производства, мультфильмы для самых маленьких, а также юмористические шоу и программы. "
             }
          },
          "playerLabel": "СТС",
@@ -128,11 +128,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item5/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Рен ТВ",
-               "text": "{col:msx-white}{col}{br} Матч ТВ предлагает к просмотру прямые трансляции спортивных событий, видео обзоры мероприятий, а также новости спорта со всего мира."
+               "text": "{col:msx-white}{col}{br}Общественно-политический телеканал для активной аудитории, в эфире которого вас ждет остросюжетный контент самых разных форматов. Это новости, кассовые экшен-фильмы и сериалы, зрелищные концерты и музыкальные фестивали, а также документальные проекты-расследования на разные темы. "
             }
          },
          "playerLabel": "Рен ТВ",
@@ -146,11 +146,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://cdn.livesport.ru/l/football/2022/08/12/fakel_ural/picture--original.jpg?1660329361",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item6/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "ТНТ",
-               "text": "{col:msx-white}{col}{br} канал о российском и европейском футболе с эксклюзивным контентом, на котором доступны в прямом эфире "
+               "text": "{col:msx-white}{col}{br}Развлекательный канал, где вас ждут комедийные сериалы и шоу, реалити и полнометражные фильмы, созданные одними из лучших на рынке производителями контента. "
             }
          },
          "playerLabel": "ТНТ",
@@ -164,11 +164,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://gas-kvas.com/grafic/uploads/posts/2023-09/1695989630_gas-kvas-com-p-kartinki-boks-33.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item7/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Звезда",
-               "text": "{col:msx-white}{col}{br}«БОКС ТВ» — уникальное авторское наполнение. В прямом эфире и записи зрителям доступны журналистские проекты, посвященные звездам из мира бокса и единоборств. "
+               "text": "{col:msx-white}{col}{br}Общественно-патриотический телеканал. В эфире: отечественные кино и сериалы, уникальное документальное видео, развлекательные программы, эксклюзивные новости и аналитика."
             }
          },
          "playerLabel": "Звезда",
@@ -182,11 +182,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item8/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Мир HD",
-               "text": "{col:msx-white}{col}{br}Новый канал посвящен кулачным поединкам, кикбоксингу, боксу и MMA!"
+               "text": "{col:msx-white}{col}{br}Информационно‑развлекательный телеканал, который знакомит зрителей с современной жизнью и историей стран постсоветского пространства. "
             }
          },
          "playerLabel": "Мир HD",
@@ -200,11 +200,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://cdn.iz.ru/sites/default/files/article-2023-03/ZURR5319.JPG",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item9/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Победа",
-               "text": "{col:msx-white}{col}{br}топ-матчи между лучшими клубами Лиги, предматчевые и послематчевые студии, мнения экспертов, нарезки лучших голов, сэйвов, силовых приёмов и многое другое. "
+               "text": "{col:msx-white}{col}{br}В эфире телеканала — классика советского кино, российские фильмы и сериалы, документальные фильмы, программы собственного производства. "
             }
          },
          "playerLabel": "Победа",
@@ -218,15 +218,15 @@
       {
          "selection": {
             "important": true,
-            "background": "https://sun9-59.userapi.com/impf/c625521/v625521139/38d99/-Ypo_iBB4Fs.jpg?size=1280x720&quality=96&sign=ef6e99aab993aa5b84c1e8e7571860b0&c_uniq_tag=C4RL5ljg_So5a4P2TNh0zpxZI19CjCO1UothDZAm3wY&type=album",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item10/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Суббота",
-               "text": "{col:msx-white}{col}{br}he World Poker Tour (WPT) is a series of international poker tournaments and associated television series broadcasting the final table of each tournament."
+               "text": "{col:msx-white}{col}{br}Российский развлекательный канал, рассчитанный на женскую аудиторию 18-45 лет. Основу сетки вещания канала составляют реалити-шоу и популярные женские сериалы. "
             }
          },
          "playerLabel": "Суббота",
-         "image": "https://goodline.info/assets/images/subbota_logo_2.png",
+         "image": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
          "action": "video: http://91.207.115.228:5000/c52",
          "properties": {
             "trigger:back": "player:stop",
@@ -236,11 +236,11 @@
       {
          "selection": {
             "important": true,
-            "background": "https://disk.mediaindonesia.com/thumbs/1800x1200/news/2020/10/8b3ba774f0d98771923dcd38ef36bb9f.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "ТВ 3",
-               "text": "{col:msx-white}{col}{br}«Беларусь 5» — белорусский спортивный телеканал. "
+               "text": "{col:msx-white}{col}{br}Общероссийский федеральный телеканал, специализирующийся на художественных и документальных фильмах и сериалах преимущественно мистического характера."
             }
          },
          "playerLabel": "ТВ 3",
