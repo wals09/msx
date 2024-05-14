@@ -40,6 +40,7 @@
          "selection": {
             "important": true,
             "background": "https://w.forfun.com/fetch/a1/a1b925ef361a11c589c4ffb4a57c3024.jpeg",
+            "action": "update:content:underlay:text",
             "data": {
                "text": "{col:msx-white}{col}{br}Подборка федеральных российских телеканалов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
             }
