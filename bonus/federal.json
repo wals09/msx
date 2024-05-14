@@ -83,7 +83,7 @@
          },
          "playerLabel": "НТВ",
          "image": "http://epg.it999.ru/img/2001.png",
-         "action": "video: http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8",
+         "action": "video: http://cdn.ntv.ru/ntv0/playlist.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -173,7 +173,7 @@
          },
          "playerLabel": "Звезда",
          "image": "http://epg.it999.ru/img/405.png",
-         "action": "video: http://s18209.cdn.ngenix.net/hls/CH_R03_ZVEZDA/playlist.m3u8",
+         "action": "video: http://stream01.vnet.am/Zvezda/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -218,7 +218,7 @@
       {
          "selection": {
             "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item10/1920/1080#msx-keep-ratio",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Суббота",
@@ -226,7 +226,7 @@
             }
          },
          "playerLabel": "Суббота",
-         "image": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
+         "image": "https://goodline.info/assets/images/subbota_logo_2.png",
          "action": "video: http://91.207.115.228:5000/c52",
          "properties": {
             "trigger:back": "player:stop",
