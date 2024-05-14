@@ -535,6 +535,23 @@
       },
       {
          "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675490637_gas-kvas-com-p-fonovie-risunki-na-rabochii-stol-noch-17.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Россия IPTV",
+               "text": "{col:msx-white}{col}{br}Подборка федеральных российских телеканалов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+            }
+         },
+         "image": "https://lh6.ggpht.com/YG4EXT5XzcM4OKXln4LBNaoHnQ7lEyMTGtQ_4iz7ELH2KckQxigKxYrRTQX86z-bVw=w300",
+         "action": "content: https://wals09.github.io/msx/bonus/federal.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
             "headline": "",
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item28/1920/1080#msx-keep-ratio",
