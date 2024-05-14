@@ -83,7 +83,7 @@
          },
          "playerLabel": "НТВ",
          "image": "http://epg.it999.ru/img/2001.png",
-         "action": "video: http://91.205.199.3/ntvhd/index.m3u8",
+         "action": "video: http://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
