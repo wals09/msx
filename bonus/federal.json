@@ -26,7 +26,7 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,1,1",
+      "layout": "0,0,3,1",
       "area": "0,0,12,3",
       "offset": "0,3,0,0",
       "trigger:back": "player:stop",
@@ -36,6 +36,7 @@
    },
    "items": [
       {
+         "titleHeader": "{col:msx-white}Первый канал ",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item0/1920/1080#msx-keep-ratio",
@@ -54,6 +55,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Россия 1",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item1/1920/1080#msx-keep-ratio",
@@ -72,6 +74,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}НТВ",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item2/1920/1080#msx-keep-ratio",
@@ -90,6 +93,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}5 канал",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item3/1920/1080#msx-keep-ratio",
@@ -108,6 +112,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}СТС",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item4/1920/1080#msx-keep-ratio",
@@ -126,6 +131,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Рен ТВ",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item5/1920/1080#msx-keep-ratio",
@@ -144,6 +150,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}ТНТ",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item6/1920/1080#msx-keep-ratio",
@@ -162,6 +169,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Звезда",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item7/1920/1080#msx-keep-ratio",
@@ -180,6 +188,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Мир HD",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item8/1920/1080#msx-keep-ratio",
@@ -198,6 +207,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Победа",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item9/1920/1080#msx-keep-ratio",
@@ -216,6 +226,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}Суббота",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
@@ -234,6 +245,7 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}ТВ 3",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
