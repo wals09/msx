@@ -422,22 +422,6 @@
       {
          "selection": {
             "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item24/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Кинофраншизы",
-               "text": "{col:msx-white}Коллекция медиаподборок от {col:white}OLSIB TV{col}{br}{col:msx-white-soft}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия"
-            }
-         },
-         "image": "https://wals09.github.io/kf/img/logo.png",
-         "action": "content: https://wals09.github.io/kf/menu.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}25th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item25/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
