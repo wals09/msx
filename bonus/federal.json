@@ -226,7 +226,7 @@
             }
          },
          "playerLabel": "Суббота",
-         "image": "https://goodline.info/assets/images/subbota_logo_2.png",
+         "image": "https://sun1-87.userapi.com/s/v1/ig2/t8_y3MsS0f5klch0XhluTDLhsHhLm6Q06xruNdXn8Xv6JiMYYDDvapfTokchK4zL_F0QzpBR0z3XVW8IkT3OJDvz.jpg?size=400x400&quality=96&crop=0,0,200,200&ava=1",
          "action": "video: http://91.207.115.228:5000/c52",
          "properties": {
             "trigger:back": "player:stop",
