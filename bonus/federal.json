@@ -250,6 +250,44 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
+      },
+      {
+         "offset": "0,3,-2,-0.09",
+         "color": "transparent",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Категории",
+               "text": "{col:msx-white}{col}{br}Вернуться к выбору категории"
+            }
+         },
+         "icon": "list-alt",
+         "action": "content: https://wals09.github.io/msx//bonus/tak_sebe_tv.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "offset": "-2,3,-2,-0.09",
+         "color": "transparent",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Главное меню",
+               "text": "{col:msx-white}{col}{br}Вернуться в главное меню к выбору программ"
+            }
+         },
+         "icon": "auto-awesome-motion",
+         "action": "content: https://wals09.github.io/msx/menu.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
