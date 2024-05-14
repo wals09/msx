@@ -275,7 +275,7 @@
                "text": "{col:msx-white}{col}{br}Вернуться к выбору категории"
             }
          },
-         "icon": "list-alt",
+         "icon": "grey:list-alt",
          "action": "content: https://wals09.github.io/msx//bonus/tak_sebe_tv.json",
          "properties": {
             "trigger:back": "player:stop",
@@ -294,7 +294,7 @@
                "text": "{col:msx-white}{col}{br}Вернуться в главное меню к выбору программ"
             }
          },
-         "icon": "auto-awesome-motion",
+         "icon": "grey:auto-awesome-motion",
          "action": "content: https://wals09.github.io/msx/menu.json",
          "properties": {
             "trigger:back": "player:stop",
