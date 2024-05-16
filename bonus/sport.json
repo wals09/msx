@@ -36,7 +36,7 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}Ночь ",
+         "titleHeader": "{col:msx-white}Eurosport 1 ",
          "selection": {
             "important": true,
             "background": "https://www.bhmpics.com/wallpapers/basketball_throw-2048x1152.jpg",
@@ -55,7 +55,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Ночь ",
+         "titleHeader": "{col:msx-white}Eurosport 2",
          "selection": {
             "important": true,
             "background": "http://images.interactives.dk/files/bonnier-atr/maratonloebere_maend.jpg",
