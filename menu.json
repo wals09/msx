@@ -483,18 +483,35 @@
             "image:extension": "| {col:msx-white}28th Item"
          }
       },
-    {
+      {
          "selection": {
             "important": true,
             "background": "https://gas-kvas.com/uploads/posts/2023-02/1675490637_gas-kvas-com-p-fonovie-risunki-na-rabochii-stol-noch-17.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Так Себе ТВ",
+               "headline": "RELAX",
                "text": "{col:msx-white}{col}{br}Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
             }
          },
-         "image": "https://wals09.github.io/msx/test/logo.png",
-         "action": "content: https://wals09.github.io/msx/bonus/tak_sebe_tv.json",
+         "image": "https://yt3.ggpht.com/ytc/AKedOLTnnv0Gw8nYogetKuQl-M437g5e8XuxgPoKe1pV=s900-c-k-c0x00ffffff-no-rj",
+         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://sportishka.com/uploads/posts/2023-12/1701472201_sportishka-com-p-samie-populyarnie-komandnie-vidi-sporta-pi-32.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Sport",
+               "text": "{col:msx-white}{col}{br}Подборка спортивных каналов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+            }
+         },
+         "image": "https://www.pngitem.com/pimgs/m/112-1122080_futbol-png-image-vector-clipart-psd-png.png",
+         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
