@@ -99,8 +99,8 @@
                "layout": "9,3,3,1",
                "focus": true,
                "color": "transparent",
-               "label": " Sport TV",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/sport1.m3u"
+               "label": "Radio",
+               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://github.com/Dimonovich/TV/raw/Dimonovich/FREE/RADIO.m3u"
             }
          ]
       }
