@@ -31,7 +31,7 @@
       "offset": "0,3,0,0",
       "trigger:back": "player:stop",
       "imageWidth": 0.83,
-      "color": "msx-glass",
+      "color": "transparent",
       "imageFiller": "cover"
    },
    "items": [
