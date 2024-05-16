@@ -32,8 +32,8 @@
                "layout": "0,3,3,1",
                "focus": true,
                "color": "transparent",
-               "label": "Федеральное ТВ",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/wals09/msx/main/bonus/federal2.m3u"
+               "label": "TV by Dimonovich",
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://github.com/Dimonovich/TV/blob/Dimonovich/FREE/.m3u"
             },
             {
                "type": "default",
