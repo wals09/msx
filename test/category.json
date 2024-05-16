@@ -77,7 +77,7 @@
                "type": "default",
                "layout": "0,4,3,1",
                "color": "transparent",
-               "label": "Films dy Dimonovich",
+               "label": "Films by Dimonovich",
                "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS"
             },
             {
