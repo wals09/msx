@@ -31,7 +31,7 @@
       "offset": "0,3,0,0",
       "trigger:back": "player:stop",
       "imageWidth": 0.83,
-      "color": "msx-glass",
+      "color": "transparent",
       "imageFiller": "cover"
    },
    "items": [
@@ -86,7 +86,7 @@
          },
          "playerLabel": "НТВ",
          "image": "http://epg.it999.ru/img/2001.png",
-         "action": "video: https://ruclust.kulik.uz/moovstv/4e37fd78/index.m3u8?sig=sdh0ss:px7b0g",
+         "action": "video: http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -263,7 +263,6 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-    
       {
          "offset": "0,3,-2,-0.09",
          "color": "transparent",
