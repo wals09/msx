@@ -467,22 +467,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://w.forfun.com/fetch/98/98897f347900d683c361d3f7356bdd11.jpeg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Smarters Pro",
-               "text": "{col:msx-white}Вэб IPTV плеер"
-            }
-         },
-         "image": "https://play-lh.googleusercontent.com/YxExvqbS3C7phdjaTfFt5Ykn3-_Dx6Efi9blCWG3LPrwJTYEnblayNDgo3bwj3YZ1Oo=w600-h300-pc0xffffff-pd",
-         "action": "link:http://webtv-new.iptvsmarters.com/",
-         "properties": {
-            "image:extension": "| {col:msx-white}27th Item"
-         }
-      },
+
       {
          "selection": {
             "important": true,
