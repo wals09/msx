@@ -40,7 +40,7 @@
                "layout": "6,4,3,1",
                "color": "transparent",
                "label": "OLSIB serials",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/Serial/OLSIB_serials.m3u"
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/SERIALY.m3u"
             },
             {
                "type": "default",
