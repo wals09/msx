@@ -40,7 +40,7 @@
                "layout": "6,4,3,1",
                "color": "transparent",
                "label": "Сериалы.ru",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/serial.m3u"
+               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/serialy.m3u"
             },
             {
                "type": "default",
