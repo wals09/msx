@@ -94,7 +94,7 @@
                "text": "IPTV трансляции вэб камер мира"
             }
          },
-         "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flg-news.net%2Fit-blog%2Fitem%2F12850-ip-kamery-videonablyudeniya-chto-eto-takoe-kak-rabotaet-i-kak-vybrat.html&psig=AOvVaw3CeCmvd0AQee848bm2McqA&ust=1717441939070000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCl6IXQvYYDFQAAAAAdAAAAABAJ",
+         "image": "https://avatars.mds.yandex.net/i?id=284a97a66c843946ef3438aa734bc6f5_l-5500489-images-thumbs&n=13",
          "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/CAMERA",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
