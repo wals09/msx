@@ -36,7 +36,7 @@
          "titleHeader": "{col:msx-white}Плейлист ТВ ",
          "selection": {
             "important": true,
-            "background": "https://fotovdom.ru/upload/iblock/1be/1be9bb1b891038091c15a08ad0971429.jpg",
+            "background": "https://bogatyr.club/uploads/posts/2023-06/1686919676_bogatyr-club-p-belie-abstraktnie-oboi-foni-vkontakte-15.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Плейлист ТВ",
@@ -49,7 +49,23 @@
             "image:extension": "| {col:msx-white}First Item"
          }
       },
-
+      {
+         "titleHeader": "{col:msx-white}Фильмы HD ",
+         "selection": {
+            "important": true,
+            "background": "https://wallpapercave.com/wp/wp10536346.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы HD",
+               "text": "Подборка фильмов разных жанров"
+            }
+         },
+         "image": "https://pic.rutubelist.ru/user/91/90/9190f559e9870d29aa5c1348fe3f588d.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS",
+         "properties": {
+            "image:extension": "| {col:msx-white}Second Item"
+         }
+      },
       {
          "titleHeader": "{col:msx-white}Зарубежное ТВ",
          "selection": {
@@ -67,37 +83,18 @@
             "image:extension": "| {col:msx-white}Third Item"
          }
       },
-
-            {
-         "titleHeader": "{col:msx-white}Фильмы HD ",
-         "selection": {
-            "important": true,
-            "background": "https://wallpapercave.com/wp/wp10536346.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Фильмы HD",
-               "text": "Подборка фильмов разных жанров"
-            }
-         },
-         "image": "https://pic.rutubelist.ru/user/91/90/9190f559e9870d29aa5c1348fe3f588d.jpg",
-         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS",
-         "properties": {
-            "image:extension": "| {col:msx-white}Second Item"
-         }
-      },
-      
       {
          "titleHeader": "{col:msx-white}Веб камеры ",
          "selection": {
             "important": true,
-            "background": "https://oboi-plenka.ru/image/cache/catalog/divino/6/744983992-l-059-divino-1200x800.jpg",
+            "background": "https://bogatyr.club/uploads/posts/2023-06/1686919726_bogatyr-club-p-belie-abstraktnie-oboi-foni-vkontakte-79.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Веб камеры",
                "text": "IPTV трансляции вэб камер мира"
             }
          },
-         "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_1248889.jpeg;w=1200;h=800;mode=crop",
+         "image": "https://meldana.com/upload/iblock/83b/83bd35e6840c24b7c108610dcecd86b6.jpg",
          "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/CAMERA",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
@@ -124,7 +121,7 @@
          "titleHeader": "{col:msx-white}Radio",
          "selection": {
             "important": true,
-            "background": "https://oboi-plenka.ru/image/cache/catalog/divino/7/824349968-p-113-divino-1200x800.jpg",
+            "background": "https://bogatyr.club/uploads/posts/2023-06/1686919679_bogatyr-club-p-belie-abstraktnie-oboi-foni-vkontakte-46.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": " Radio",
