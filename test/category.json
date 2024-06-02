@@ -1,108 +1,138 @@
 {
    "type": "list",
-   "background": "https://abrakadabra.fun/uploads/posts/2022-01/1641404182_1-abrakadabra-fun-p-tekstura-dorogoi-bumagi-1.jpg",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "headline": "Content By Dimonovich",
    "preload": "next",
-   "pages": [
+   "captionUnderlay": 1,
+   "underlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,3,12,3",
+            "offset": "-1.25,-0.33,2,1",
+            "color": "msx-black-soft"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "1,0,11,3",
+            "offset": "-1,0,1,0",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,2,3",
+      "offset": "0,3,0,0",
+      "area": "0,0,12,3",
+      "color": "msx-glass",
+      "imageHeight": 2.2,
+      "imageFiller": "cover"
+   },
+   "items": [
       {
-         "items": [
-            {
-               "type": "space",
-               "color": "transparent",
-               "layout": "1,0,10,1",
-               "title": "{col:#FF4F00}Бонус контент",
-               "titleFooter": "Медиа-контент из различных источников в интернете в свободном доступе "
-            },
-            {
-               "type": "space",
-               "layout": "0,1,9,1",
-               "offset": "-0.07,-1,0,0.25",
-               "color": "transparent",
-               "titleHeader": "{col:#FF4F00}___________________________________________________________________________________________________________"
-            },
-            {
-               "type": "space",
-               "layout": "0,0,1,1",
-               "image": "https://wals09.github.io/msx/test/logo.png",
-               "imageFiller": "cover",
-               "imageOverlay": 5
-            },
-            {
-               "type": "default",
-               "layout": "0,3,3,1",
-               "focus": true,
-               "color": "transparent",
-               "label": "TV by Dimonovich",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://github.com/Dimonovich/TV/raw/Dimonovich/FREE/TV"
-            },
-            {
-               "type": "default",
-               "layout": "6,4,3,1",
-               "color": "transparent",
-               "label": "Сериалы.ru",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/serial111.m3u"
-            },
-            {
-               "type": "default",
-               "layout": "9,5,3,1",
-               "color": "transparent",
-               "label": "{col:#FF4F00}Главное меню",
-               "action": "content: https://wals09.github.io/msx/menu.json"
-            },
-
-            {
-               "type": "default",
-               "layout": "3,3,3,1",
-               "focus": true,
-               "color": "transparent",
-               "label": "Так себе TV",
-               "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/bonus1.m3u"
-            },
-            {
-               "type": "default",
-               "layout": "9,4,3,1",
-               "focus": true,
-               "color": "transparent",
-               "label": " Relax ",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://wals09.github.io/msx/bonus/relax2.m3u"
-            },
-            {
-               "type": "default",
-               "layout": "6,3,3,1",
-               "color": "transparent",
-               "label": "WORLD.TV",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://i.mjh.nz/PlutoTV/all.m3u8"
-            },
-            {
-               "type": "default",
-               "layout": "0,4,3,1",
-               "color": "transparent",
-               "label": "Films by Dimonovich",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS"
-            },
-            {
-               "type": "default",
-               "layout": "3,4,3,1",
-               "color": "transparent",
-               "label": "Золотая коллекция",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://olsib.at.ua/vip/Golden_Collection.m3u"
-            },
-            {
-               "type": "space",
-               "layout": "0,5,9,1",
-               "offset": "-0.07,-0.5,0,0.25",
-               "color": "transparent",
-               "titleHeader": "{col:#FF4F00}___________________________________________________________________________________________________________"
-            },
-            {
-               "type": "default",
-               "layout": "9,3,3,1",
-               "focus": true,
-               "color": "transparent",
-               "label": "Radio",
-               "action": "content: http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://github.com/Dimonovich/TV/raw/Dimonovich/FREE/RADIO.m3u"
+         "titleHeader": "{col:msx-white}Плейлист ТВ ",
+         "selection": {
+            "important": true,
+            "background": "https://fotovdom.ru/upload/iblock/1be/1be9bb1b891038091c15a08ad0971429.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Плейлист ТВ",
+               "text": "Подборка плейлистов iptv различных провайдеров из интернета"
             }
-         ]
+         },
+         "image": "https://obrii.com.ua/wp-content/uploads/2023/12/xt-kopyya-768x768.jpg.pagespeed.ic.qICsbJyexQ.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://github.com/Dimonovich/TV/raw/Dimonovich/FREE/TV",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Фильмы HD ",
+         "selection": {
+            "important": true,
+            "background": "https://wallpapercave.com/wp/wp10536346.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы HD",
+               "text": "Подборка фильмов разных жанров"
+            }
+         },
+         "image": "https://pic.rutubelist.ru/user/91/90/9190f559e9870d29aa5c1348fe3f588d.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/FILMS",
+         "properties": {
+            "image:extension": "| {col:msx-white}Second Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Зарубежное ТВ",
+         "selection": {
+            "important": true,
+            "background": "https://cdn1.ozone.ru/s3/multimedia-7/6021630283.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Зарубежное ТВ",
+               "text": "Подборка плейлистов iptv зарубежных провайдеров из интернета"
+            }
+         },
+         "image": "https://fastly.4sqi.net/img/general/600x600/67017726_XwVvf6R7RdKt-GiR-fisVqupnuNV1IEJ7O59_3in-as.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/ZARUB",
+         "properties": {
+            "image:extension": "| {col:msx-white}Third Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Веб камеры ",
+         "selection": {
+            "important": true,
+            "background": "https://oboi-plenka.ru/image/cache/catalog/divino/6/744983992-l-059-divino-1200x800.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Веб камеры",
+               "text": "IPTV трансляции вэб камер мира"
+            }
+         },
+         "image": "https://meldana.com/upload/iblock/83b/83bd35e6840c24b7c108610dcecd86b6.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/CAMERA",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fourth Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Radio - Genres",
+         "selection": {
+            "important": true,
+            "background": "https://avatars.mds.yandex.net/get-mpic/4331935/img_id946339073159590971.jpeg/orig",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Radio - Genres",
+               "text": "Слушать радио онлайн по жанрам. Выбирайте любимые жанры музыки: Рок, Поп, Джаз или Ретро. Прямой эфир радиостанций в хорошем качестве."
+            }
+         },
+         "image": "https://thumbnailer.mixcloud.com/unsafe/600x600/extaudio/6/e/f/2/5ad7-784a-477b-987a-e2a2ad4c1774",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO_GENRES.m3u",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fifth Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Radio",
+         "selection": {
+            "important": true,
+            "background": "https://oboi-plenka.ru/image/cache/catalog/divino/7/824349968-p-113-divino-1200x800.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": " Radio",
+               "text": "Интернет трансляции различных радиостанций"
+            }
+         },
+         "image": "https://i.pinimg.com/736x/69/b3/8b/69b38b55a102aebbefc9a948943bc0b4--interview-html.jpg",
+         "action": "content:http://msx.benzac.de/services/m3u.php/msx/m3u.php?type=video&mode=extended&url=https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/RADIO.m3u",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
