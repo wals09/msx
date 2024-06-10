@@ -478,7 +478,7 @@
                "text": "{col:msx-white}Медиа-контент из различных источников в интернете выложенный в свободный доступ. {col:yellow}Работает как работает!!! Работает пока работает!!!"
             }
          },
-         "image": "https://wals09.github.io/msx/test/Dimonovich.png",
+         "image": "https://wals09.github.io/msx/test/Dimonovich.jpg",
          "action": "content: https://wals09.github.io/msx/test/Dimonovich.json",
          "properties": {
             "image:extension": "| {col:msx-white}28th Item"
