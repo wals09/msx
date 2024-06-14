@@ -131,7 +131,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Матч HD",
+         "titleHeader": "{col:msx-white}Матч ТВ",
          "selection": {
             "important": true,
             "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
@@ -143,7 +143,7 @@
          },
          "playerLabel": "Матч HD",
          "image": "http://epg.it999.ru/img/2051.png",
-         "action": "video: https://livetv.mylifeisgood.net.ru/channels/matchhd_nocensored.m3u8",
+         "action": "video:https://var90.top/stream/4.html",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
