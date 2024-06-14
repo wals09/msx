@@ -467,23 +467,6 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item27/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "By Dimonovich",
-               "text": "{col:msx-white}Медиа-контент из различных источников в интернете выложенный в свободный доступ. {col:yellow}Работает как работает!!! Работает пока работает!!!"
-            }
-         },
-         "image": "https://wals09.github.io/msx/test/Dimonovich.jpg",
-         "action": "content: https://wals09.github.io/msx/test/Dimonovich.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}28th Item"
-         }
-      },
       {
          "selection": {
             "important": true,
