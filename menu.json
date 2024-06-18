@@ -500,23 +500,6 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://wallpapercave.com/download/iptv-wallpapers-wp7762388",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "FOX-TV",
-               "text": "{col:msx-white}{col}{br}Fox-TV – это не просто телевидение, это ваше окно в мир высококлассного развлечения! "
-            }
-         },
-         "image": "https://pushinka.top/uploads/posts/2023-04/1681531423_pushinka-top-p-avi-dlya-standoff-lisi-pinterest-8.webp",
-         "action": "link: http://stb.fox-tv.fun",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
       }
    ]
 }
