@@ -137,7 +137,7 @@
             "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Матч HD",
+               "headline": "Матч!",
                "text": "{col:msx-white}{col}{br} Матч ТВ предлагает к просмотру прямые трансляции спортивных событий, видео обзоры мероприятий, а также новости спорта со всего мира."
             }
          },
@@ -150,19 +150,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Матч Премьер HD",
+         "titleHeader": "{col:msx-white}Матч Премьер",
          "selection": {
             "important": true,
             "background": "https://cdn.livesport.ru/l/football/2022/08/12/fakel_ural/picture--original.jpg?1660329361",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Матч Премьер HD",
+               "headline": "Матч Премьер ",
                "text": "{col:msx-white}{col}{br} канал о российском и европейском футболе с эксклюзивным контентом, на котором доступны в прямом эфире "
             }
          },
-         "playerLabel": "Матч Премьер HD",
+         "playerLabel": "Матч Премьер ",
          "image": "http://epg.it999.ru/img/2250.png",
-         "action": "video: http://185.37.150.46:8092/Nash_futbol_HD/tracks-v1a1/index.m3u8",
+         "action": "video: http://5.153.180.133:8000/play/a033",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
