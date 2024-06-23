@@ -131,7 +131,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Матч ТВ",
+         "titleHeader": "{col:msx-white}Матч! ",
          "selection": {
             "important": true,
             "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
@@ -141,9 +141,9 @@
                "text": "{col:msx-white}{col}{br} Матч ТВ предлагает к просмотру прямые трансляции спортивных событий, видео обзоры мероприятий, а также новости спорта со всего мира."
             }
          },
-         "playerLabel": "Матч HD",
+         "playerLabel": "Матч! ",
          "image": "http://epg.it999.ru/img/2051.png",
-         "action": "video:https://var90.top/stream/4.html",
+         "action": "video:http://5.153.180.133:8000/play/a035",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
