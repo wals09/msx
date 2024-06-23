@@ -74,19 +74,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Setanta Sports 1 HD RU",
+         "titleHeader": "{col:msx-white}OKKO sport",
          "selection": {
             "important": true,
             "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696418577_gas-kvas-com-p-kartinki-o-sporte-32.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Setanta Sports 1 HD RU",
+               "headline": "OKKO sport",
                "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
             }
          },
-         "playerLabel": "Setanta Sports 1 HD RU",
-         "image": "http://epg.it999.ru/img/2364.png",
-         "action": "video: https://bkm.beetv.kz/btv/live/hls/000004498.m3u8",
+         "playerLabel": "OKKO sport",
+         "image": "https://img2.festima.ru/1/381u5NiGJumxGX8oA",
+         "action": "video: http://158.101.214.187:8080/channel/79f180dd/index.m3u8?q=443d5edac354972a97f67425879f54e1",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
