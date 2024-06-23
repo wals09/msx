@@ -162,7 +162,7 @@
          },
          "playerLabel": "Матч Премьер ",
          "image": "http://epg.it999.ru/img/2250.png",
-         "action": "video: http://5.153.180.133:8000/play/a033",
+         "action": "video: http://5.153.180.133:8000/play/a03b",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
