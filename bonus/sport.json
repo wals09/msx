@@ -67,7 +67,7 @@
          },
          "playerLabel": "Eurosport 2",
          "image": "http://epg.it999.ru/img/4313.png",
-         "action": "video: https://bkm.beetv.kz/btv/live/hls/000002479.m3u8",
+         "action": "video: http://edge02.odtv.az/o3/eurosport2/playlist.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
