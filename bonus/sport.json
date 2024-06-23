@@ -188,19 +188,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Удар HD",
+         "titleHeader": "{col:msx-white}Боец",
          "selection": {
             "important": true,
             "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Удар HD",
+               "headline": "Боец",
                "text": "{col:msx-white}{col}{br}Новый канал посвящен кулачным поединкам, кикбоксингу, боксу и MMA!"
             }
          },
-         "playerLabel": "Удар HD",
-         "image": "https://sun9-49.userapi.com/impg/n4BaXkEWF1m3SOInSBze2n49GobmiShAVYGS8w/pjmXSzdcbzA.jpg?size=807x807&quality=95&sign=72a434881f68ed84d3c39cad17efd1dc&c_uniq_tag=hLc5tdhL9_2U3KctymyUQbWM0Rf-P0CZuZBf_wWgR0A&type=album",
-         "action": "video: https://bkm.beetv.kz/btv/live/hls/000007802.m3u8",
+         "playerLabel": "Боец",
+         "image": "https://etype.ru/image/catalog/TVkanaly/Match-BOEC.png",
+         "action": "video: http://91.90.255.235:8000/play/a00f/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
