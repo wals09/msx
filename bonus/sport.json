@@ -112,7 +112,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}VIASAT SPORT HD",
+         "titleHeader": "{col:msx-white}VIJU+sport",
          "selection": {
             "important": true,
             "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
@@ -122,9 +122,9 @@
                "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
             }
          },
-         "playerLabel": "VIASAT SPORT HD",
+         "playerLabel": "VIJU+sport",
          "image": "http://epg.it999.ru/img/2055.png",
-         "action": "video: https://bkm.beetv.kz/btv/live/hls/000000135.m3u8",
+         "action": "video: http://stream02.vnet.am/AutoPlus/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
