@@ -143,7 +143,7 @@
          },
          "playerLabel": "Матч! ",
          "image": "http://epg.it999.ru/img/2051.png",
-         "action": "video:http://5.153.180.133:8000/play/a035",
+         "action": "video:https://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA2/playlist.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -199,7 +199,7 @@
             }
          },
          "playerLabel": "Боец",
-         "image": "https://etype.ru/image/catalog/TVkanaly/Match-BOEC.png",
+         "image": "https://sun1-96.userapi.com/s/v1/if1/N3XU9rBChM3qQHwk7_bVnpwpQmTPxR-T7yKcpVy9HeVJZGCmAR_VgpysB4Emc64XacYv3EbF.jpg?size=720x720&quality=96&crop=0,279,720,720&ava=1",
          "action": "video: http://91.90.255.235:8000/play/a00f/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
