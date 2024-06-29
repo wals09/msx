@@ -105,7 +105,7 @@
          },
          "playerLabel": " Extreme TV",
          "image": "https://w7.pngwing.com/pngs/248/68/png-transparent-extreme-sports-channel-television-channel-others-television-emblem-text.png",
-         action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
+         "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -118,7 +118,7 @@
             "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "VIASAT SPORT HD",
+               "headline": "VIJU+sport",
                "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
             }
          },
