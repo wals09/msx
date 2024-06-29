@@ -104,7 +104,7 @@
             }
          },
          "playerLabel": " Extreme TV",
-         "image": "https://w7.pngwing.com/pngs/248/68/png-transparent-extreme-sports-channel-television-channel-others-television-emblem-text.png",
+         "image": "https://w7.pngwing.com/pngs/691/770/png-transparent-extreme-sports-channel-television-channel-others-thumbnail.png",
          "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
@@ -180,7 +180,7 @@
             }
          },
          "playerLabel": "МАТЧ! Футбол2",
-         "image": "http://tvmaniabg.com/wp-content/uploads/2016/10/match-football-2.png",
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6XEGfIiSj8EysrtwowgI_dzdPGqJJ97wxdeDiUlhu8rAZiZpziUA2WoCBMyARUK-Rw8&usqp=CAU",
          "action": "video: https://epgx.site/p/match-football2.png",
          "properties": {
             "trigger:back": "player:stop",
