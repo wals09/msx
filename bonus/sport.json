@@ -181,7 +181,7 @@
          },
          "playerLabel": "МАТЧ! Футбол2",
          "image": "https://crdtv.net/b/templates/ottch/match-football-2.png",
-         "action": "video: https://epgx.site/p/match-football2.png",
+         "action": "video: http://147.45.48.241:8090/RU_Match_Futbol_2_HD/video.m3u8?token=rD_MOZUq-1",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
