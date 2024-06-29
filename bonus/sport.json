@@ -143,7 +143,7 @@
          },
          "playerLabel": "Матч! ",
          "image": "http://epg.it999.ru/img/2051.png",
-         "action": "video:https://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA2/playlist.m3u8",
+         "action": "video:http://147.45.48.241:8090/RU_Match_TV_HD/video.m3u8?token=rD_MOZUq-1",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
