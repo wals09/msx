@@ -168,6 +168,25 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
+            {
+         "titleHeader": "{col:msx-white}МАТЧ! ФУТБОЛ 2",
+         "selection": {
+            "important": true,
+            "background": "https://photobooth.cdn.sports.ru/preset/wysiwyg/e/48/caa8cdab341c39ce23a4aa288ec94.webp?q=90",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "МАТЧ! ФУТБОЛ 2",
+               "text": "{col:msx-white}{col}{br}he World Poker Tour (WPT)Трансляции клубных соревнований, матчи ведущих чемпионатов и лиг, матчи за главные кубки футбольного мира, отборочные турниры. "
+            }
+         },
+         "playerLabel": "МАТЧ! ФУТБОЛ 2",
+         "image": "https://www.leveltele.com/wp-content/uploads/2019/01/matchfutbol2hd_H2z0sWp-—-копия.png",
+         "action": "video: http://147.45.48.241:8090/RU_Match_Futbol_2_HD/video.m3u8?token=rD_MOZUq-1",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
       {
          "titleHeader": "{col:msx-white}Бокс ТВ HD",
          "selection": {
@@ -225,25 +244,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-      {
-         "titleHeader": "{col:msx-white}WORLD POKER TOUR HD",
-         "selection": {
-            "important": true,
-            "background": "https://sun9-59.userapi.com/impf/c625521/v625521139/38d99/-Ypo_iBB4Fs.jpg?size=1280x720&quality=96&sign=ef6e99aab993aa5b84c1e8e7571860b0&c_uniq_tag=C4RL5ljg_So5a4P2TNh0zpxZI19CjCO1UothDZAm3wY&type=album",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "WORLD POKER TOUR HD",
-               "text": "{col:msx-white}{col}{br}he World Poker Tour (WPT) is a series of international poker tournaments and associated television series broadcasting the final table of each tournament."
-            }
-         },
-         "playerLabel": "WORLD POKER TOUR HD",
-         "image": "https://upload.wikimedia.org/wikipedia/fi/thumb/9/96/World_Poker_Tourin_logo.svg/640px-World_Poker_Tourin_logo.svg.png",
-         "action": "video: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1346",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
+
       {
          "titleHeader": "{col:msx-white}Беларусь 5",
          "selection": {
