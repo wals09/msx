@@ -93,19 +93,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Setanta Sports 2 HD RU",
+         "titleHeader": "{col:msx-white} Extreme TV",
          "selection": {
             "important": true,
             "background": "https://english-kanazawa.com/wp-content/uploads/2020/08/volleyball.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Setanta Sports 2 HD RU",
+               "headline": " Extreme TV",
                "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
             }
          },
-         "playerLabel": "Setanta Sports 2 HD RU",
-         "image": "http://epg.it999.ru/img/2363.png",
-         "action": "video: https://bkm.beetv.kz/btv/live/hls/000004499.m3u8",
+         "playerLabel": " Extreme TV",
+         "image": "https://w7.pngwing.com/pngs/248/68/png-transparent-extreme-sports-channel-television-channel-others-television-emblem-text.png",
+         action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -181,7 +181,7 @@
          },
          "playerLabel": "МАТЧ! Футбол2",
          "image": "http://tvmaniabg.com/wp-content/uploads/2016/10/match-football-2.png",
-         "action": "video: http://147.45.48.241:8090/RU_Match_Futbol_2_HD/video.m3u8?token=rD_MOZUq-1",
+         "action": "video: https://epgx.site/p/match-football2.png",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
