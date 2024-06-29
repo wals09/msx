@@ -96,7 +96,7 @@
          "titleHeader": "{col:msx-white} Extreme TV",
          "selection": {
             "important": true,
-            "background": "https://sportishka.com/uploads/posts/2022-11/1667429252_22-sportishka-com-p-ekstremalnie-vidi-sporta-pinterest-27.jpg",
+            "background": "https://4.bp.blogspot.com/-FOlW2qIgxRA/UViSiYgjg3I/AAAAAAAACXw/dkvzUuUv5C8/s1600/Reading+Aloud+Keep+It+Exciting.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": " Extreme TV",
@@ -104,7 +104,7 @@
             }
          },
          "playerLabel": " Extreme TV",
-         "image": "https://www.nastol.com.ua/download/177022/1920x1080/",
+         "image": "https://sun9-22.userapi.com/c858324/v858324767/21f164/G2kLOpMPTKc.jpg",
          "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
