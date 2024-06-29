@@ -96,15 +96,15 @@
          "titleHeader": "{col:msx-white} Extreme TV",
          "selection": {
             "important": true,
-            "background": "https://english-kanazawa.com/wp-content/uploads/2020/08/volleyball.jpg",
+            "background": "https://sportishka.com/uploads/posts/2022-11/1667429252_22-sportishka-com-p-ekstremalnie-vidi-sporta-pinterest-27.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": " Extreme TV",
-               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+               "text": "{col:msx-white}{col}{br}Спортивно-развлекательный телеканал — здесь есть все про: экстремальный спорт, путешествия, единоборства, активный образ жизни"
             }
          },
          "playerLabel": " Extreme TV",
-         "image": "https://w7.pngwing.com/pngs/691/770/png-transparent-extreme-sports-channel-television-channel-others-thumbnail.png",
+         "image": "https://www.extreme.com/en/wp-content/uploads/2021/08/extreme-logo-800x800-featured-image.jpg",
          "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
@@ -180,7 +180,7 @@
             }
          },
          "playerLabel": "МАТЧ! Футбол2",
-         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6XEGfIiSj8EysrtwowgI_dzdPGqJJ97wxdeDiUlhu8rAZiZpziUA2WoCBMyARUK-Rw8&usqp=CAU",
+         "image": "https://crdtv.net/b/templates/ottch/match-football-2.png",
          "action": "video: https://epgx.site/p/match-football2.png",
          "properties": {
             "trigger:back": "player:stop",
