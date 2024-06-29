@@ -169,18 +169,18 @@
          }
       },
             {
-         "titleHeader": "{col:msx-white}МАТЧ! ФУТБОЛ 2",
+         "titleHeader": "{col:msx-white}МАТЧ! Футбол2",
          "selection": {
             "important": true,
             "background": "https://photobooth.cdn.sports.ru/preset/wysiwyg/e/48/caa8cdab341c39ce23a4aa288ec94.webp?q=90",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "МАТЧ! ФУТБОЛ 2",
+               "headline": "МАТЧ! Футбол2",
                "text": "{col:msx-white}{col}{br}he World Poker Tour (WPT)Трансляции клубных соревнований, матчи ведущих чемпионатов и лиг, матчи за главные кубки футбольного мира, отборочные турниры. "
             }
          },
-         "playerLabel": "МАТЧ! ФУТБОЛ 2",
-         "image": "https://www.leveltele.com/wp-content/uploads/2019/01/matchfutbol2hd_H2z0sWp-—-копия.png",
+         "playerLabel": "МАТЧ! Футбол2",
+         "image": "http://tvmaniabg.com/wp-content/uploads/2016/10/match-football-2.png",
          "action": "video: http://147.45.48.241:8090/RU_Match_Futbol_2_HD/video.m3u8?token=rD_MOZUq-1",
          "properties": {
             "trigger:back": "player:stop",
