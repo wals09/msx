@@ -104,7 +104,7 @@
             }
          },
          "playerLabel": " Extreme TV",
-         "image": "https://www.extreme.com/en/wp-content/uploads/2021/08/extreme-logo-800x800-featured-image.jpg",
+         "image": "https://www.nastol.com.ua/download/177022/1920x1080/",
          "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
