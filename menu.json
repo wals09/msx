@@ -467,6 +467,38 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
+            {
+         "selection": {
+            "important": true,
+            "background": "https://wp-s.ru/wallpapers/6/2/375521546143285/xishhnaya-puma-krad-tsya-po-snegu.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Ottplayer",
+               "text": "{col:msx-white}сервис, позволяющий собрать все ваше IP-телевидение в один плейлист, настроить порядок каналов, получить электронный программный гид."
+            }
+         },
+         "image": "https://play-lh.googleusercontent.com/9UNJTkHxxEmgHlbFehlApX0YUXhkqtsNYEIo8XTAbwH_TXwS2Sz-bIeOGOSH084b05I",
+         "action": "link:http://widget.ottplayer.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://sun9-44.userapi.com/impg/Dyqc2wFkAU7cxa9spUxoXcTbo7uzOQ2KjDg0Gw/l6aJRstB2n4.jpg?size=1280x800&quality=96&sign=5c74947dacb382e275ffabe5306ff705&c_uniq_tag=k_94lPSDBezJEyqnrLSfa1ic1uyO6lAuxMk24-FQgfQ&type=album",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oneplayer",
+               "text": "{col:msx-white}мультиплатформенный плеер для воспроизведения m3u плейлистов в общепринятом формате, подходит для воспроизведения аудио, видео, радио, live плейлистов. "
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/one_player.png?raw=true",
+         "action": "link:http://webos.oneplayer.me",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
       {
          "selection": {
             "important": true,
