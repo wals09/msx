@@ -533,7 +533,6 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-
       {
          "selection": {
             "important": true,
@@ -549,6 +548,22 @@
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://les-stroi.ru/wp-content/uploads/a/5/4/a5485aa250c82cb0377142b9f1643da8.jpeg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lamp!she",
+               "text": "{col:msx-white}Мод программы Лампа для Android/Google TV{br}{col:yellow}Приложение разрабатывалось ТОЛЬКО для Android/Google TV.{br}Приложение не предназначено для работы через Mediastation X, может работать неправильно или вообще не работать!!! {br}Опубликованно только для ознакомления с программой!!!"
+            }
+         },
+         "image": "https://web.lampishe.cc/img/welcome.jpg",
+         "action": "link:https://web.lampishe.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
          }
       }
    ]
