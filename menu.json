@@ -533,23 +533,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675490637_gas-kvas-com-p-fonovie-risunki-na-rabochii-stol-noch-17.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RELAX",
-               "text": "{col:msx-white}{col}{br}Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
-            }
-         },
-         "image": "https://yt3.ggpht.com/ytc/AKedOLTnnv0Gw8nYogetKuQl-M437g5e8XuxgPoKe1pV=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
+
       {
          "selection": {
             "important": true,
