@@ -373,6 +373,22 @@
       {
          "selection": {
             "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item20/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Kinopub_sdnSL",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка.{br}Если предидущий не запустился попробуйте запустить этот"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/img/icon-large.png?raw=true",
+         "action": "link:http://kpms.cc/bootstrap.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}21st Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item21/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
