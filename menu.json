@@ -593,7 +593,7 @@
             }
          },
          "image": "https://tvoe.live/img/touch-logo.jpg",
-         "action": "link:https://tvoe.live/",
+         "action": "link:https://webos.tvoe.live",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
