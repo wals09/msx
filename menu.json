@@ -581,22 +581,6 @@
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://tvoe.live/img/touch-logo.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Твоё ТВ",
-               "text": "{col:msx-white}Приложение Твоё ТВ{br}{col:yellow}Тест!!!{br}Если не запускается, значит не работает. Не мучайте телевизор"
-            }
-         },
-         "image": "https://tvoe.live/img/touch-logo.jpg",
-         "action": "link:https://webos.tvoe.live",
-         "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
-         }
       }
    ]
 }
