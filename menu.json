@@ -589,7 +589,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Твоё ТВ",
-               "text": "{col:msx-white}Приложение Твоё ТВ{br}{col:yellow}Тест"
+               "text": "{col:msx-white}Приложение Твоё ТВ{br}{col:yellow}Тест!!!{br}Если не запускается, значит не работает. Не мучайте телевизор"
             }
          },
          "image": "https://tvoe.live/img/touch-logo.jpg",
