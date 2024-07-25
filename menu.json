@@ -44,7 +44,7 @@
                "text": "IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Тестовый плейлист для ознакомления с функциями плеера."
             }
          },
-         "image": "https://wals09.github.io/msx/drm/logo.png",
+         "image": "https://wals09.github.io/msx/drm/logo.с.png",
          "action": "link:http://ott.drm-play.com",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
@@ -60,7 +60,7 @@
                "text": "IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, медиатеки."
             }
          },
-         "image": "https://wals09.github.io/msx/foss/icon.png",
+         "image": "https://wals09.github.io/msx/foss/ott-foss,с.png",
          "action": "link:http://ott.prog4food.eu.org/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Second Item"
