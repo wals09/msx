@@ -581,22 +581,6 @@
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://play-lh.googleusercontent.com/JUd3BDXRExEc0GNBy2vgXfsuslEp6cE4EnAzw73E90Gl5FutX-6MHnXY5cYktXkYaqw=w1024-h500",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RUTUBE Детям",
-               "text": "{col:msx-white}Приложение с мультфильмами, фильмами, шоу семейных и детских блогеров, радио- и ТВ-передачами, которые наши эксперты отбирают специально для детей."
-            }
-         },
-         "image": "https://play-lh.googleusercontent.com/L6XvUAjaF-9UX8qJ3m3FmonFgAfprgG7j4rTUpZEm9kvv7Mw7H_3MlRqANkfgv1-EeM=w256-h450-rw",
-         "action": "link:https://rutube.ru/feeds/kids/",
-         "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
-         }
       }
    ]
 }
