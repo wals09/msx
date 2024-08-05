@@ -1,16 +1,3 @@
-Media Station XMedia Station X
-Home
-API 
-Showcases
-Platform Support
-Data Privacy
-License
-About
-v0.1.158
-Demo
-Introduction
-This demo page contains various JSON examples that you can load, edit, and test directly in your browser. If you press Launch, the Media Station X application is launched in a separate window with the indicated JSON file as start parameter.
-CONTENTPOSITION: 0
 {
    "type": "list",
    "headline": "WALS_MSX 2.3",
