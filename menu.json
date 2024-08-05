@@ -585,15 +585,31 @@
       {
          "selection": {
             "important": true,
-            "background": "https://les-stroi.ru/wp-content/uploads/a/5/4/a5485aa250c82cb0377142b9f1643da8.jpeg",
+            "background": "https://kalix.club/uploads/posts/2022-12/1671444251_kalix-club-p-oboi-snezhnii-gorod-krasivo-7.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "KION",
-               "text": "{col:yellow}Только WebOS{col}{br}{col:msx-white}Оригинальные сериалы, тысячи фильмов и более 180 ТВ-каналов. Удобный интерфейс, одновременный просмотр на 5 устройствах, система рекомендаций и детский профиль с безопасным контентом. Добро пожаловать в мир захватывающих историй!"
+               "text": "{col:yellow}Только WebOS. Нужна подписка{col}{br}{col:msx-white}Оригинальные сериалы, тысячи фильмов и более 180 ТВ-каналов. Удобный интерфейс, одновременный просмотр на 5 устройствах, система рекомендаций и детский профиль с безопасным контентом. Добро пожаловать в мир захватывающих историй!"
             }
          },
          "image": "https://sun6-23.userapi.com/impg/xLkUgd_5ShtMaKm1IZBayoCALnszD8LTDjUoCg/wJzfKDMrY3c.jpg?size=520x0&quality=95&sign=6e92840783d421e6876e3d25f3852f8b",
          "action": "link:https://kion.ru/EPG/smarttvlg/index.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://wallpapercave.com/wp/wp13341712.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "OKKO",
+               "text": "{col:yellow}Только WebOS. Нужна подписка{col}{br}{col:msx-white}Смотрите фильмы, сериалы, мультфильмы, ТВ-каналы и спортивные трансляции. Ежедневное обновление каталога, популярные новинки и классика кино — всё в одном месте."
+            }
+         },
+         "image": "https://play-lh.googleusercontent.com/FqSW_YZl5Di7Pnr5szwmJIipvGFAn_ulMC3yXmJtMFKmkZGu0vCXYVpwyIVwTnCgtA",
+         "action": "link:http://lge.okko.tv",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
