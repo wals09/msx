@@ -1,3 +1,16 @@
+Media Station XMedia Station X
+Home
+API 
+Showcases
+Platform Support
+Data Privacy
+License
+About
+v0.1.158
+Demo
+Introduction
+This demo page contains various JSON examples that you can load, edit, and test directly in your browser. If you press Launch, the Media Station X application is launched in a separate window with the indicated JSON file as start parameter.
+CONTENTPOSITION: 0
 {
    "type": "list",
    "headline": "WALS_MSX 2.3",
@@ -581,6 +594,23 @@
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://les-stroi.ru/wp-content/uploads/a/5/4/a5485aa250c82cb0377142b9f1643da8.jpeg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "KION",
+               "text": "{col:yellow}Только WebOS{col}{br}{col:msx-white}Оригинальные сериалы, тысячи фильмов и более 180 ТВ-каналов. Удобный интерфейс, одновременный просмотр на 5 устройствах, система рекомендаций и детский профиль с безопасным контентом. Добро пожаловать в мир захватывающих историй!"
+            }
+         },
+         "image": "https://sun6-23.userapi.com/impg/xLkUgd_5ShtMaKm1IZBayoCALnszD8LTDjUoCg/wJzfKDMrY3c.jpg?size=520x0&quality=95&sign=6e92840783d421e6876e3d25f3852f8b",
+         "action": "link:https://kion.ru/EPG/smarttvlg/index.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
       }
    ]
 }
+© 2024 Benjamin Zachey
