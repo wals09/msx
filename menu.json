@@ -617,6 +617,22 @@
       {
          "selection": {
             "important": true,
+            "background": "https://images.wallpaperscraft.ru/image/single/siluet_portal_svet_139483_1920x1080.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Яндекс Видео",
+               "text": "«Яндекс Видео» — сервис поиск по видеороликам от Яндекса с возможностью просмотра большинства найденных роликов на странице результатов поиска. Поиск производится на сторонних видеохостингах и новостных интернет-ресурсах."
+            }
+         },
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-IOsICq7SZY4PiPVsZgzjGJ-tSUliJhDqFQ&s",
+         "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
             "background": "https://github.com/wals09/msx/blob/main/logo/welcome.jpg?raw=true",
             "action": "update:content:underlay:text",
             "data": {
