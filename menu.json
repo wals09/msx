@@ -436,6 +436,7 @@
          }
       },
       {
+         
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item25/1920/1080#msx-keep-ratio",
@@ -631,6 +632,7 @@
          }
       },
       {
+         "color": "red",
          "selection": {
             "important": true,
             "background": "https://github.com/wals09/msx/blob/main/logo/welcome.jpg?raw=true",
@@ -642,6 +644,22 @@
          },
          "image": "https://github.com/wals09/msx/blob/main/logo/lite.png?raw=true",
          "action": "link:http://lite.lampa.mx",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://github.com/wals09/msx/blob/main/logo/welcome.jpg?raw=true",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "GetsTV",
+               "text": " Фильмы и Мультфильмы. Крупнейшая база на любой вкус, обновляется ежедневно, новинки появляются сразу после премьеры в кинотеатре."
+            }
+         },
+         "image": "http://getstv.ru/site/img/getstv_logo_square.jpg",
+         "action": "content:http://lg.getstv.ru/msx/msx.json",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
