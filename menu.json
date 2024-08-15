@@ -663,6 +663,38 @@
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item0/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Магазин приложений APPFXML STORE",
+               "text": "Лаунчер-Магазин с возможностью добавления, удаления, редактирования."
+            }
+         },
+         "image": "https://msx.appfxml.com/msx/appfxmlstore_m.png",
+         "action": "content:request:interaction:my@http://msx.appfxml.com/msx/appfxmlstore.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item1/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Лаунчер NoName",
+               "text": "Лаунчер-Магазин с возможностью добавления, удаления, редактирования."
+            }
+         },
+         "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
+         "action": "menu:request:interaction:menu@https://nnmtv.github.io/launcher/store.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Second Item"
+         }
       }
    ]
 }
