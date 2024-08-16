@@ -100,7 +100,7 @@
             }
          },
          "playerLabel": "MSXPlayer V4",
-         "image": "http://msxplayer.ru/assets/msx-icon.png",
+         "image": "https://github.com/wals09/msx/blob/main/alterstore/msx_logo.jpg?raw=true",
          "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html",
          "properties": {
             "trigger:back": "player:stop",
@@ -176,7 +176,7 @@
             }
          },
          "playerLabel": "MSX CC UA портал",
-         "image": "http://msxplayer.ru/assets/msx-icon.png",
+         "image": "https://github.com/wals09/msx/blob/main/alterstore/msx_logo.jpg?raw=true",
          "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
             "trigger:back": "player:stop",
