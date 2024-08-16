@@ -1,4 +1,4 @@
-﻿{
+{
    "type": "list",
    "headline": "Lampset",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
@@ -100,7 +100,7 @@
             }
          },
          "playerLabel": "MSXPlayer V4",
-         "image": " "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",",
+         "image": "http://msxplayer.ru/assets/msx-icon.png",
          "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html",
          "properties": {
             "trigger:back": "player:stop",
@@ -176,7 +176,7 @@
             }
          },
          "playerLabel": "MSX CC UA портал",
-         "image": " "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",",
+         "image": "http://msxplayer.ru/assets/msx-icon.png",
          "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
             "trigger:back": "player:stop",
