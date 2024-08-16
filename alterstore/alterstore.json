@@ -73,7 +73,7 @@
          "titleHeader": "{col:msx-white}APPFXML STORE",
          "selection": {
             "important": true,
-            "background": "https://s1.best-wallpaper.net/wallpaper/m/1801/Many-lamps-lighting-night-colors_m.webp",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "APPFXML STORE",
@@ -92,7 +92,7 @@
          "titleHeader": "{col:msx-white}MSXPlayer{br} V4",
          "selection": {
             "important": true,
-            "background": "https://s1.best-wallpaper.net/wallpaper/m/1802/Many-lamps-bulbs_m.webp",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "MSXPlayer V4",
@@ -100,7 +100,7 @@
             }
          },
          "playerLabel": "MSXPlayer V4",
-         "image": "https://github.com/wals09/msx/blob/main/alterstore/msx_logo.jpg?raw=true",
+         "image": " "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",",
          "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html",
          "properties": {
             "trigger:back": "player:stop",
@@ -111,7 +111,7 @@
          "titleHeader": "{col:msx-white}MSX NoName Launcher",
          "selection": {
             "important": true,
-            "background": "https://img.goodfon.com/original/2880x1800/0/34/idea-light-bulbs-light-shine.jpg",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "MSX NoName Launcher",
@@ -130,7 +130,7 @@
          "titleHeader": "{col:msx-white}NoName портал",
          "selection": {
             "important": true,
-            "background": "https://w.forfun.com/fetch/b2/b2bb1a70118b1e90cc189c050559d462.jpeg?w=1470&r=0.5625",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "NoName портал",
@@ -149,7 +149,7 @@
          "titleHeader": "{col:msx-white}NoName портал 2",
          "selection": {
             "important": true,
-            "background": "https://wallbox.ru/wallpapers/main/201508/8fca0aa9634e738.jpg",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "NoName портал 2",
@@ -168,7 +168,7 @@
          "titleHeader": "{col:msx-white}MSX CC UA портал",
          "selection": {
             "important": true,
-            "background": "https://wallbox.ru/wallpapers/main/201508/8fca0aa9634e738.jpg",
+            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "MSX CC UA портал",
@@ -176,7 +176,7 @@
             }
          },
          "playerLabel": "MSX CC UA портал",
-         "image": "https://github.com/wals09/msx/blob/main/alterstore/msx_logo.jpg?raw=true",
+         "image": " "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",",
          "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
             "trigger:back": "player:stop",
