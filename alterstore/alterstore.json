@@ -177,7 +177,7 @@
          },
          "playerLabel": "MSX CC UA портал",
          "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
-         "action": "content:http://msx.cc.ua/msx/start.json",
+         "action": "content:https://wals09.github.io/msx/alterstore/startua.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
