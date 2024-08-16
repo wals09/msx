@@ -665,7 +665,8 @@
          }
       },
       {
-         "offset": "1,4,5,0",
+         "label": "Альтернативные MSX магазины|лаунчеры",
+         "offset": "0,3,5,0",
          "selection": {
             "important": true,
             "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
@@ -675,7 +676,6 @@
                "text": " Альтернативные MSX магазины|лаунчеры"
             }
          },
-         "image": "",
          "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
