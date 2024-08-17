@@ -24,67 +24,17 @@
          }
       ]
    },
-  "template": {
+   "template": {
       "type": "default",
       "layout": "0,0,1,1",
       "area": "0,0,12,3",
-      "offset": "0,2,0,0",
+      "offset": "0,3,0,0",
       "trigger:back": "player:stop",
       "color": "msx-glass",
       "imageFiller": "cover"
    },
    "items": [
       {
-         "color": "transparent",
-         "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
-         "offset": "5.5,-0.6,-0.25,-0.25",
-         "action": "audio:https://wals09.github.io/msx/Fragile.mp3"
-      },
-      {
-         "color": "transparent",
-         "offset": "11,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "10,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "11,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "10,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "11,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "10,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "9,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "9,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "11,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "10,-0.55,-0.45,-0.45"
-      },
-      {
-         "color": "transparent",
-         "offset": "9,-0.55,-0.45,-0.45"
-      },
-      { "focus": true,
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item0/1920/1080#msx-keep-ratio",
@@ -722,7 +672,7 @@
       {
          "color": "msx-glass",
          "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,2,8,0",
+         "offset": "0,3,7,0",
          "selection": {
             "important": true,
             "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
@@ -737,6 +687,12 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
+      },
+      {
+         "offset": "7,3,0,0",
+         "color": "transparent",
+         "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
+         "action": "audio:https://wals09.github.io/msx/Fragile.mp3"
       }
    ]
 }
