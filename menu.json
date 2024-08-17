@@ -722,7 +722,7 @@
       {
          "color": "msx-glass",
          "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,3,8,0",
+         "offset": "0,2,8,0",
          "selection": {
             "important": true,
             "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
