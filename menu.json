@@ -67,6 +67,7 @@
          }
       },
       {
+         "color": "#C8FCFE",
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item2/1920/1080#msx-keep-ratio",
@@ -76,7 +77,7 @@
                "text": "IPTV player. Возможность просмотра своих плейлистов,сталкер-порталов,медиатек. Сохранение, перенос настроек"
             }
          },
-         "image": "https://wals09.github.io/msx/ott-play/icon.png",
+         "image": "https://github.com/wals09/msx/blob/main/logo/ott-play.png?raw=true",
          "action": "link:http://ott-play.com/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Third Item"
@@ -101,6 +102,38 @@
       {
          "selection": {
             "important": true,
+            "background": "https://wp-s.ru/wallpapers/6/2/375521546143285/xishhnaya-puma-krad-tsya-po-snegu.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Ottplayer",
+               "text": "{col:msx-white}сервис, позволяющий собрать все ваше IP-телевидение в один плейлист, настроить порядок каналов, получить электронный программный гид."
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/ottplayer.png?raw=true",
+         "action": "link:http://widget.ottplayer.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://sun9-44.userapi.com/impg/Dyqc2wFkAU7cxa9spUxoXcTbo7uzOQ2KjDg0Gw/l6aJRstB2n4.jpg?size=1280x800&quality=96&sign=5c74947dacb382e275ffabe5306ff705&c_uniq_tag=k_94lPSDBezJEyqnrLSfa1ic1uyO6lAuxMk24-FQgfQ&type=album",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oneplayer",
+               "text": "{col:msx-white}мультиплатформенный плеер для воспроизведения m3u плейлистов в общепринятом формате, подходит для воспроизведения аудио, видео, радио, live плейлистов. "
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/one_player.png?raw=true",
+         "action": "link:http://webos.oneplayer.me",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item4/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
@@ -115,328 +148,6 @@
          }
       },
       {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item5/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "VoKINO",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
-            }
-         },
-         "image": "https://wals09.github.io/msx/vokino/logo.png",
-         "action": "link: http://web.vokino.tv/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item6/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "ATODO",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
-            }
-         },
-         "image": "https://wals09.github.io/msx/atodo/logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
-         "properties": {
-            "image:extension": "| {col:msx-white}Seventh Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item7/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "ATODO-web",
-               "text": "{col:msx-white}Web версия приложения ATODO. Просмотр различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
-            }
-         },
-         "image": "https://wals09.github.io/msx/atodo/logo.png",
-         "action": "link:http://msx.atodo.fun/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Eighth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item8/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "MOOVIES",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
-            }
-         },
-         "image": "https://wals09.github.io/msx/moovies/logo.png",
-         "action": "menu:request:interaction:init@http://moovies.uz/index.html",
-         "properties": {
-            "image:extension": "| {col:msx-white}Ninth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item9/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "MOVIELAB",
-               "text": "{col:msx-white}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line"
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/ml/logo2.png?raw=true",
-         "action": "menu:https://movielab.fun/msx/menu.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Tenth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item10/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Forkplayer",
-               "text": "{col:msx-white}Bеб-браузер, адаптированный для просмотра специальных интернет-страниц с автоматически обновляемыми плейлистами, предоставляет возможность прямо с браузера смотреть фильмы, ТВ-каналы, слушать музыку, радиостанции"
-            }
-         },
-         "image": "https://wals09.github.io/msx/fork/logo.png",
-         "action": "link:http://browser.appfxml.com/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Eleventh Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "КИНОПОИСК",
-               "text": "{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
-            }
-         },
-         "image": "https://wals09.github.io/msx/kinopoisk/logo.png",
-         "action": "link:https://smarttv-app.ott.yandex.ru/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Twelfth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RUTUBE-WEB",
-               "text": "{col:msx-white}Pоссийский онлайн-сервис для хостинга и просмотра видео"
-            }
-         },
-         "image": "https://wals09.github.io/msx/rutube/logo.png",
-         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
-         "properties": {
-            "image:extension": "| {col:msx-white}13th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675415678_gas-kvas-com-p-kartinki-dlya-fonovogo-risunka-rabochego-s-21.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TikTok {col:yellow}",
-               "text": "{col:yellow}Только WebOS{col}{br}{col:msx-white}Hеофициальное приложение для webOS"
-            }
-         },
-         "image": "https://w7.pngwing.com/pngs/829/574/png-transparent-tiktok-hd-logo-thumbnail.png",
-         "action": "link:https://tv.tiktok.com/webos",
-         "properties": {
-            "image:extension": "| {col:msx-white}14th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item14/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "VK Video",
-               "text": "{col:yellow}Только WebOS{col}{br}шоу любимых блогеров, свежие фильмы и сериалы, любимые телеканалы, прямые эфиры, мультфильмы для детей, спортивные трансляции, музыкальные новинки и многое другое "
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/vkvideo/icon.png?raw=true",
-         "action": "link:https://vk.ru/tv-app/lib?version=1.3.13&platform=webos",
-         "properties": {
-            "image:extension": "| {col:msx-white}15th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item15/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "СМОТРИМ-WEB",
-               "text": "{col:msx-white}российская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК»"
-            }
-         },
-         "image": "https://wals09.github.io/msx/smotrim/icon.png",
-         "action": "link:https://tv.smotrim.ru",
-         "properties": {
-            "image:extension": "| {col:msx-white}16th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item16/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YouTUBE",
-               "text": "{col:msx-white}Oнлайн-сервис для хостинга и просмотра видео"
-            }
-         },
-         "image": "https://wals09.github.io/msx/youtube/logo.png",
-         "action": "link:https://www.youtube.com/tv#/",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item17/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "YOUTUBE KIDS",
-               "text": "{col:msx-white}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей."
-            }
-         },
-         "image": "https://wals09.github.io/msx//youtube_kids/logo.png",
-         "action": "link:https://www.youtube.com/tv/kids",
-         "properties": {
-            "image:extension": "| {col:msx-white}18th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://wp-s.ru/wallpapers/12/5/519295869621046/semya-bozhix-korovok-vyshla-na-progulku.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "МУЛЬТИКИ",
-               "text": "{col:msx-white}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!"
-            }
-         },
-         "image": "https://wals09.github.io/msx/multiki/logo.png",
-         "action": "content:https://wals09.github.io/msx/welcome.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}19th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item19/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "DEEPLEX",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов."
-            }
-         },
-         "image": "https://wals09.github.io/msx/deeplex/logo.png",
-         "action": "link:http://smart.deeplex.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}20th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item20/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "KinoPUB",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка"
-            }
-         },
-         "image": "https://wals09.github.io/msx/kinopub/logo.png",
-         "action": "link:http://kpms.cc/bootstrap.html",
-         "properties": {
-            "image:extension": "| {col:msx-white}21st Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item20/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Kinopub_sdnSL",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка.{br}Если предидущий не запустился попробуйте запустить этот"
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/img/icon-large.png?raw=true",
-         "action": "link:https://cdnservices.link",
-         "properties": {
-            "image:extension": "| {col:msx-white}21st Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item21/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "X-SMART TV",
-               "text": "{col:msx-white}Цифровая медиа платформа XSMART — это интернет каталог в виде приложения, где собрана информация о фильмах и сериалах, актерах и режиссерах. Вся информация в каталоге взята из открытых источников и предоставляются исключительно в ознакомительных целях.",
-               "image": "https://wals09.github.io/msx/xsmart/capture.gif"
-            }
-         },
-         "image": "https://wals09.github.io/msx/xsmart/logo.png",
-         "action": "link:http://app.xsmart.tv",
-         "properties": {
-            "image:extension": "| {col:msx-white}22nd Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item22/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "IMPIRE BOOM",
-               "text": "{col:msx-white}ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п."
-            }
-         },
-         "image": "https://wals09.github.io/msx/imboom/logo.png",
-         "action": "link:http://web.imboom.ru/",
-         "properties": {
-            "image:extension": "| {col:msx-white}23rd Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item23/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "KINOBOOM",
-               "text": "{col:msx-white}Просмотр видео контента из многих источников. Поиск контента (фильмы, сериалы, мультфильмы, аниме, тв-передачи).Выбора качества. KBC каналы. VIP подписка на три устройства "
-            }
-         },
-         "image": "https://wals09.github.io/msx/kinoboom/logo.png",
-         "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
-         "properties": {
-            "image:extension": "| {col:msx-white}24th Item"
-         }
-      },
-      {
-         
          "selection": {
             "important": true,
             "background": "https://picsum.photos/seed/msx_24764bb8_item25/1920/1080#msx-keep-ratio",
@@ -487,72 +198,6 @@
       {
          "selection": {
             "important": true,
-            "background": "https://wp-s.ru/wallpapers/6/2/375521546143285/xishhnaya-puma-krad-tsya-po-snegu.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Ottplayer",
-               "text": "{col:msx-white}сервис, позволяющий собрать все ваше IP-телевидение в один плейлист, настроить порядок каналов, получить электронный программный гид."
-            }
-         },
-         "image": "https://play-lh.googleusercontent.com/9UNJTkHxxEmgHlbFehlApX0YUXhkqtsNYEIo8XTAbwH_TXwS2Sz-bIeOGOSH084b05I",
-         "action": "link:http://widget.ottplayer.tv",
-         "properties": {
-            "image:extension": "| {col:msx-white}27th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://sun9-44.userapi.com/impg/Dyqc2wFkAU7cxa9spUxoXcTbo7uzOQ2KjDg0Gw/l6aJRstB2n4.jpg?size=1280x800&quality=96&sign=5c74947dacb382e275ffabe5306ff705&c_uniq_tag=k_94lPSDBezJEyqnrLSfa1ic1uyO6lAuxMk24-FQgfQ&type=album",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Oneplayer",
-               "text": "{col:msx-white}мультиплатформенный плеер для воспроизведения m3u плейлистов в общепринятом формате, подходит для воспроизведения аудио, видео, радио, live плейлистов. "
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/logo/one_player.png?raw=true",
-         "action": "link:http://webos.oneplayer.me",
-         "properties": {
-            "image:extension": "| {col:msx-white}27th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675490637_gas-kvas-com-p-fonovie-risunki-na-rabochii-stol-noch-17.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "RELAX",
-               "text": "{col:msx-white}{col}{br}Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
-            }
-         },
-         "image": "https://yt3.ggpht.com/ytc/AKedOLTnnv0Gw8nYogetKuQl-M437g5e8XuxgPoKe1pV=s900-c-k-c0x00ffffff-no-rj",
-         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "background": "https://sportishka.com/uploads/posts/2023-12/1701472201_sportishka-com-p-samie-populyarnie-komandnie-vidi-sporta-pi-32.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Sport",
-               "text": "{col:msx-white}{col}{br}Подборка спортивных каналов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
-            }
-         },
-         "image": "https://www.pngitem.com/pimgs/m/112-1122080_futbol-png-image-vector-clipart-psd-png.png",
-         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
             "background": "https://idei.club/raznoe/uploads/posts/2022-11/1668354358_idei-club-p-raznotsvetnaya-lampa-dizain-oboi-24.jpg",
             "action": "update:content:underlay:text",
             "data": {
@@ -568,6 +213,23 @@
          }
       },
       {
+         "color": "red",
+         "selection": {
+            "important": true,
+            "background": "https://github.com/wals09/msx/blob/main/logo/welcome.jpg?raw=true",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa lite",
+               "text": "{col:yellow}Облегченная версия программы Lampa. Lampa lite не потдерживается разработчиками."
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/lite.png?raw=true",
+         "action": "link:http://lite.lampa.mx",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
          "selection": {
             "important": true,
             "background": "https://les-stroi.ru/wp-content/uploads/a/5/4/a5485aa250c82cb0377142b9f1643da8.jpeg",
@@ -579,6 +241,236 @@
          },
          "image": "https://web.lampishe.cc/img/welcome.jpg",
          "action": "link:https://web.lampishe.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item5/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "VoKINO",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
+         "action": "link: http://web.vokino.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "color": "#3E09B9",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item6/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ATODO",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/atodo/atodo.png?raw=true",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Seventh Item"
+         }
+      },
+      {
+         "color": "#270C5F",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item7/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "ATODO-web",
+               "text": "{col:msx-white}Web версия приложения ATODO. Просмотр различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/atodo/atodo.png?raw=true",
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eighth Item"
+         }
+      },
+      {
+         "color": "#3D0C5F",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item8/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "MOOVIES",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
+            }
+         },
+         "image": "https://wals09.github.io/msx/moovies/moovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Ninth Item"
+         }
+      },
+      {
+         "color": "#D4D70F",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item9/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "MOVIELAB",
+               "text": "{col:msx-white}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/movielab.png?raw=true",
+         "action": "menu:https://movielab.fun/msx/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Tenth Item"
+         }
+      },
+      {
+         "color": "#449CDA",
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item10/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Forkplayer",
+               "text": "{col:msx-white}Bеб-браузер, адаптированный для просмотра специальных интернет-страниц с автоматически обновляемыми плейлистами, предоставляет возможность прямо с браузера смотреть фильмы, ТВ-каналы, слушать музыку, радиостанции"
+            }
+         },
+         "image": "https://wals09.github.io/msx/fork/fork_com.png",
+         "action": "link:http://browser.appfxml.com/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eleventh Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item11/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "КИНОПОИСК",
+               "text": "{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
+            }
+         },
+         "image": "https://papik.pro/grafic/uploads/posts/2023-04/1681516813_papik-pro-p-kinopoisk-logotip-vektor-29.jpg",
+         "action": "link:https://smarttv-app.ott.yandex.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Twelfth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item19/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов."
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/deeplex.jpg?raw=true",
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}20th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item20/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "KinoPUB",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка"
+            }
+         },
+         "image": "https://wals09.github.io/msx/kinopub/logo.png",
+         "action": "link:http://kpms.cc/bootstrap.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}21st Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item20/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Kinopub_sdnSL",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка.{br}Если предидущий не запустился попробуйте запустить этот"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/img/icon-large.png?raw=true",
+         "action": "link:https://cdnservices.link",
+         "properties": {
+            "image:extension": "| {col:msx-white}21st Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item21/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "X-SMART TV",
+               "text": "{col:msx-white}Цифровая медиа платформа XSMART — это интернет каталог в виде приложения, где собрана информация о фильмах и сериалах, актерах и режиссерах. Вся информация в каталоге взята из открытых источников и предоставляются исключительно в ознакомительных целях.",
+               "image": "https://wals09.github.io/msx/xsmart/capture.gif"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/xsmart.png?raw=true",
+         "action": "link:http://app.xsmart.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}22nd Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item22/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IMPIRE BOOM",
+               "text": "{col:msx-white}ИмперияBOOM представляет собой упорядоченные ссылки на медиа-контент: фильмы, сериалы, мультфильмы, IPTV, радио и т.п."
+            }
+         },
+         "image": "https://imboom.ru/images/im.png",
+         "action": "link:http://web.imboom.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}23rd Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item23/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "KINOBOOM",
+               "text": "{col:msx-white}Просмотр видео контента из многих источников. Поиск контента (фильмы, сериалы, мультфильмы, аниме, тв-передачи).Выбора качества. KBC каналы. VIP подписка на три устройства "
+            }
+         },
+         "image": "https://avatars.mds.yandex.net/i?id=6aea397f3b47e7693b08e2529bf67bb0_sr-8506348-images-thumbs&n=13",
+         "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
+         "properties": {
+            "image:extension": "| {col:msx-white}24th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "GetsTV",
+               "text": " Фильмы и Мультфильмы. Крупнейшая база на любой вкус, обновляется ежедневно, новинки появляются сразу после премьеры в кинотеатре."
+            }
+         },
+         "image": "http://getstv.ru/site/img/getstv_logo_square.jpg",
+         "action": "content:http://lg.getstv.ru/msx/msx.json",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
@@ -618,6 +510,22 @@
       {
          "selection": {
             "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "RUTUBE-WEB",
+               "text": "{col:msx-white}Pоссийский онлайн-сервис для хостинга и просмотра видео"
+            }
+         },
+         "image": "https://images.live.vkplay.ru/image/bdce5c8b-0c9a-49c4-896a-c4fe2011f56a?change_time=1675871592&mw=640",
+         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
+         "properties": {
+            "image:extension": "| {col:msx-white}13th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
             "background": "https://images.wallpaperscraft.ru/image/single/siluet_portal_svet_139483_1920x1080.jpg",
             "action": "update:content:underlay:text",
             "data": {
@@ -625,48 +533,146 @@
                "text": "«Яндекс Видео» — сервис поиск по видеороликам от Яндекса с возможностью просмотра большинства найденных роликов на странице результатов поиска. Поиск производится на сторонних видеохостингах и новостных интернет-ресурсах."
             }
          },
-         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-IOsICq7SZY4PiPVsZgzjGJ-tSUliJhDqFQ&s",
+         "image": "https://avatars.mds.yandex.net/i?id=5d1dc8c9a53b25cd5f4821950a172817_sr-9069268-images-thumbs&n=13",
          "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
       },
       {
-         "color": "red",
          "selection": {
             "important": true,
-            "background": "https://github.com/wals09/msx/blob/main/logo/welcome.jpg?raw=true",
+            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675415678_gas-kvas-com-p-kartinki-dlya-fonovogo-risunka-rabochego-s-21.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa lite",
-               "text": "{col:yellow}Облегченная версия программы Lampa. Lampa lite не потдерживается разработчиками."
+               "headline": "TikTok {col:yellow}",
+               "text": "{col:yellow}Только WebOS{col}{br}{col:msx-white}Hеофициальное приложение для webOS"
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/logo/lite.png?raw=true",
-         "action": "link:http://lite.lampa.mx",
+         "image": "https://w7.pngwing.com/pngs/829/574/png-transparent-tiktok-hd-logo-thumbnail.png",
+         "action": "link:https://tv.tiktok.com/webos",
          "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
+            "image:extension": "| {col:msx-white}14th Item"
          }
       },
       {
          "selection": {
             "important": true,
-            "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
+            "background": "https://picsum.photos/seed/msx_24764bb8_item14/1920/1080#msx-keep-ratio",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "GetsTV",
-               "text": " Фильмы и Мультфильмы. Крупнейшая база на любой вкус, обновляется ежедневно, новинки появляются сразу после премьеры в кинотеатре."
+               "headline": "VK Video",
+               "text": "{col:yellow}Только WebOS{col}{br}шоу любимых блогеров, свежие фильмы и сериалы, любимые телеканалы, прямые эфиры, мультфильмы для детей, спортивные трансляции, музыкальные новинки и многое другое "
             }
          },
-         "image": "http://getstv.ru/site/img/getstv_logo_square.jpg",
-         "action": "content:http://lg.getstv.ru/msx/msx.json",
+         "image": "https://github.com/wals09/msx/blob/main/vkvideo/icon.png?raw=true",
+         "action": "link:https://vk.ru/tv-app/lib?version=1.3.13&platform=webos",
          "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
+            "image:extension": "| {col:msx-white}15th Item"
          }
       },
       {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item15/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "СМОТРИМ-WEB",
+               "text": "{col:msx-white}российская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК»"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/smotrim.jpg?raw=true",
+         "action": "link:https://tv.smotrim.ru",
+         "properties": {
+            "image:extension": "| {col:msx-white}16th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item16/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YouTUBE",
+               "text": "{col:msx-white}Oнлайн-сервис для хостинга и просмотра видео"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/youtube.jpg?raw=true",
+         "action": "link:https://www.youtube.com/tv#/",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://picsum.photos/seed/msx_24764bb8_item17/1920/1080#msx-keep-ratio",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YOUTUBE KIDS",
+               "text": "{col:msx-white}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей."
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/ytkids.jpg?raw=true",
+         "action": "link:https://www.youtube.com/tv/kids",
+         "properties": {
+            "image:extension": "| {col:msx-white}18th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://wp-s.ru/wallpapers/12/5/519295869621046/semya-bozhix-korovok-vyshla-na-progulku.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "МУЛЬТИКИ",
+               "text": "{col:msx-white}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!"
+            }
+         },
+         "image": "https://wals09.github.io/msx/multiki/logo.png",
+         "action": "content:https://wals09.github.io/msx/welcome.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}19th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://gas-kvas.com/uploads/posts/2023-02/1675490637_gas-kvas-com-p-fonovie-risunki-na-rabochii-stol-noch-17.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "RELAX",
+               "text": "{col:msx-white}{col}{br}Подборки IPTV каналов из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+            }
+         },
+         "image": "https://yt3.ggpht.com/ytc/AKedOLTnnv0Gw8nYogetKuQl-M437g5e8XuxgPoKe1pV=s900-c-k-c0x00ffffff-no-rj",
+         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "background": "https://sportishka.com/uploads/posts/2023-12/1701472201_sportishka-com-p-samie-populyarnie-komandnie-vidi-sporta-pi-32.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Sport",
+               "text": "{col:msx-white}{col}{br}Подборка спортивных каналов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
+            }
+         },
+         "image": "https://www.pngitem.com/pimgs/m/112-1122080_futbol-png-image-vector-clipart-psd-png.png",
+         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "color": "msx-glass",
          "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,3,5,0",
+         "offset": "0,3,8,0",
          "selection": {
             "important": true,
             "background": "https://wallpapersgood.ru/resize/1400x1050/wallpapers/main/201251/panorama-gorod-mosty-64a7078.jpg",
@@ -678,6 +684,7 @@
          },
          "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
          "properties": {
+            "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
       }
