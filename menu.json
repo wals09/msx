@@ -79,7 +79,7 @@
          }
       },
       {
-         "color": "#C8FCFE",
+         
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -291,7 +291,7 @@
          }
       },
       {
-         "color": "#3D0C5F",
+        
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -307,7 +307,7 @@
          }
       },
       {
-         "color": "#D4D70F",
+         
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -323,7 +323,7 @@
          }
       },
       {
-         "color": "#449CDA",
+     
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
