@@ -73,6 +73,14 @@
          "label": "{col:msx-white}🟨GOLD Old",
          "color": "transparent",
          "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Синяя тема оформления",
+               "image": "https://wals09.github.io/msx/tema/gold.png"
+            }
+         },
          "action": "start",
          "data": {
             "name": "GOLD Old",
