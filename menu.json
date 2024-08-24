@@ -681,6 +681,25 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
+      },,
+      {
+         "offset": "0,4,0,0",
+         "color": "msx-glass",
+         "icon": "settings",
+         "selection": {
+            "important": true,
+            "background": "https://wals09.github.io/msx/abstrackt/14.png",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Тема оформления",
+               "text": " Выбор визуального оформления"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/setting_emo.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
+         }
       }
    ]
 }
