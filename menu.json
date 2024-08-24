@@ -35,21 +35,7 @@
    },
    "items": [
       {
-         "selection": {
-            "important": true,
-            "background": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop",
-               "text": "TEST!!! Фоновое музыкальное сопровождение навигации по MSX "
-            }
-         },
-         "color": "transparent",
-         "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
-         "action": "audio:https://wals09.github.io/msx/Fragile.mp3"
-      },
-      {
-         "focus": true,
+       "focus": true,
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/1.png",
