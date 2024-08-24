@@ -1,0 +1,221 @@
+{
+   "type": "page",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "headline": "Настройки",
+   "preload": "next",
+   "overlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,2,12,4",
+            "offset": "-1.25,-0.05,2,0.1",
+            "color": "msx-black-soft"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.7,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
+         },
+         {
+            "id": "image2",
+            "color": "transparent",
+            "type": "space",
+            "layout": "11,1,1,1",
+            "offset": "1,0.2,-0.5,-0.5",
+            "image": "https://media.tenor.com/0ksS6j0vpCYAAAAj/logoarchive-graphic.gif",
+            "imageFiller": "cover"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "0,3,5,2",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
+   "template": {
+      "type": "default",
+      "layout": "0,0,3,1",
+      "offset": "-0.3,0,0,0",
+      "area": "0,1,12,1"
+   },
+   "items": [
+      {
+         "label": "🎹{col:msx-white} MUSIC",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
+               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
+            }
+         },
+         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}🟨GOLD Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Тема оформления в золотых тонах",
+               "image": "https://wals09.github.io/msx/tema/gold.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-gold.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}🟦BLUE Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Синяя тема оформления",
+               "image": "https://wals09.github.io/msx/tema/blue.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-blue.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}⬛BLACK Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Темная тема оформления",
+               "image": "https://wals09.github.io/msx/tema/black.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-black.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "🏠Главный экран",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Главное меню{col}{br}{br}Вернуться в главное меню",
+               "image": "https://wals09.github.io/msx/tema/home.jpg"
+            }
+         },
+         "action": "content: https://wals09.github.io/msx/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "🎹{col:msx-white} MUSIC",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
+               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
+            }
+         },
+         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}🟨GOLD Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Тема оформления в золотых тонах",
+               "image": "https://wals09.github.io/msx/tema/gold.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-gold.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}🟦BLUE Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Синяя тема оформления",
+               "image": "https://wals09.github.io/msx/tema/blue.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-blue.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "{col:msx-white}⬛BLACK Old",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Темная тема оформления",
+               "image": "https://wals09.github.io/msx/tema/black.png"
+            }
+         },
+         "action": "content:https://wals09.github.io/msx/menu-black.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "label": "🏠Главный экран",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Главное меню{col}{br}{br}Вернуться в главное меню",
+               "image": "https://wals09.github.io/msx/tema/home.jpg"
+            }
+         },
+         "action": "content: https://wals09.github.io/msx/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      }
+   ]
+}
