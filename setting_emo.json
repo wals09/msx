@@ -52,18 +52,18 @@
    "items": [
       {
          "type": "control",
-         "label": "🎹{col:msx-white} MUSIC",
+         "text": "🏠{col:msx-white}Основная тема",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
-               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
+               "text": "{col:msx-white}Главное меню{col}{br}{br}Вернуться в главное меню",
+               "image": "https://wals09.github.io/msx/tema/home.jpg"
             }
          },
-         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
+         "action": "content: https://wals09.github.io/msx/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
          }
@@ -77,7 +77,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}{br}Синяя тема оформления",
+               "text": "{col:msx-white}BLACK Old{col}{br}{br}Tема оформления в золотых тонах",
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
@@ -102,9 +102,12 @@
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
-         "action": "content:https://wals09.github.io/msx/menu-blue.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
+         "action": "start",
+         "data": {
+            "name": "GOLD Old",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu-blue.json",
+            "welcome": "none"
          }
       },
       {
@@ -120,25 +123,28 @@
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
-         "action": "content:https://wals09.github.io/msx/menu-black.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
+         "action": "start",
+         "data": {
+            "name": "GOLD Old",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu-black.json",
+            "welcome": "none"
          }
       },
       {
          "type": "control",
-         "label": "🏠Главный экран",
+         "label": "🎹{col:msx-white} MUSIC",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Главное меню{col}{br}{br}Вернуться в главное меню",
-               "image": "https://wals09.github.io/msx/tema/home.jpg"
+               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
+               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
             }
          },
-         "action": "content: https://wals09.github.io/msx/menu.json",
+         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
          }
