@@ -35,7 +35,7 @@
    },
    "items": [
       {
-       "focus": true,
+         "focus": true,
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/1.png",
@@ -666,7 +666,7 @@
       {
          "color": "msx-glass",
          "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,3,7,0",
+         "offset": "1,3,7,0",
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/14.png",
@@ -681,7 +681,7 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },,
+      },
       {
          "offset": "0,4,0,0",
          "color": "msx-glass",
