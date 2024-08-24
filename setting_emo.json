@@ -67,20 +67,16 @@
          }
       },
       {
+         "type": "control",
          "label": "{col:msx-white}🟨GOLD Old",
          "color": "transparent",
          "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}{br}Тема оформления в золотых тонах",
-               "image": "https://wals09.github.io/msx/tema/gold.png"
-            }
-         },
-         "action": "content:https://wals09.github.io/msx/menu-gold.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
+         "action": "start",
+         "data": {
+            "name": "GOLD Old",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu-gold.json",
+            "welcome": "none"
          }
       },
       {
