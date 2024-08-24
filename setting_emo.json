@@ -81,7 +81,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Основная тема «LITE»{col}{br}{br}Основная тема без фонового изображения",
-               "image": "https://wals09.github.io/msx/tema/home.jpg"
+               "image": "https://wals09.github.io/msx/tema/lite.jpg"
             }
          },
          "action": "start",
@@ -94,7 +94,7 @@
       },
       {
          "type": "control",
-         "label": "🟨{col:msx-white}GOLD Old",
+         "label": "🟡{col:msx-white}GOLD Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -115,7 +115,7 @@
       },
       {
          "type": "control",
-         "label": "🟦{col:msx-white}BLUE Old",
+         "label": "🔵{col:msx-white}BLUE Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -136,7 +136,7 @@
       },
       {
          "type": "control",
-         "label": "{col:msx-white}⬛BLACK Old",
+         "label": "{col:msx-white}⚫BLACK Old",
          "color": "transparent",
          "focus": true,
          "selection": {
