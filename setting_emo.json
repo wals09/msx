@@ -86,7 +86,7 @@
       },
       {
          "type": "control",
-         "label": "🟠{col:msx-white}GOLD Old",
+         "label": "🐥{col:msx-white}GOLD Old",
          "color": "transparent",
          "focus": true,
          "selection": {
