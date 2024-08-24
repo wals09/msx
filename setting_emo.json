@@ -59,18 +59,42 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Главное меню{col}{br}{br}Вернуться в главное меню",
+               "text": "{col:msx-white}Основная тема{col}{br}{br}Основная тема главного меню",
                "image": "https://wals09.github.io/msx/tema/home.jpg"
             }
          },
-         "action": "content: https://wals09.github.io/msx/menu.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
+         "action": "start",
+         "data": {
+            "name": "BASIC",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu.json",
+            "welcome": "none"
          }
       },
       {
          "type": "control",
-         "label": ":🟨{col:msx-white}GOLD Old",
+         "text": "☁️ {col:msx-white}Основная тема «LITE»",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Основная тема «LITE»{col}{br}{br}Основная тема без фонового изображения",
+               "image": "https://wals09.github.io/msx/tema/home.jpg"
+            }
+         },
+         "action": "start",
+         "data": {
+            "name": "BASIC Lite",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu_lite.json",
+            "welcome": "none"
+         }
+      },
+      {
+         "type": "control",
+         "label": "🟨{col:msx-white}GOLD Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -104,7 +128,7 @@
          },
          "action": "start",
          "data": {
-            "name": "GOLD Old",
+            "name": "BLUE Old",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu-blue.json",
             "welcome": "none"
