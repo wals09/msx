@@ -70,7 +70,7 @@
       },
       {
          "type": "control",
-         "label": "{col:msx-white}🟨GOLD Old",
+         "label": ":🟨{col:msx-white}GOLD Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -91,7 +91,7 @@
       },
       {
          "type": "control",
-         "label": "{col:msx-white}🟦BLUE Old",
+         "label": "🟦{col:msx-white}BLUE Old",
          "color": "transparent",
          "focus": true,
          "selection": {
