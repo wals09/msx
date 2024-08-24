@@ -2,8 +2,10 @@
    "type": "page",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
+   "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
+   "action": "[settings:validate_links:0|home]",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "headline": "Настройки",
+   "headline": "Настройки темы оформления",
    "preload": "next",
    "overlay": {
       "items": [
