@@ -45,6 +45,23 @@
    },
    "items": [
       {
+         "titleHeader": "{col:msx-white}Тема оформления",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:gold}Тема оформления{col}{br}{col:msx-white}Выбор темы оформления WALS_MSX",
+               "image": "https://wals09.github.io/msx/logon/tema.png"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tema.png",
+         "action": "content:https://wals09.github.io/msx/setting_emo.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "focus": true,
          "titleHeader": "{col:msx-white}DRM-play",
          "titleFooter": "IPTV player",
          "selection": {
@@ -159,7 +176,7 @@
          },
          "image": "https://wals09.github.io/msx/atodo/logo.png",
          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
-                  "properties": {
+         "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
@@ -385,23 +402,6 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Кинофраншизы",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Коллекция медиаподборок от OLSIB TV{col}{br}{col:#CFB53B}Kинофраншиза — несколько последовательно связанных между собой фильмов, действие которых происходит в одной вымышленной вселенной; либо маркетинговым образом преподносятся как серия",
-               "image": "https://wals09.github.io/kf/img/001.gif"
-            }
-         },
-         "image": "https://wals09.github.io/kf/img/logo.png",
-         "action": "content: https://wals09.github.io/kf/menu.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
          "titleHeader": "{col:msx-white}Akter Black",
          "titleFooter": "{col:yellow}demo",
          "selection": {
@@ -431,40 +431,6 @@
          },
          "image": "https://github.com/wals09/msx/blob/main/prisma/logo.png?raw=true",
          "action": "link:https://prisma.ws/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Бонус контент",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Бонус контент{col}{br}{col:#CFB53B}Медиа-контент из различных источников в интернете выложенный в свободный доступ {br}{col:yellow}Работает как работает!!!{br}Работает пока работает!!!",
-               "image": "https://wals09.github.io/msx/img/bonus.png"
-            }
-         },
-         "image": "https://wals09.github.io/msx/img/bonus.png",
-         "action": "content: https://wals09.github.io/msx/test/category.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item",
-            "trigger:back": "player:stop"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}{col}{br}{col:black}",
-               "image": ""
-            }
-         },
-         "action": "content: https://wals09.github.io/msx/test/tv_test.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
