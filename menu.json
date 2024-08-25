@@ -683,7 +683,7 @@
       {
          "color": "msx-glass",
          "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,3,7,0",
+         "offset": "0,2.5,7,0",
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/14.png",
