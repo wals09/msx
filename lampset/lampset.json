@@ -163,6 +163,25 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
+      },     
+      {
+         "titleHeader": "{col:msx-white}lampa skaz tv",
+         "selection": {
+            "important": true,
+            "background": "https://wallbox.ru/wallpapers/main/201508/8fca0aa9634e738.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "lampa skaz tv",
+               "text": "{br}{col:msx-white}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины "
+            }
+         },
+
+         "image": "https://github.com/wals09/msx/blob/main/lampset/birusa.png?raw=true",
+         "action": "link: http://lampa.skaz.tv",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
       }
    ]
 }
