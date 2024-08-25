@@ -28,7 +28,7 @@
       "type": "default",
       "layout": "0,0,1,1",
       "area": "0,0,12,3",
-      "offset": "0,3,0,0",
+      "offset": "0,2.5,0,0",
       "trigger:back": "player:stop",
       "color": "msx-glass",
       "imageFiller": "cover"
