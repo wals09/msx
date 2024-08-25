@@ -192,7 +192,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/moovies/logo.png",
-         "action": "menu:request:interaction:init@http://moovies.fun/index.html",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
