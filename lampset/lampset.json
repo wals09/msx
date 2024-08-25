@@ -176,7 +176,8 @@
             }
          },
 
-         "image": "https://github.com/wals09/msx/blob/main/lampset/birusa.png?raw=true",
+         "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png
+?raw=true",
          "action": "link: http://lampa.skaz.tv",
          "properties": {
             "trigger:back": "player:stop",
