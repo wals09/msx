@@ -72,7 +72,7 @@
                "image": "https://wals09.github.io/msx/drm/capture.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/drm/logo.png",
+         "image": "https://wals09.github.io/msx/logon/drm.png",
          "action": "link:http://ott.drm-play.com",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
@@ -89,7 +89,7 @@
                "image": "https://wals09.github.io/msx/foss/capture.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/foss/icon.png",
+         "image": "https://wals09.github.io/msx/logon/foss.png",
          "action": "link:http://ott.prog4food.eu.org/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Second Item"
@@ -106,7 +106,7 @@
                "image": "https://wals09.github.io/msx/ott-play/111.png"
             }
          },
-         "image": "https://wals09.github.io/msx/ott-play/icon.png",
+         "image": "https://wals09.github.io/msx/logon/ott-play.png",
          "action": "link:http://ott-play.com/f/",
          "properties": {
             "image:extension": "| {col:msx-white}Third Item"
@@ -123,7 +123,7 @@
                "image": "https://wals09.github.io/msx//icva/capture.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/icva/logo.png",
+         "image": "https://wals09.github.io/msx/logon/icva.png",
          "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
@@ -140,7 +140,7 @@
                "image": "https://wals09.github.io/msx/lampa/capture3.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/lampa/logo.png",
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
          "action": "link:http://lampa.mx",
          "properties": {
             "image:extension": "| {col:msx-white}Fifth Item"
@@ -157,7 +157,7 @@
                "image": "https://wals09.github.io/msx/vokino/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/vokino/logo.png",
+         "image": "https://wals09.github.io/msx/logon/vokino.png",
          "action": "link: http://web.vokino.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -174,7 +174,7 @@
                "image": "https://wals09.github.io/msx/atodo/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/atodo/logo.png",
+         "image": "https://wals09.github.io/msx/logon/atodo.png",
          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -191,7 +191,7 @@
                "image": "https://wals09.github.io/msx/moovies/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/moovies/logo.png",
+         "image": "https://wals09.github.io/msx/logon/moovies.png",
          "action": "menu:request:interaction:init@http://moovies.uz/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -208,7 +208,7 @@
                "image": "https://github.com/wals09/msx/blob/main/ml/001.png?raw=true"
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/ml/logo2.png?raw=true",
+         "image": "https://wals09.github.io/msx/logon/movielab.png",
          "action": "menu:https://movielab.fun/msx/menu.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -225,7 +225,7 @@
                "image": "https://wals09.github.io/msx/fork/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/fork/logo.png",
+         "image": "https://wals09.github.io/msx/logon/fork_com.png",
          "action": "link:http://browser.appfxml.com/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -242,7 +242,7 @@
                "image": "https://wals09.github.io/msx/kinopoisk/screen.png"
             }
          },
-         "image": "https://wals09.github.io/msx/kinopoisk/logo.png",
+         "image": "https://wals09.github.io/msx/logon/kinopoisk.png",
          "action": "link:https://smarttv-app.ott.yandex.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -259,7 +259,7 @@
                "image": "https://wals09.github.io/msx/rutube/capture.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/rutube/logo.png",
+         "image": "https://wals09.github.io/msx/logon/rutube.png",
          "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -276,7 +276,7 @@
                "image": "https://wals09.github.io/msx/youtube/capture.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/youtube/logo.png",
+         "image": "https://wals09.github.io/msx/logon/youtube.png",
          "action": "link:https://www.youtube.com/tv#/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -293,7 +293,7 @@
                "image": "https://wals09.github.io/msx/youtube_kids/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx//youtube_kids/logo.png",
+         "image": "https://wals09.github.io/msx/logon/ytkids.png",
          "action": "link:https://www.youtube.com/tv/kids",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -310,7 +310,7 @@
                "image": "https://github.com/wals09/repo/blob/main/multiki/multiki.gif?raw=true"
             }
          },
-         "image": "https://wals09.github.io/msx/multiki/logo.png",
+         "image": "https://wals09.github.io/msx/logon/multiki.png",
          "action": "content:https://wals09.github.io/msx/welcome.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -327,7 +327,7 @@
                "image": "https://wals09.github.io/msx//deeplex/Deeplex.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/deeplex/logo.png",
+         "image": "https://wals09.github.io/msx/logon/deeplex.png",
          "action": "link:http://smart.deeplex.cc/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -344,8 +344,8 @@
                "image": "https://wals09.github.io/msx//kinopub/screen.png"
             }
          },
-         "image": "https://wals09.github.io/msx/kinopub/logo.png",
-         "action": "link:http://kpms.cc/bootstrap.html",
+         "image": "https://wals09.github.io/msx/logon/kinopub_green.png",
+         "action": "link:https://cdnservices.link",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }
@@ -361,7 +361,7 @@
                "image": "https://wals09.github.io/msx/xsmart/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/xsmart/logo.png",
+         "image": "https://wals09.github.io/msx/logon/xsmart.png",
          "action": "link:http://app.xsmart.tv",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -378,7 +378,7 @@
                "image": "https://wals09.github.io/msx/imboom/capture.png"
             }
          },
-         "image": "https://wals09.github.io/msx/imboom/logo.png",
+         "image": "https://wals09.github.io/msx/logon/impire_boom.png",
          "action": "link:http://web.imboom.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -395,7 +395,7 @@
                "image": "https://wals09.github.io/msx/kinoboom/capture.gif"
             }
          },
-         "image": "https://wals09.github.io/msx/kinoboom/logo.png",
+         "image": "https://wals09.github.io/msx/logon/kinoboom.png",
          "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -412,7 +412,7 @@
                "image": "https://github.com/wals09/msx/blob/main/akter_black/welcome.jpg?raw=true"
             }
          },
-         "image": "https://github.com/wals09/msx/blob/main/akter_black/logo.png?raw=true",
+         "image": "https://wals09.github.io/msx/logon/akter_black.png",
          "action": "link:http://abvidaa.ru/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
