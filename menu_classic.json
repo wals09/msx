@@ -646,7 +646,7 @@
                "headline": "Альтернативные MSX магазины|лаунчеры"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/store.jpg",
+         "image": "https://wals09.github.io/msx/logon/Store.jpg",
          "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
          "properties": {
             "trigger:back": "player:stop",
