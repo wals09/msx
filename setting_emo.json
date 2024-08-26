@@ -91,7 +91,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}CLASSIC»{col}{br}{br}Классическая оболочка MSX",
+               "text": "{col:msx-white}CLASSIC{col}{br}{br}Классическая оболочка MSX",
                "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
