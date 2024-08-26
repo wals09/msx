@@ -646,7 +646,7 @@
                "headline": "Альтернативные MSX магазины|лаунчеры"
             }
          },
-         "image": "https://rileyjames.co.uk/wp-content/uploads/2019/07/Online-Store-Logo.jpg",
+         "image": "https://wals09.github.io/msx/logon/store.jpg",
          "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
          "properties": {
             "trigger:back": "player:stop",
