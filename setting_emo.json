@@ -91,13 +91,13 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема «LITE»{col}{br}{br}Основная тема без фонового изображения",
+               "text": "{col:msx-white}CLASSIC»{col}{br}{br}Классическая оболочка MSX",
                "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
          "action": "start",
          "data": {
-            "name": "BASIC Lite",
+            "name": "CLASSIC",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
             "welcome": "none"
