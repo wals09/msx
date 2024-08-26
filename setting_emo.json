@@ -92,7 +92,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Основная тема «LITE»{col}{br}{br}Основная тема без фонового изображения",
-               "image": "https://wals09.github.io/msx/tema/lite.jpg"
+               "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
          "action": "start",
