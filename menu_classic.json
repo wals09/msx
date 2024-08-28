@@ -1,22 +1,11 @@
 {
-   "headline": "Выбор темы WALS_MSX",
    "type": "list",
-   "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-   "version": "2.5.0",
-   "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
-   "action": "[settings:validate_links:0|home]",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
-   "overlay": {
+   "captionUnderlay": 1,
+   "underlay": {
       "items": [
-         {
-            "type": "space",
-            "round": false,
-            "layout": "5,0,7,6",
-            "offset": "0,-1,1,1.7",
-            "color": "msx-black-soft"
-         },
          {
             "type": "space",
             "round": false,
@@ -25,171 +14,688 @@
             "color": "red"
          },
          {
-            "id": "image",
-            "type": "space",
-            "layout": "5,2,7,4",
-            "offset": "0.4,0,0,0",
-            "image": "none",
-            "imageFiller": "cover"
-         },
-         {
             "id": "text",
             "type": "space",
-            "layout": "6,1,5,2",
+            "layout": "4,0,5,1",
+            "offset": "-1.25,-0.6,2,0 ",
             "headline": "",
             "text": ""
          }
       ]
    },
    "template": {
-      "type": "default",
-      "layout": "0,0,4,1",
-      "area": "0,1,5,5",
-      "imageWidth": 1,
-      "imageFiller": "cover"
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "offset": "-0,0.5,0,0 ",
+      "alignment": "title-center",
+      "color": "msx-glass"
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
+         "title": "Тема оформления",
          "color": "transparent",
-         "focus": true,
+         "image": "https://wals09.github.io/msx/logon/tema.png",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "update:content:underlay:text",
             "data": {
-               "text": "{col:msx-white}Основная тема{col}{br}Основная тема главного меню",
-               "image": "https://wals09.github.io/msx/tema/home.jpg"
+               "headline": "{col:msx-white}Выбор темы оформления WALS_MSX"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/basic.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
-            "welcome": "none"
+         "action": "content:https://wals09.github.io/msx/setting_emo.json",
+         "properties": {
+            "trigger:back": "player:stop"
          }
       },
       {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА «LITE»",
-         "color": "transparent",
          "focus": true,
+         "title": "DRM-play",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "update:content:underlay:text",
             "data": {
-               "text": "{col:msx-white}Основная тема «LITE»{col}{br}Основная тема без фонового изображения",
-               "image": "https://wals09.github.io/msx/tema/lite.jpg"
+               "headline": "IPTV плеер"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/lite.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC Lite",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_lite.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC{col}{br}Классическая оболочка MSX",
-               "image": "https://wals09.github.io/msx/tema/classic.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/classic.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}GOLD Old",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}GOLD Old{col}{br}Тема оформления в золотых тонах",
-               "image": "https://wals09.github.io/msx/tema/gold.png"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/gold.png",
-         "action": "start",
-         "data": {
-            "name": "GOLD Old",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-gold.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}BLUE Old",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}BLUE Old{col}{br}Синяя тема оформления",
-               "image": "https://wals09.github.io/msx/tema/blue.png"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/blue.png",
-         "action": "start",
-         "data": {
-            "name": "BLUE Old",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-blue.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}BLACK Old",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}Темная тема оформления",
-               "image": "https://wals09.github.io/msx/tema/black.png"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/black.png",
-         "action": "start",
-         "data": {
-            "name": "BLACK Old",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-black.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "🎹{col:msx-white} MUSIC",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
-               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
-            }
-         },
-         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
+         "image": "https://wals09.github.io/msx/logon/drm.png",
+         "action": "link:http://ott.drm-play.com",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
+         }
+      },
+      {
+         "title": "OTT-FOSS",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV плеер "
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/foss.png",
+         "action": "link:http://ott.prog4food.eu.org/f/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Second Item"
+         }
+      },
+      {
+         "title": "OTT-PLAY",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV плеер "
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/ott-play.png",
+         "action": "link:http://ott-play.com/f/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Third Item"
+         }
+      },
+      {
+         "title": "ICVA",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV player от разработчиков LAMPA"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon//icva.png",
+         "action": "link:http://icva.mx/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fourth Item"
+         }
+      },
+      {
+         "title": "Ottplayer",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV плеер "
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/ottplayer.png",
+         "action": "link:http://widget.ottplayer.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "title": "Oneplayer",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV плеер "
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/one_player.png",
+         "action": "link:http://webos.oneplayer.me",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "title": "LAMPA",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Приложение-каталог. Oнлайн, торрент, iptv"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "action": "link:http://lampa.mx",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fifth Item"
+         }
+      },
+      {
+         "title": "Akter Black",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Мод программы Лампа. Oнлайн, торрент, iptv"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/akter_black.png",
+         "action": "link:http://abvidaa.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "Prisma TV",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Мод программы Лампа. Oнлайн, торрент, iptv"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/prisma.png",
+         "action": "link:https://prisma.ws/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "title": "Lampa UnCensored",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн, торрент, iptv"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/bylampa.png",
+         "action": "link:http://bylampa.online",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "title": "Lampset",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Приложения \"LAMPA\" с альтернативными адресами"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampset.png",
+         "action": "content: https://raw.githubusercontent.com/wals09/msx/main/lampset/lampset.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "title": "Lampa lite",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Облегченная версия программы Lampa"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
+         "action": "link:http://lite.lampa.mx",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "Lamp!she",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Мод программы Лампа для Android/Google TV"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampishe.png",
+         "action": "link:https://web.lampishe.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "VoKINO",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы, сериалы, аниме, просмотр торрентов"
+            }
+         },
+         "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
+         "action": "link: http://web.vokino.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "title": "ATODO",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы, сериалы, аниме, просмотр торрентов"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/atodo.png",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Seventh Item"
+         }
+      },
+      {
+         "title": "ATODO-web",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Web версия приложения ATODO"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/atodo.png",
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eighth Item"
+         }
+      },
+      {
+         "title": "MOOVIES",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы, сериалы, аниме, торренты, IPTV"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/moovies.png",
+         "action": "menu:request:interaction:init@http://moovies.uz/index.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}Ninth Item"
+         }
+      },
+      {
+         "title": "MOVIELAB",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "MOVIELAB на базе Media Station X. Online"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/movielab.png",
+         "action": "menu:https://movielab.fun/msx/menu.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}Tenth Item"
+         }
+      },
+      {
+         "title": "Forkplayer",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Bеб-браузер, адаптированный для просмотра медиа"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/fork_com.png",
+         "action": "link:http://browser.appfxml.com/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eleventh Item"
+         }
+      },
+      {
+         "title": "Filmix Smart",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Онлайн кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/filmix.png",
+         "action": "link:http://filmix.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eleventh Item"
+         }
+      },
+      {
+         "title": "КИНОПОИСК",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке Яндекс Плюс"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/kinopoisk.png",
+         "action": "link:https://smarttv-app.ott.yandex.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Twelfth Item"
+         }
+      },
+      {
+         "title": "DEEPLEX",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}20th Item"
+         }
+      },
+      {
+         "title": "KinoPUB",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/kinopub.png",
+         "action": "link:http://kpms.cc/bootstrap.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}21st Item"
+         }
+      },
+      {
+         "title": "KinoPUB",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/kinopub_green.png",
+         "action": "link:https://cdnservices.link",
+         "properties": {
+            "image:extension": "| {col:msx-white}21st Item"
+         }
+      },
+      {
+         "title": "X-SMART TV",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр, нужна регистрация"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/xsmart.png",
+         "action": "link:http://app.xsmart.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}22nd Item"
+         }
+      },
+      {
+         "title": "IMPIRE BOOM",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/impire_boom.png",
+         "action": "link:http://web.imboom.ru/",
+         "properties": {
+            "image:extension": "| {col:msx-white}23rd Item"
+         }
+      },
+      {
+         "title": "KINOBOOM",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/kinoboom.png",
+         "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
+         "properties": {
+            "image:extension": "| {col:msx-white}24th Item"
+         }
+      },
+      {
+         "title": "Tutkino ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр за донат. (VoKINO мод)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
+         "action": "link:http://web.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "Tutkino lite",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр за донат. (Lampa_lite мод)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkinolite.jpg",
+         "action": "link:http://lite.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "GetsTV",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр, нужна регистрация"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/getstv.png",
+         "action": "content:http://lg.getstv.ru/msx/msx.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "KION",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/kion.png",
+         "action": "link:https://kion.ru/EPG/smarttvlg/index.html",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "OKKO",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/okko.png",
+         "action": "link:http://lge.okko.tv",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "RUTUBE-WEB",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Онлайн-сервис для хостинга и просмотра видео"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/rutube.png",
+         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
+         "properties": {
+            "image:extension": "| {col:msx-white}13th Item"
+         }
+      },
+      {
+         "title": "Яндекс Видео",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Поиск по видеороликам от Яндекса"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/yandex.png",
+         "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "TikTok",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Hеофициальное приложение для webOS"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tiktok.png",
+         "action": "link:https://tv.tiktok.com/webos",
+         "properties": {
+            "image:extension": "| {col:msx-white}14th Item"
+         }
+      },
+      {
+         "title": "VK Video",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Блогеры, фильмы, сериалы, телеканалы, мультфильмы и т.п"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/vk.png",
+         "action": "link:https://vk.ru/tv-app/lib?version=1.3.13&platform=webos",
+         "properties": {
+            "image:extension": "| {col:msx-white}15th Item"
+         }
+      },
+      {
+         "title": "СМОТРИМ-WEB",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Российская мультимедийная онлайн-платформа «ВГТРК»"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/smotrim.png",
+         "action": "link:https://tv.smotrim.ru",
+         "properties": {
+            "image:extension": "| {col:msx-white}16th Item"
+         }
+      },
+      {
+         "title": "YouTUBE",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Сервис для хостинга и просмотра видео"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/youtube.png",
+         "action": "link:https://www.youtube.com/tv#/",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
+      {
+         "title": "YOUTUBE KIDS",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Версия видеохостинга Youtube для детей"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/ytkids.png",
+         "action": "link:https://www.youtube.com/tv/kids",
+         "properties": {
+            "image:extension": "| {col:msx-white}18th Item"
+         }
+      },
+      {
+         "title": "МУЛЬТИКИ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Смотрим мультфильмы онлайн"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/multiki.png",
+         "action": "content:https://wals09.github.io/msx/welcome.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}19th Item"
+         }
+      },
+      {
+         "title": "RELAX",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV каналы из интернета"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/relax.png",
+         "action": "content: https://wals09.github.io/msx/bonus/relax.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "title": "Sport",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "IPTV каналы из интернета"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/sport.png",
+         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "title": "AlterSTORE",
+         "color": "msx-glass",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Альтернативные MSX магазины|лаунчеры"
+            }
+         },
+         "image": "https://rileyjames.co.uk/wp-content/uploads/2019/07/Online-Store-Logo.jpg",
+         "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
          }
       }
    ]
