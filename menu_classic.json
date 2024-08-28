@@ -364,7 +364,21 @@
             "image:extension": "| {col:msx-white}Twelfth Item"
          }
       },
-   
+      {
+         "title": "DEEPLEX",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}20th Item"
+         }
+      },
       {
          "title": "KinoPUB",
          "selection": {
@@ -410,21 +424,6 @@
             "image:extension": "| {col:msx-white}22nd Item"
          }
       },
-         {
-         "title": "DEEPLEX",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Oнлайн-кинотеатр по подписке"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}20th Item"
-         }
-      },
       {
          "title": "IMPIRE BOOM",
          "selection": {
@@ -453,6 +452,36 @@
          "action": "execute:info:extended:http://kb-team.club/msx/enter.php",
          "properties": {
             "image:extension": "| {col:msx-white}24th Item"
+         }
+      },
+      {
+         "title": "Tutkino ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр за донат. (VoKINO мод)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
+         "action": "link:http://web.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "title": "Tutkino lite",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр за донат. (Lampa_lite мод)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkinolite.jpg",
+         "action": "link:http://lite.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
          }
       },
       {
