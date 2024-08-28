@@ -61,7 +61,7 @@
             }
          },
          "playerLabel": "APPFXML STORE",
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "https://msx.appfxml.com/msx/appfxmlstore_m.png",
          "action": "content:request:interaction:my@http://msx.appfxml.com/msx/appfxmlstore.html",
          "properties": {
             "trigger:back": "player:stop",
@@ -151,7 +151,7 @@
             }
          },
          "playerLabel": "MSX CC UA портал",
-          "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
          "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
             "trigger:back": "player:stop",
