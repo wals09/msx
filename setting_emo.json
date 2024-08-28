@@ -82,7 +82,7 @@
                "image": "https://wals09.github.io/msx/tema/lite.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/lite.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/lite.png",
          "action": "start",
          "data": {
             "name": "BASIC Lite",
@@ -103,7 +103,7 @@
                "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/classic.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
          "action": "start",
          "data": {
             "name": "CLASSIC",
@@ -124,7 +124,7 @@
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/gold.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/gold.png",
          "action": "start",
          "data": {
             "name": "GOLD Old",
@@ -145,7 +145,7 @@
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/blue.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/blue.png",
          "action": "start",
          "data": {
             "name": "BLUE Old",
@@ -166,7 +166,7 @@
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/black.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/black.png",
          "action": "start",
          "data": {
             "name": "BLACK Old",
