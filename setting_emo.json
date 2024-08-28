@@ -176,7 +176,7 @@
          }
       },
       {
-         "titleHeader": "🎹{col:msx-white} MUSIC",
+         "titleHeader": "{col:msx-white} MUSIC",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -186,7 +186,7 @@
                "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
                "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
             }
-         },
+         }, "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
          "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
