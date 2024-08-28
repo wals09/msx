@@ -45,7 +45,7 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,1,5,5",
-      "imageWidth": 0.5,
+      "imageWidth": 1,
       "imageFiller": "cover"
    },
    "items": [
@@ -61,6 +61,7 @@
                "image": "https://wals09.github.io/msx/tema/home.jpg"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/basic.png",
          "action": "start",
          "data": {
             "name": "BASIC",
@@ -81,6 +82,7 @@
                "image": "https://wals09.github.io/msx/tema/lite.jpg"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/lite.png",
          "action": "start",
          "data": {
             "name": "BASIC Lite",
@@ -101,6 +103,7 @@
                "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/classic.png",
          "action": "start",
          "data": {
             "name": "CLASSIC",
@@ -121,6 +124,7 @@
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/gold.png",
          "action": "start",
          "data": {
             "name": "GOLD Old",
@@ -141,6 +145,7 @@
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/blue.png",
          "action": "start",
          "data": {
             "name": "BLUE Old",
@@ -161,9 +166,10 @@
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
+         "image": "https://wals09.github.io/msx/tema/thems_icon/black.png",
          "action": "start",
          "data": {
-            "name": "GOLD Old",
+            "name": "BLACK Old",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu-black.json",
             "welcome": "none"
