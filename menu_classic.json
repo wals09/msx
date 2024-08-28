@@ -364,21 +364,7 @@
             "image:extension": "| {col:msx-white}Twelfth Item"
          }
       },
-      {
-         "title": "DEEPLEX",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Oнлайн-кинотеатр по подписке"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}20th Item"
-         }
-      },
+   
       {
          "title": "KinoPUB",
          "selection": {
@@ -422,6 +408,21 @@
          "action": "link:http://app.xsmart.tv",
          "properties": {
             "image:extension": "| {col:msx-white}22nd Item"
+         }
+      },
+         {
+         "title": "DEEPLEX",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Oнлайн-кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}20th Item"
          }
       },
       {
