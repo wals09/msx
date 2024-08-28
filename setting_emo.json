@@ -45,12 +45,12 @@
       "type": "default",
       "layout": "0,0,4,1",
       "area": "0,1,5,5",
-      "color": "transparent"
+      "imageWidth": 0.5,
+      "imageFiller": "cover"
    },
    "items": [
       {
-         "type": "control",
-         "label": "🏠{col:msx-white}Основная тема",
+         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -70,8 +70,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "☁️ {col:msx-white}Основная тема «LITE»",
+         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА «LITE»",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -91,8 +90,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "🏛️CLASSIC",
+         "titleHeader": "{col:msx-white}CLASSIC",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -112,8 +110,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "🐥{col:msx-white}GOLD Old",
+         "titleHeader": "{col:msx-white}GOLD Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -133,8 +130,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "🔵{col:msx-white}BLUE Old",
+         "titleHeader": "{col:msx-white}BLUE Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -154,8 +150,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "{col:msx-white}⚫BLACK Old",
+         "titleHeader": "{col:msx-white}BLACK Old",
          "color": "transparent",
          "focus": true,
          "selection": {
@@ -175,8 +170,7 @@
          }
       },
       {
-         "type": "control",
-         "label": "🎹{col:msx-white} MUSIC",
+         "titleHeader": "🎹{col:msx-white} MUSIC",
          "color": "transparent",
          "focus": true,
          "selection": {
