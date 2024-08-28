@@ -488,7 +488,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Tutkino",
-               "text": " Онлайн кинотеатр (VoKINO мод). Доступ к сервису за донат"
+               "text": " Онлайн кинотеатр (vPlay мод). Доступ к сервису за донат"
             }
          },
          "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
