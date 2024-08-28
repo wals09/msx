@@ -487,6 +487,36 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "Tutkino",
+               "text": " Онлайн кинотеатр (VoKINO мод). Доступ к сервису за донат"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
+         "action": "link:http://web.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Tutkino Lite",
+               "text": " Онлайн кинотеатр (Lampa_lite мод). Доступ к сервису за донат"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tutkinolite.jpg",
+         "action": "link:http://lite.tutkino.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}26th Item"
+         }
+      },      
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "KION",
                "text": "{col:yellow}Только WebOS. Нужна подписка{col}{br}{col:msx-white}Оригинальные сериалы, тысячи фильмов и более 180 ТВ-каналов. Удобный интерфейс, одновременный просмотр на 5 устройствах, система рекомендаций и детский профиль с безопасным контентом. Добро пожаловать в мир захватывающих историй!"
             }
