@@ -1,6 +1,6 @@
 {
-   "headline": "Тема WALS_MSX",
-   "type": "page",
+   "headline": "Выбор темы WALS_MSX",
+   "type": "list",
    "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
    "version": "2.5.0",
    "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
@@ -13,22 +13,29 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,2,12,4",
-            "offset": "-1.25,-0.05,2,0.1",
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
          },
          {
             "id": "image",
             "type": "space",
             "layout": "5,2,7,4",
-            "offset": "0.7,0,0,0",
+            "offset": "0.4,0,0,0",
             "image": "none",
             "imageFiller": "cover"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "0,3,5,2",
+            "layout": "6,1,5,2",
             "headline": "",
             "text": ""
          }
@@ -36,20 +43,21 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,2,1",
-      "area": "0,1,12,1"
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "color": "transparent"
    },
    "items": [
       {
          "type": "control",
-         "text": "🏠{col:msx-white}Основная тема",
+         "label": "🏠{col:msx-white}Основная тема",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема{col}{br}{br}Основная тема главного меню",
+               "text": "{col:msx-white}Основная тема{col}{br}Основная тема главного меню",
                "image": "https://wals09.github.io/msx/tema/home.jpg"
             }
          },
@@ -63,14 +71,14 @@
       },
       {
          "type": "control",
-         "text": "☁️ {col:msx-white}Основная тема «LITE»",
+         "label": "☁️ {col:msx-white}Основная тема «LITE»",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема «LITE»{col}{br}{br}Основная тема без фонового изображения",
+               "text": "{col:msx-white}Основная тема «LITE»{col}{br}Основная тема без фонового изображения",
                "image": "https://wals09.github.io/msx/tema/lite.jpg"
             }
          },
@@ -91,7 +99,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}CLASSIC{col}{br}{br}Классическая оболочка MSX",
+               "text": "{col:msx-white}CLASSIC{col}{br}Классическая оболочка MSX",
                "image": "https://wals09.github.io/msx/tema/classic.jpg"
             }
          },
@@ -112,7 +120,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}GOLD Old{col}{br}{br}Tема оформления в золотых тонах",
+               "text": "{col:msx-white}GOLD Old{col}{br}Тема оформления в золотых тонах",
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
@@ -133,7 +141,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLUE Old{col}{br}{br}Синяя тема оформления",
+               "text": "{col:msx-white}BLUE Old{col}{br}Синяя тема оформления",
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
@@ -154,7 +162,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}{br}Темная тема оформления",
+               "text": "{col:msx-white}BLACK Old{col}{br}Темная тема оформления",
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
