@@ -2,7 +2,7 @@
    "type": "list",
    "headline": "WALS_MSX 2.4",
    "transparent": 1,
-   "background": "https://wals09.github.io/msx/tema/white.jpg",
+   "background": "https://wals09.github.io/msx/tema/bg_white.jpg",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
