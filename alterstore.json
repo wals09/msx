@@ -1,24 +1,41 @@
 {
+   "headline": "AlterSTORE",
    "type": "list",
-   "headline": "Lampset",
-   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
+   "version": "2.5.0",
+   "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
+   "action": "[settings:validate_links:0|home]",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
-   "captionUnderlay": 1,
-   "underlay": {
+   "overlay": {
       "items": [
          {
             "type": "space",
             "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.33,2,1",
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.4,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "1,0,6,3",
-            "offset": "-1,0.5,1,0",
+            "layout": "6,1,5,2",
             "headline": "",
             "text": ""
          }
@@ -26,58 +43,21 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,2,3",
-      "area": "0,3,12,3",
-      "wrapperColor": "black",
-      "imageHeight": 2,
-      "color": "msx-glass",
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "imageWidth": 1,
       "imageFiller": "cover",
-      "truncation": "titleFooter",
-      "transparent": 1,
-      "titleHeader": "",
-      "titleFooter": "",
-      "description": "No description available.",
-      "backdrop": "none",
-      "image": "none",
-      "selection": {
-         "important": true,
-         "action": "data",
-         "data": {
-            "actions": [
-               {
-                  "action": "invalidate:content:underlay:text"
-               },
-               {
-                  "action": "delay:text:1:update:content:underlay:text",
-                  "data": {
-                     "headline": "{context:titleHeader}",
-                     "text": "{context:titleFooter}{br}{br}{context:description}"
-                  }
-               },
-               {
-                  "action": "delay:backdrop:1:interaction:load:http://msx.benzac.de/interaction/backdrop.html",
-                  "data": {
-                     "url": "{context:backdrop}",
-                     "type": 1
-                  }
-               }
-            ]
-         }
-      },
-      "properties": {
-         "image:extension": "| {context:titleHeader}"
-      }
+      "color": "transparent"
    },
    "items": [
       {
          "titleHeader": "{col:msx-white}APPFXML STORE",
          "selection": {
             "important": true,
-            "background": "https://s1.best-wallpaper.net/wallpaper/m/1801/Many-lamps-lighting-night-colors_m.webp",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "APPFXML STORE",
-               "text": "Магазин приложений APPFXML STORE"
+               "text": "РњР°РіР°Р·РёРЅ РїСЂРёР»РѕР¶РµРЅРёР№ APPFXML STORE"
             }
          },
          "playerLabel": "APPFXML STORE",
@@ -92,11 +72,10 @@
          "titleHeader": "{col:msx-white}MSXPlayer{br} V4",
          "selection": {
             "important": true,
-            "background": "https://s1.best-wallpaper.net/wallpaper/m/1802/Many-lamps-bulbs_m.webp",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "MSXPlayer V4",
-               "text": "Лаунчер MSXPlayer V4. Moжет не работать на старых версиях MSX и старых устройствах!"
+               "text": "Р›Р°СѓРЅС‡РµСЂ MSXPlayer V4. РњРѕР¶РµС‚ РЅРµ  СЂР°Р±РѕС‚Р°С‚СЊ РЅР° СЃС‚Р°СЂС‹С… РІРµСЃРёСЏС… MSX Рё СЃС‚Р°СЂС‹С… СѓСЃС‚СЂРѕР№СЃС‚РІР°С…"
             }
          },
          "playerLabel": "MSXPlayer V4",
@@ -111,14 +90,13 @@
          "titleHeader": "{col:msx-white}MSX NoName Launcher",
          "selection": {
             "important": true,
-            "background": "https://img.goodfon.com/original/2880x1800/0/34/idea-light-bulbs-light-shine.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "MSX NoName Launcher",
-               "text": "Noname Лаунчер. Moжет не работать на старых версиях MSX и старых устройствах!"
+               "text": "Noname Р»Р°СѓРЅС‡РµСЂ. РњРѕР¶РµС‚ РЅРµ  СЂР°Р±РѕС‚Р°С‚СЊ РЅР° СЃС‚Р°СЂС‹С… РІРµСЃРёСЏС… MSX Рё СЃС‚Р°СЂС‹С… СѓСЃС‚СЂРѕР№СЃС‚РІР°С…"
             }
          },
-         "playerLabel": "Noname Лаунчер",
+         "playerLabel": "MSX NoName Launcher",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
          "action": "menu:request:interaction:menu@https://nnmtv.github.io/launcher/store.html",
          "properties": {
@@ -127,17 +105,16 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}NoName портал",
+         "titleHeader": "{col:msx-white}NoName РїРѕСЂС‚Р°Р»",
          "selection": {
             "important": true,
-            "background": "https://w.forfun.com/fetch/b2/b2bb1a70118b1e90cc189c050559d462.jpeg?w=1470&r=0.5625",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "headline": "NoName портал",
-               "text": "NoName портал. Запуск web приложений. Возможны региональные ограничения"
+               "headline": "NoName РїРѕСЂС‚Р°Р»",
+               "text": "NoName РїРѕСЂС‚Р°Р». Р—Р°РїСѓСЃРє web РїСЂРёР»РѕР¶РµРЅРёР№. Р’РѕР·РјРѕР¶РЅС‹ СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Рµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ"
             }
          },
-         "playerLabel": "NoName портал",
+         "playerLabel": "NoName РїРѕСЂС‚Р°Р»",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
          "action": "content:http://msx.nnmtv.fun/msx/start.json",
          "properties": {
@@ -146,17 +123,16 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}NoName портал 2",
+         "titleHeader": "{col:msx-white}NoName РїРѕСЂС‚Р°Р» 2",
          "selection": {
             "important": true,
-            "background": "https://wallbox.ru/wallpapers/main/201508/8fca0aa9634e738.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "headline": "NoName портал 2",
-               "text": "NoName портал. Запуск web приложений"
+               "headline": "NoName РїРѕСЂС‚Р°Р» 2",
+               "text": "NoName РїРѕСЂС‚Р°Р» 2. Р—Р°РїСѓСЃРє web РїСЂРёР»РѕР¶РµРЅРёР№."
             }
          },
-         "playerLabel": "bwa-cloud top",
+         "playerLabel": "NoName РїРѕСЂС‚Р°Р» 2",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
          "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
          "properties": {
@@ -165,17 +141,16 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}MSX CC UA портал",
+         "titleHeader": "{col:msx-white}MSX CC UA РїРѕСЂС‚Р°Р»",
          "selection": {
             "important": true,
-            "background": "https://wallbox.ru/wallpapers/main/201508/8fca0aa9634e738.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "headline": "MSX CC UA портал",
-               "text": "MSX CC UA портал. Запуск web приложений"
+               "headline": "MSX CC UA РїРѕСЂС‚Р°Р»",
+               "text": "MSX CC UA РїРѕСЂС‚Р°Р». Р—Р°РїСѓСЃРє web РїСЂРёР»РѕР¶РµРЅРёР№"
             }
          },
-         "playerLabel": "MSX CC UA портал",
+         "playerLabel": "MSX CC UA РїРѕСЂС‚Р°Р»",
          "image": "http://msxplayer.ru/assets/msx-icon.png",
          "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
