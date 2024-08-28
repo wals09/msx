@@ -345,6 +345,21 @@
             "image:extension": "| {col:msx-white}Eleventh Item"
          }
       },
+            {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Filmix Smart",
+               "text": "{col:msx-white}Онлайн кинотеатр. Фильмы, мультфильмы и сериалы в отличном качестве. {br}{col:gold}Требуется регистрация и аккаунт VIP | PRO"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/filmix.png",
+         "action": "link:http://filmix.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eleventh Item"
+         }
+      },
       {
          "selection": {
             "important": true,
