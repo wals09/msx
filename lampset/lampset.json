@@ -10,15 +10,29 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.33,2,1",
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.4,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "1,0,6,3",
-            "offset": "-1,0.5,1,0",
+            "layout": "6,1,5,2",
             "headline": "",
             "text": ""
          }
@@ -26,47 +40,11 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,2,3",
-      "area": "0,3,12,3",
-      "wrapperColor": "msx-glass",
-      "imageHeight": 1.83,
-      "color": "msx-glass",
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "imageWidth": 1,
       "imageFiller": "cover",
-      "truncation": "titleFooter",
-      "transparent": 1,
-      "titleHeader": "",
-      "titleFooter": "",
-      "description": "No description available.",
-      "backdrop": "none",
-      "image": "none",
-      "selection": {
-         "important": true,
-         "action": "data",
-         "data": {
-            "actions": [
-               {
-                  "action": "invalidate:content:underlay:text"
-               },
-               {
-                  "action": "delay:text:1:update:content:underlay:text",
-                  "data": {
-                     "headline": "{context:titleHeader}",
-                     "text": "{context:titleFooter}{br}{br}{context:description}"
-                  }
-               },
-               {
-                  "action": "delay:backdrop:1:interaction:load:http://msx.benzac.de/interaction/backdrop.html",
-                  "data": {
-                     "url": "{context:backdrop}",
-                     "type": 1
-                  }
-               }
-            ]
-         }
-      },
-      "properties": {
-         "image:extension": "| {context:titleHeader}"
-      }
+      "color": "transparent"
    },
    "items": [
       {
@@ -163,7 +141,7 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
-      },     
+      },
       {
          "titleHeader": "{col:msx-white}lampa skaz tv",
          "selection": {
@@ -175,7 +153,6 @@
                "text": "{br}{col:msx-white}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины "
             }
          },
-
          "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
          "action": "link: http://lampa.skaz.tv",
          "properties": {
