@@ -1,24 +1,41 @@
 {
+   "headline": "AlterSTORE",
    "type": "list",
-   "headline": "Lampset",
-   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
+   "version": "2.5.0",
+   "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
+   "action": "[settings:validate_links:0|home]",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "preload": "next",
-   "captionUnderlay": 1,
-   "underlay": {
+   "overlay": {
       "items": [
          {
             "type": "space",
             "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.33,2,1",
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
             "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.4,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "1,0,6,3",
-            "offset": "-1,0.5,1,0",
+            "layout": "6,1,5,2",
             "headline": "",
             "text": ""
          }
@@ -26,55 +43,18 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,2,3",
-      "area": "0,3,12,3",
-      "wrapperColor": "black",
-      "imageHeight": 2,
-      "color": "msx-glass",
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "imageWidth": 1,
       "imageFiller": "cover",
-      "truncation": "titleFooter",
-      "transparent": 1,
-      "titleHeader": "",
-      "titleFooter": "",
-      "description": "No description available.",
-      "backdrop": "none",
-      "image": "none",
-      "selection": {
-         "important": true,
-         "action": "data",
-         "data": {
-            "actions": [
-               {
-                  "action": "invalidate:content:underlay:text"
-               },
-               {
-                  "action": "delay:text:1:update:content:underlay:text",
-                  "data": {
-                     "headline": "{context:titleHeader}",
-                     "text": "{context:titleFooter}{br}{br}{context:description}"
-                  }
-               },
-               {
-                  "action": "delay:backdrop:1:interaction:load:http://msx.benzac.de/interaction/backdrop.html",
-                  "data": {
-                     "url": "{context:backdrop}",
-                     "type": 1
-                  }
-               }
-            ]
-         }
-      },
-      "properties": {
-         "image:extension": "| {context:titleHeader}"
-      }
+      "color": "transparent"
    },
    "items": [
       {
          "titleHeader": "{col:msx-white}APPFXML STORE",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "APPFXML STORE",
                "text": "Магазин приложений APPFXML STORE"
@@ -92,15 +72,14 @@
          "titleHeader": "{col:msx-white}MSXPlayer{br} V4",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "MSXPlayer V4",
-               "text": "Лаунчер MSXPlayer V4. Moжет не работать на старых версиях MSX и старых устройствах!"
+               "text": "Лаунчер MSXPlayer V4. Может не  работать на старых весиях MSX и старых устройствах"
             }
          },
          "playerLabel": "MSXPlayer V4",
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
+         "image": "http://msxplayer.ru/assets/msx-icon.png",
          "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html",
          "properties": {
             "trigger:back": "player:stop",
@@ -111,14 +90,13 @@
          "titleHeader": "{col:msx-white}MSX NoName Launcher",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "MSX NoName Launcher",
-               "text": "Noname Лаунчер. Moжет не работать на старых версиях MSX и старых устройствах!"
+               "text": "Noname лаунчер. Может не  работать на старых весиях MSX и старых устройствах"
             }
          },
-         "playerLabel": "Noname Лаунчер",
+         "playerLabel": "MSX NoName Launcher",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
          "action": "menu:request:interaction:menu@https://nnmtv.github.io/launcher/store.html",
          "properties": {
@@ -130,8 +108,7 @@
          "titleHeader": "{col:msx-white}NoName портал",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "NoName портал",
                "text": "NoName портал. Запуск web приложений. Возможны региональные ограничения"
@@ -149,14 +126,13 @@
          "titleHeader": "{col:msx-white}NoName портал 2",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "NoName портал 2",
-               "text": "NoName портал. Запуск web приложений"
+               "text": "NoName портал 2. Запуск web приложений."
             }
          },
-         "playerLabel": "bwa-cloud top",
+         "playerLabel": "NoName портал 2",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
          "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
          "properties": {
@@ -168,16 +144,15 @@
          "titleHeader": "{col:msx-white}MSX CC UA портал",
          "selection": {
             "important": true,
-            "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
-            "action": "update:content:underlay:text",
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "headline": "MSX CC UA портал",
                "text": "MSX CC UA портал. Запуск web приложений"
             }
          },
          "playerLabel": "MSX CC UA портал",
-         "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
-         "action": "content:https://wals09.github.io/msx/alterstore/startua.json",
+         "image": "http://msxplayer.ru/assets/msx-icon.png",
+         "action": "content:http://msx.cc.ua/msx/start.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
