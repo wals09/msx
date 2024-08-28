@@ -1,7 +1,6 @@
 {
    "headline": "Выбор темы WALS_MSX",
    "type": "list",
-   "background": "https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers___Vector_Wallpapers_____Geometric_shapes_081904_.jpg",
    "version": "2.5.0",
    "parameter": "content: http://wals09.github.io/msx/setting_emo.json",
    "action": "[settings:validate_links:0|home]",
