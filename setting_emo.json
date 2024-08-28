@@ -61,7 +61,7 @@
                "image": "https://wals09.github.io/msx/tema/home.jpg"
             }
          },
-         "image": "https://wals09.github.io/msx/tema/thems_icon/basic.png",
+         "image": "https://wals09.github.io/msx/tema/them_icon/basic.png",
          "action": "start",
          "data": {
             "name": "BASIC",
