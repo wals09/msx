@@ -183,7 +183,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{br}{br}{col:msx-white}Фоновое музыкальное сопровождение навигации по MSX",
+               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{col}{br}Фоновое музыкальное сопровождение навигации по MSX",
                "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
             }
          }, "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
