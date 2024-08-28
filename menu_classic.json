@@ -460,7 +460,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Oнлайн-кинотеатр за донат. (VoKINO мод)"
+               "headline": "Oнлайн-кинотеатр за донат. (vPlay мод)"
             }
          },
          "image": "https://wals09.github.io/msx/logon/tutkino.jpg",
