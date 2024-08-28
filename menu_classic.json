@@ -335,6 +335,21 @@
          }
       },
       {
+         "title": "Filmix Smart",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Онлайн кинотеатр по подписке"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/filmix.png",
+         "action": "link:http://filmix.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}Eleventh Item"
+         }
+      },
+      {
          "title": "КИНОПОИСК",
          "selection": {
             "important": true,
