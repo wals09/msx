@@ -375,21 +375,7 @@
             "image:extension": "| {col:msx-white}Twelfth Item"
          }
       },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "DEEPLEX",
-               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов."
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/deeplex.png",
-         "action": "link:http://smart.deeplex.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}20th Item"
-         }
-      },
+
       {
          "selection": {
             "important": true,
@@ -434,6 +420,21 @@
          "action": "link:http://app.xsmart.tv",
          "properties": {
             "image:extension": "| {col:msx-white}22nd Item"
+         }
+      },
+            {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "DEEPLEX",
+               "text": "{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/deeplex.png",
+         "action": "link:http://smart.deeplex.cc/",
+         "properties": {
+            "image:extension": "| {col:msx-white}20th Item"
          }
       },
       {
