@@ -7,14 +7,14 @@
    "captionUnderlay": 1,
    "underlay": {
       "items": [
-          {
+         {
             "type": "space",
             "round": false,
             "layout": "0,3,12,3",
             "offset": "-1.25,-0.6,2,1.17",
             "color": "msx-black-soft"
          },
-                  {
+         {
             "type": "space",
             "round": false,
             "layout": "0,0,12,1",
@@ -364,7 +364,7 @@
             "image:extension": "| {col:msx-white}Eleventh Item"
          }
       },
-            {
+      {
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/18.png",
@@ -445,7 +445,7 @@
             "image:extension": "| {col:msx-white}22nd Item"
          }
       },
-            {
+      {
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/20.png",
@@ -737,8 +737,8 @@
       },
       {
          "color": "msx-glass",
-         "label": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,2.5,7,0",
+         "text": "Альтернативные MSX магазины|лаунчеры",
+         "offset": "0,2.5,4,0",
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/14.png",
