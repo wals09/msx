@@ -92,6 +92,27 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА «WHITE»",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Основная тема «LITE»{col}{br}Основная тема без фонового изображения",
+               "image": "https://wals09.github.io/msx/tema/lite.jpg"
+            }
+         },
+         "image": "https://wals09.github.io/msx/tema/them_icon/white.png",
+         "action": "start",
+         "data": {
+            "name": "BASIC Lite",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu_white.json",
+            "welcome": "none"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}CLASSIC",
          "color": "transparent",
          "focus": true,
@@ -186,7 +207,8 @@
                "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{col}{br}Фоновое музыкальное сопровождение навигации по MSX",
                "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
             }
-         }, "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
+         },
+         "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
          "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
          "properties": {
             "image:extension": "| {col:msx-white}First Item"
