@@ -49,7 +49,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Тема оформления",
-               "text": "Выбор темы оформления WALS_MSX"
+               "text": "Выбор темы оформления WALS_MSX{br}Если WALS_msx установлен как приложение данный параметр работать не будет"
             }
          },
          "action": "content:https://wals09.github.io/msx/setting_emo.json",
