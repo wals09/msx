@@ -736,9 +736,25 @@
          }
       },
       {
+         "selection": {
+            "important": true,
+            "background": "https://wals09.github.io/msx/abstrackt/9.png",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TVOЁ",
+               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:yellow}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://client-app-tv.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
+      {
          "color": "msx-glass",
-         "text": "Альтернативные MSX магазины|лаунчеры",
-         "offset": "0,2.5,4,0",
+         "text": "Альтернативные MSX магазины{br}лаунчеры",
+         "offset": "0,2.5,3,0",
          "selection": {
             "important": true,
             "background": "https://wals09.github.io/msx/abstrackt/14.png",
