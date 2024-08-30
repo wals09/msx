@@ -131,57 +131,57 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Матч! ",
+         "titleHeader": "{col:msx-white}Игра ",
          "selection": {
             "important": true,
             "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Матч!",
-               "text": "{col:msx-white}{col}{br} Матч ТВ предлагает к просмотру прямые трансляции спортивных событий, видео обзоры мероприятий, а также новости спорта со всего мира."
+               "headline": "Игра",
+               "text": "{col:msx-white}{col}{br}Игра – телеканал транслирует матчи наиболее рейтинговых и значимых мировых турниров. "
             }
          },
-         "playerLabel": "Матч! ",
-         "image": "http://epg.it999.ru/img/2051.png",
-         "action": "video:http://147.45.48.241:8090/RU_Match_TV_HD/video.m3u8?token=rD_MOZUq-1",
+         "playerLabel": "Игра ",
+         "image": "https://avatars.mds.yandex.net/i?id=cbe79940da1dc4f569effcdbd6d3ca20_sr-5446078-images-thumbs&n=13",
+         "action": "video:http://91.90.255.235:8000/play/a00a/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}Матч Премьер",
+         "titleHeader": "{col:msx-white}Футбол",
          "selection": {
             "important": true,
             "background": "https://cdn.livesport.ru/l/football/2022/08/12/fakel_ural/picture--original.jpg?1660329361",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Матч Премьер ",
+               "headline": "Футбол ",
                "text": "{col:msx-white}{col}{br} канал о российском и европейском футболе с эксклюзивным контентом, на котором доступны в прямом эфире "
             }
          },
-         "playerLabel": "Матч Премьер ",
-         "image": "http://epg.it999.ru/img/2250.png",
-         "action": "video: http://91.205.199.7:8000/play/a0ny",
+         "playerLabel": "Футбол ",
+         "image": "https://infolink.ru/uploads/ckeditor/pictures/172/content_futbol.jpg",
+         "action": "video: http://135.181.115.81:8000/play/a00o/index.m3u8?token=livetv",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
             {
-         "titleHeader": "{col:msx-white}МАТЧ! Футбол2",
+         "titleHeader": "{col:msx-white}Телеканал Футбол",
          "selection": {
             "important": true,
             "background": "https://photobooth.cdn.sports.ru/preset/wysiwyg/e/48/caa8cdab341c39ce23a4aa288ec94.webp?q=90",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "МАТЧ! Футбол2",
-               "text": "{col:msx-white}{col}{br}Трансляции клубных соревнований, матчи ведущих чемпионатов и лиг, матчи за главные кубки футбольного мира, отборочные турниры. "
+               "headline": "Телеканал Футбол",
+               "text": "{col:msx-white}{col}{br}Телеканал «Футбол» российский круглосуточный телеканал о самом популярном и массовом виде спорта."
             }
          },
-         "playerLabel": "МАТЧ! Футбол2",
-         "image": "https://crdtv.net/b/templates/ottch/match-football-2.png",
-         "action": "video: http://147.45.48.241:8090/RU_Match_Futbol_2_HD/video.m3u8?token=rD_MOZUq-1",
+         "playerLabel": "Телеканал Футбол",
+         "image": "",
+         "action": "video: http://iptv-hls.idc.md:8200/hls/77/live1.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
