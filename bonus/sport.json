@@ -55,38 +55,38 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Eurosport 2",
+         "titleHeader": "{col:msx-white}Setanta sports 1",
          "selection": {
             "important": true,
             "background": "http://images.interactives.dk/files/bonnier-atr/maratonloebere_maend.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Eurosport 2",
-               "text": "{col:msx-white}{col}{br} Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+               "headline": "Setanta sports 1",
+               "text": "{col:msx-white}{col}{br}один из ведущих мировых спортивных телеканалов, который вещает круглосуточно и предлагает широкий спектр спортивных событий."
             }
          },
-         "playerLabel": "Eurosport 2",
-         "image": "http://epg.it999.ru/img/4313.png",
-         "action": "video: http://edge02.odtv.az/o3/eurosport2/playlist.m3u8",
+         "playerLabel": "Setanta sports 1",
+         "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
+         "action": "video: https://stream2.cinerama.uz/1263/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
       {
-         "titleHeader": "{col:msx-white}OKKO sport",
+         "titleHeader": "{col:msx-white}Setanta sports 2",
          "selection": {
             "important": true,
             "background": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696418577_gas-kvas-com-p-kartinki-o-sporte-32.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "OKKO sport",
-               "text": "{col:msx-white}{col}{br}Лучший спорт со всего мира!"
+               "headline": "Setanta sports 2",
+               "text": "{col:msx-white}{col}{br}один из ведущих мировых спортивных телеканалов, который вещает круглосуточно и предлагает широкий спектр спортивных событий."
             }
          },
-         "playerLabel": "OKKO sport",
-         "image": "https://img2.festima.ru/1/381u5NiGJumxGX8oA",
-         "action": "video: http://158.101.214.187:8080/channel/79f180dd/index.m3u8?q=443d5edac354972a97f67425879f54e1",
+         "playerLabel": "Setanta sports 2",
+         "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
+         "action": "video: https://stream2.cinerama.uz/1264/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -124,7 +124,7 @@
          },
          "playerLabel": "VIJU+sport",
          "image": "http://epg.it999.ru/img/2055.png",
-         "action": "video: http://stream02.vnet.am/AutoPlus/mono.m3u8",
+         "action": "video: http://hls127.homeiptv.org:8880/MATCH_TV/video.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
