@@ -681,6 +681,21 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
+            {
+         "title": "TVOЁ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Платный онлайн кинотеатр.(⚠️ТЕСТ⚠️)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://client-app-tv.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
       {
          "title": "AlterSTORE",
          "color": "msx-glass",
