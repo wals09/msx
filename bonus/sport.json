@@ -67,7 +67,7 @@
          },
          "playerLabel": "Setanta sports 1",
          "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
-         "action": "video: https://stream2.cinerama.uz/1263/tracks-v1a1/mono.m3u8",
+         "action": "video: https://stream1.cinerama.uz/1263/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -86,7 +86,7 @@
          },
          "playerLabel": "Setanta sports 2",
          "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
-         "action": "video: https://stream2.cinerama.uz/1264/tracks-v1a1/mono.m3u8",
+         "action": "video: https://stream1.cinerama.uz/1264/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -162,7 +162,7 @@
          },
          "playerLabel": "Футбол ",
          "image": "https://infolink.ru/uploads/ckeditor/pictures/172/content_futbol.jpg",
-         "action": "video: http://135.181.115.81:8000/play/a00o/index.m3u8?token=livetv",
+         "action": "video: https://strm.yandex.ru/kal/futbol_belarus/futbol_belarus0.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
