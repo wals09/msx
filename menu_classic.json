@@ -691,7 +691,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/logon/tvoe.png",
-         "action": "link:https://client-app-tv.tvoe.live",
+         "action": "link:https://tv-old.tvoe.live",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
