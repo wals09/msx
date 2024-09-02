@@ -91,14 +91,14 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА «WHITE»",
+         "titleHeader": "{col:msx-white}ТЕМА «WHITE»",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема «WHITE»{col}{br}Основная тема в светлых тонах",
+               "text": "{col:msx-white}Тема «WHITE»{col}{br}Тема в светлых тонах",
                "image": "https://wals09.github.io/msx/tema/wite.jpg"
             }
          },
@@ -108,6 +108,27 @@
             "name": "BASIC Lite",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu_white.json",
+            "welcome": "none"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}ТЕМА «ОСЕНЬ»",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Тема «ОСЕНЬ»",
+               "image": "https://wals09.github.io/msx/tema/осень.png"
+            }
+         },
+         "image": "https://wals09.github.io/msx/tema/them_icon/осень.png",
+         "action": "start",
+         "data": {
+            "name": "BASIC Lite",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/осень.json",
             "welcome": "none"
          }
       },
