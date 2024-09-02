@@ -3,7 +3,7 @@
    "headline": "WALS_MSX 2.4",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
-   "background": "https://bogatyr.club/uploads/posts/2024-04/74404/1712183392_bogatyr-club-ptub-p-nezhnii-osennii-fon-5.jpg",
+   "background": "https://github.com/wals09/msx/blob/main/tema/bg_осень.jpg?raw=true",
    "preload": "next",
    "captionUnderlay": 1,
    "transparent": 1,
@@ -699,7 +699,7 @@
       {
          "color": "msx-glass",
          "text": "Альтернативные MSX магазины{br}лаунчеры",
-         "offset": "0,-0.15,3,0",
+         "offset": "0,2.5,3,0",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
