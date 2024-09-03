@@ -719,7 +719,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/logon/win11.png",
-         "action": "link:https://win11.blueedge.me",
+         "action": "link:http://win11.blueedge.me",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
