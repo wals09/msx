@@ -230,21 +230,6 @@
          }
       },
       {
-         "title": "Lamp!she",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Мод программы Лампа для Android/Google TV"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/lampishe.png",
-         "action": "link:https://web.lampishe.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
-         }
-      },
-      {
          "title": "VoKINO",
          "selection": {
             "important": true,
