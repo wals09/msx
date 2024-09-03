@@ -240,21 +240,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lamp!she",
-               "text": "{col:white}Мод программы Лампа для Android/Google TV{br}{col:yellow}Приложение разрабатывалось ТОЛЬКО для Android/Google TV.{br}Приложение не предназначено для работы через Mediastation X, может работать неправильно или вообще не работать!!! {br}Опубликованно только для ознакомления с программой!!!"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/lampishe.png",
-         "action": "link:https://web.lampishe.cc/",
-         "properties": {
-            "image:extension": "| {col:msx-white}26th Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "VoKINO",
                "text": "{col:white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов"
             }
