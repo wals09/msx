@@ -710,15 +710,30 @@
          }
       },
       {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Win11React",
+               "text": "{col:msx-white}Этот проект с открытым исходным кодом создан в надежде воспроизвести работу рабочего стола Windows 11 в Интернете с использованием стандартных веб-технологий, таких как React, CSS (SCSS) и JS{br}{col:brown}Это не Windows, а так, поиграться 😁"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/win11.png",
+         "action": "link:https://win11.blueedge.me",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
+      {
          "color": "msx-glass",
-         "text": "Альтернативные MSX магазины{br}лаунчеры",
-         "offset": "0,2.5,3,0",
+         "text": "Альтернативные MSX магазины | лаунчеры",
+         "offset": "0,-0.15,2,0",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "AlterSTORE",
-               "text": " Альтернативные MSX магазины|лаунчеры"
+               "text": "  {col:msx-white}Альтернативные MSX магазины лаунчеры"
             }
          },
          "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
