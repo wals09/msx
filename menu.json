@@ -768,25 +768,6 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },
-      {
-         "offset": "3,2.5,0,0",
-         "color": "msx-black-soft",
-         "selection": {
-            "important": true,
-            "background": "https://wals09.github.io/msx/abstrackt/9.png",
-            "offset": "2,0,0,0",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Настройки Mediastation X",
-               "text": ""
-            }
-         },
-         "icon": "settings",
-         "action": "menu:data:start:welcome",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
       }
    ]
 }
