@@ -203,21 +203,7 @@
             "image:extension": "| {col:msx-white}27th Item"
          }
       },
-            {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Prisma TV (зеркало)",
-               "text": "{col:msx-white}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/prisma.png",
-         "action": "link:http://prisma.kim",
-         "properties": {
-            "image:extension": "| {col:msx-white}27th Item"
-         }
-      },
+
       {
          "selection": {
             "important": true,
