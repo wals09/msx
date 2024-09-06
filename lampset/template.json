@@ -9,8 +9,7 @@
          {
             "type": "space",
             "round": false,
-            "layout": "4,0,3,6",
-            "offset": "-0.5,-1,1,1.7",
+            "layout": "0,1,6,2",
             "color": "msx-black-soft"
          },
          {
@@ -23,7 +22,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "4,1,2,5",
+            "layout": "0,1,6,2",
             "headline": "",
             "text": ""
          }
@@ -32,7 +31,7 @@
    "template": {
       "type": "default",
       "layout": "0,0,3,1",
-      "area": "0,1,5,5",
+      "area": "0,3,8,3",
       "imageWidth": 1,
       "imageFiller": "cover",
       "color": "transparent"
