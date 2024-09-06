@@ -4,11 +4,37 @@
    "template": {
       "type": "separate",
       "layout": "0,0,2,3",
+      "area": "0,1,12,4",
       "color": "msx-glass",
       "icon": "msx-white-soft:movie",
       "iconSize": "medium",
       "title": "Title",
       "titleFooter": "Title Footer"
+   },
+   "underlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,4,12,2",
+            "offset": "-1,-0.1,2,0",
+            "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "0,1,7,2",
+            "headline": "",
+            "text": ""
+         }
+      ]
    },
    "items": [
       {
