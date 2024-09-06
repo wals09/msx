@@ -22,14 +22,6 @@
             "color": "red"
          },
          {
-            "id": "image",
-            "type": "space",
-            "layout": "5,2,7,4",
-            "offset": "0.4,0,0,0",
-            "image": "none",
-            "imageFiller": "cover"
-         },
-         {
             "id": "text",
             "type": "space",
             "layout": "4,1,2,5",
