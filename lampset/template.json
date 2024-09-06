@@ -23,7 +23,7 @@
       ]
    },
    "template": {
-      "type": "default",
+      "type": "panel",
       "layout": "0,0,2,2",
       "offset": "0,0.3,0,0",
       "area": "0,0,8,4",
