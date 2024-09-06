@@ -1,18 +1,57 @@
 {
    "type": "list",
-   "headline": "Template",
+   "headline": "Lampset",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "preload": "next",
+   "captionUnderlay": 1,
+   "underlay": {
+      "items": [
+         {
+            "type": "space",
+            "round": false,
+            "layout": "5,0,7,6",
+            "offset": "0,-1,1,1.7",
+            "color": "msx-black-soft"
+         },
+         {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
+            "id": "image",
+            "type": "space",
+            "layout": "5,2,7,4",
+            "offset": "0.4,0,0,0",
+            "image": "none",
+            "imageFiller": "cover"
+         },
+         {
+            "id": "text",
+            "type": "space",
+            "layout": "6,1,5,2",
+            "headline": "",
+            "text": ""
+         }
+      ]
+   },
    "template": {
-      "type": "separate",
-      "layout": "0,0,2,3",
-      "area": "0,1,12,4",
-      "color": "msx-glass",
-      "title": "Title"
+      "type": "default",
+      "layout": "0,0,4,1",
+      "area": "0,1,5,5",
+      "imageWidth": 1,
+      "imageFiller": "cover",
+      "color": "transparent"
    },
    "items": [
       {
-         "title": "{col:msx-white}khuyampa best",
+         "titleHeader": "{col:msx-white}khuyampa best",
          "selection": {
             "important": true,
+
             "action": "update:content:underlay:text",
             "data": {
                "headline": "khuyampa best",
@@ -21,7 +60,6 @@
          },
          "playerLabel": "khuyampa best",
          "image": "https://github.com/wals09/msx/blob/main/lampset/blue.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: https://khuyampa.best",
          "properties": {
             "trigger:back": "player:stop",
@@ -29,9 +67,10 @@
          }
       },
       {
-         "title": "{col:msx-white}cf lampa mx",
+         "titleHeader": "{col:msx-white}cf lampa mx",
          "selection": {
             "important": true,
+
             "action": "update:content:underlay:text",
             "data": {
                "headline": "cf lampa mx",
@@ -40,7 +79,6 @@
          },
          "playerLabel": "cf lampa mx",
          "image": "https://github.com/wals09/msx/blob/main/lampset/yewllo.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: https://cf.lampa.mx",
          "properties": {
             "trigger:back": "player:stop",
@@ -48,9 +86,10 @@
          }
       },
       {
-         "title": "{col:msx-white}Lampa stream",
+         "titleHeader": "{col:msx-white}Lampa stream",
          "selection": {
             "important": true,
+
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Lampa stream",
@@ -59,7 +98,6 @@
          },
          "playerLabel": "Lampa stream",
          "image": "https://github.com/wals09/msx/blob/main/lampset/red.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: https://lampa.stream",
          "properties": {
             "trigger:back": "player:stop",
@@ -67,9 +105,10 @@
          }
       },
       {
-         "title": "{col:msx-white}bwa-cloud",
+         "titleHeader": "{col:msx-white}bwa-cloud",
          "selection": {
             "important": true,
+
             "action": "update:content:underlay:text",
             "data": {
                "headline": "bwa-cloud",
@@ -78,7 +117,6 @@
          },
          "playerLabel": "bwa-cloud",
          "image": "https://github.com/wals09/msx/blob/main/lampset/green.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: https://bwa-cloud.apn.monster",
          "properties": {
             "trigger:back": "player:stop",
@@ -86,9 +124,10 @@
          }
       },
       {
-         "title": "{col:msx-white}bwa-cloud top",
+         "titleHeader": "{col:msx-white}bwa-cloud top",
          "selection": {
             "important": true,
+  
             "action": "update:content:underlay:text",
             "data": {
                "headline": "bwa-cloud top",
@@ -97,7 +136,6 @@
          },
          "playerLabel": "bwa-cloud top",
          "image": "https://github.com/wals09/msx/blob/main/lampset/purple.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: http://bwa-cloud.cfhttp.top",
          "properties": {
             "trigger:back": "player:stop",
@@ -105,9 +143,10 @@
          }
       },
       {
-         "title": "{col:msx-white}lampa skaz tv",
+         "titleHeader": "{col:msx-white}lampa skaz tv",
          "selection": {
             "important": true,
+
             "action": "update:content:underlay:text",
             "data": {
                "headline": "lampa skaz tv",
@@ -115,7 +154,6 @@
             }
          },
          "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
-         "imageFiller": "cover",
          "action": "link: http://lampa.skaz.tv",
          "properties": {
             "trigger:back": "player:stop",
