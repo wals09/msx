@@ -32,7 +32,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "6,1,5,2",
+            "layout": "4,1,5,2",
             "headline": "",
             "text": ""
          }
@@ -40,7 +40,7 @@
    },
    "template": {
       "type": "default",
-      "layout": "0,0,4,1",
+      "layout": "0,0,3,1",
       "area": "0,1,5,5",
       "imageWidth": 1,
       "imageFiller": "cover",
