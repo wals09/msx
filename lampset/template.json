@@ -30,7 +30,7 @@
       ]
    },
    "template": {
-      "type": "default",
+      "type": "list",
       "layout": "0,0,3,1",
       "area": "0,3,8,3",
       "imageWidth": 1,
