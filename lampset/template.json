@@ -9,20 +9,21 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,1,6,2",
+            "layout": "0,1,7,2",
+            "offset": "-1,-0.1,2,0",
             "color": "msx-black-soft"
          },
          {
             "type": "space",
             "round": false,
-            "layout": "0,0,6,1",
+            "layout": "0,0,7,1",
             "offset": "-1,0,2,-0.8",
             "color": "red"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "0,1,6,2",
+            "layout": "0,1,7,2",
             "headline": "",
             "text": ""
          }
