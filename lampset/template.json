@@ -1,6 +1,7 @@
 {
    "type": "list",
-   "headline": "Lampset",
+   "headline": "Lampset", 
+   "background": "https://wals09.github.io/msx/abstrackt/2.png",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
    "captionUnderlay": 1,
