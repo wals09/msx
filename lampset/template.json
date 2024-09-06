@@ -1,149 +1,33 @@
 {
    "type": "list",
-   "headline": "Lampset",
-   "dictionary": "https://wals09.github.io/msx/dictionary.json",
-   "preload": "next",
-   "captionUnderlay": 1,
-   "underlay": {
-      "items": [
-         {
-            "type": "space",
-            "round": false,
-            "layout": "0,1,7,2",
-            "offset": "-1,-0.1,2,0",
-            "color": "msx-black-soft"
-         },
-         {
-            "type": "space",
-            "round": false,
-            "layout": "0,0,7,1",
-            "offset": "-1,0,2,-0.8",
-            "color": "red"
-         },
-         {
-            "id": "text",
-            "type": "space",
-            "layout": "0,1,7,2",
-            "headline": "",
-            "text": ""
-         }
-      ]
-   },
+   "headline": "Template",
    "template": {
-      "type": "list",
-      "layout": "0,0,3,1",
-      "area": "0,3,8,3",
-      "imageWidth": 1,
-      "imageFiller": "cover",
-      "color": "transparent"
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass",
+      "icon": "msx-white-soft:movie",
+      "iconSize": "medium",
+      "title": "Title",
+      "titleFooter": "Title Footer"
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}khuyampa best",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "khuyampa best",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования."
-            }
-         },
-         "playerLabel": "khuyampa best",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/blue.png?raw=true",
-         "action": "link: https://khuyampa.best",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 1"
       },
       {
-         "titleHeader": "{col:msx-white}cf lampa mx",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "cf lampa mx",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования."
-            }
-         },
-         "playerLabel": "cf lampa mx",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/yewllo.png?raw=true",
-         "action": "link: https://cf.lampa.mx",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 2"
       },
       {
-         "titleHeader": "{col:msx-white}Lampa stream",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Lampa stream",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. "
-            }
-         },
-         "playerLabel": "Lampa stream",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/red.png?raw=true",
-         "action": "link: https://lampa.stream",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 3"
       },
       {
-         "titleHeader": "{col:msx-white}bwa-cloud",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "bwa-cloud",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины Bwa"
-            }
-         },
-         "playerLabel": "bwa-cloud",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/green.png?raw=true",
-         "action": "link: https://bwa-cloud.apn.monster",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 4"
       },
       {
-         "titleHeader": "{col:msx-white}bwa-cloud top",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "bwa-cloud top",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины Bwa"
-            }
-         },
-         "playerLabel": "bwa-cloud top",
-         "image": "https://github.com/wals09/msx/blob/main/lampset/purple.png?raw=true",
-         "action": "link: http://bwa-cloud.cfhttp.top",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 5"
       },
       {
-         "titleHeader": "{col:msx-white}lampa skaz tv",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "lampa skaz tv",
-               "text": "{br}Приложение \"LAMPA\" с альтернативным адресом на случай \"падения\" оригинальной или для постоянного использования. {br}Установлены парсер и плагины "
-            }
-         },
-         "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
-         "action": "link: http://lampa.skaz.tv",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
+         "title": "Item 6"
       }
    ]
 }
