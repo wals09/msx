@@ -10,14 +10,14 @@
          {
             "type": "space",
             "round": false,
-            "layout": "5,0,7,6",
-            "offset": "0,-1,1,1.7",
+            "layout": "4,0,3,6",
+            "offset": "-0.2,-1,1,1.7",
             "color": "msx-black-soft"
          },
          {
             "type": "space",
             "round": false,
-            "layout": "0,0,12,1",
+            "layout": "0,0,6,1",
             "offset": "-1,0,2,-0.8",
             "color": "red"
          },
@@ -32,7 +32,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "4,1,5,2",
+            "layout": "4,1,4,4",
             "headline": "",
             "text": ""
          }
@@ -51,7 +51,6 @@
          "titleHeader": "{col:msx-white}khuyampa best",
          "selection": {
             "important": true,
-
             "action": "update:content:underlay:text",
             "data": {
                "headline": "khuyampa best",
@@ -70,7 +69,6 @@
          "titleHeader": "{col:msx-white}cf lampa mx",
          "selection": {
             "important": true,
-
             "action": "update:content:underlay:text",
             "data": {
                "headline": "cf lampa mx",
@@ -89,7 +87,6 @@
          "titleHeader": "{col:msx-white}Lampa stream",
          "selection": {
             "important": true,
-
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Lampa stream",
@@ -108,7 +105,6 @@
          "titleHeader": "{col:msx-white}bwa-cloud",
          "selection": {
             "important": true,
-
             "action": "update:content:underlay:text",
             "data": {
                "headline": "bwa-cloud",
@@ -127,7 +123,6 @@
          "titleHeader": "{col:msx-white}bwa-cloud top",
          "selection": {
             "important": true,
-  
             "action": "update:content:underlay:text",
             "data": {
                "headline": "bwa-cloud top",
@@ -146,7 +141,6 @@
          "titleHeader": "{col:msx-white}lampa skaz tv",
          "selection": {
             "important": true,
-
             "action": "update:content:underlay:text",
             "data": {
                "headline": "lampa skaz tv",
