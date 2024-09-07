@@ -19,7 +19,7 @@
             "layout": "4,0,4,6",
             "offset": "0,0.3,0,0",
             "headline": "",
-            "text": "{col:white}Khuyampa best{col}{br}\"LAMPA\" с альтернативным адресом{br} {br}{col:white}Cf lampa mx{col}{br}\"LAMPA\" с альтернативным адресом{br}{br}{col:white}Lampa stream{col}{br}\"LAMPA\" с альтернативным адресом {br}{br}{col:white}Bwa-cloud{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online{br}{br}{col:white}Bwa-cloud top{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online, парсер{br}{br}{col:white}Lampa skaz tv{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online, парсер, торрсервер, IPTV 👍"
+            "text": "{col:white}Khuyampa best{col}{br}\"LAMPA\" с альтернативным адресом{br} {br}{col:white}Cf lampa mx{col}{br}\"LAMPA\" с альтернативным адресом{br}{br}{col:white}Lampa stream{col}{br}\"LAMPA\" с альтернативным адресом {br}{br}{col:white}Bwa-cloud{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online{br}{br}{col:white}Bwa-cloud top{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online, парсер{br}{br}{col:white}Lampa skaz tv{col}{br}\"LAMPA\" с альтернативным адресом. Установлены плагины online, парсер, торрсервер, IPTV"
          }
       ]
    },
@@ -33,32 +33,32 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}Khuyampa best",
+         "badge": "Khuyampa best",
          "image": "https://github.com/wals09/msx/blob/main/lampset/blue.png?raw=true",
          "action": "link: https://khuyampa.best"
       },
       {
-         "titleHeader": "{col:msx-white}Cf lampa mx",
+         "badge": "Cf lampa mx",
          "image": "https://github.com/wals09/msx/blob/main/lampset/yewllo.png?raw=true",
          "action": "link: https://cf.lampa.mx"
       },
       {
-         "titleHeader": "{col:msx-white}Lampa stream",
+         "badge": "Lampa stream",
          "image": "https://github.com/wals09/msx/blob/main/lampset/red.png?raw=true",
          "action": "link: https://lampa.stream"
       },
       {
-         "titleHeader": "{col:msx-white}Bwa-cloud",
+         "badge": "Bwa-cloud",
          "image": "https://github.com/wals09/msx/blob/main/lampset/green.png?raw=true",
          "action": "link: https://bwa-cloud.apn.monster"
       },
       {
-         "titleHeader": "{col:msx-white}Bwa-cloud top",
+         "badge": "Bwa-cloud top",
          "image": "https://github.com/wals09/msx/blob/main/lampset/purple.png?raw=true",
          "action": "link: http://bwa-cloud.cfhttp.top"
       },
       {
-         "titleHeader": "{col:msx-white}Lampa skaz tv",
+         "badge": "Lampa skaz tv",
          "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
          "action": "link: http://lampa.skaz.tv"
       }
