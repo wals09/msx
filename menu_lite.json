@@ -706,7 +706,7 @@
                "text": "  {col:msx-white}Альтернативные MSX магазины лаунчеры"
             }
          },
-         "action": "content:https://wals09.github.io/msx/alterstore/alterstore.json",
+         "action": "content:panel:https://wals09.github.io/msx/alterstore/template.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
