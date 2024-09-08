@@ -76,7 +76,7 @@
          "type": "button",
          "iconSize": "medium",
          "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
-         "action": "content:http://msx.cc.ua/msx/start.json"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/msx_cc_ua.json"
       }
    ]
 }
