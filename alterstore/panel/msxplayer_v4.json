@@ -50,7 +50,7 @@
          "label": "Установить",
          "action": "start",
          "data": {
-            "name": "APPFXML STORE",
+            "name": "MSXPlayer",
             "version": "1.0.0",
             "parameter": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html",
             "welcome": "none"
