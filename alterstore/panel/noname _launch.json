@@ -50,7 +50,7 @@
          "label": "Установить",
          "action": "start",
          "data": {
-            "name": "APPFXML STORE",
+            "name": "NoName Launcher",
             "version": "1.0.0",
             "parameter": "menu:request:interaction:menu@https://nnmtv.github.io/launcher/store.html",
             "welcome": "none"
