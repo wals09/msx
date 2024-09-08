@@ -50,7 +50,7 @@
          "label": "Установить",
          "action": "start",
          "data": {
-            "name": "APPFXML STORE",
+            "name": "NoName",
             "version": "1.0.0",
             "parameter": "content:http://msx.nnmtv.fun/msx/start.json",
             "welcome": "none"
