@@ -60,7 +60,7 @@
          "type": "button",
          "iconSize": "medium",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
-         "action": "content:http://msx.nnmtv.fun/msx/start.json"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname.json"
       },
       {
          "badge": "NoName 2 ",
