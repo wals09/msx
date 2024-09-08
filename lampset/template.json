@@ -61,6 +61,11 @@
          "badge": "Lampa skaz tv",
          "image": "https://github.com/wals09/msx/blob/main/lampset/lite_blue.png?raw=true",
          "action": "link: http://lampa.skaz.tv"
+      },
+      {
+         "badge": "Lampa land",
+         "image": "https://github.com/wals09/msx/blob/main/lampset/lampa-land.png?raw=true",
+         "action": "link: http://lampa.land"
       }
    ]
 }
