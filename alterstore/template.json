@@ -44,7 +44,7 @@
          "type": "button",
          "iconSize": "medium",
          "image": "https://wals09.github.io/msx/alterstore/msx-icon.png",
-         "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/index.html"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/msxplayer_v4.json"
       },
       {
          "badge": "NoName{br}",
