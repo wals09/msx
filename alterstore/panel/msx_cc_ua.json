@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json"
+         "action": "content:http://msx.cc.ua/msx/start.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "APPFXML STORE",
             "version": "1.0.0",
-            "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
+            "parameter": "content:http://msx.cc.ua/msx/start.json",
             "welcome": "none"
          }
       }
