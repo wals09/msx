@@ -50,7 +50,7 @@
          "label": "Установить",
          "action": "start",
          "data": {
-            "name": "APPFXML STORE",
+            "name": "MSX CC UA",
             "version": "1.0.0",
             "parameter": "content:http://msx.cc.ua/msx/start.json",
             "welcome": "none"
