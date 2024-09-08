@@ -52,7 +52,7 @@
          "type": "button",
          "iconSize": "medium",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
-         "action": "menu:request:interaction:menu@https://nnmtv.github.io/launcher/store.html"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname _launch.json"
       },
       {
          "badge": "NoName ",
