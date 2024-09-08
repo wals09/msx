@@ -694,7 +694,6 @@
          "offset": "0,2.5,3,0",
          "selection": {
             "important": true,
-            "background": "https://wals09.github.io/msx/abstrackt/14.png",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "AlterSTORE",
