@@ -68,7 +68,7 @@
          "type": "button",
          "iconSize": "medium",
          "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
-         "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname2.json"
       },
       {
          "badge": "MSX CC UA",
