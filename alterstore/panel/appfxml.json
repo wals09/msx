@@ -14,6 +14,13 @@
             "color": "red"
          },
          {
+            "type": "space",
+            "round": false,
+            "layout": "0,3,8,3",
+            "offset": "-1,-0.5,2,1",
+            "color": "msx-black-soft"
+         },
+         {
             "id": "text",
             "type": "space",
             "layout": "1,0,6,2",
