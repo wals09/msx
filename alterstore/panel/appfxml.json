@@ -13,6 +13,13 @@
             "offset": "-1,0,2,-0.8",
             "color": "red"
          },
+                  {
+            "type": "space",
+            "round": false,
+            "layout": "1,3,10,2",
+            "offset": "-2,-0.1,0,0.3",
+            "color": "red"
+         },
          {
             "id": "text",
             "type": "space",
