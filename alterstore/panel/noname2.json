@@ -50,7 +50,7 @@
          "label": "Установить",
          "action": "start",
          "data": {
-            "name": "APPFXML STORE",
+            "name": "NoName 2",
             "version": "1.0.0",
             "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
             "welcome": "none"
