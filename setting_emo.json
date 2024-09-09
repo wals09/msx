@@ -162,7 +162,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}CLASSIC compact{col}{br}Классическая оболочка MSX, компактный вид",
-               "image": "https://wals09.github.io/msx/tema/classic.jpg"
+               "image": "https://wals09.github.io/msx/tema/classic_compact.jpg"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
