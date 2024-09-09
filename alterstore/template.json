@@ -51,7 +51,7 @@
          "titleHeader": "Launchcer",
          "type": "button",
          "iconSize": "medium",
-         "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
+         "image": "https://wals09.github.io/msx/logo/noname.jpg",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname _launch.json"
       },
       {
@@ -59,7 +59,7 @@
          "titleHeader": "Portal",
          "type": "button",
          "iconSize": "medium",
-         "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
+         "image": "https://wals09.github.io/msx/logo/noname.jpg",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname.json"
       },
       {
@@ -67,7 +67,7 @@
          "titleHeader": "Portal",
          "type": "button",
          "iconSize": "medium",
-         "image": "https://static10.tgstat.ru/channels/_0/8a/8ad7d0022ebae2fe172bd0e88d39fd2a.jpg",
+         "image": "https://wals09.github.io/msx/logo/noname.jpg",
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname2.json"
       },
       {
