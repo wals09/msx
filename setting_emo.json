@@ -182,7 +182,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}GOLD Old{col}{br}Тема оформления в золотых тонах",
+               "text": "{col:msx-white}GOLD Old{col}{br}Тема оформления в золотых тонах (не пополняется)",
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
@@ -203,7 +203,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLUE Old{col}{br}Синяя тема оформления",
+               "text": "{col:msx-white}BLUE Old{col}{br}Синяя тема оформления (не пополняется)",
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
@@ -224,7 +224,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}Темная тема оформления",
+               "text": "{col:msx-white}BLACK Old{col}{br}Темная тема оформления (не пополняется)",
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
