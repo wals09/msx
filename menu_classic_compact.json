@@ -682,19 +682,19 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-      {
+         {
          "selection": {
             "important": true,
+            "background": "https://wals09.github.io/msx/abstrackt/9.png",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Песни Нашего Времени. СНОВА ОСЕНЬ..... 🍂🍁{col}Владимир Ждамиров , Татьяна Буланова , Жека и др."
+               "headline": "Песни Нашего Времени",
+               "text": "Видеоподборки yotube-канала «Песни Нашего Времени»"
             }
          },
-         "playerLabel": "СНОВА ОСЕНЬ..... 🍂🍁",
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sZmZ9eOJihc",
+         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
          "properties": {
-             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
