@@ -688,8 +688,7 @@
             "background": "https://wals09.github.io/msx/abstrackt/9.png",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Песни Нашего Времени",
-               "text": "{col:msx-white}СНОВА ОСЕНЬ..... 🍂🍁{col}Владимир Ждамиров , Татьяна Буланова , Жека и др."
+               "headline": "Песни Нашего Времени. СНОВА ОСЕНЬ..... 🍂🍁{col}Владимир Ждамиров , Татьяна Буланова , Жека и др."
             }
          },
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
