@@ -48,7 +48,7 @@
       "imageFiller": "cover"
    },
    "items": [
-      {
+       {
          "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА",
          "color": "transparent",
          "focus": true,
@@ -56,37 +56,16 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Основная тема{col}{br}Основная тема главного меню",
-               "image": "https://wals09.github.io/msx/tema/home.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/basic.png",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}ОСНОВНАЯ ТЕМА «LITE»",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Основная тема «LITE»{col}{br}Основная тема без фонового изображения",
+               "text": "{col:msx-white}Основная тема {col}{br}Основная тема без фонового изображения",
                "image": "https://wals09.github.io/msx/tema/lite.jpg"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/lite.png",
          "action": "start",
          "data": {
-            "name": "BASIC Lite",
+            "name": "BASIC",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_lite.json",
+            "parameter": "content:https://wals09.github.io/msx/menu.json",
             "welcome": "none"
          }
       },
