@@ -682,6 +682,22 @@
          }
       },
       {
+         "selection": {
+            "important": true,
+            "background": "https://wals09.github.io/msx/abstrackt/9.png",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Песни Нашего Времени",
+               "text": "{col:msx-white}СНОВА ОСЕНЬ..... 🍂🍁{col}Владимир Ждамиров , Татьяна Буланова , Жека и др."
+            }
+         },
+         "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sZmZ9eOJihc",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
+      {
          "color": "msx-glass",
          "text": "Альтернативные MSX магазины{br}лаунчеры",
          "offset": "0,-0.15,3,0",
