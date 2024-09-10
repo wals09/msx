@@ -154,23 +154,23 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}GOLD Old",
+         "titleHeader": "{col:msx-white}GOLD",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}GOLD Old{col}{br}Тема оформления в золотых тонах (не пополняется)",
+               "text": "{col:msx-white}GOLD{col}{br}Динамическая (живая) тема в золотых тонах (не пополняется)",
                "image": "https://wals09.github.io/msx/tema/gold.png"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/gold.png",
          "action": "start",
          "data": {
-            "name": "GOLD Old",
+            "name": "GOLD",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-gold.json",
+            "parameter": "content:https://wals09.github.io/msx/menu-gold_live.json",
             "welcome": "none"
          }
       },
@@ -191,7 +191,7 @@
          "data": {
             "name": "AQUA",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-blue.json",
+            "parameter": "content:https://wals09.github.io/msx/menu-aqua.json",
             "welcome": "none"
          }
       },
