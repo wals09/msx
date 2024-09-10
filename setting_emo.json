@@ -175,21 +175,21 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}BLUE Old",
+         "titleHeader": "{col:msx-white}AQUA",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLUE Old{col}{br}Синяя тема оформления (не пополняется)",
+               "text": "{col:msx-white}AQUA{col}{br}Динамическая (живая) тема",
                "image": "https://wals09.github.io/msx/tema/blue.png"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/blue.png",
          "action": "start",
          "data": {
-            "name": "BLUE Old",
+            "name": "AQUA",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/menu-blue.json",
             "welcome": "none"
