@@ -217,14 +217,14 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}BLACK Old",
+         "titleHeader": "{col:msx-white}ДОЖДЬ",
          "color": "transparent",
          "focus": true,
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}BLACK Old{col}{br}Темная тема оформления (не пополняется)",
+               "text": "{col:msx-white}ДОЖДЬ{col}{br}Динамическая (живая) тема",
                "image": "https://wals09.github.io/msx/tema/black.png"
             }
          },
@@ -233,26 +233,8 @@
          "data": {
             "name": "BLACK Old",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-black.json",
+            "parameter": "content:https://wals09.github.io/msx/menu_live_rain.json",
             "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white} MUSIC",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:green}Play |{col:msx-white} MUSIC | {col:red}Stop{col}{br}Фоновое музыкальное сопровождение навигации по MSX",
-               "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif"
-            }
-         },
-         "image": "https://i.pinimg.com/originals/64/53/24/645324641a0555cc55cea87787fc0bcb.gif",
-         "action": "audio:https://wals09.github.io/msx/Fragile.mp3",
-         "properties": {
-            "image:extension": "| {col:msx-white}First Item"
          }
       }
    ]
