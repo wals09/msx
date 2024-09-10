@@ -162,7 +162,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}GOLD{col}{br}Динамическая (живая) тема в золотых тонах (не пополняется)",
-               "image": "https://wals09.github.io/msx/tema/gold.png"
+               "image": "https://wals09.github.io/msx/tema/gold_live.jpg"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/gold.png",
@@ -183,7 +183,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}AQUA{col}{br}Динамическая (живая) тема",
-               "image": "https://wals09.github.io/msx/tema/blue.png"
+               "image": "https://wals09.github.io/msx/tema/aqua.jpg"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/blue.png",
@@ -204,7 +204,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}ДОЖДЬ{col}{br}Динамическая (живая) тема",
-               "image": "https://wals09.github.io/msx/tema/black.png"
+               "image": "https://wals09.github.io/msx/tema/rain.jpg"
             }
          },
          "image": "https://wals09.github.io/msx/tema/them_icon/black.png",
