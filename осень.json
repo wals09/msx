@@ -684,7 +684,6 @@
       {
          "selection": {
             "important": true,
-            "background": "https://wals09.github.io/msx/abstrackt/9.png",
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Песни Нашего Времени",
