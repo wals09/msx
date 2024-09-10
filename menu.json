@@ -746,6 +746,7 @@
                "text": "{col:msx-white}СНОВА ОСЕНЬ..... 🍂🍁{col}Владимир Ждамиров , Татьяна Буланова , Жека и др."
             }
          },
+         "playerLabel": "СНОВА ОСЕНЬ..... 🍂🍁",     
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
          "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sZmZ9eOJihc",
          "properties": {
