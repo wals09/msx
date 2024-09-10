@@ -231,9 +231,9 @@
          "image": "https://wals09.github.io/msx/tema/them_icon/black.png",
          "action": "start",
          "data": {
-            "name": "BLACK Old",
+            "name": "ДОЖДЬ",
             "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_live_rain.json",
+            "parameter": "content:https://wals09.github.io/msx/menu_rain.json",
             "welcome": "none"
          }
       }
