@@ -29,7 +29,10 @@
          "titleHeader": "СНОВА ОСЕНЬ..... 🍂🍁Владимир Ждамиров , Татьяна Буланова , Жека и др.",
          "image": "https://i.ytimg.com/vi/sZmZ9eOJihc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKSfzQOkxKtkJ3ELv63tznXjFgcg",
          "playerLabel": "СНОВА ОСЕНЬ..... 🍂🍁",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sZmZ9eOJihc"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=sZmZ9eOJihc",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
       {
          "color": "transparent",
@@ -37,7 +40,10 @@
          "titleHeader": "🚩Михаил Шуфутинский. Лучшие песни",
          "image": "https://i.ytimg.com/vi/elpuaz6fE4U/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtFT_jHrL9BWA4j5DZ-k8BKSgZaA",
          "playerLabel": "🚩Михаил Шуфутинский.",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=elpuaz6fE4U"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=elpuaz6fE4U",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
       {
          "color": "transparent",
@@ -45,7 +51,10 @@
          "titleHeader": "РЕСТОРАННЫЕ ХИТЫ 🎤😍🎶🌟 Ирина Круг, Г. Лепс, С. Заявьялов,. Жека, гр. Воровайки - Подпеваем вместе!",
          "image": "https://i.ytimg.com/vi/ddmHChM55x0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7lIHhN3XQ92xi3sQzRc3Ivrvijg",
          "playerLabel": "РЕСТОРАННЫЕ ХИТЫ 🎤😍🎶🌟",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=ddmHChM55x0"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=ddmHChM55x0",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
       {
          "color": "transparent",
@@ -53,7 +62,10 @@
          "titleHeader": "ПРОШЛА МОЯ ЛЮБОВЬ 💔 Песни о любви",
          "image": "https://i.ytimg.com/vi/DkKC8uB_bq4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3Mfa-jxG7A0gGHFDKpOy6BGpzbA",
          "playerLabel": "ПРОШЛА МОЯ ЛЮБОВЬ 💔",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=DkKC8uB_bq4"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=DkKC8uB_bq4",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
       {
          "color": "transparent",
@@ -61,7 +73,10 @@
          "titleHeader": "ЛЕГЕНДЫ РУССКОГО ШАНСОНА 🔥🔥🔥",
          "image": "https://i.ytimg.com/vi/CkPbGB_LJgw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtb-dCf71xIUeP9pynsBumSqz99w",
          "playerLabel": "ЛЕГЕНДЫ РУССКОГО ШАНСОНА 🔥🔥🔥",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=CkPbGB_LJgw"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=CkPbGB_LJgw",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       },
       {
          "color": "transparent",
@@ -69,7 +84,10 @@
          "titleHeader": "Игорь ТАЛЬКОВ - Кумиры 90-х Видеоальбом",
          "image": "https://i.ytimg.com/vi/dlIDgTSGoQQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAffNQsh9_BrODzQEprCKM2bQ_BKg",
          "playerLabel": "Игорь ТАЛЬКОВ",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=dlIDgTSGoQQ"
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=dlIDgTSGoQQ",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       }
    ]
 }
