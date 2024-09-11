@@ -161,7 +161,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}GOLD{col}{br}Динамическая (живая) тема в золотых тонах (не пополняется)",
+               "text": "{col:msx-white}GOLD{col}{br}Динамическая (живая) тема в золотых тонах",
                "image": "https://wals09.github.io/msx/tema/gold_live.jpg"
             }
          },
