@@ -52,7 +52,7 @@
                "data": {
                   "name": "GOLD",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/menu-gold_live.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu-gold_live.json",
                   "welcome": "none"
                }
             },
@@ -85,7 +85,7 @@
                "data": {
                   "name": "AQUA",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/menu_aqua.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_aqua.json",
                   "welcome": "none"
                }
             },
@@ -118,7 +118,7 @@
                "data": {
                   "name": "RAIN",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/menu_rain.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_rain.json",
                   "welcome": "none"
                }
             }
@@ -156,7 +156,7 @@
                "data": {
                   "name": "MATERIA",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/materia.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_materia.json",
                   "welcome": "none"
                }
             },
@@ -189,7 +189,7 @@
                "data": {
                   "name": "OCEAN",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/ocean.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_ocean.json",
                   "welcome": "none"
                }
             },
@@ -222,7 +222,7 @@
                "data": {
                   "name": "Atmospheric",
                   "version": "1.0.0",
-                  "parameter": "content:https://wals09.github.io/msx/atmospheric.json",
+                  "parameter": "content:https://wals09.github.io/msx/tema/live_tems/menu_atmospheric.json",
                   "welcome": "none"
                }
             }
