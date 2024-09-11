@@ -152,69 +152,6 @@
             "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
             "welcome": "none"
          }
-      },
-      {
-         "titleHeader": "{col:msx-white}GOLD",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}GOLD{col}{br}Динамическая (живая) тема в золотых тонах",
-               "image": "https://wals09.github.io/msx/tema/gold_live.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/gold.png",
-         "action": "start",
-         "data": {
-            "name": "GOLD",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu-gold_live.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}AQUA",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}AQUA{col}{br}Динамическая (живая) тема",
-               "image": "https://wals09.github.io/msx/tema/aqua.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/blue.png",
-         "action": "start",
-         "data": {
-            "name": "AQUA",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_aqua.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}ДОЖДЬ",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ДОЖДЬ{col}{br}Динамическая (живая) тема",
-               "image": "https://wals09.github.io/msx/tema/rain.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/black.png",
-         "action": "start",
-         "data": {
-            "name": "ДОЖДЬ",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_rain.json",
-            "welcome": "none"
-         }
       }
    ]
 }
