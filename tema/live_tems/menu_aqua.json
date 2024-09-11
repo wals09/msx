@@ -46,7 +46,7 @@
                "text": " {col:msx-white}Выбор темы оформления WALS_MSX"
             }
          },
-         "action": "content:https://wals09.github.io/msx/setting_emo.json",
+        "action": "panel:https://wals09.github.io/msx/tema/panel_tems.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
