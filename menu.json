@@ -709,21 +709,7 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "STREMIO",
-               "text": "{col:msx-white}Stremio - это современный медиацентр, который дает вам свободу смотреть все, что вы хотите."
-            }
-         },
-         "image": "https://www.stremio.com/website/stremio-logo-small.png",
-         "action": "link:https://web.stremio.com/",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
+
       {
          "color": "msx-glass",
          "text": "Альтернативные MSX магазины | лаунчеры",
