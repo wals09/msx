@@ -687,8 +687,8 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Песни Нашего Времени",
-               "text": "Видеоподборки yotube-канала «Песни Нашего Времени»"
+               "headline": "Видеоподборки yotube-канала «Песни Нашего Времени»"
+            
             }
          },
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
