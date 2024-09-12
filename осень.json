@@ -713,7 +713,7 @@
       },
       {
          "color": "msx-glass",
-         "text": "Альтернативные MSX магазины{br}лаунчеры",
+         "text": "Альтернативные MSX магазины | лаунчеры",
          "offset": "0,-0.15,2,0",
          "selection": {
             "important": true,
