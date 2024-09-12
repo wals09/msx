@@ -704,8 +704,8 @@
       },
       {
          "color": "msx-glass",
-         "text": "Альтернативные MSX магазины{br}лаунчеры",
-         "offset": "0,-0.15,3,0",
+         "text": "Альтернативные MSX магазины | лаунчеры",
+         "offset": "0,-0.15,2,0",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
