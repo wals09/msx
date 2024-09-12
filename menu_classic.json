@@ -289,6 +289,21 @@
             "image:extension": "| {col:msx-white}Ninth Item"
          }
       },
+                 {
+         "title": "TVOЁ",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Платный онлайн кинотеатр.(⚠️ТЕСТ⚠️)"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://tv-old.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
       {
          "title": "MOVIELAB",
          "selection": {
@@ -666,27 +681,13 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-            {
-         "title": "TVOЁ",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Платный онлайн кинотеатр.(⚠️ТЕСТ⚠️)"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/tvoe.png",
-         "action": "link:https://tv-old.tvoe.live",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
+ 
       {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Видеоподборки yotube-канала «Песни Нашего Времени»",
+               "headline": "Видеоподборки yotube-канала «Песни Нашего Времени»"
  
             }
          },
