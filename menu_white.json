@@ -688,22 +688,22 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-      {
+   {
          "selection": {
+            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Песни Нашего Времени",
-               "text": "Видеоподборки yotube-канала «Песни Нашего Времени»"
+               "text": "Видеоподборки yotube-каналов"
             }
          },
-         "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
+         "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
          "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
- 
       {
          "color": "msx-glass",
          "text": "Альтернативные MSX магазины лаунчеры",
