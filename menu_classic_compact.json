@@ -697,7 +697,7 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-                  {
+      { "title": "NAFTALIN_ка",
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
