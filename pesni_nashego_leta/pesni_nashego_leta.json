@@ -40,7 +40,7 @@
          "titleHeader": "Памяти Юрия Шатунова. Лучшие песни",
          "image": "https://yt3.googleusercontent.com/sYv-HusjbUWz4p7hP-k7jQGWRD9QJTmsWDNOwQgfFWQpv0ihi8yPmkNR59MF6vZTfnzuuSc_8A=s160-c-k-c0x00ffffff-no-rj",
          "playerLabel": "Памяти Юрия Шатунова",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=c8HrkXlluP4",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=MIMz8Zp0Gr0",
          "properties": {
             "trigger:back": "player:stop"
          }
