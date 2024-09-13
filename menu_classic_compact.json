@@ -688,7 +688,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Песни Нашего Времени",
+               "headline": "Песни Нашего Времени"
             }
          },
          "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
