@@ -294,6 +294,21 @@
             "image:extension": "| {col:msx-white}Ninth Item"
          }
       },
+            {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TVOЁ",
+               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:msx-white}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://tv-old.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
       {
          "selection": {
             "important": true,
@@ -674,29 +689,15 @@
       },
       {
          "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TVOЁ",
-               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:msx-white}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/tvoe.png",
-         "action": "link:https://tv-old.tvoe.live",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
-      {
-         "selection": {
+            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Песни Нашего Времени",
-               "text": "{col:msx-white}Видеоподборки yotube-канала «Песни Нашего Времени»"
+               "text": "Видеоподборки yotube-каналов"
             }
          },
-         "image": "https://yt3.googleusercontent.com/ytc/AIdro_m089KDtxfLfVdca5pR3pCkUHpQvGfq51PiVj0R0bOaIQ=s160-c-k-c0x00ffffff-no-rj",
+         "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
          "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
