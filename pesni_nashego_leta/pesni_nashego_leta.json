@@ -73,7 +73,7 @@
          "titleHeader": "Александр Розенбаум и «Старая армия» – концерт «Накрышник»",
          "image": "https://yt3.googleusercontent.com/NFFzCaAK787crjNX8BCa3QyXGgoyn1WVA61ykG13RhoO7ZkO0oBeLFE2dqQxxtqkqjTVbaLj4A=s160-c-k-c0x00ffffff-no-rj",
          "playerLabel": "Александр Розенбаум и «Старая армия»",
-         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=VHRx2puAWMQ",
+         "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=_ZMEEDUM96Q",
          "properties": {
             "trigger:back": "player:stop"
          }
