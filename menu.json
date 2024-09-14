@@ -743,6 +743,23 @@
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}26th Item"
          }
+      },
+      {
+         "color": "transparent",
+         "offset": "-5,3.5,0,0",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "АVTORADIO",
+               "text": "В разработке"
+            }
+         },
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/avtoradio1.json",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}26th Item"
+         }
       }
    ]
 }
