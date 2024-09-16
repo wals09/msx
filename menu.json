@@ -199,6 +199,21 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "Lampa.land",
+               "text": "{col:msx-white}Настроенная Лампа{br}{col:yellow} {br}Опубликованно только для ознакомления с программой!!!"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "action": "link:http://lampa.land/",
+         "properties": {
+            "image:extension": "| {col:msx-white}27th Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "Lampa UnCensored",
                "text": "{col:msx-white}Мод программы Лампа{br}c установленым магазином плагинов и другими «плюшками»"
             }
