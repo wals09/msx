@@ -697,17 +697,18 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-      {"title": "NAFTALIN_ка",
+      {
+         "title": "Дискотекa 80-х",
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "NAFTALIN_ка 🎙️ Музыкальные видеоподборки"
+               "headline": "«Дискотекa 80-х» Yotube-каналa Avtoradio @Disco80s"
             }
          },
-         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrlHKQUJ-JczN-iv9c4igi7haiXTUAg-3Z1dXGd-tuPFCuZWWLJvmssm29xu5A_tUgkNk&usqp=CAU",
-         "action": "panel:https://wals09.github.io/msx/naftalinka/naftalinka.json",
+         "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json",
          "properties": {
             "image:extension": "| {col:msx-white}17th Item"
          }
