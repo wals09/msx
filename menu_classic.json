@@ -350,7 +350,7 @@
          }
       },
       {
-         "title": "КИНОПОИСК",
+         "title": "КИНОПОИСК {col:yellow}(WebOS){col}",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
