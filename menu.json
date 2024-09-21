@@ -14,7 +14,7 @@
             "offset": "-1.25,-0.6,2,1.17",
             "color": "msx-black-soft"
          },
-                  {
+         {
             "type": "space",
             "round": false,
             "layout": "0,0,12,1",
@@ -330,7 +330,7 @@
             "image:extension": "| {col:msx-white}Eleventh Item"
          }
       },
-            {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -351,7 +351,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "КИНОПОИСК {col:yellow}(WebOS){col}",
-               "text": "{col:yellow}Только WebOS{col} {col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
+               "text": " {col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
             }
          },
          "image": "https://wals09.github.io/msx/logon/kinopoisk.png",
@@ -360,7 +360,6 @@
             "image:extension": "| {col:msx-white}Twelfth Item"
          }
       },
-
       {
          "selection": {
             "important": true,
@@ -407,7 +406,7 @@
             "image:extension": "| {col:msx-white}22nd Item"
          }
       },
-            {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -496,7 +495,7 @@
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
-      },      
+      },
       {
          "selection": {
             "important": true,
@@ -694,7 +693,7 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-     {
+      {
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
@@ -710,7 +709,7 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-  {
+      {
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
@@ -727,9 +726,25 @@
          }
       },
       {
-         "color": "msx-glass",
-         "text": "Альтернативные MSX магазины | лаунчеры",
-         "offset": "0,2.5,2,0",
+         "color": "transparent",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "BEST of MIX",
+               "text": "YouTUBE radio"
+            }
+         },
+         "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/best_mix.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
+      {
+         "color": "msx-blue",
+         "text": "{col:white}Альтернативные магазины лаунчеры",
+         "offset": "0,2.5,1.2,0.2",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -740,25 +755,7 @@
          },
          "action": "panel:https://wals09.github.io/msx/alterstore/template.json",
          "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
-         }
-      },
-      {
-         "color": "transparent",
-         "offset": "-5,3.5,0,0",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "АVTORADIO",
-               "text": "В разработке"
-            }
-         },
-         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/avtoradio1.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
+            "trigger:back": "player:stop"
          }
       }
    ]
