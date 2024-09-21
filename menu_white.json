@@ -345,7 +345,7 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "КИНОПОИСК",
+               "headline": "КИНОПОИСК {col:yellow}(WebOS){col}",
                "text": "{col:white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
             }
          },
