@@ -351,7 +351,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "КИНОПОИСК",
-               "text": "{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
+               "text": "{col:yellow}Только WebOS{col}{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату."
             }
          },
          "image": "https://wals09.github.io/msx/logon/kinopoisk.png",
