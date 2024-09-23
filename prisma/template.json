@@ -16,7 +16,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "3,0,6,2",
+            "layout": "3,0,4,2",
             "offset": "0,0.3,0,0",
             "headline": "",
             "text": "{col:white}«Prisma TV {col:red}(ws){col}{col:white}»{col}{br}Мод программы Лампа, альтернативный дизайн, встроенные плагины он-лайн. Для просмотра торрентов необходим торрсервер"
@@ -24,7 +24,7 @@
          {
             "id": "text2",
             "type": "space",
-            "layout": "3,2,6,2",
+            "layout": "3,2,4,2",
             "offset": "0,0.3,0,0",
             "headline": "",
             "text": "{col:white}«Prisma TV {col:red}(kim){col}{col:white}»{col}{br}Зеркало программы {col:white}«Prisma TV» {col} c таким же функционалом"
