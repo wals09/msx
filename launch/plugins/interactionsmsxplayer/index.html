@@ -1,0 +1,27 @@
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>MSX interaction plugin - MSXPlayer Launcher</title><script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLK7MR0BPP"></script><script>window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-ZLK7MR0BPP');</script><script>function putScript(src) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = script.onreadystatechange = function () {
+          console.log('Script load success', src);
+        };
+        script.onerror = function () {
+          console.log('Script loaded error', src);
+        }
+        script.src = src;
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+      
+        putScript('/plugins/polyfills.esm.js?t=' + Date.now());
+        
+        putScript('/plugins/tvx-plugin.esm.js?t=' + Date.now());
+        
+        putScript('/plugins/plugin-manager.esm.js?t=' + Date.now());
+        
+        putScript('/plugins/msxplayer.esm.js?t=' + Date.now());</script></head><body><div id="backdrop-plugin"><div id="backdropGround" class="fullscreen background" style="display: none"></div><div id="backdropContainer1" class="fullscreen" style="display: none"><div class="content-wrapper"><img id="backdropImage1" class="backdrop-image" crossorigin="anonymous" style="display: none"/></div></div><div id="backdropContainer2" class="fullscreen" style="display: none"><div class="content-wrapper"><img id="backdropImage2" class="backdrop-image" crossorigin="anonymous" style="display: none"/></div></div></div><div id="content-wrapper-plugin" class="content-wrapper"><div id="bottom-info-line" class="bottom-info-line"><span id="bottom-info-line-span"></span></div><div id="main" class="main"></div><div id="info" class="msxplayer-info"></div></div></body></html>
