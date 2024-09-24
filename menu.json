@@ -189,7 +189,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/logon/prisma.png",
-          "action": "panel: https://wals09.github.io/msx/prisma/template.json",
+         "action": "panel: https://wals09.github.io/msx/prisma/template.json",
          "properties": {
             "image:extension": "| {col:msx-white}27th Item"
          }
@@ -298,6 +298,21 @@
          "action": "menu:request:interaction:init@http://moovies.uz/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}Ninth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TVOЁ",
+               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:yellow}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://tv-old.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
          }
       },
       {
@@ -676,21 +691,6 @@
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TVOЁ",
-               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:yellow}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/tvoe.png",
-         "action": "link:https://tv-old.tvoe.live",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
          }
       },
       {
