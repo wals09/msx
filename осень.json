@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "WALS_MSX 2.4",
+   "headline": "WALS_MSX 2.5",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "background": "https://github.com/wals09/msx/blob/main/tema/bg_осень.jpg?raw=true",
@@ -10,10 +10,17 @@
    "underlay": {
       "items": [
          {
+            "type": "space",
+            "round": false,
+            "layout": "0,0,12,1",
+            "offset": "-1,0,2,-0.8",
+            "color": "red"
+         },
+         {
             "id": "text",
             "type": "space",
             "layout": "0,0,12,1",
-            "offset": "0,0,0,1",
+            "offset": "0,0.3,0,1",
             "headline": "",
             "text": ""
          }
@@ -286,6 +293,21 @@
          "action": "menu:request:interaction:init@http://moovies.uz/index.html",
          "properties": {
             "image:extension": "| {col:msx-white}Ninth Item"
+         }
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "TVOЁ",
+               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:brown}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/tvoe.png",
+         "action": "link:https://tv-old.tvoe.live",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
          }
       },
       {
@@ -668,21 +690,6 @@
       },
       {
          "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "TVOЁ",
-               "text": "{col:msx-white}Платный онлайн кинотеатр. Требуется регистрация. Есть пробный период. {br}{col:brown}Приложение на этапе разработки и может работать нестабильно или с ошибками. Опубликовано для ознакомления с программой"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/tvoe.png",
-         "action": "link:https://tv-old.tvoe.live",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
-   {
-         "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
             "action": "update:content:underlay:text",
@@ -697,7 +704,7 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
-     {
+      {
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
@@ -714,21 +721,36 @@
          }
       },
       {
-         "color": "msx-glass",
-         "text": "Альтернативные MSX магазины | лаунчеры",
-         "offset": "0,-0.15,2,0",
+         "color": "transparent",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "BEST of MIX",
+               "text": "YouTUBE radio"
+            }
+         },
+         "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/best_mix.json",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
+      },
+      {
+         "color": "msx-blue",
+         "text": "{col:white}Альтернативные магазины лаунчеры",
+         "offset": "0,-0.15,1.2,0.2",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
                "headline": "AlterSTORE",
-               "text": "  {col:msx-white}Альтернативные MSX магазины|лаунчеры"
+               "text": "  {col:msx-white}Альтернативные MSX магазины лаунчеры"
             }
          },
          "action": "panel:https://wals09.github.io/msx/alterstore/template.json",
          "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}26th Item"
+            "trigger:back": "player:stop"
          }
       }
    ]
