@@ -713,6 +713,22 @@
             "image:extension": "| {col:msx-white}17th Item"
          }
       },
+         {
+         "title": "BEST of MIX",
+         "selection": {
+            "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "YouTUBE radio"
+            }
+         },
+         "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/best_mix.json",
+         "properties": {
+            "image:extension": "| {col:msx-white}17th Item"
+         }
+      },
       {
          "title": "AlterSTORE",
          "color": "msx-glass",
