@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://tv.vk.com" version="1.3.12" viewmodes="maximized">
+  <access origin="*" subdomains="true"/>
+  <content src="index.html"/>
+  <author href="https://vk.com" email="v.zaytsev@corp.vk.com">VK</author>
+  <name xml:lang="ru-ru">VK Видео</name>
+  <description xml:lang="ru-ru">VK Видео</description>
+  <tizen:application id="KVUrL2ikom.vktv" package="KVUrL2ikom" required_version="2.3"/>
+  <icon src="icon.png"/>
+  <feature name="http://tizen.org/feature/screen.size.all"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/screen/orientation" value="all"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
+  <tizen:profile name="tv"/>
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/avplay"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/productinfo"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/drmplay"/>
+  <tizen:privilege name="http://tizen.org/feature/network.ethernet"/>
+  <tizen:privilege name="http://tizen.org/feature/network.wifi"/>
+  <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+  <tizen:privilege name="http://tizen.org/privilege/download"/>
+  <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+  <tizen:privilege name="http://tizen.org/privilege/notification"/>
+  <tizen:privilege name="http://tizen.org/privilege/system"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.audio"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.display"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.window"/>
+</widget>
