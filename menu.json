@@ -757,6 +757,22 @@
          "properties": {
             "trigger:back": "player:stop"
          }
+      },
+      {
+         "color": "red",
+         "offset": "-10,0.9,0,0.2",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "VK video",
+               "text": "tizen only (test)"
+            }
+         },
+         "action": "link:https://wals09.github.io/msx/VK_tizen/index.html",
+         "properties": {
+            "trigger:back": "player:stop"
+         }
       }
    ]
 }
