@@ -38,16 +38,6 @@
       {
          "label": "Выбрать динамическую тему интерфейса",
          "action": "content:https://wals09.github.io/msx/setting_live.json"
-      },
-      {
-         "label": "Gif тема «КОШКА 🐈‍⬛»",
-         "action": "start",
-         "data": {
-            "name": "BASIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/tema/cat/cat.json",
-            "welcome": "none"
-         }
       }
    ]
 }
