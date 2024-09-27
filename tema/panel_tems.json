@@ -41,7 +41,13 @@
       },
       {
          "label": "Gif тема «КОШКА 🐈‍⬛»",
-         "action": "content:https://wals09.github.io/msx/tema/cat/cat.json"
+         "action": "start",
+         "data": {
+            "name": "BASIC",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/tema/cat/cat.json",
+            "welcome": "none"
+         }
       }
    ]
 }
