@@ -31,7 +31,7 @@
       "offset": "0,3,0,0",
       "trigger:back": "player:stop",
       "imageWidth": 0.83,
- "color": "transparent",
+      "color": "transparent",
       "imageFiller": "cover"
    },
    "items": [
@@ -49,6 +49,25 @@
          "playerLabel": "Eurosport 1 ",
          "image": "http://epg.it999.ru/img/3734.png",
          "action": "video: http://stream01.vnet.am/Eurosport/tracks-v1a2/mono.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}Eurosport 2 ",
+         "selection": {
+            "important": true,
+            "background": "https://www.bhmpics.com/wallpapers/basketball_throw-2048x1152.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Eurosport 2",
+               "text": "{col:msx-white}{col}{br}Футбол, теннис, биатлон, зимние виды, велоспорт, снукер и другие новости спорта"
+            }
+         },
+         "playerLabel": "Eurosport 2 ",
+         "image": "http://epg.it999.ru/img/3735.png",
+         "action": "video: http://103.97.89.234/eurosport2/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -168,7 +187,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-            {
+      {
          "titleHeader": "{col:msx-white}Телеканал Футбол",
          "selection": {
             "important": true,
@@ -239,45 +258,6 @@
          "playerLabel": "KHL Prime",
          "image": "http://epg.it999.ru/img/1038.png",
          "action": "video: http://103.97.89.234/khlhd/index.m3u8",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-
-      {
-         "titleHeader": "{col:msx-white}Беларусь 5",
-         "selection": {
-            "important": true,
-            "background": "https://disk.mediaindonesia.com/thumbs/1800x1200/news/2020/10/8b3ba774f0d98771923dcd38ef36bb9f.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Беларусь 5 HD",
-               "text": "{col:msx-white}{col}{br}«Беларусь 5» — белорусский спортивный телеканал. "
-            }
-         },
-         "playerLabel": "Беларусь 5 HD",
-         "image": "http://epg.it999.ru/img/2541.png",
-         "action": "video: https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_w278966610_b1460000_sleng.m3u8",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "offset": "0,3,-2,-0.09",
-         "color": "transparent",
-         "selection": {
-            "important": true,
-            "background": "https://picsum.photos/seed/msx_24764bb8_item12/1920/1080#msx-keep-ratio",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Главное меню",
-               "text": "{col:msx-white}{col}{br}Вернуться в главное меню к выбору программ"
-            }
-         },
-         "icon": "grey:auto-awesome-motion",
-         "action": "content: https://wals09.github.io/msx/menu.json",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
