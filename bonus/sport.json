@@ -124,7 +124,7 @@
          },
          "playerLabel": "VIJU+sport",
          "image": "http://epg.it999.ru/img/2055.png",
-         "action": "video: http://hls127.homeiptv.org:8880/MATCH_TV/video.m3u8",
+         "action": "video: https://stream1.cinerama.uz/1229/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
