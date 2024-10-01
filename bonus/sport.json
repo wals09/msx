@@ -67,7 +67,7 @@
          },
          "playerLabel": "Setanta sports 1",
          "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
-         "action": "video: https://stream1.cinerama.uz/1263/tracks-v1a1/mono.m3u8",
+         "action": "video: rtmp://92.119.88.58//271",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
