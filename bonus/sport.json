@@ -238,7 +238,7 @@
          },
          "playerLabel": "KHL Prime",
          "image": "http://epg.it999.ru/img/1038.png",
-         "action": "video: http://sc.id-tv.kz/FHD_KHL_34_35.m3u8",
+         "action": "video: http://103.97.89.234/khlhd/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
