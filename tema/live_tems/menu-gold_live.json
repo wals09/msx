@@ -593,11 +593,11 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "VK Video",
-               "text": "{col:msx-white}Только WebOS{col}{br} {col:msx-white}шоу любимых блогеров, свежие фильмы и сериалы, любимые телеканалы, прямые эфиры, мультфильмы для детей, спортивные трансляции, музыкальные новинки и многое другое "
+               "text": "Шоу любимых блогеров, свежие фильмы и сериалы, любимые телеканалы, прямые эфиры, мультфильмы для детей, спортивные трансляции, музыкальные новинки и многое другое "
             }
          },
          "image": "https://wals09.github.io/msx/logon/vk.png",
-         "action": "link:https://vk.ru/tv-app/lib?version=1.3.13&platform=webos",
+         "action": "panel:https://wals09.github.io/msx/vkvideo/vk_template.json",
          "properties": {
             "image:extension": "| {col:msx-white}15th Item"
          }
