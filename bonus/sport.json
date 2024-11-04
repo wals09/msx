@@ -150,19 +150,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Игра ",
+         "titleHeader": "{col:msx-white}Матч Премьер ",
          "selection": {
             "important": true,
             "background": "https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/d6/52/6e84db27080f9b707dec6d27747a476d5d9faa6d6af4b230113280.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Игра",
+               "headline": "Матч Премьер",
                "text": "{col:msx-white}{col}{br}Игра – телеканал транслирует матчи наиболее рейтинговых и значимых мировых турниров. "
             }
          },
-         "playerLabel": "Игра ",
-         "image": "https://avatars.mds.yandex.net/i?id=cbe79940da1dc4f569effcdbd6d3ca20_sr-5446078-images-thumbs&n=13",
-         "action": "video:http://91.90.255.235:8000/play/a00a/index.m3u8",
+         "playerLabel": "Матч Премьер ",
+         "image": "https://new.matchtv.ru/assets/202402150909/images/logo_square.png",
+         "action": "video:http://s1.merlive.am:80/matchpremier/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -180,8 +180,8 @@
             }
          },
          "playerLabel": "Футбол ",
-         "image": "https://infolink.ru/uploads/ckeditor/pictures/172/content_futbol.jpg",
-         "action": "video: https://strm.yandex.ru/kal/futbol_belarus/futbol_belarus0.m3u8",
+         "image": "https://ongnetplus.ru/upload/information_system_61/4/6/5/item_465/item_465.png",
+         "action": "video: http://s1.merlive.am:80/matchfutbol1/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -245,19 +245,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}KHL Prime",
+         "titleHeader": "{col:msx-white}KHL",
          "selection": {
             "important": true,
             "background": "https://kartinki.pics/uploads/posts/2021-07/1625678246_7-kartinkin-com-p-khokkei-oboi-krasivie-7.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "KHL Prime",
+               "headline": "KHL",
                "text": "{col:msx-white}{col}{br}топ-матчи между лучшими клубами Лиги, предматчевые и послематчевые студии, мнения экспертов, нарезки лучших голов, сэйвов, силовых приёмов и многое другое. "
             }
          },
-         "playerLabel": "KHL Prime",
-         "image": "http://epg.it999.ru/img/1038.png",
-         "action": "video: http://103.97.89.234/khlhd/index.m3u8",
+         "playerLabel": "KHL",
+         "image": "https://logodix.com/logo/1762929.png",
+         "action": "video: http://82.215.111.227/1028/index.m3u8?token=fas-tv.com",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
