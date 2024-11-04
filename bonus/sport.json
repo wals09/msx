@@ -143,7 +143,7 @@
             }
          },
          "playerLabel": "Матч Премьер ",
-         "image": "https://new.matchtv.ru/assets/202402150909/images/logo_square.png",
+         "image": "https://luganet.ru/wp-content/uploads/2020/01/Матч-Премьер-HD.png",
          "action": "video:http://s1.merlive.am:80/matchpremier/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
