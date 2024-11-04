@@ -130,25 +130,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-      {
-         "titleHeader": "{col:msx-white}VIJU+sport",
-         "selection": {
-            "important": true,
-            "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "VIJU+sport",
-               "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
-            }
-         },
-         "playerLabel": "VIJU+sport",
-         "image": "http://epg.it999.ru/img/2055.png",
-         "action": "video: http://stream02.vnet.am/AutoPlus/mono.m3u8",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
+    
       {
          "titleHeader": "{col:msx-white}Матч Премьер ",
          "selection": {
@@ -182,6 +164,44 @@
          "playerLabel": "Футбол ",
          "image": "https://i.mycdn.me/image?id=862371109463&t=40&plc=WEB&tkn=*gt572ZLaUDWSkvvKrJzACRP1NYU",
          "action": "video: http://s1.merlive.am:80/matchfutbol1/index.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+            {
+         "titleHeader": "{col:msx-white}Матч Арена",
+         "selection": {
+            "important": true,
+            "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Матч Арена",
+               "text": "{col:msx-white}{col}{br}Новый канал посвящен кулачным поединкам, кикбоксингу, боксу и MMA!"
+            }
+         },
+         "playerLabel": "Матч Арена",
+         "image": "https://luganet.ru/wp-content/uploads/2020/01/МАТЧ-АРЕНА.png",
+         "action": "video: http://77.235.1.17/match_arena/index.m3u8",
+         "properties": {
+            "trigger:back": "player:stop",
+            "image:extension": "| {col:msx-white}Sixth Item"
+         }
+      },
+        {
+         "titleHeader": "{col:msx-white}VIJU+sport",
+         "selection": {
+            "important": true,
+            "background": "https://prostavkinasport.ru/wp-content/uploads/2015/07/FUTBOL.jpg",
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "VIJU+sport",
+               "text": "{col:msx-white}{col}{br}«Viasat Sport» открывает своим зрителям замечательную возможность качественно и своевременно лицезреть новости хоккея, футбола, баскетбола а также все максимально актуальные события спортивного мир"
+            }
+         },
+         "playerLabel": "VIJU+sport",
+         "image": "http://epg.it999.ru/img/2055.png",
+         "action": "video: http://stream02.vnet.am/AutoPlus/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -225,25 +245,7 @@
             "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
-      {
-         "titleHeader": "{col:msx-white}Матч Арена",
-         "selection": {
-            "important": true,
-            "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Боец",
-               "text": "{col:msx-white}{col}{br}Новый канал посвящен кулачным поединкам, кикбоксингу, боксу и MMA!"
-            }
-         },
-         "playerLabel": "Боец",
-         "image": "https://luganet.ru/wp-content/uploads/2020/01/МАТЧ-АРЕНА.png",
-         "action": "video: http://77.235.1.17/match_arena/index.m3u8",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
+
       {
          "titleHeader": "{col:msx-white}KHL",
          "selection": {
