@@ -112,19 +112,19 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white} Extreme TV",
+         "titleHeader": "{col:msx-white}Матч",
          "selection": {
             "important": true,
             "background": "https://4.bp.blogspot.com/-FOlW2qIgxRA/UViSiYgjg3I/AAAAAAAACXw/dkvzUuUv5C8/s1600/Reading+Aloud+Keep+It+Exciting.jpg",
             "action": "update:content:underlay:text",
             "data": {
-               "headline": " Extreme TV",
+               "headline": "Матч",
                "text": "{col:msx-white}{col}{br}Спортивно-развлекательный телеканал — здесь есть все про: экстремальный спорт, путешествия, единоборства, активный образ жизни"
             }
          },
-         "playerLabel": " Extreme TV",
-         "image": "https://sun9-22.userapi.com/c858324/v858324767/21f164/G2kLOpMPTKc.jpg",
-         "action": "video: http://91.90.255.235:8000/play/a008/index.m3u8",
+         "playerLabel": "Матч",
+         "image": "https://telegrator.ru/wp-content/uploads/2019/12/chat_avatar-13.jpg",
+         "action": "video: http://77.235.1.17/match/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -180,7 +180,7 @@
             }
          },
          "playerLabel": "Футбол ",
-         "image": "https://ongnetplus.ru/upload/information_system_61/4/6/5/item_465/item_465.png",
+         "image": "https://i.mycdn.me/image?id=862371109463&t=40&plc=WEB&tkn=*gt572ZLaUDWSkvvKrJzACRP1NYU",
          "action": "video: http://s1.merlive.am:80/matchfutbol1/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
