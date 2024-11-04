@@ -67,7 +67,7 @@
          },
          "playerLabel": "Eurosport 2 ",
          "image": "http://epg.it999.ru/img/3735.png",
-         "action": "video: http://103.97.89.234/eurosport2/index.m3u8",
+         "action": "video: http://77.235.1.17/eurosport_2/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -86,7 +86,7 @@
          },
          "playerLabel": "Setanta sports 1",
          "image": "https://sun9-14.userapi.com/impf/c854328/v854328247/8611d/c1TZRGhRzA8.jpg?size=604x510&quality=96&sign=bd1d51cdc1f148b01e344c806f65952d&type=album",
-         "action": "video: http://103.97.89.234/setanta1/index.m3u8",
+         "action": "video: https://stream1.cinerama.uz/1263/tracks-v1a1/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -143,7 +143,7 @@
          },
          "playerLabel": "VIJU+sport",
          "image": "http://epg.it999.ru/img/2055.png",
-         "action": "video: https://stream1.cinerama.uz/1229/tracks-v1a1/mono.m3u8",
+         "action": "video: http://stream02.vnet.am/AutoPlus/mono.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -226,7 +226,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Боец",
+         "titleHeader": "{col:msx-white}Матч Арена",
          "selection": {
             "important": true,
             "background": "https://static.ngs.ru/news/2021/99/preview/48e70a69634c997fb7f8a5f60162e6c400c64562_2000_1333.jpg",
@@ -237,8 +237,8 @@
             }
          },
          "playerLabel": "Боец",
-         "image": "https://sun1-96.userapi.com/s/v1/if1/N3XU9rBChM3qQHwk7_bVnpwpQmTPxR-T7yKcpVy9HeVJZGCmAR_VgpysB4Emc64XacYv3EbF.jpg?size=720x720&quality=96&crop=0,279,720,720&ava=1",
-         "action": "video: http://91.90.255.235:8000/play/a00f/index.m3u8",
+         "image": "https://luganet.ru/wp-content/uploads/2020/01/МАТЧ-АРЕНА.png",
+         "action": "video: http://77.235.1.17/match_arena/index.m3u8",
          "properties": {
             "trigger:back": "player:stop",
             "image:extension": "| {col:msx-white}Sixth Item"
