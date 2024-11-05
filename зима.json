@@ -34,35 +34,35 @@
             "round": false,
             "layout": "0,0,3,1",
             "offset": "-0.5,-0.3,0.5,-0.3",
-            "image": "https://www.chitalnya.ru/upload3/284/8dff763412db45e1563d568bc39a5d0f.gif"
+            "image": "https://wals09.github.io/msx/zima/gerl.gif"
          },
          {
             "type": "space",
             "round": false,
             "layout": "3,0,3,1",
             "offset": "-0.2,-0.3,0.5,-0.3",
-            "image": "https://www.chitalnya.ru/upload3/284/8dff763412db45e1563d568bc39a5d0f.gif"
+            "image": "https://wals09.github.io/msx/zima/gerl.gif"
          },
          {
             "type": "space",
             "round": false,
             "layout": "6,0,3,1",
             "offset": "0,-0.3,0.5,-0.3",
-            "image": "https://www.chitalnya.ru/upload3/284/8dff763412db45e1563d568bc39a5d0f.gif"
+            "image": "https://wals09.github.io/msx/zima/gerl.gif"
          },
          {
             "type": "space",
             "round": false,
             "layout": "9,0,3,1",
             "offset": "0,-0.3,0.5,-0.3",
-            "image": "https://www.chitalnya.ru/upload3/284/8dff763412db45e1563d568bc39a5d0f.gif"
+            "image": "https://wals09.github.io/msx/zima/gerl.gif"
          },
          {
             "type": "space",
             "round": false,
             "layout": "4,0,4,1",
             "offset": "0,-1,0,0",
-            "image": "https://img-fotki.yandex.ru/get/9359/55182939.154/0_11c155_2c217070_orig.gif"
+            "image": "https://wals09.github.io/msx/zima/sng.gif"
          },
          {
             "id": "text",
