@@ -641,7 +641,7 @@
          }
       },
       {
-         "offset": "0,2.5,11,0",
+         "offset": "0,0,11,0",
          "color": "msx-black-soft",
          "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
          "selection": {
