@@ -43,13 +43,6 @@
          "badgeColor": "msx-green",
          "image": "https://wals09.github.io/msx/logon/vk.png",
          "action": "link:  https://vk.ru/tv-app/lib?version=latest&platform=vidaa"
-      },
-      {
-         "badge": "{col:white}Samsung TIZEN",
-         "badgeColor": "msx-yellow",
-         "title": "⚠️{col:gold}test⚠️",
-         "image": "https://wals09.github.io/msx/logon/vk.png",
-         "action": "link: https://wals09.github.io/msx/VK_tizen/index.html"
       }
    ]
 }
