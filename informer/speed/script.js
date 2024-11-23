@@ -33,6 +33,6 @@ document.querySelector('button').addEventListener('click', (e) => {
         document.querySelector('.loader-content').classList.add('result');
         document.querySelector('.loader').classList.add('hide');
         document.querySelector('.content').classList.remove('hide');
-        e.target.innerText = 'CHECK AGAIN';
+        e.target.innerText = 'ЕЩЕ РАЗ?';
     }
 })
