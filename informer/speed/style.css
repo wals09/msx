@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -19,14 +14,14 @@ body {
     position: relative;
     display: inline-block;
  
-    left: 37%;
+    left: 38%;
     text-align: center;
 
 }
 
 .loader-widget {
     width: 360px;
-    height: 420px;
+    height: 380px;
 }
 
 .loader {
