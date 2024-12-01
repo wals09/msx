@@ -16,13 +16,6 @@
             "color": "red"
          },
          {
-            "type": "space",
-            "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.6,2,1.17",
-            "color": "msx-black-soft"
-         },
-         {
             "id": "text",
             "type": "space",
             "layout": "1,0,6,3",
