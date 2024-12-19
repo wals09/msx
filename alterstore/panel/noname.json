@@ -27,7 +27,7 @@
             "layout": "1,3,6,2",
             "offset": "0,0,0,1",
             "headline": "",
-            "text": "Параметр {col:white}ЗАПУСТИТЬ{col}{br} позволяет ознакомится и пользоваться NoName портал не покидая портал WALS.{br}{br}Параметр {col:white}УСТАНОВИТЬ{col}: {br}выход из портала WALS и замена стартового адреса на {col:red}msx.nnmtv.fun"
+            "text": "Параметр {col:white}ЗАПУСТИТЬ{col}{br} позволяет ознакомится и пользоваться NoName портал не покидая портал WALS.{br}{br}Параметр {col:white}УСТАНОВИТЬ{col}: {br}выход из портала WALS и замена стартового адреса на {col:red}msx.nnmtv.pw"
          }
       ]
    },
@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "content:http://msx.nnmtv.fun/msx/start.json"
+         "action": "content:http://msx.nnmtv.pw/msx/start.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName",
             "version": "1.0.0",
-            "parameter": "content:http://msx.nnmtv.fun/msx/start.json",
+            "parameter": "content:http://msx.nnmtv.pw/msx/start.json",
             "welcome": "none"
          }
       }
