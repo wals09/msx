@@ -22,13 +22,7 @@
             "offset": "-1,0,2,-0.8",
             "color": "red"
          },
-         {
-            "type": "space",
-            "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.6,2,1.17",
-            "color": "msx-black-soft"
-         },
+
          {
             "type": "space",
             "round": false,
@@ -56,13 +50,6 @@
             "layout": "9,0,3,1",
             "offset": "0,-0.3,0.5,-0.3",
             "image": "https://wals09.github.io/msx/zima/gerl.gif"
-         },
-         {
-            "type": "space",
-            "round": false,
-            "layout": "4,0,4,1",
-            "offset": "0,-1,0,0",
-            "image": "https://wals09.github.io/msx/zima/sng.gif"
          },
          {
             "id": "text",
