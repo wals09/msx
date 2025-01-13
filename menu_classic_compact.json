@@ -230,6 +230,18 @@
             "image:extension": "| {col:msx-white}26th Item"
          }
       },
+       {
+          "title": "Lampa lite NoName",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa lite {col:yellow}|{col} NoName"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
+         "action": "link:http://lite.nnmtv.pw/"
+      },
       {
          "title": "VoKINO",
          "selection": {
