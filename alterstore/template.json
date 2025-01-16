@@ -63,12 +63,12 @@
          "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname.json"
       },
       {
-         "badge": "NoName 2 ",
+         "badge": "TV RU",
          "titleHeader": "Portal",
          "type": "button",
          "iconSize": "medium",
          "image": "https://wals09.github.io/msx/logo/noname.jpg",
-         "action": "panel:https://wals09.github.io/msx/alterstore/panel/noname2.json"
+         "action": "panel:https://wals09.github.io/msx/alterstore/panel/tvru.json"
       },
       {
          "badge": "MSX CC UA",
