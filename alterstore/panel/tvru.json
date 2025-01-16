@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/start.json"
+         "action": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/menu.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName 2",
             "version": "1.0.0",
-            "parameter": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/start.json",
+            "parameter": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/menu.json",
             "welcome": "none"
          }
       }
