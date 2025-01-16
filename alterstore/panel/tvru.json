@@ -1,6 +1,6 @@
 {
    "type": "list",
-   "headline": "NoName 2 портал",
+   "headline": "TVRU портал",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
    "captionUnderlay": 1,
@@ -19,7 +19,7 @@
             "layout": "1,0,6,2",
             "offset": "0,0,0,0",
             "headline": "",
-            "text": "{col:white}{br}NoName 2 портал{col}{br}Большой выбор приложений, запускайте которые нравятся без необходимости установки на устройство."
+            "text": "{col:white}{br}TVRU портал{col}{br}Большой выбор приложений, запускайте которые нравятся без необходимости установки на устройство."
          },
          {
             "id": "text2",
@@ -27,7 +27,7 @@
             "layout": "1,3,6,2",
             "offset": "0,0,0,1",
             "headline": "",
-            "text": "Параметр {col:white}ЗАПУСТИТЬ{col}{br} позволяет ознакомится и пользоваться NoName 2 портал не покидая портал WALS.{br}{br}Параметр {col:white}УСТАНОВИТЬ{col}: {br}выход из портала WALS и замена стартового адреса "
+            "text": "Параметр {col:white}ЗАПУСТИТЬ{col}{br} позволяет ознакомится и использовать TVRU портал не покидая портал WALS.{br}{br}Параметр {col:white}УСТАНОВИТЬ{col}: {br}выход из портала WALS и замена стартового адреса "
          }
       ]
    },
@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json"
+         "action": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/start.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName 2",
             "version": "1.0.0",
-            "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
+            "parameter": "content:https://github.com/tvru/tvru.github.io/raw/refs/heads/main/msx/start.json",
             "welcome": "none"
          }
       }
