@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "menu:request:interaction:menu@https://launcher.nnmtv.pw"
+         "action": "menu:request:interaction:menu@http://launcher.nnmtv.pw"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName Launcher",
             "version": "1.0.0",
-            "parameter": "menu:request:interaction:menu@https://launcher.nnmtv.pw",
+            "parameter": "menu:request:interaction:menu@http://launcher.nnmtv.pw",
             "welcome": "none"
          }
       }
