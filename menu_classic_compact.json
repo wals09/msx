@@ -216,16 +216,16 @@
          }
       },
       {
-         "title": "Lampa lite",
+         "title": "Lampa-UspehTV",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Облегченная версия программы Lampa"
+               "headline": "Мод программы Lampa"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
-         "action": "link:http://lite.lampa.mx",
+         "image": "https://wals09.github.io/msx/logon/uspeh.png",
+         "action": "link:http://uspeh.sbs",
          "properties": {
             "image:extension": "| {col:msx-white}26th Item"
          }
