@@ -109,12 +109,6 @@
          "action": "link:http://lampa.land"
       },
       {
-         "description": "{col:white}Akter Black{col}{br} со встроенным плагином для просмотра видео контента on-line (нужна активация). Есть платные опции.",
-         "backdrop": "https://i.ytimg.com/vi/O8Md2orweNg/maxresdefault.jpg",
-         "image": "https://wals09.github.io/msx/logon/akter_black.png",
-         "action": "link:http://abvidaa.ru/"
-      },
-      {
          "titleHeader": "",
          "description": "{col:white}MOOVIES{col}{br}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций",
          "backdrop": "https://i.ytimg.com/vi/RKGHPjtwu9o/maxresdefault.jpg",
