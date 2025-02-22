@@ -10,27 +10,27 @@
       {
          "icon": "menu",
          "label": "Все приложения",
-         "data": "http://192.168.0.216:8080/msx/all.json"
+         "data": "https://wals09.github.io/msx/mooviestile/all.json"
       },
       {
          "icon": "live-tv",
          "label": "IPTV приложения",
-         "data": "http://192.168.0.216:8080/msx/iptv.json"
+         "data": "https://wals09.github.io/msx/mooviestile/iptv.json"
       },
       {
          "icon": "movie",
          "label": "Бесплатное кино",
-         "data": "http://192.168.0.216:8080/msx/free_kino.json"
+         "data": "https://wals09.github.io/msx/mooviestile/free_kino.json"
       },
       {
          "icon": "movie-filter",
          "label": "Всё кино",
-         "data": "http://192.168.0.216:8080/msx/full_kino.json"
+         "data": "https://wals09.github.io/msx/mooviestile/full_kino.json"
       },
       {
          "icon": "devices-other",
          "label": "Другие медиплатформы",
-         "data": "http://192.168.0.216:8080/msx/social.json"
+         "data": "https://wals09.github.io/msx/mooviestile/social.json"
       },
       {
          "type": "separator"
@@ -38,7 +38,7 @@
       {
          "icon": "dvr",
          "label": "Альтернативные стартовые параметры",
-         "data": "http://192.168.0.216:8080/msx/store.json"
+         "data": "https://wals09.github.io/msx/mooviestile/store.json"
       },
       {
          "type": "separator"
