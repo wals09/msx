@@ -1,0 +1,58 @@
+{
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "logo": "https://wals09.github.io/msx/logo/mss.png",
+   "headline": "",
+   "menu": [
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "menu",
+         "label": "Все приложения",
+         "data": "http://192.168.0.216:8080/msx/all.json"
+      },
+      {
+         "icon": "live-tv",
+         "label": "IPTV приложения",
+         "data": "http://192.168.0.216:8080/msx/iptv.json"
+      },
+      {
+         "icon": "movie",
+         "label": "Бесплатное кино",
+         "data": "http://192.168.0.216:8080/msx/free_kino.json"
+      },
+      {
+         "icon": "movie-filter",
+         "label": "Всё кино",
+         "data": "http://192.168.0.216:8080/msx/full_kino.json"
+      },
+      {
+         "icon": "devices-other",
+         "label": "Другие медиплатформы",
+         "data": "http://192.168.0.216:8080/msx/social.json"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "dvr",
+         "label": "Альтернативные стартовые параметры",
+         "data": "http://192.168.0.216:8080/msx/store.json"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "icon": "wallpaper",
+         "label": "Тема",
+         "data": "https://wals09.github.io/msx/tema/panel_tems.json"
+      },
+      {
+         "type": "separator"
+      },
+      {
+         "type": "settings"
+      }
+   ]
+}

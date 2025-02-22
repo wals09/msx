@@ -1,0 +1,6 @@
+{
+    "name": "My Example Content",
+    "version": "1.0.0",
+    "dictionary": "https://wals09.github.io/msx/dictionary.json",
+    "parameter": "menu:http://{SERVER}/msx/menu.json"
+}
