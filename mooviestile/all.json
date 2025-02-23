@@ -189,6 +189,22 @@
          "image": "https://wals09.github.io/msx/logon/uspeh2.png",
          "action": "link:http://uspeh.sbs"
       },
+
+ {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "LAMPA NoName",
+               "text": "Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "action": "link: http://lampa.nnmtv.pw/"
+      },
+
+
+      
       {
          "selection": {
             "important": true,
