@@ -615,6 +615,19 @@
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
          "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
       },
+      {
+         "selection": {
+            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "",
+               "text": ""
+            }
+         },
+         "image": "",
+         "action": ""
+      },
 
       {
          "offset": "0,2.5,11,0",
