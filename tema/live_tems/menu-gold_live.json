@@ -225,11 +225,11 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Lampa NoName",
-               "text": "Настроенная программа Lampa lite «готовая к употреблению». Благодарим уважаемого Noname"
+               "text": "Настроенная для просмотра контента онлайн программа Lampa. Благодарим уважаемого Noname"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
-         "action": "link:http://lite.nnmtv.pw/"
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "action": "link: http://lampa.nnmtv.pw/"
       },
       {
          "selection": {
@@ -237,7 +237,7 @@
             "action": "update:content:underlay:text",
             "data": {
                "headline": "Lampa lite {col:yellow}|{col} NoName",
-               "text": "Настроенная для просмотра контента онлайн Lampa. Благодарим уважаемого Noname"
+               "text": "Настроенная программа Lampa lite «готовая к употреблению». Благодарим уважаемого Noname"
             }
          },
          "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
