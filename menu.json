@@ -635,22 +635,7 @@
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
          "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
       },
-      {
-         "color": "transparent",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "BEST of MIX",
-               "text": "YouTUBE radio"
-            }
-         },
-         "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
-         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/best_mix.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
-      },
+
       {
          "offset": "0,2.5,11,0",
          "color": "msx-black-soft",
