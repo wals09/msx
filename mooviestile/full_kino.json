@@ -159,6 +159,18 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
+               "headline": "LAMPA NoName",
+               "text": "Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "action": "link: http://lampa.nnmtv.pw/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
                "headline": "Lampa lite {col:yellow}|{col} NoName",
                "text": "Настроенная программа Lampa lite «готовая к употреблению». Благодарим уважаемого Noname"
             }
