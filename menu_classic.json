@@ -229,6 +229,22 @@
             "image:extension": "| {col:msx-white}26th Item"
          }
       },
+
+      {
+          "title": "Lampa NoName",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa NoName"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "action": "link: http://lampa.nnmtv.pw/"
+      },
+
+
+      
    {
           "title": "Lampa lite NoName",
          "selection": {
