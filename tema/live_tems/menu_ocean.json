@@ -637,22 +637,6 @@
          "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
       },
       {
-         "color": "transparent",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "BEST of MIX",
-               "text": "YouTUBE radio"
-            }
-         },
-         "image": "https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/bm.jpg",
-         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/best_of_mix/best_mix.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
-      },
-      {
          "offset": "0,0,11,0",
          "color": "msx-black-soft",
          "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
