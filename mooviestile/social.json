@@ -151,6 +151,18 @@
          },
          "image": "https://wals09.github.io/msx/logon/ytkids.png",
          "action": "link:https://www.youtube.com/tv/kids"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Дискотека 80-х",
+               "text": "Интернет-трансляции, ТВ-версии выступления звёзд на «Дискотеке 80-х» Yotube-каналa Avtoradio @Disco80s"
+            }
+         },
+         "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
+         "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
       }
    ]
 }
