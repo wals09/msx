@@ -70,6 +70,48 @@
          }
       },
       {
+         "titleHeader": "{col:msx-white}CLASSIC",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}CLASSIC{col}{br}Классическая оболочка MSX",
+               "image": "https://wals09.github.io/msx/tema/classic.jpg"
+            }
+         },
+         "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
+         "action": "start",
+         "data": {
+            "name": "CLASSIC",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
+            "welcome": "none"
+         }
+      },
+      {
+         "titleHeader": "{col:msx-white}CLASSIC compact",
+         "color": "transparent",
+         "focus": true,
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}CLASSIC compact{col}{br}Классическая оболочка MSX, компактный вид",
+               "image": "https://wals09.github.io/msx/tema/classic_compact.jpg"
+            }
+         },
+         "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
+         "action": "start",
+         "data": {
+            "name": "CLASSIC",
+            "version": "1.0.0",
+            "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
+            "welcome": "none"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}ТЕМА «ЗИМА»",
          "color": "transparent",
          "focus": true,
@@ -129,48 +171,6 @@
             "name": "BASIC Lite",
             "version": "1.0.0",
             "parameter": "content:https://wals09.github.io/msx/осень.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC{col}{br}Классическая оболочка MSX",
-               "image": "https://wals09.github.io/msx/tema/classic.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/classic.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic.json",
-            "welcome": "none"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}CLASSIC compact",
-         "color": "transparent",
-         "focus": true,
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}CLASSIC compact{col}{br}Классическая оболочка MSX, компактный вид",
-               "image": "https://wals09.github.io/msx/tema/classic_compact.jpg"
-            }
-         },
-         "image": "https://wals09.github.io/msx/tema/them_icon/classic_compact.png",
-         "action": "start",
-         "data": {
-            "name": "CLASSIC",
-            "version": "1.0.0",
-            "parameter": "content:https://wals09.github.io/msx/menu_classic_compact.json",
             "welcome": "none"
          }
       }
