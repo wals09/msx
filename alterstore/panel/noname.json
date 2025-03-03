@@ -43,7 +43,7 @@
       {
          "type": "button",
          "label": "Запустить",
-         "action": "content:http://msx.nnmtv.pw/msx/start.json"
+         "action": "content:http://msx.nnmtv.pw/msx/menu.json"
       },
       {
          "type": "button",
@@ -52,7 +52,7 @@
          "data": {
             "name": "NoName",
             "version": "1.0.0",
-            "parameter": "content:http://msx.nnmtv.pw/msx/start.json",
+            "parameter": "content:http://msx.nnmtv.pw/msx/menu.json",
             "welcome": "none"
          }
       }
