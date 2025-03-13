@@ -217,6 +217,18 @@
          "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
          "action": "link:http://lite.nnmtv.pw/"
       },
+       {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "NetFix",
+               "text": "NetFix — это стриминговый сервис (еще один мод программы Lampa), позволяющий смотреть фильмы, сериалы и многое другое на разных устройствах с подключением к интернету. Приложение еще на стадии доработки, бесплатное тестирование!"
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/netfix.png",
+         "action": "link:http://netfix.cc/"
+      },
       {
          "selection": {
             "important": true,
