@@ -83,10 +83,10 @@
       },
       {
          "titleHeader": "",
-         "description": "{col:white}Lampa.app{col}{br}Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина. {br}Могут быть региональные ограничения доступа!!!",
+         "description": "{col:white}Lampa by Skaz{col}{br}Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина. {br}Могут быть региональные ограничения доступа!!!",
          "backdrop": "https://img3.akspic.ru/attachments/crops/5/1/3/4/3/134315/134315-dzhonni_depp-art-illustracia-iskusstvo-film-1920x1080.jpg",
          "image": "https://wals09.github.io/msx/logon/lampa.png",
-         "action": "link:http://lampa.app/"
+         "action": "link:http://lampa.byskaz.ru/"
       },
       {
          "titleHeader": "",
