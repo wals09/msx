@@ -147,18 +147,6 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa-UspehTV",
-               "text": "Мод программы Lampa бесплатными каналами IPTV и плагинами для просмотра медиаконтента онлайн. {br}Для просмотра необходимо ввести токен. Токен можно получить через бота в телеграмм {col:msx-blue}https://t.me/UspehTVBot"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/uspeh2.png",
-         "action": "link:http://uspeh.sbs"
-      },
-      {
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
                "headline": "LAMPA NoName",
                "text": "Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname."
             }
@@ -177,6 +165,30 @@
          },
          "image": "https://wals09.github.io/msx/logon/lampa.png",
          "action": "link:http://lampa.byskaz.ru/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Lampa by Skaz",
+               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
+            }
+         },
+         "image": "https://wals09.github.io/msx/logon/lampa.png",
+         "action": "link:http://lampa.byskaz.ru/"
+      },
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "NetFix",
+               "text": "NetFix - приложение (на базе программы Lampa) для просмотра фильмов и сериалов онлайн! Не требуется никаких насроек. Запустил и смотри. Просмотр торрентов не предусмотрен.{br}ВАЖНО: Нужна регистрация! Нужна оплаченная подписка!"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=true",
+         "action": "link:http://netfix.cc"
       },
       {
          "selection": {
