@@ -217,7 +217,18 @@
          "image": "https://wals09.github.io/msx/logon/lampa.png",
          "action": "link:http://lampa.byskaz.ru"
       },
-
+      {
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "NetFix",
+               "text": "NetFix - приложение (на базе программы Lampa) для просмотра фильмов и сериалов онлайн! Не требуется никаких насроек. Запустил и смотри. Просмотр торрентов не предусмотрен.{br}ВАЖНО: Нужна регистрация! Нужна оплаченная подписка!"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=true",
+         "action": "link:http://netfix.cc"
+      },
       {
          "selection": {
             "important": true,
