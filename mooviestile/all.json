@@ -210,12 +210,12 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "Lampa.app",
-               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина. {br}Могут быть региональные ограничения доступа!!!"
+               "headline": "Lampa by Skaz",
+               "text": "Ппрограмма Lampa с предустановленными плагинами для онлайн просмотра. Возможность добавления плагинов из магазина."
             }
          },
          "image": "https://wals09.github.io/msx/logon/lampa.png",
-         "action": "link:http://lampa.app/"
+         "action": "link:http://lampa.byskaz.ru"
       },
 
       {
