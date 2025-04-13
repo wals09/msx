@@ -28,6 +28,14 @@
             "offset": "0,0.3,0,0",
             "headline": "",
             "text": "{col:white}«Prisma TV {col:red}(kim){col}{col:white}»{col}{br}Зеркало программы {col:white}«Prisma TV» {col} c таким же функционалом"
+         },
+         {
+            "id": "text3",
+            "type": "space",
+            "layout": "3,4,4,2",
+            "offset": "0,0.3,0,0",
+            "headline": "",
+            "text": "{col:white}«Prisma TV {col:red}(cam){col}{col:white}»{col}{br}Зеркало программы {col:white}«Prisma TV» {col} c таким же функционалом"
          }
       ]
    },
@@ -49,6 +57,11 @@
          "badge": "Prisma TV{col:red}(kim)",
          "image": "https://wals09.github.io/msx/logon/prisma.png",
          "action": "link: http://prisma.kim"
+      },
+      {
+         "badge": "PrismaTV{col:red}(cam)",
+         "image": "https://wals09.github.io/msx/logon/prisma.png",
+         "action": "link: http://pris.cam"
       }
    ]
 }
