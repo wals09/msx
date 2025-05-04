@@ -1,8 +1,10 @@
 {
    "compress": true,
    "type": "list",
-   "dictionary": "https://wals09.github.io/kf/dictionary.json",
-   "headline": "IPTV",
+   "background": "content:https://wals09.github.io/kf/img/bac.jpg",
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "headline": "Бесплатное кино",
    "transparent": 2,
    "preload": "next",
    "underlay": {
