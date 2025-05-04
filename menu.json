@@ -1,6 +1,8 @@
 {
    "type": "list",
-   "headline": "WALS_MSX 2.5",
+   "headline": " ",
+   "transparent": 3,
+   "background": "https://www.miigaik.ru/upload/medialibrary/b6a/b6a6acf55f689b92ed4c7027f8838101.jpg",
    "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
    "preload": "next",
@@ -10,24 +12,25 @@
          {
             "type": "space",
             "round": false,
-            "layout": "0,3,12,3",
-            "offset": "-1.25,-0.6,2,1.17",
-            "color": "msx-black-soft"
+            "layout": "0,0,3,2",
+            "offset": "-0.2,-0.1,0.6,0.4",
+            "image": "https://wals09.github.io/msx/den_pobedy/Pobeda80.png",
+            "color": ""
          },
          {
             "type": "space",
             "round": false,
-            "layout": "0,0,12,1",
-            "offset": "-1,0,2,-0.8",
+            "layout": "0,2,12,1",
+            "offset": "-0.6,0.1,1.2,-0.8",
             "color": "red"
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "1,0,6,3",
-            "offset": "-1,0.5,1,0",
-            "headline": "",
-            "text": ""
+            "layout": "4,0,6,3",
+            "offset": "-0.5,0.5,1,0",
+            "text": "",
+            "headline": ""
          }
       ]
    },
@@ -206,7 +209,7 @@
          "image": "https://wals09.github.io/msx/logon/prisma.png",
          "action": "panel: https://wals09.github.io/msx/prisma/template.json"
       },
-       {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -230,7 +233,7 @@
          "image": "https://wals09.github.io/msx/logon/lampaNN.png",
          "action": "link: http://lampa.nnmtv.pw/"
       },
-    {
+      {
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -596,34 +599,6 @@
       },
       {
          "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Sport",
-               "text": "Подборка спортивных каналов.{br}Взято из интернета в открытом доступе.{br} Работают так как есть. Работают пока работают."
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/sport.png",
-         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
-         "properties": {
-            "trigger:back": "player:stop"
-         }
-      },
-      {
-         "selection": {
-            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Песни Нашего Времени",
-               "text": "Видеоподборки yotube-каналов"
-            }
-         },
-         "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json"
-      },
-      {
-         "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
             "important": true,
             "action": "update:content:underlay:text",
@@ -635,11 +610,10 @@
          "image": "https://yt3.googleusercontent.com/ytc/AIdro_kUkL-a59qSwEq6Dc-Il979Khwahh1_URZsficN8tYV=s160-c-k-c0x00ffffff-no-rj",
          "action": "content:https://raw.githubusercontent.com/wals09/prog/main/avtoradio/translation.json"
       },
-
       {
-         "offset": "0,2.5,11,0",
+         "offset": "0,2.5,1,0",
          "color": "msx-black-soft",
-         "label": "{ico:msx-white:shop-2} Альтернативные магазины лаунчеры {ico:msx-white:shop-2}",
+         "text": " Альтернативные магазины, лаунчеры",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
