@@ -15,7 +15,7 @@
       {
          "icon": "live-tv",
          "label": "IPTV приложения",
-         "data": "https://wals09.github.io/msx/mooviestile/tv.json"
+         "data": "https://wals09.github.io/msx/mooviestile/iptv.json"
       },
       {
          "icon": "movie",
