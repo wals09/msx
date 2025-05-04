@@ -77,7 +77,7 @@
       {
          "titleHeader": "",
          "description": "{col:white}OTT-PLAY{col}{br}Возможность просмотра своих плейлистов,сталкер-порталов,медиатек. Сохранение, перенос настроек. Необходим свой плейлист.",
-         "backdrop": "https://frankfurt.apollo.olxcdn.com/v1/files/3bgcpc5aeshp3-UZ/image;s=1400x840",
+         "backdrop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7xwKAU2U_RP4yd1EVquecy2IlsTITrsrDr1v5Ho-FEB4tRcD7rwUjFa4tjyENateSGaw&usqp=CAU",
          "image": "https://wals09.github.io/msx/logon/ott-play.png",
          "action": "link:http://ott-play.com/f/"
       },
