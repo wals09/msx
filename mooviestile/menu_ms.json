@@ -1,7 +1,7 @@
 {
-   "logo": "https://wals09.github.io/msx/den_pobedy/Pobeda80.png",
-   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}", 
+   "extension": "{col:msx-white}{ico:msx-white:event} {now:date:D, M d, yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "dictionary": "https://wals09.github.io/msx/dictionary.json",
+   "logo": "https://wals09.github.io/msx/logo/mss.png",
    "headline": "",
    "menu": [
       {
