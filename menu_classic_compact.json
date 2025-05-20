@@ -230,8 +230,8 @@
             "image:extension": "| {col:msx-white}26th Item"
          }
       },
-        {
-          "title": "Lampa NoName",
+      {
+         "title": "Lampa NoName",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -239,11 +239,11 @@
                "headline": "Lampa NoName"
             }
          },
-        "image": "https://wals09.github.io/msx/logon/lampaNN.png",
+         "image": "https://wals09.github.io/msx/logon/lampaNN.png",
          "action": "link: http://lampa.nnmtv.pw/"
       },
-       {
-          "title": "Lampa lite NoName",
+      {
+         "title": "Lampa lite NoName",
          "selection": {
             "important": true,
             "action": "update:content:underlay:text",
@@ -253,6 +253,18 @@
          },
          "image": "https://wals09.github.io/msx/logon/lampa_lite.png",
          "action": "link:http://lite.nnmtv.pw/"
+      },
+      {
+         "title": "NetFix",
+         "selection": {
+            "important": true,
+            "action": "update:content:underlay:text",
+            "data": {
+               "headline": "Фильмы, сериалы, аниме"
+            }
+         },
+         "image": "https://github.com/wals09/repo/blob/main/netfix/icon.png?raw=tru",
+         "action": "link:http://netfix.cc"
       },
       {
          "title": "VoKINO",
@@ -314,7 +326,7 @@
             "image:extension": "| {col:msx-white}Ninth Item"
          }
       },
-            {
+      {
          "title": "TVOЁ",
          "selection": {
             "important": true,
@@ -691,37 +703,6 @@
          }
       },
       {
-         "title": "Sport",
-         "selection": {
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "IPTV каналы из интернета"
-            }
-         },
-         "image": "https://wals09.github.io/msx/logon/sport.png",
-         "action": "content: https://wals09.github.io/msx/bonus/sport.json",
-         "properties": {
-            "trigger:back": "player:stop",
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-   {     "title": "Песни Н В",
-         "selection": {
-            "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-            "important": true,
-            "action": "update:content:underlay:text",
-            "data": {
-               "headline": "Песни Нашего Времени"
-            }
-         },
-         "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
-         "action": "panel:https://wals09.github.io/msx/pesni_nashego_leta/pesni_nashego_leta.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}17th Item"
-         }
-      },
-       {
          "title": "Дискотекa 80-х",
          "selection": {
             "image": "https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg",
