@@ -10,56 +10,58 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            line-height: 1.6;
+            line-height: 1.5;
+            background-color: #212121; /* Серый фон всей страницы */
         }
         .container {
-            background: #f9f9f9;
+            background: #212121;
             border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         h1 {
-            color: #333;
+            color: #fff;
             text-align: center;
         }
         .info-block {
             margin-bottom: 20px;
-            padding: 15px;
-            background: white;
+            padding: 10px;
+            background: #adadad;
             border-radius: 5px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        }
+        .buttons {
+            display: flex;
+            gap: 10px; /* Расстояние между кнопками */
+            margin-top: 20px;
         }
         button {
-            background: #4CAF50;
             color: white;
             border: none;
             padding: 10px 15px;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+            flex: 1; /* Равная ширина кнопок */
         }
         button:hover {
+            opacity: 0.9;
+        }
+        #startTest {
+            background: #4CAF50;
+        }
+        #startTest:hover {
             background: #45a049;
+        }
+        #refreshButton {
+            background: #2196F3;
+        }
+        #refreshButton:hover {
+            background: #0b7dda;
         }
         #speedResult {
             margin-top: 10px;
             font-weight: bold;
-        }
-        #progressBar {
-            width: 100%;
-            background-color: #ddd;
-            border-radius: 4px;
-            margin: 10px 0;
-        }
-        #progressBarFill {
-            height: 20px;
-            border-radius: 4px;
-            background-color: #4CAF50;
-            width: 0%;
-            transition: width 0.3s;
-        }
-        .hidden {
-            display: none;
         }
     </style>
 </head>
@@ -79,11 +81,12 @@
         
         <div class="info-block">
             <h2>Тест скорости интернета</h2>
-            <button id="startTest">Начать тест скорости</button>
-            <div id="progressBar" class="hidden">
-                <div id="progressBarFill"></div>
-            </div>
             <div id="speedResult"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="startTest">Начать тест скорости</button>
+            <button id="refreshButton">Обновить страницу</button>
         </div>
     </div>
 
@@ -114,39 +117,20 @@
         // Тест скорости интернета
         async function testInternetSpeed() {
             const startBtn = document.getElementById('startTest');
-            const progressBar = document.getElementById('progressBar');
-            const progressBarFill = document.getElementById('progressBarFill');
             const speedResult = document.getElementById('speedResult');
             
             startBtn.disabled = true;
             startBtn.textContent = 'Тестирование...';
-            progressBar.classList.remove('hidden');
-            speedResult.textContent = '';
+            speedResult.textContent = 'Измерение скорости...';
             
             // Измерение скорости загрузки
             try {
                 const startTime = Date.now();
-                const fileSize = 10 * 1024 * 1024; // 10 MB
+                const fileSize = 40 * 1024 * 1024; // 40 MB
                 const dummyFileUrl = `https://httpbin.org/bytes/${fileSize}?r=${Math.random()}`;
                 
                 const response = await fetch(dummyFileUrl);
-                const reader = response.body.getReader();
-                
-                let receivedLength = 0;
-                const chunks = [];
-                
-                while(true) {
-                    const {done, value} = await reader.read();
-                    
-                    if (done) break;
-                    
-                    chunks.push(value);
-                    receivedLength += value.length;
-                    
-                    // Обновление прогресс-бара
-                    const progress = Math.min(100, (receivedLength / fileSize) * 100);
-                    progressBarFill.style.width = `${progress}%`;
-                }
+                await response.blob(); // Загружаем файл полностью
                 
                 const endTime = Date.now();
                 const duration = (endTime - startTime) / 1000; // в секундах
@@ -159,7 +143,7 @@
                 speedResult.textContent = 'Ошибка при тестировании скорости';
             } finally {
                 startBtn.disabled = false;
-                startBtn.textContent = 'Повторить тест';
+                startBtn.textContent = 'Начать тест скорости';
             }
         }
 
@@ -168,6 +152,9 @@
             fetchIpInfo();
             
             document.getElementById('startTest').addEventListener('click', testInternetSpeed);
+            document.getElementById('refreshButton').addEventListener('click', () => {
+                location.reload();
+            });
         });
     </script>
 </body>
