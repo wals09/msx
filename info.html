@@ -10,29 +10,29 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            line-height: 1.5;
-            background-color: #212121; /* Серый фон всей страницы */
+            line-height: 1.6;
+            background-color: #f0f0f0;
         }
         .container {
-            background: #212121;
+            background: white;
             border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #fff;
+            color: #333;
             text-align: center;
         }
         .info-block {
             margin-bottom: 20px;
-            padding: 10px;
-            background: #adadad;
+            padding: 15px;
+            background: #f9f9f9;
             border-radius: 5px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         .buttons {
             display: flex;
-            gap: 80px; /* Расстояние между кнопками */
+            gap: 10px;
             margin-top: 20px;
         }
         button {
@@ -42,7 +42,7 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-            flex: 1; /* Равная ширина кнопок */
+            flex: 1;
         }
         button:hover {
             opacity: 0.9;
@@ -63,6 +63,11 @@
             margin-top: 10px;
             font-weight: bold;
         }
+        .status {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +87,7 @@
         <div class="info-block">
             <h2>Тест скорости интернета</h2>
             <div id="speedResult"></div>
+            <div id="status" class="status"></div>
         </div>
 
         <div class="buttons">
@@ -114,37 +120,114 @@
             }
         }
 
-        // Тест скорости интернета
+        // Улучшенный тест скорости интернета
         async function testInternetSpeed() {
             const startBtn = document.getElementById('startTest');
             const speedResult = document.getElementById('speedResult');
+            const statusEl = document.getElementById('status');
             
             startBtn.disabled = true;
             startBtn.textContent = 'Тестирование...';
-            speedResult.textContent = 'Измерение скорости...';
+            speedResult.textContent = '';
+            statusEl.textContent = 'Подготовка теста...';
             
-            // Измерение скорости загрузки
             try {
-                const startTime = Date.now();
-                const fileSize = 40 * 1024 * 1024; // 40 MB
-                const dummyFileUrl = `https://httpbin.org/bytes/${fileSize}?r=${Math.random()}`;
+                // Тест ping (задержки)
+                statusEl.textContent = 'Измерение ping...';
+                const ping = await measurePing();
                 
-                const response = await fetch(dummyFileUrl);
-                await response.blob(); // Загружаем файл полностью
+                // Тест скорости загрузки
+                statusEl.textContent = 'Измерение скорости загрузки...';
+                const downloadSpeed = await measureDownloadSpeed();
                 
-                const endTime = Date.now();
-                const duration = (endTime - startTime) / 1000; // в секундах
-                const speedMbps = ((fileSize * 8) / (1000 * 1000)) / duration; // в Мбит/с
+                // Тест скорости отдачи (если возможно)
+                statusEl.textContent = 'Измерение скорости отдачи...';
+                const uploadSpeed = await measureUploadSpeed();
                 
-                speedResult.textContent = `Скорость загрузки: ${speedMbps.toFixed(2)} Мбит/с`;
+                // Отображение результатов
+                speedResult.innerHTML = `
+                    <p>Ping: ${ping.toFixed(0)} мс</p>
+                    <p>Скорость загрузки: ${downloadSpeed.toFixed(2)} Мбит/с</p>
+                    <p>Скорость отдачи: ${uploadSpeed.toFixed(2)} Мбит/с</p>
+                `;
+                
+                statusEl.textContent = 'Тест завершен';
                 
             } catch (error) {
                 console.error('Ошибка теста скорости:', error);
                 speedResult.textContent = 'Ошибка при тестировании скорости';
+                statusEl.textContent = 'Произошла ошибка';
             } finally {
                 startBtn.disabled = false;
-                startBtn.textContent = 'Начать тест скорости';
+                startBtn.textContent = 'Повторить тест';
             }
+        }
+
+        // Измерение ping
+        async function measurePing() {
+            const testUrl = 'https://httpbin.org/get';
+            const startTime = performance.now();
+            
+            // Делаем 3 измерения и берем среднее
+            let totalPing = 0;
+            const attempts = 3;
+            
+            for (let i = 0; i < attempts; i++) {
+                const start = performance.now();
+                await fetch(testUrl, {cache: 'no-store'});
+                totalPing += performance.now() - start;
+            }
+            
+            return totalPing / attempts;
+        }
+
+        // Измерение скорости загрузки
+        async function measureDownloadSpeed() {
+            // Используем несколько файлов разного размера для более точного измерения
+            const testFiles = [
+                {size: 1 * 1024 * 1024, url: 'https://httpbin.org/bytes/1m'}, // 1MB
+                {size: 5 * 1024 * 1024, url: 'https://httpbin.org/bytes/5m'}, // 5MB
+                {size: 10 * 1024 * 1024, url: 'https://httpbin.org/bytes/10m'} // 10MB
+            ];
+            
+            let totalSpeed = 0;
+            let validTests = 0;
+            
+            for (const file of testFiles) {
+                try {
+                    const startTime = performance.now();
+                    const response = await fetch(`${file.url}?r=${Math.random()}`, {cache: 'no-store'});
+                    await response.blob();
+                    const duration = (performance.now() - startTime) / 1000; // в секундах
+                    
+                    // Рассчитываем скорость в Мбит/с
+                    const speed = ((file.size * 8) / (1000 * 1000)) / duration;
+                    totalSpeed += speed;
+                    validTests++;
+                } catch (e) {
+                    console.warn(`Не удалось загрузить тестовый файл ${file.size} bytes`, e);
+                }
+            }
+            
+            if (validTests === 0) throw new Error('Не удалось измерить скорость');
+            return totalSpeed / validTests;
+        }
+
+        // Измерение скорости отдачи (эмулируем отправку данных)
+        async function measureUploadSpeed() {
+            const testUrl = 'https://httpbin.org/post';
+            const testData = new Array(1 * 1024 * 1024).fill(0).map(() => Math.random().toString(36).substring(2)).join(''); // ~1MB
+            
+            const startTime = performance.now();
+            await fetch(testUrl, {
+                method: 'POST',
+                body: testData,
+                cache: 'no-store'
+            });
+            const duration = (performance.now() - startTime) / 1000; // в секундах
+            
+            // Рассчитываем скорость в Мбит/с
+            return ((testData.length * 8) / (1000 * 1000)) / duration;
         }
 
         // Инициализация
