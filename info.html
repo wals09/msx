@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о подключении</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .info-block {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #speedResult {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #progressBar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        #progressBarFill {
+            height: 20px;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 0.3s;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Информация о вашем подключении</h1>
+        
+        <div class="info-block">
+            <h2>Ваш IP-адрес</h2>
+            <p id="ipAddress">Загрузка...</p>
+        </div>
+        
+        <div class="info-block">
+            <h2>Примерная локация</h2>
+            <p id="location">Загрузка...</p>
+        </div>
+        
+        <div class="info-block">
+            <h2>Тест скорости интернета</h2>
+            <button id="startTest">Начать тест скорости</button>
+            <div id="progressBar" class="hidden">
+                <div id="progressBarFill"></div>
+            </div>
+            <div id="speedResult"></div>
+        </div>
+    </div>
+
+    <script>
+        // Получение IP-адреса и локации
+        async function fetchIpInfo() {
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const data = await response.json();
+                
+                document.getElementById('ipAddress').textContent = data.ip || 'Не удалось определить';
+                
+                let locationText = '';
+                if (data.city && data.country_name) {
+                    locationText = `${data.city}, ${data.region}, ${data.country_name}`;
+                } else {
+                    locationText = 'Не удалось определить точное местоположение';
+                }
+                document.getElementById('location').textContent = locationText;
+                
+            } catch (error) {
+                console.error('Ошибка при получении данных:', error);
+                document.getElementById('ipAddress').textContent = 'Ошибка при получении IP';
+                document.getElementById('location').textContent = 'Ошибка при определении локации';
+            }
+        }
+
+        // Тест скорости интернета
+        async function testInternetSpeed() {
+            const startBtn = document.getElementById('startTest');
+            const progressBar = document.getElementById('progressBar');
+            const progressBarFill = document.getElementById('progressBarFill');
+            const speedResult = document.getElementById('speedResult');
+            
+            startBtn.disabled = true;
+            startBtn.textContent = 'Тестирование...';
+            progressBar.classList.remove('hidden');
+            speedResult.textContent = '';
+            
+            // Измерение скорости загрузки
+            try {
+                const startTime = Date.now();
+                const fileSize = 10 * 1024 * 1024; // 10 MB
+                const dummyFileUrl = `https://httpbin.org/bytes/${fileSize}?r=${Math.random()}`;
+                
+                const response = await fetch(dummyFileUrl);
+                const reader = response.body.getReader();
+                
+                let receivedLength = 0;
+                const chunks = [];
+                
+                while(true) {
+                    const {done, value} = await reader.read();
+                    
+                    if (done) break;
+                    
+                    chunks.push(value);
+                    receivedLength += value.length;
+                    
+                    // Обновление прогресс-бара
+                    const progress = Math.min(100, (receivedLength / fileSize) * 100);
+                    progressBarFill.style.width = `${progress}%`;
+                }
+                
+                const endTime = Date.now();
+                const duration = (endTime - startTime) / 1000; // в секундах
+                const speedMbps = ((fileSize * 8) / (1000 * 1000)) / duration; // в Мбит/с
+                
+                speedResult.textContent = `Скорость загрузки: ${speedMbps.toFixed(2)} Мбит/с`;
+                
+            } catch (error) {
+                console.error('Ошибка теста скорости:', error);
+                speedResult.textContent = 'Ошибка при тестировании скорости';
+            } finally {
+                startBtn.disabled = false;
+                startBtn.textContent = 'Повторить тест';
+            }
+        }
+
+        // Инициализация
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchIpInfo();
+            
+            document.getElementById('startTest').addEventListener('click', testInternetSpeed);
+        });
+    </script>
+</body>
+</html>
