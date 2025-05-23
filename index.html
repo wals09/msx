@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internet Speed Test</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Тест скорости интернета</title>
+    <link rel="stylesheet" href="informer/speed/style.css">
+    <!-- Погодный виджет -->
+    <script async src="https://app3.weatherwidget.org/js/?id=ww_cc29ba0c28edc"></script>
 </head>
 <body>
     <div class="navbar">
@@ -14,15 +16,10 @@
     <div class="container">
         <div class="loader-widget">
             <h1>Скорость интернета</h1>
-            <span class="loader hide"></span>
             <div class="loader-content">
                 <div class="content hide">24<small>Mbps</small></div>
-                <div class="progress-bar hide">
-                    <div class="progress-bar-inner"></div>
-                </div>
                 <button id="speed-test-btn">Проверить</button>
             </div>
-            <div class="test-results hide"></div>
         </div>
     </div>
 
@@ -35,7 +32,24 @@
         <button id="refresh-ip-btn">Проверить IP</button>
     </div>
 
-    <script async src="https://app3.weatherwidget.org/js/?id=ww_cc29ba0c28edc"></script>
-    <script src="script.js"></script>
+    <!-- Скрипты -->
+    <script src="informer/speed/script.js"></script>
+    <script>
+        // Нативный JS вместо jQuery для получения IP
+        async function fetchIP() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                const data = await response.json();
+                document.getElementById('ip-address').textContent = data.ip;
+            } catch (error) {
+                document.getElementById('ip-address').textContent = 'Ошибка загрузки';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchIP();
+            document.getElementById('refresh-ip-btn').addEventListener('click', fetchIP);
+        });
+    </script>
 </body>
 </html>
