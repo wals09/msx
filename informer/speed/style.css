@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 :root {
-  /* Цветовая схема */
   --main-bg: #14222e;
   --widget-bg: #223140;
   --hover-bg: #1f3c4e;
@@ -10,53 +9,32 @@
   --border-color: #7ed6d4;
   --text-color: #eaeaea;
   --white: #ffffff;
-  
-  /* Размеры */
-  --container-width: 360px;
-  --loader-size: 240px;
-  --button-size: 240px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Josefin Sans', sans-serif;
   min-height: 100vh;
+  margin: 0;
   background: var(--main-bg);
   color: var(--text-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center;
 }
 
-/* Общие стили */
-.hide { display: none !important; }
-
-/* Навигационная панель с погодой */
-.navbar {
-  width: 100%;
-  max-width: var(--container-width);
-  margin-bottom: 20px;
+*.hide { 
+  display: none !important; 
 }
 
-/* Основной контейнер теста скорости */
 .container {
-  width: 100%;
-  max-width: var(--container-width);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px 0;
+  text-align: center;
+  margin: 2rem 0;
 }
 
-/* Виджет теста скорости */
 .loader-widget {
   width: 100%;
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,12 +42,12 @@ body {
 
 .loader {
   position: relative;
-  height: var(--loader-size);
-  width: var(--loader-size);
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
   background: conic-gradient(rgba(1, 182, 190, 0.3) 0%, transparent 65%);
   animation: radarRotate 2s linear infinite;
-  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 @keyframes radarRotate {
@@ -82,29 +60,28 @@ body {
   top: 0;
   left: calc(50% - 8px);
   border: 8px solid transparent;
-  border-top: calc(var(--loader-size)/2) solid var(--accent-color);
+  border-top: 120px solid var(--accent-color);
   filter: drop-shadow(0 0 12px var(--accent-shadow));
 }
 
 .loader-widget h1 {
-  margin: 0 0 20px;
+  margin: 0 0 2rem;
   color: var(--white);
   font-size: 1.8rem;
-  text-align: center;
+  font-weight: 700;
 }
 
-/* Кнопка теста */
 .loader-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  gap: 1rem;
 }
 
 .loader-content button {
   cursor: pointer;
-  height: var(--button-size);
-  width: var(--button-size);
+  height: 240px;
+  width: 240px;
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 50%;
@@ -114,7 +91,12 @@ body {
   box-shadow: 0 0 12px var(--accent-color);
   position: relative;
   transition: background-color 0.3s ease;
-  margin-bottom: 20px;
+}
+
+.loader-content.result button {
+  height: 120px;
+  width: 120px;
+  margin-top: 1rem;
 }
 
 .loader-content button:hover {
@@ -156,11 +138,13 @@ body {
   z-index: -1;
 }
 
-/* Результаты теста */
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 3.5rem;
-  margin: 15px 0;
-  text-align: center;
+  margin: 0.75rem 0 2rem;
+  width: 100%;
 }
 
 .content small {
@@ -168,84 +152,38 @@ body {
   opacity: 0.8;
 }
 
-/* Прогресс-бар */
-.progress-bar {
+/* Стили для прогресс-бара */
+.progress-container {
   width: 100%;
+  max-width: 240px;
   height: 6px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 1rem 0;
   overflow: hidden;
 }
 
-.progress-bar-inner {
+.progress-bar {
   height: 100%;
   width: 0%;
   background: linear-gradient(to right, #4facfe, #00f2fe);
   transition: width 0.3s ease;
 }
 
-/* Блок с IP-адресом */
-.ip {
+/* Стили для результатов теста */
+.result-container {
   width: 100%;
-  max-width: var(--container-width);
-  text-align: center;
-  margin: 20px 0;
-  font-size: 1rem;
-}
-
-.ip p {
-  margin-bottom: 5px;
-  color: var(--text-color);
-}
-
-#ip-address {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  word-break: break-all;
-}
-
-/* Группа кнопок */
-.btn-group2 {
-  width: 100%;
-  max-width: var(--container-width);
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.btn-group2 button {
-  background-color: var(--widget-bg);
-  border: 0.5px solid var(--border-color);
-  border-radius: 24px;
-  color: var(--text-color);
-  font-size: 1rem;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn-group2 button:hover {
-  background-color: var(--hover-bg);
-}
-
-/* Результаты теста (ping, download, upload) */
-.test-results {
-  width: 100%;
-  max-width: var(--container-width);
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 .result-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(126, 214, 212, 0.2);
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .result-label {
-  font-weight: normal;
   opacity: 0.8;
 }
 
@@ -256,9 +194,10 @@ body {
 
 /* Адаптивность */
 @media (max-width: 480px) {
-  :root {
-    --loader-size: 200px;
-    --button-size: 200px;
+  .loader, 
+  .loader-content button {
+    height: 200px;
+    width: 200px;
   }
   
   .loader-content.result button {
@@ -268,9 +207,5 @@ body {
   
   .content {
     font-size: 2.8rem;
-  }
-  
-  .loader-widget h1 {
-    font-size: 1.5rem;
   }
 }
