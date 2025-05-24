@@ -122,6 +122,21 @@
             top: 20px;
             right: 20px;
             z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .theme-icon {
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .theme-icon.sun {
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+        .light-theme .theme-icon.moon {
+            opacity: 0;
+            transform: rotate(-90deg);
         }
         .switch {
             position: relative;
@@ -157,7 +172,7 @@
             border-radius: 50%;
         }
         input:checked + .slider {
-            background-color: #2196F3;
+            background-color: grey;
         }
         input:checked + .slider:before {
             transform: translateX(26px);
@@ -178,10 +193,13 @@
 </head>
 <body class="light-theme">
     <div class="theme-switcher">
+        <span class="theme-icon sun">⚪|⚫</span>
+
         <label class="switch">
             <input type="checkbox" id="themeToggle">
             <span class="slider"></span>
         </label>
+        
     </div>
     
     <div class="container">
