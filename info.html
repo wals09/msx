@@ -16,6 +16,11 @@
             background: #f5f7fa;
             color: #333;
             padding: 20px;
+            transition: all 0.3s ease;
+        }
+        body.dark-theme {
+            background: #121212;
+            color: #f5f5f5;
         }
         .container {
             max-width: 800px;
@@ -24,8 +29,12 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.9);
             overflow: hidden;
+            transition: all 0.3s ease;
         }
-       
+        .dark-theme .container {
+            background: #1e1e1e;
+            box-shadow: 0 0 20px rgba(128,128,128,0.5);
+        }
         .content {
             padding: 25px;
         }
@@ -35,11 +44,19 @@
             padding: 5px;
             margin-bottom: 0px;
             border-left: 0px solid #3498db;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .info-card {
+            background: #1e1e1e;
         }
         .info-card h2 {
             color: #2c3e50;
             margin-bottom: 0px;
             font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .info-card h2 {
+            color: #f5f5f5;
         }
         .info-row {
             display: flex;
@@ -49,10 +66,18 @@
             font-weight: bold;
             min-width: 120px;
             color: #7f8c8d;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .info-label {
+            color: #aaaaaa;
         }
         .info-value {
             font-family: 'Consolas', monospace;
             color: #2c3e50;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .info-value {
+            color: #ffffff;
         }
         .speedtest-wrapper {
             margin: 30px 0;
@@ -84,6 +109,58 @@
             font-size: 12px;
             color: #95a5a6;
             margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        .dark-theme .attribution {
+            color: #666666;
+        }
+        .dark-theme .attribution a {
+            color: #8ab4f8;
+        }
+        .theme-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
         }
         @media (max-width: 600px) {
             .info-row {
@@ -92,13 +169,22 @@
             .info-label {
                 margin-bottom: 5px;
             }
+            .theme-switcher {
+                top: 10px;
+                right: 10px;
+            }
         }
     </style>
 </head>
-<body>
+<body class="light-theme">
+    <div class="theme-switcher">
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
     <div class="container">
-
-        
         <div class="content">
             <div class="info-card">
                 <h2>Ваше подключение</h2>
@@ -113,7 +199,6 @@
             </div>
             
             <div class="info-card">
-  
                 <div class="speedtest-wrapper">
                     <!-- Виджет OpenSpeedtest -->
                     <div style="min-height:300px;">
@@ -159,23 +244,44 @@
             }
         }
 
+        // Переключение темы
+        function toggleTheme() {
+            const body = document.body;
+            const themeToggle = document.getElementById('themeToggle');
+            
+            if (body.classList.contains('dark-theme')) {
+                body.classList.remove('dark-theme');
+                localStorage.setItem('theme', 'light');
+                themeToggle.checked = false;
+            } else {
+                body.classList.add('dark-theme');
+                localStorage.setItem('theme', 'dark');
+                themeToggle.checked = true;
+            }
+        }
+
         // Инициализация при загрузке страницы
         document.addEventListener('DOMContentLoaded', () => {
+            // Проверяем сохраненную тему
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+                document.getElementById('themeToggle').checked = true;
+            }
+            
             fetchNetworkInfo();
             
             // Обработчик кнопки обновления
             document.getElementById('refreshBtn').addEventListener('click', () => {
-                // Показываем состояние загрузки
                 document.getElementById('ipAddress').textContent = 'Обновление...';
                 document.getElementById('location').textContent = 'Обновление...';
-                
-                // Обновляем данные
                 fetchNetworkInfo();
-                
-                // Перезагружаем виджет скорости
                 const iframe = document.querySelector('.speedtest-wrapper iframe');
-                iframe.src = iframe.src; // Перезагрузка iframe
+                iframe.src = iframe.src;
             });
+            
+            // Обработчик переключателя темы
+            document.getElementById('themeToggle').addEventListener('change', toggleTheme);
         });
     </script>
 </body>
