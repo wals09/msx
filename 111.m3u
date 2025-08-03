@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U catchup="flussonic" url-tvg="https://ip-tv.dev/epg/epg.xml.gz"
 #EXTINF:-1 group-title="Общие",Первый Канал
 http://rr3.tvdosug.net/~2011503cbe66b502e11dd75bce30c2fe6d6/1/hlsx/pl.m3u8
 #EXTINF:-1 group-title="Общие",Россия 1
