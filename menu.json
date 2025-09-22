@@ -641,11 +641,16 @@
             "data": {
                "headline": "AlterSTORE",
                "text": " Альтернативные MSX магазины / лаунчеры"
-            }
-         }
+            } 
+         },
+         "action": "panel:https://wals09.github.io/msx/alterstore/template.json",
+         "properties": {
+            "trigger:back": "player:stop"
+           }
       }
    ]
 }
+
 
 
 
