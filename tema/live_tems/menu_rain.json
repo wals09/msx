@@ -542,7 +542,7 @@
             }
          },
          "image": "https://wals09.github.io/msx/logon/tiktok.png",
-         "action": "link:https://tv.tiktok.com/webos"
+         "action": "link:https://wals09.github.io/prog/prosto.iptvplayer/index.html"
       },
       {
          "selection": {
@@ -651,4 +651,5 @@
       }
    ]
 }
+
 
