@@ -264,7 +264,7 @@
             }
          },
          "image": "https://github.com/wals09/msx/blob/main/logo/vokino.png?raw=true",
-         "action": "link: http://vokino.pro/"
+         "action": "link: http://web.vokino.pro/"
       },
       {
          "selection": {
@@ -646,6 +646,7 @@
       }
    ]
 }
+
 
 
 
