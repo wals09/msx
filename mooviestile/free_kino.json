@@ -93,7 +93,7 @@
          "description": "{col:white}LAMPA NoName{col} {br} Настроенная для просмотра контента онлайн. Благодарим уважаемого Noname.",
          "backdrop": "https://cdn1.ozone.ru/s3/multimedia-r/6302926527.jpg",
          "image": "https://wals09.github.io/msx/logon/lampaNN.png",
-         "action": "link: http://lampa.nnmtv.pw/"
+         "action": "link: http://lam.nnmtv.pw/"
       },
       {
          "titleHeader": "",
@@ -154,3 +154,4 @@
       }
    ]
 }
+
