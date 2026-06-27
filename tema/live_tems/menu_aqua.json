@@ -308,8 +308,8 @@
             "important": true,
             "action": "update:content:underlay:text",
             "data": {
-               "headline": "MOOVIES",
-               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций"
+               "headline": "ZONA msx",
+               "text": "Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме"
             }
          },
          "image": "https://wals09.github.io/msx/logon/moovies.png",
