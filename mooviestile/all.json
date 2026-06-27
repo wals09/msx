@@ -282,8 +282,8 @@
                "text": "MSX версия приложения ZONA. Просмотра различного медиаконтента: фильмов, сериалов, аниме"
             }
          },
-         "image": "https://wals09.github.io/msx/logon/moovies.png",
-         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+         "image": "https://msx.zona.ms/assets/logo_512_512.png",
+         "action": "link:https://msx.zona.ms"
       },
       {
          "selection": {
