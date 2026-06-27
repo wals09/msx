@@ -117,10 +117,10 @@
       },
       {
          "titleHeader": "",
-         "description": "{col:white}MOOVIES{col}{br}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов, iptv, прослушивание радиостанций",
+         "description": "{col:white}ZONA msx{col}{br}MSX версия приложения ZONA. Просмотр различного медиаконтента: фильмов, сериалов, аниме",
          "backdrop": "https://i.ytimg.com/vi/RKGHPjtwu9o/maxresdefault.jpg",
-         "image": "https://wals09.github.io/msx/logon/moovies.png",
-         "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+         "image": "https://msx.zona.ms/assets/logo_512_512.png",
+         "action": "link:https://msx.zona.ms"
       },
       {
          "description": "{col:white}MOVIELAB{col}{br}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line",
