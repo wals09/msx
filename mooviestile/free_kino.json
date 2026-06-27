@@ -67,6 +67,13 @@
       }
    },
    "items": [
+       {
+         "titleHeader": "",
+         "description": "{col:white}ZONA msx{col}{br}MSX версия приложения ZONA. Просмотр различного медиаконтента: фильмов, сериалов, аниме",
+         "backdrop": "https://i.ytimg.com/vi/RKGHPjtwu9o/maxresdefault.jpg",
+         "image": "https://msx.zona.ms/assets/logo_512_512.png",
+         "action": "link:https://msx.zona.ms"
+      },
       {
          "titleHeader": "",
          "description": "{col:white}Prisma TV{col}{br}Мод программы Лампа. Доступен просмотр контента онлайн. Есть платные опции.",
@@ -114,13 +121,6 @@
          "backdrop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d64aea4b-3938-498b-91b0-ce9e440d580d/1920x",
          "image": "https://wals09.github.io/msx/lampa_land/icon.png",
          "action": "link:http://lampa.land"
-      },
-      {
-         "titleHeader": "",
-         "description": "{col:white}ZONA msx{col}{br}MSX версия приложения ZONA. Просмотр различного медиаконтента: фильмов, сериалов, аниме",
-         "backdrop": "https://i.ytimg.com/vi/RKGHPjtwu9o/maxresdefault.jpg",
-         "image": "https://msx.zona.ms/assets/logo_512_512.png",
-         "action": "link:https://msx.zona.ms"
       },
       {
          "description": "{col:white}MOVIELAB{col}{br}Портал MOVIELAB на базе Media Station X. Просмотр видео контента on-line",
